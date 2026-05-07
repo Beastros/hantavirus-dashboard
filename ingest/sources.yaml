@@ -29,7 +29,4 @@ sources:
     name: Science Magazine
     tier: 3
     rss_url: https://www.science.org/rss/news_current.xml
-  - id: nih-news
-    name: NIH News Releases
-    tier: 2
-    rss_url: https://www.nih.gov/news-events/news-releases/feed.xml
+
