@@ -12,6 +12,12 @@ interface Status {
 export function FreshnessBar() {
   const [status, setStatus] = useState<Status | null>(null)
   const [, setTick] = useState(0)
+  const [, setSecond] = useState(0)
+
+  useEffect(() => {
+    const id = setInterval(() => setSecond(s => s + 1), 1000)
+    return () => clearInterval(id)
+  }, [])
 
   useEffect(() => {
     const load = () => loadIngestStatus().then(setStatus).catch(() => {})
@@ -64,3 +70,4 @@ export function FreshnessBar() {
     </div>
   )
 }
+
