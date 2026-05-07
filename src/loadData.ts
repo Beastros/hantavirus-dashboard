@@ -1,4 +1,4 @@
-import type { CasesFile, NewsFile } from './types'
+﻿import type { CasesFile, NewsFile } from './types'
 
 function basePath(): string {
   const base = import.meta.env.BASE_URL
@@ -14,7 +14,18 @@ async function fetchJson<T>(path: string): Promise<T> {
 export function loadCases(): Promise<CasesFile> {
   return fetchJson<CasesFile>(`${basePath()}data/cases.json`)
 }
-
 export function loadNews(): Promise<NewsFile> {
   return fetchJson<NewsFile>(`${basePath()}data/news.json`)
+}
+export function loadIndividualCases(): Promise<any> {
+  return fetchJson<any>(`${basePath()}data/cases-individual.json`)
+}
+export function loadIngestStatus(): Promise<any> {
+  return fetchJson<any>(`${basePath()}data/ingest-status.json`)
+}
+export function loadShipPosition(): Promise<any> {
+  return fetchJson<any>(`${basePath()}data/ship-position.json`)
+}
+export function loadTrends(): Promise<any> {
+  return fetchJson<any>(`${basePath()}data/trends.json`)
 }

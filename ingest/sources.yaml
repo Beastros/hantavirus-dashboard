@@ -1,37 +1,47 @@
-# Tier guidance:
-#   1 — regional / public-health wires you weight heavily
-#   2 — broader media & outbreak-focused outlets (noisy; good for alerts)
-#   3 — general science news (very noisy; relies on keyword gate)
-#
-# URLs change — if a feed starts failing, swap it and re-run ingest locally.
-keywords:
+﻿keywords:
   - hantavirus
   - orthohantavirus
   - "hantavirus pulmonary"
+  - "andes virus"
+  - "andes strain"
   - hps
+  - "MV Hondius"
+  - "cruise ship outbreak"
 
 sources:
+  - id: who-don
+    name: WHO Disease Outbreak News
+    tier: 1
+    rss_url: https://www.who.int/feeds/entity/csr/don/en/rss.xml
   - id: paho-news
     name: PAHO Newsroom
     tier: 1
     rss_url: https://www.paho.org/en/rss.xml
-
   - id: cdc-media
-    name: CDC Media Library (RSS)
+    name: CDC Media Library
     tier: 1
     rss_url: https://tools.cdc.gov/api/v2/resources/media/rss.xml
-
+  - id: promedmail
+    name: ProMED Mail
+    tier: 1
+    rss_url: https://promedmail.org/feed/
   - id: bbc-health
-    name: BBC News — Health
+    name: BBC News - Health
     tier: 2
     rss_url: https://feeds.bbci.co.uk/news/health/rss.xml
-
   - id: cidrap
-    name: CIDRAP News & Perspective
+    name: CIDRAP
     tier: 2
     rss_url: https://www.cidrap.umn.edu/rss.xml
-
+  - id: stat-news
+    name: STAT News
+    tier: 2
+    rss_url: https://www.statnews.com/feed/
+  - id: reuters-health
+    name: Reuters Health
+    tier: 2
+    rss_url: https://feeds.reuters.com/reuters/healthNews
   - id: science-news
-    name: Science Magazine — News
+    name: Science Magazine
     tier: 3
     rss_url: https://www.science.org/rss/news_current.xml

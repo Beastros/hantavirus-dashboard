@@ -7,7 +7,7 @@ type Props = {
 }
 
 function Chip({ level }: { level: RegionCase['outbreak_level'] }) {
-  const lv = level ?? 'informational'
+  const lv = level ?? 'unverified'
   return <span className={`chip chip-${lv}`}>{lv}</span>
 }
 
@@ -49,3 +49,4 @@ export function RegionList({ regions, selectedId, onSelect }: Props) {
     </section>
   )
 }
+

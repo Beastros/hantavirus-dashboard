@@ -3,13 +3,17 @@ import type { MapRef } from 'react-map-gl/maplibre'
 import { OutbreakMap } from './components/OutbreakMap'
 import { NewsColumn } from './components/NewsColumn'
 import { RegionList } from './components/RegionList'
-import { loadCases, loadNews } from './loadData'
+import { FreshnessBar } from './components/FreshnessBar'
+import { CaseTable } from './components/CaseTable'
+import { PivotChart } from './components/PivotChart'
+import { loadCases, loadNews, loadIndividualCases } from './loadData'
 import type { CasesFile, NewsFile } from './types'
 
 export default function App() {
   const mapRef = useRef<MapRef>(null)
   const [cases, setCases] = useState<CasesFile | null>(null)
   const [news, setNews] = useState<NewsFile | null>(null)
+  const [individualCases, setIndividualCases] = useState<any[]>([])
   const [err, setErr] = useState<string | null>(null)
   const [selectedId, setSelectedId] = useState<string | null>(null)
 
@@ -20,10 +24,12 @@ export default function App() {
         const [c, n] = await Promise.all([loadCases(), loadNews()])
         if (!cancelled) { setCases(c); setNews(n) }
       } catch (e) {
-        if (!cancelled)
-          setErr(e instanceof Error ? e.message : 'Failed to load data')
+        if (!cancelled) setErr(e instanceof Error ? e.message : 'Failed to load data')
       }
     })()
+    loadIndividualCases()
+      .then((d: any) => { if (!cancelled) setIndividualCases(d.cases || []) })
+      .catch(() => {})
     return () => { cancelled = true }
   }, [])
 
@@ -48,7 +54,7 @@ export default function App() {
           <div className="top-pulse" aria-hidden="true" />
           <div>
             <h1>Hantavirus Signal Desk</h1>
-            <p className="tag">MV Hondius outbreak · live news ingest · curated case ledger</p>
+            <p className="tag">MV Hondius outbreak | live news ingest | curated case ledger</p>
           </div>
         </div>
         <div className="top-meta">
@@ -74,7 +80,7 @@ export default function App() {
         )}
         <div className="intel-divider" />
         <div className="intel-summary">
-          Andes-strain hantavirus. Ship departed Ushuaia April 1 — now heading to Canary Islands.
+          Andes-strain hantavirus. Ship departed Ushuaia April 1 - now heading to Canary Islands.
           WHO global risk: <strong>low</strong>. Human-to-human transmission possible via close contact.
         </div>
       </div>
@@ -82,14 +88,21 @@ export default function App() {
       <p className="disclaimer">{cases.disclaimer}</p>
 
       <main className="layout">
-        <div className="map-pane">
-          <OutbreakMap regions={cases.regions} onSelect={setSelectedId} mapRef={mapRef} />
+        <div className="left-col">
+          <div className="map-pane">
+            <OutbreakMap regions={cases.regions} onSelect={setSelectedId} mapRef={mapRef} />
+          </div>
+          <CaseTable />
         </div>
         <div className="side-pane">
           <RegionList regions={cases.regions} selectedId={selectedId} onSelect={setSelectedId} />
           <NewsColumn items={news.items} fetchedAt={news.fetched_at} />
         </div>
       </main>
+
+      <FreshnessBar />
+
+      <PivotChart cases={individualCases} />
 
       <footer className="footer">
         Edit <code>public/data/cases.json</code> to promote or demote signals as they develop.

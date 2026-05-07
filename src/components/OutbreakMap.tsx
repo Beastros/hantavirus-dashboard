@@ -1,6 +1,6 @@
-﻿import React, { useMemo, useCallback } from 'react'
+﻿import React, { useMemo, useCallback, useState } from 'react'
 import type { MapLayerMouseEvent } from 'maplibre-gl'
-import Map, { Layer, Source, type MapRef } from 'react-map-gl/maplibre'
+import Map, { Layer, Popup, Source, type MapRef } from 'react-map-gl/maplibre'
 import type { RegionCase } from '../types'
 import 'maplibre-gl/dist/maplibre-gl.css'
 
@@ -12,6 +12,12 @@ type Props = {
   mapRef: React.RefObject<MapRef | null>
 }
 
+type PopupInfo = {
+  lng: number
+  lat: number
+  region: RegionCase
+}
+
 function toGeoJSON(regions: RegionCase[]) {
   return {
     type: 'FeatureCollection' as const,
@@ -20,12 +26,15 @@ function toGeoJSON(regions: RegionCase[]) {
       return {
         type: 'Feature' as const,
         properties: {
-          id: r.id, name: r.name,
+          id: r.id,
+          name: r.name,
           confirmed: r.confirmed ?? 0,
           suspected: r.suspected ?? 0,
           probable: r.probable ?? 0,
+          deaths: (r as any).deaths ?? 0,
           total,
           level: r.outbreak_level ?? 'informational',
+          last_reported: r.last_reported ?? '',
         },
         geometry: { type: 'Point' as const, coordinates: [r.lng, r.lat] },
       }
@@ -33,23 +42,36 @@ function toGeoJSON(regions: RegionCase[]) {
   }
 }
 
+const LEVEL_LABELS: Record<string, string> = {
+  informational: 'Unverified',
+  elevated: 'Reported',
+  high: 'Confirmed',
+}
+
 export function OutbreakMap({ regions, onSelect, mapRef }: Props) {
   const geojson = useMemo(() => toGeoJSON(regions), [regions])
+  const [popup, setPopup] = useState<PopupInfo | null>(null)
 
   const onClick = useCallback(
     (e: MapLayerMouseEvent) => {
       const f = e.features?.[0]
       const id = f?.properties?.id as string | undefined
       onSelect(id ?? null)
+      if (id) {
+        const region = regions.find((r) => r.id === id)
+        if (region) setPopup({ lng: region.lng, lat: region.lat, region })
+      } else {
+        setPopup(null)
+      }
     },
-    [onSelect],
+    [onSelect, regions],
   )
 
   return (
     <div className="map-shell">
       <Map
         ref={mapRef as React.RefObject<MapRef>}
-        initialViewState={{ longitude: -25, latitude: 15, zoom: 2.4 }}
+        initialViewState={{ longitude: -10, latitude: 18, zoom: 1.5 }}
         mapStyle={MAP_STYLE}
         interactiveLayerIds={['outbreak-circles']}
         onClick={onClick}
@@ -76,17 +98,51 @@ export function OutbreakMap({ regions, onSelect, mapRef }: Props) {
             }}
           />
         </Source>
+
+        {popup && (
+          <Popup
+            longitude={popup.lng}
+            latitude={popup.lat}
+            anchor="bottom"
+            onClose={() => { setPopup(null); onSelect(null) }}
+            closeOnClick={false}
+            offset={12}
+          >
+            <div className="map-popup">
+              <div className="mp-name">{popup.region.name}</div>
+              <div className="mp-level">{LEVEL_LABELS[popup.region.outbreak_level ?? 'informational'] ?? popup.region.outbreak_level}</div>
+              <div className="mp-stats">
+                {(popup.region.confirmed ?? 0) > 0 && (
+                  <span className="mp-confirmed">{popup.region.confirmed} confirmed</span>
+                )}
+                {((popup.region as any).deaths ?? 0) > 0 && (
+                  <span className="mp-deaths">{(popup.region as any).deaths} deaths</span>
+                )}
+                {(popup.region.suspected ?? 0) > 0 && (
+                  <span className="mp-suspected">{popup.region.suspected} suspected</span>
+                )}
+              </div>
+              {popup.region.last_reported && (
+                <div className="mp-date">Last report: {popup.region.last_reported}</div>
+              )}
+              {(popup.region as any).notes && (
+                <div className="mp-notes">{(popup.region as any).notes}</div>
+              )}
+            </div>
+          </Popup>
+        )}
       </Map>
+
       <div className="map-legend">
-        <span className="legend-dot leg-info" /> Monitoring
-        <span className="legend-dot leg-elev" /> Elevated
-        <span className="legend-dot leg-high" /> High / confirmed
-        <span className="legend-note">Dot size scales with case count. Click a dot to zoom.</span>
+        <span className="legend-dot leg-info" /> Unverified
+        <span className="legend-dot leg-elev" /> Reported
+        <span className="legend-dot leg-high" /> Confirmed
+        <span className="legend-note">Dot size scales with case count. Click a dot for details.</span>
       </div>
-      <button type="button" className="map-clear" onClick={() => onSelect(null)}>
+
+      <button type="button" className="map-clear" onClick={() => { onSelect(null); setPopup(null) }}>
         Clear selection
       </button>
     </div>
   )
 }
-

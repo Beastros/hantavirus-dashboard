@@ -1,0 +1,12 @@
+﻿{
+  "fetched_at": "2026-05-06T12:00:00Z",
+  "mmsi": "244820778",
+  "name": "MV HONDIUS",
+  "lat": 14.933,
+  "lng": -23.513,
+  "speed": 0.0,
+  "course": 0,
+  "status": "anchored",
+  "destination": "CANARY ISLANDS",
+  "source": "manual"
+}
