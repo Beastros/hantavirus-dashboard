@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-05-07T05:04:22+00:00",
+  "fetched_at": "2026-05-07T07:41:48+00:00",
   "items": [
+    {
+      "id": "71dc37cd2dc183e5",
+      "title": "Hantavirus-hit cruise ship on way to Canary Islands after three evacuated",
+      "url": "https://www.bbc.com/news/articles/c5y093d5n9ko",
+      "published_at": "2026-05-07",
+      "source_name": "BBC News - Health",
+      "source_tier": 2,
+      "summary": "A British man is among three evacuees sent to the Netherlands after displaying symptoms while aboard the MV Hondius."
+    },
     {
       "id": "723f399303878592",
       "title": "What is the cruise ship hantavirus and how does it spread?",
@@ -18,15 +27,6 @@
       "source_name": "BBC News — Health",
       "source_tier": 2,
       "summary": "The Andes strain of the virus has been confirmed in two passengers who were taken to South Africa, according to the country's health minister"
-    },
-    {
-      "id": "6c3e1e7a14ae3ff1",
-      "title": "Hantavirus-hit cruise ship leaves Cape Verde after three evacuated",
-      "url": "https://www.bbc.com/news/articles/c5y093d5n9ko",
-      "published_at": "2026-05-06",
-      "source_name": "BBC News — Health",
-      "source_tier": 2,
-      "summary": "A British man is among three evacuees sent to the Netherlands after displaying symptoms while aboard the MV Hondius."
     },
     {
       "id": "11dab8e66a3beee0",
