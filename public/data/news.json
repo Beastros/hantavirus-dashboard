@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-07T12:06:05+00:00",
+  "fetched_at": "2026-05-07T12:54:57+00:00",
   "items": [
     {
       "id": "1e8dd66a87808a24",
@@ -9,6 +9,15 @@
       "source_name": "STAT News",
       "source_tier": 2,
       "summary": "Scientists are worried that hantaviruses haven’t been as well studied as they ought to be, but not that the MV Hondius cruise ship is ground zero for the next pandemic."
+    },
+    {
+      "id": "f2c4bfe4cbf96a47",
+      "title": "How worried should we be about hantavirus?",
+      "url": "https://www.bbc.com/news/articles/c98r199e195o",
+      "published_at": "2026-05-07",
+      "source_name": "BBC News - Health",
+      "source_tier": 2,
+      "summary": "Some passengers potentially exposed to hantavirus have already taken flights to numerous countries."
     },
     {
       "id": "96a242b48869c880",
