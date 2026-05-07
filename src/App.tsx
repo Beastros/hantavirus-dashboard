@@ -3,7 +3,6 @@ import type { MapRef } from 'react-map-gl/maplibre'
 import { OutbreakMap } from './components/OutbreakMap'
 import { NewsColumn } from './components/NewsColumn'
 import { RegionList } from './components/RegionList'
-import { VirusIntelCard } from './components/VirusIntelCard'
 import { loadCases, loadNews } from './loadData'
 import type { CasesFile, NewsFile } from './types'
 
@@ -19,88 +18,81 @@ export default function App() {
     ;(async () => {
       try {
         const [c, n] = await Promise.all([loadCases(), loadNews()])
-        if (!cancelled) {
-          setCases(c)
-          setNews(n)
-        }
+        if (!cancelled) { setCases(c); setNews(n) }
       } catch (e) {
         if (!cancelled)
           setErr(e instanceof Error ? e.message : 'Failed to load data')
       }
     })()
-    return () => {
-      cancelled = true
-    }
+    return () => { cancelled = true }
   }, [])
 
   useEffect(() => {
     if (!selectedId || !cases) return
     const r = cases.regions.find((x) => x.id === selectedId)
     if (!r) return
-    mapRef.current?.flyTo({
-      center: [r.lng, r.lat],
-      zoom: 5,
-      duration: 900,
-    })
+    mapRef.current?.flyTo({ center: [r.lng, r.lat], zoom: 5, duration: 900 })
   }, [selectedId, cases])
 
-  if (err) {
-    return (
-      <div className="shell">
-        <p className="error-banner">{err}</p>
-      </div>
-    )
-  }
+  if (err) return <div className="shell"><p className="error-banner">{err}</p></div>
+  if (!cases || !news) return <div className="shell"><p className="loading">Loading...</p></div>
 
-  if (!cases || !news) {
-    return (
-      <div className="shell">
-        <p className="loading">Loading dashboard…</p>
-      </div>
-    )
-  }
+  const totalConfirmed = cases.regions.reduce((s, r) => s + (r.confirmed ?? 0), 0)
+  const totalSuspected = cases.regions.reduce((s, r) => s + (r.suspected ?? 0), 0)
+  const totalDeaths    = cases.regions.reduce((s, r) => s + ((r as any).deaths ?? 0), 0)
 
   return (
     <div className="shell">
       <header className="top">
-        <div>
-          <h1>HANTAVIRUS SIGNAL DESK</h1>
-          <p className="tag">
-            Personal sniff tool · map tiers · RSS stream · promote/demote signals
-          </p>
+        <div className="top-left">
+          <div className="top-pulse" aria-hidden="true" />
+          <div>
+            <h1>Hantavirus Signal Desk</h1>
+            <p className="tag">MV Hondius outbreak · live news ingest · curated case ledger</p>
+          </div>
         </div>
         <div className="top-meta">
-          <span>Cases file: {cases.updated}</span>
+          <span className="top-badge">Active outbreak</span>
+          <span>Updated {cases.updated}</span>
         </div>
       </header>
 
-      <VirusIntelCard />
+      <div className="intel-card">
+        <div className="intel-stat">
+          <div className="intel-val" style={{ color: 'var(--confirmed)' }}>{totalConfirmed}</div>
+          <div className="intel-lbl">Confirmed</div>
+        </div>
+        <div className="intel-stat">
+          <div className="intel-val" style={{ color: 'var(--suspected)' }}>{totalSuspected}</div>
+          <div className="intel-lbl">Suspected</div>
+        </div>
+        {totalDeaths > 0 && (
+          <div className="intel-stat">
+            <div className="intel-val" style={{ color: '#c0392b' }}>{totalDeaths}</div>
+            <div className="intel-lbl">Deaths</div>
+          </div>
+        )}
+        <div className="intel-divider" />
+        <div className="intel-summary">
+          Andes-strain hantavirus. Ship departed Ushuaia April 1 — now heading to Canary Islands.
+          WHO global risk: <strong>low</strong>. Human-to-human transmission possible via close contact.
+        </div>
+      </div>
 
       <p className="disclaimer">{cases.disclaimer}</p>
 
       <main className="layout">
         <div className="map-pane">
-          <OutbreakMap
-            regions={cases.regions}
-            onSelect={setSelectedId}
-            mapRef={mapRef}
-          />
+          <OutbreakMap regions={cases.regions} onSelect={setSelectedId} mapRef={mapRef} />
         </div>
         <div className="side-pane">
-          <RegionList
-            regions={cases.regions}
-            selectedId={selectedId}
-            onSelect={setSelectedId}
-          />
+          <RegionList regions={cases.regions} selectedId={selectedId} onSelect={setSelectedId} />
           <NewsColumn items={news.items} fetchedAt={news.fetched_at} />
         </div>
       </main>
 
       <footer className="footer">
-        <p>
-          Flip rows in <code>public/data/cases.json</code> as rumors strengthen,
-          collapse, or get confirmed.
-        </p>
+        Edit <code>public/data/cases.json</code> to promote or demote signals as they develop.
       </footer>
     </div>
   )
