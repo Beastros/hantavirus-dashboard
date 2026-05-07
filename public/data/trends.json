@@ -1,6 +1,11 @@
-﻿{
-  "fetched_at": "2026-05-06T12:00:00Z",
-  "keywords": ["hantavirus"],
+{
+  "fetched_at": "2026-05-07T04:28:18+00:00",
+  "keywords": [
+    "hantavirus",
+    "orthohantavirus",
+    "hps"
+  ],
   "timeseries": [],
-  "regional": []
+  "regional": [],
+  "error": "Retry.__init__() got an unexpected keyword argument 'method_whitelist'"
 }

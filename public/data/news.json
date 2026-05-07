@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-07T00:05:02+00:00",
+  "fetched_at": "2026-05-07T04:28:11+00:00",
   "items": [
     {
       "id": "723f399303878592",
@@ -36,6 +36,15 @@
       "source_name": "BBC News — Health",
       "source_tier": 2,
       "summary": "South Africa's health ministry said the Andes strain of the virus was found in two confirmed cases linked to the outbreak."
+    },
+    {
+      "id": "e855271dc2060097",
+      "title": "HHS tackles ‘overmedication’",
+      "url": "https://www.statnews.com/2026/05/06/health-news-hhs-tackles-alleged-overmedication/",
+      "published_at": "2026-05-06",
+      "source_name": "STAT News",
+      "source_tier": 2,
+      "summary": "The cruise ship hantavirus outbreak, 988 staffing problems, and more health news from Morning Rounds"
     },
     {
       "id": "d9620c42a9e39388",
