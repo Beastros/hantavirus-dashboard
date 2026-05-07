@@ -311,7 +311,11 @@ def main():
     print(f"[ok] news.json: {len(merged)} items")
 
     # Case extraction
-    updated_cases, new_processed = extract_cases_claude(incoming, existing_cases, already_processed)
+    # Keep all manual/seeded cases, only AI-extract into remaining slots
+    manual_cases = [c for c in existing_cases if c.get("source") == "manual"]
+    ai_cases = [c for c in existing_cases if c.get("source") != "manual"]
+    updated_ai, new_processed = extract_cases_claude(incoming, ai_cases, already_processed)
+    updated_cases = manual_cases + [c for c in updated_ai if c.get("source") != "manual"]
     (DATA / "cases-individual.json").write_text(
         json.dumps({"updated": now_iso(), "cases": updated_cases}, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
@@ -353,3 +357,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
