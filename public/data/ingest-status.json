@@ -1,14 +1,13 @@
 {
-  "last_run": "2026-05-07T04:54:01+00:00",
+  "last_run": "2026-05-07T04:59:12+00:00",
   "sources_ok": 5,
-  "sources_failed": 1,
+  "sources_failed": 0,
   "source_detail": {
     "cdc-media": "ok",
     "cdc-eid": "ok",
     "bbc-health": "ok",
     "stat-news": "ok",
-    "science-news": "ok",
-    "nih-news": "failed"
+    "science-news": "ok"
   },
   "news_count": 8,
   "case_count": 0,
