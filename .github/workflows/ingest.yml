@@ -28,13 +28,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data/news.json public/data/cases-individual.json \
-                  public/data/ingest-status.json public/data/ship-position.json \
-                  public/data/trends.json
+          git add public/data/news.json public/data/cases-individual.json public/data/ingest-status.json public/data/ship-position.json public/data/trends.json
           if git diff --staged --quiet; then
             echo "No data changes."
           else
-            git commit -m "chore: ingest refresh $(date -u +%H:%MZ)"
+            git commit -m "chore: ingest refresh"
             git push
           fi
 '@ | Set-Content .github\workflows\ingest.yml -Encoding utf8
