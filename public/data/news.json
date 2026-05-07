@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-05-07T07:41:48+00:00",
+  "fetched_at": "2026-05-07T10:09:17+00:00",
   "items": [
+    {
+      "id": "1e8dd66a87808a24",
+      "title": "Public health experts are worried about the cruise ship hantavirus outbreak, but not for the reason you might think",
+      "url": "https://www.statnews.com/2026/05/07/hantavirus-cruise-ship-outbreak-scientists-say-not-new-pandemic/",
+      "published_at": "2026-05-07",
+      "source_name": "STAT News",
+      "source_tier": 2,
+      "summary": "Scientists are worried that hantaviruses haven’t been as well studied as they ought to be, but not that the MV Hondius cruise ship is ground zero for the next pandemic."
+    },
     {
       "id": "71dc37cd2dc183e5",
       "title": "Hantavirus-hit cruise ship on way to Canary Islands after three evacuated",
