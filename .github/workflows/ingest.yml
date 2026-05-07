@@ -1,5 +1,4 @@
-@'
-name: Ingest RSS + AI extraction
+﻿name: Ingest RSS + AI extraction
 on:
   schedule:
     - cron: '*/15 * * * *'
@@ -40,3 +39,4 @@ jobs:
 git add -A
 git commit -m "fix: ingest workflow yaml"
 git push
+
