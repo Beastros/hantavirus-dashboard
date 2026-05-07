@@ -1,41 +1,13 @@
 ﻿{
-  "updated": "2026-05-07T04:28:18+00:00",
+  "updated": "2026-05-06T12:00:00Z",
   "cases": [
-    {
-      "case_ref": null,
-      "age": null,
-      "sex": "male",
-      "nationality": "British",
-      "outcome": "suspected",
-      "location": "MV Hondius cruise ship, Cape Verde",
-      "onset_date": null,
-      "id": "ai-bdc9af01056d46a4",
-      "source": "ai-extracted",
-      "source_url": "https://www.bbc.com/news/articles/c5y093d5n9ko"
-    },
-    {
-      "case_ref": null,
-      "age": null,
-      "sex": null,
-      "nationality": null,
-      "outcome": "confirmed",
-      "location": "cruise ship",
-      "onset_date": null,
-      "id": "ai-748d49625179623c",
-      "source": "ai-extracted",
-      "source_url": "https://www.bbc.com/news/articles/ce8pypvjx1ko"
-    },
-    {
-      "case_ref": null,
-      "age": null,
-      "sex": null,
-      "nationality": null,
-      "outcome": "confirmed",
-      "location": "cruise ship",
-      "onset_date": null,
-      "id": "ai-2a0fc71f732cfc4e",
-      "source": "ai-extracted",
-      "source_url": "https://www.bbc.com/news/articles/cm2p186gyp2o"
-    }
+    {"id":"case-1","case_ref":"case-1","nationality":"Dutch","age":null,"sex":"male","location":"MV Hondius","onset_date":"2026-04-06","outcome":"died","notes":"Index case. Died on board April 11. Body removed at Saint Helena.","source":"manual","source_url":"https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599"},
+    {"id":"case-2","case_ref":"case-2","nationality":"Dutch","age":null,"sex":"female","location":"Johannesburg, South Africa","onset_date":"2026-04-24","outcome":"died","notes":"Close contact of case 1. Deboarded at Saint Helena, died in Johannesburg April 26.","source":"manual","source_url":"https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599"},
+    {"id":"case-3","case_ref":"case-3","nationality":"British","age":null,"sex":"male","location":"Johannesburg, South Africa","onset_date":"2026-04-24","outcome":"hospitalized","notes":"Evacuated from Ascension Island April 27. In ICU, improving.","source":"manual","source_url":"https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599"},
+    {"id":"case-4","case_ref":"case-4","nationality":"German","age":null,"sex":"female","location":"MV Hondius","onset_date":"2026-04-28","outcome":"died","notes":"Died on board May 2.","source":"manual","source_url":"https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599"},
+    {"id":"case-5","case_ref":"case-5","nationality":"Unknown","age":null,"sex":null,"location":"Netherlands","onset_date":null,"outcome":"confirmed","notes":"Airlifted from Cape Verde to Netherlands May 5.","source":"manual","source_url":"https://en.wikipedia.org/wiki/MV_Hondius_hantavirus_outbreak"},
+    {"id":"case-6","case_ref":"case-6","nationality":"Unknown","age":null,"sex":null,"location":"Netherlands","onset_date":null,"outcome":"confirmed","notes":"Airlifted from Cape Verde May 5. Ship doctor among evacuees.","source":"manual","source_url":"https://en.wikipedia.org/wiki/MV_Hondius_hantavirus_outbreak"},
+    {"id":"case-7","case_ref":"case-7","nationality":"Unknown","age":null,"sex":"male","location":"Zurich, Switzerland","onset_date":null,"outcome":"confirmed","notes":"Confirmed Andes strain at University Hospital Zurich.","source":"manual","source_url":"https://en.wikipedia.org/wiki/MV_Hondius_hantavirus_outbreak"},
+    {"id":"case-8","case_ref":"case-8","nationality":"French","age":null,"sex":null,"location":"France","onset_date":null,"outcome":"suspected","notes":"Contact case. Shared Airlink flight from Saint Helena to Johannesburg with case 2.","source":"manual","source_url":"https://www.aljazeera.com/news/2026/5/6/canary-islands-refuses-to-allow-mv-hondius-with-hantavirus-to-dock"}
   ]
 }
