@@ -1,21 +1,33 @@
 {
-  "updated": "2026-05-06T18:30:00Z",
-  "disclaimer": "Snapshot aligned to WHO Disease Outbreak News 2026-DON599 (corrigendum 5 May 2026). WHO reports as of 4 May 2026: seven patients meeting case definitions in the DON (two laboratory-confirmed hantavirus infections and five suspected cases), including three deaths and additional severely ill patients — read the DON for full clinical detail and caveats. Figures change as investigations proceed; this dashboard is not real-time surveillance.",
+  "updated": "2026-05-06T12:00:00Z",
+  "disclaimer": "Sample rows for layout testing only. Replace with verified figures and primary-source URLs before sharing publicly. Infectious disease tallies should follow jurisdictional definitions (suspected / probable / confirmed).",
   "regions": [
     {
-      "id": "who-don-2026-don599-ship-cluster",
-      "name": "WHO DON — Hantavirus cluster linked to cruise ship travel (multi-country; vessel moored off Cabo Verde as of 4 May 2026)",
-      "lat": 14.9311,
-      "lng": -23.5087,
-      "suspected": 5,
-      "probable": 0,
-      "confirmed": 2,
-      "outbreak_level": "high",
-      "last_reported": "2026-05-04",
+      "id": "ar-sample-buenos-aires",
+      "name": "Argentina — Buenos Aires region (sample)",
+      "lat": -34.6037,
+      "lng": -58.3816,
+      "suspected": 3,
+      "probable": 1,
+      "confirmed": 0,
+      "outbreak_level": "elevated",
+      "last_reported": "2026-05-05",
       "sources": [
-        "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599",
-        "https://www.who.int/emergencies/emergency-events/item/2026-e000227"
+        "https://www.who.int/emergencies/disease-outbreak-news",
+        "https://www.cdc.gov/hantavirus/hps/index.html"
       ]
+    },
+    {
+      "id": "us-sample-four-corners",
+      "name": "United States — Four Corners illustrative point (sample)",
+      "lat": 36.9989,
+      "lng": -109.0452,
+      "suspected": 0,
+      "probable": 0,
+      "confirmed": 1,
+      "outbreak_level": "informational",
+      "last_reported": "2026-04-28",
+      "sources": ["https://www.cdc.gov/hantavirus/hps/index.html"]
     }
   ]
 }
