@@ -1,8 +1,9 @@
-import { useEffect, useRef, useState } from 'react'
+﻿import { useEffect, useRef, useState } from 'react'
 import type { MapRef } from 'react-map-gl/maplibre'
 import { OutbreakMap } from './components/OutbreakMap'
 import { NewsColumn } from './components/NewsColumn'
 import { RegionList } from './components/RegionList'
+import { VirusIntelCard } from './components/VirusIntelCard'
 import { loadCases, loadNews } from './loadData'
 import type { CasesFile, NewsFile } from './types'
 
@@ -63,15 +64,17 @@ export default function App() {
     <div className="shell">
       <header className="top">
         <div>
-          <h1>Outbreak signals</h1>
+          <h1>HANTAVIRUS SIGNAL DESK</h1>
           <p className="tag">
-            Map + curated counts + RSS ingest — deploy on GitHub Pages
+            Personal sniff tool · map tiers · RSS stream · promote/demote signals
           </p>
         </div>
         <div className="top-meta">
           <span>Cases file: {cases.updated}</span>
         </div>
       </header>
+
+      <VirusIntelCard />
 
       <p className="disclaimer">{cases.disclaimer}</p>
 
@@ -95,9 +98,8 @@ export default function App() {
 
       <footer className="footer">
         <p>
-          Replace sample points in <code>public/data/cases.json</code> with
-          verified rows (each with source URLs). Tune feeds and keywords in{' '}
-          <code>ingest/sources.yaml</code>.
+          Flip rows in <code>public/data/cases.json</code> as rumors strengthen,
+          collapse, or get confirmed.
         </p>
       </footer>
     </div>
