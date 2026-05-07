@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-07T10:09:17+00:00",
+  "fetched_at": "2026-05-07T12:06:05+00:00",
   "items": [
     {
       "id": "1e8dd66a87808a24",
@@ -9,6 +9,15 @@
       "source_name": "STAT News",
       "source_tier": 2,
       "summary": "Scientists are worried that hantaviruses haven’t been as well studied as they ought to be, but not that the MV Hondius cruise ship is ground zero for the next pandemic."
+    },
+    {
+      "id": "96a242b48869c880",
+      "title": "Hospital shootings steadily increased since 2000",
+      "url": "https://www.statnews.com/2026/05/07/health-news-hospital-shootings-steadily-on-the-rise/",
+      "published_at": "2026-05-07",
+      "source_name": "STAT News",
+      "source_tier": 2,
+      "summary": "What the FDA has lost, why hantavirus isn't the next pandemic, and more health news from Morning Rounds"
     },
     {
       "id": "71dc37cd2dc183e5",
