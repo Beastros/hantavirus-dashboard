@@ -1,4 +1,5 @@
-﻿name: Ingest RSS + AI extraction
+@'
+name: Ingest RSS + AI extraction
 on:
   schedule:
     - cron: '*/15 * * * *'
@@ -8,6 +9,8 @@ permissions:
 jobs:
   ingest:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -17,7 +20,7 @@ jobs:
         run: pip install -r ingest/requirements.txt
       - name: Run ingest
         working-directory: ingest
-        env: FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+        env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           AIS_API_KEY: ${{ secrets.AIS_API_KEY }}
         run: python run.py
@@ -34,3 +37,8 @@ jobs:
             git commit -m "chore: ingest refresh $(date -u +%H:%MZ)"
             git push
           fi
+'@ | Set-Content .github\workflows\ingest.yml -Encoding utf8
+
+git add -A
+git commit -m "fix: ingest workflow yaml"
+git push
