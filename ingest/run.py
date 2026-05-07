@@ -28,6 +28,17 @@ DATA.mkdir(parents=True, exist_ok=True)
 
 UA = "OutbreakDashboardIngest/0.2 (hantavirus-dashboard)"
 HONDIUS_MMSI = "244820778"
+
+SEED_CASES = [
+    {"id":"case-1","case_ref":"case-1","nationality":"Dutch","age":None,"sex":"male","location":"MV Hondius","onset_date":"2026-04-06","outcome":"died","notes":"Index case. Died on board April 11.","source":"manual","source_url":"https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599"},
+    {"id":"case-2","case_ref":"case-2","nationality":"Dutch","age":None,"sex":"female","location":"Johannesburg, South Africa","onset_date":"2026-04-24","outcome":"died","notes":"Deboarded at Saint Helena, died in Johannesburg April 26.","source":"manual","source_url":"https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599"},
+    {"id":"case-3","case_ref":"case-3","nationality":"British","age":None,"sex":"male","location":"Johannesburg, South Africa","onset_date":"2026-04-24","outcome":"hospitalized","notes":"Evacuated from Ascension Island April 27. In ICU, improving.","source":"manual","source_url":"https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599"},
+    {"id":"case-4","case_ref":"case-4","nationality":"German","age":None,"sex":"female","location":"MV Hondius","onset_date":"2026-04-28","outcome":"died","notes":"Died on board May 2.","source":"manual","source_url":"https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599"},
+    {"id":"case-5","case_ref":"case-5","nationality":"Unknown","age":None,"sex":None,"location":"Netherlands","onset_date":None,"outcome":"confirmed","notes":"Airlifted from Cape Verde May 5.","source":"manual","source_url":"https://en.wikipedia.org/wiki/MV_Hondius_hantavirus_outbreak"},
+    {"id":"case-6","case_ref":"case-6","nationality":"Unknown","age":None,"sex":None,"location":"Netherlands","onset_date":None,"outcome":"confirmed","notes":"Airlifted from Cape Verde May 5. Ship doctor among evacuees.","source":"manual","source_url":"https://en.wikipedia.org/wiki/MV_Hondius_hantavirus_outbreak"},
+    {"id":"case-7","case_ref":"case-7","nationality":"Unknown","age":None,"sex":"male","location":"Zurich, Switzerland","onset_date":None,"outcome":"confirmed","notes":"Confirmed Andes strain at University Hospital Zurich.","source":"manual","source_url":"https://en.wikipedia.org/wiki/MV_Hondius_hantavirus_outbreak"},
+    {"id":"case-8","case_ref":"case-8","nationality":"French","age":None,"sex":None,"location":"France","onset_date":None,"outcome":"suspected","notes":"Contact case. Shared Airlink flight with case 2.","source":"manual","source_url":"https://www.aljazeera.com/news/2026/5/6/canary-islands-refuses-to-allow-mv-hondius-with-hantavirus-to-dock"},
+]
 DROP_QUERY = frozenset({
     "utm_source", "utm_medium", "utm_campaign",
     "utm_term", "utm_content", "at_medium", "at_campaign",
@@ -290,7 +301,11 @@ def main():
     existing_news = [x for x in existing_news if x.get("id") != "seed-example-1"]
 
     existing_ci = load_json(DATA / "cases-individual.json", {"cases": []})
-    existing_cases = existing_ci.get("cases", [])
+    # Always start with seed cases, then merge any additional from file
+    existing_cases_from_file = existing_ci.get("cases", [])
+    seed_ids = {c["id"] for c in SEED_CASES}
+    extra_cases = [c for c in existing_cases_from_file if c.get("id") not in seed_ids]
+    existing_cases = list(SEED_CASES) + extra_cases
 
     prev_status = load_json(DATA / "ingest-status.json", {})
     already_processed = set(prev_status.get("processed_for_cases", []))
@@ -357,6 +372,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
 
 
 
