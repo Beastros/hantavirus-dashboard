@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-07T12:54:57+00:00",
+  "fetched_at": "2026-05-07T14:50:40+00:00",
   "items": [
     {
       "id": "1e8dd66a87808a24",
@@ -27,6 +27,24 @@
       "source_name": "STAT News",
       "source_tier": 2,
       "summary": "What the FDA has lost, why hantavirus isn't the next pandemic, and more health news from Morning Rounds"
+    },
+    {
+      "id": "ce74a769d98fb762",
+      "title": "Having hantavirus was 'hell on earth'",
+      "url": "https://www.bbc.com/news/articles/cy72xmk1114o",
+      "published_at": "2026-05-07",
+      "source_name": "BBC News - Health",
+      "source_tier": 2,
+      "summary": "Two survivors who caught the hantavirus years earlier told the BBC they both felt lucky to be alive."
+    },
+    {
+      "id": "2e5096dd64c44c08",
+      "title": "Hantavirus: WHO chief says public health risk is low",
+      "url": "https://www.bbc.com/news/videos/c4g0908drwpo",
+      "published_at": "2026-05-07",
+      "source_name": "BBC News - Health",
+      "source_tier": 2,
+      "summary": "The origin of the outbreak is still unknown, with the World Health Organisation saying investigations are \"still under way\"."
     },
     {
       "id": "71dc37cd2dc183e5",
