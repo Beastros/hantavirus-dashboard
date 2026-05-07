@@ -34,9 +34,3 @@ jobs:
             git commit -m "chore: ingest refresh"
             git push
           fi
-'@ | Set-Content .github\workflows\ingest.yml -Encoding utf8
-
-git add -A
-git commit -m "fix: ingest workflow yaml"
-git push
-
