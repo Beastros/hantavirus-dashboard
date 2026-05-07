@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-07T14:50:40+00:00",
+  "fetched_at": "2026-05-07T16:48:55+00:00",
   "items": [
     {
       "id": "1e8dd66a87808a24",
@@ -29,15 +29,6 @@
       "summary": "What the FDA has lost, why hantavirus isn't the next pandemic, and more health news from Morning Rounds"
     },
     {
-      "id": "ce74a769d98fb762",
-      "title": "Having hantavirus was 'hell on earth'",
-      "url": "https://www.bbc.com/news/articles/cy72xmk1114o",
-      "published_at": "2026-05-07",
-      "source_name": "BBC News - Health",
-      "source_tier": 2,
-      "summary": "Two survivors who caught the hantavirus years earlier told the BBC they both felt lucky to be alive."
-    },
-    {
       "id": "2e5096dd64c44c08",
       "title": "Hantavirus: WHO chief says public health risk is low",
       "url": "https://www.bbc.com/news/videos/c4g0908drwpo",
@@ -54,6 +45,15 @@
       "source_name": "BBC News - Health",
       "source_tier": 2,
       "summary": "A British man is among three evacuees sent to the Netherlands after displaying symptoms while aboard the MV Hondius."
+    },
+    {
+      "id": "ce74a769d98fb762",
+      "title": "Hantavirus survivor says sickness was like 'hell on earth'",
+      "url": "https://www.bbc.com/news/articles/cy72xmk1114o",
+      "published_at": "2026-05-07",
+      "source_name": "BBC News - Health",
+      "source_tier": 2,
+      "summary": "Two survivors who caught the hantavirus years earlier told the BBC they both felt lucky to be alive."
     },
     {
       "id": "723f399303878592",
