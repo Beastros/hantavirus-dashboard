@@ -17,7 +17,7 @@ jobs:
         run: pip install -r ingest/requirements.txt
       - name: Run ingest
         working-directory: ingest
-        env:
+        env:FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           AIS_API_KEY: ${{ secrets.AIS_API_KEY }}
         run: python run.py
