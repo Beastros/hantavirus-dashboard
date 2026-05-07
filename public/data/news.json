@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-07T16:48:55+00:00",
+  "fetched_at": "2026-05-07T18:23:17+00:00",
   "items": [
     {
       "id": "1e8dd66a87808a24",
@@ -9,6 +9,15 @@
       "source_name": "STAT News",
       "source_tier": 2,
       "summary": "Scientists are worried that hantaviruses haven’t been as well studied as they ought to be, but not that the MV Hondius cruise ship is ground zero for the next pandemic."
+    },
+    {
+      "id": "d2450bc46be45a65",
+      "title": "Official leading CDC’s cruise ship program retires",
+      "url": "https://www.statnews.com/2026/05/07/luis-rodriguez-retires-cdc-vessel-sanitation-program-amid-hantavirus-outbreak/",
+      "published_at": "2026-05-07",
+      "source_name": "STAT News",
+      "source_tier": 2,
+      "summary": "The hantavirus outbreak on the MV Hondius has focused the public's attention on cruise ship safety."
     },
     {
       "id": "f2c4bfe4cbf96a47",
@@ -27,6 +36,15 @@
       "source_name": "STAT News",
       "source_tier": 2,
       "summary": "What the FDA has lost, why hantavirus isn't the next pandemic, and more health news from Morning Rounds"
+    },
+    {
+      "id": "4080f98d0fa83627",
+      "title": "Hantavirus: Your questions answered",
+      "url": "https://www.bbc.com/news/videos/cpqp23re7z2o",
+      "published_at": "2026-05-07",
+      "source_name": "BBC News - Health",
+      "source_tier": 2,
+      "summary": "Lucy Woodham answers your questions on the outbreak of hantavirus on board a cruise ship"
     },
     {
       "id": "2e5096dd64c44c08",
