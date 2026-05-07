@@ -30,7 +30,14 @@ export default function App() {
     loadIndividualCases()
       .then((d: any) => { if (!cancelled) setIndividualCases(d.cases || []) })
       .catch(() => {})
-    return () => { cancelled = true }
+    const refresh = setInterval(async () => {
+      try {
+        const [c, n] = await Promise.all([loadCases(), loadNews()])
+        setCases(c); setNews(n)
+      } catch {}
+      loadIndividualCases().then((d: any) => setIndividualCases(d.cases || [])).catch(() => {})
+    }, 15 * 60 * 1000)
+    return () => { cancelled = true; clearInterval(refresh) }
   }, [])
 
   useEffect(() => {
@@ -110,3 +117,4 @@ export default function App() {
     </div>
   )
 }
+
