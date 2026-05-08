@@ -83,7 +83,7 @@ code { font-size: .88em; background: #1a2235; padding: .12em .4em; border-radius
   max-width: 300px; backdrop-filter: blur(4px);
 }
 .legend-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 3px; }
-.leg-info  { background: var(--informational); }
+.leg-info { background: var(--informational); }
 .leg-elev  { background: var(--elevated); }
 .leg-high  { background: var(--confirmed); }
 .legend-note { flex-basis: 100%; font-size: .7rem; color: var(--muted); margin-top: 2px; }
@@ -126,9 +126,9 @@ code { font-size: .88em; background: #1a2235; padding: .12em .4em; border-radius
 .region-meta { margin-top: .2rem; font-size: .7rem; color: var(--muted); }
 
 .chip { font-size: .64rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; padding: .12rem .4rem; border-radius: 999px; border: 1px solid transparent; white-space: nowrap; }
-.chip-informational { color: var(--informational); border-color: rgba(62,207,142,.35); }
-.chip-elevated      { color: var(--elevated);      border-color: rgba(245,166,35,.4); }
-.chip-high          { color: var(--confirmed);     border-color: rgba(241,107,107,.4); }
+.chip-unconfirmed { color: var(--informational); border-color: rgba(62,207,142,.35); }
+.chip-corroborated      { color: var(--elevated);      border-color: rgba(245,166,35,.4); }
+.chip-confirmed          { color: var(--confirmed);     border-color: rgba(241,107,107,.4); }
 
 .news-list { max-height: 300px; gap: 0; }
 .news-item { padding: .45rem 0; border-bottom: 1px solid var(--border); }
@@ -253,3 +253,4 @@ code { font-size: .88em; background: #1a2235; padding: .12em .4em; border-radius
 }
 .pivot-section { flex: 1; min-width: 140px; }
 .pivot-svg { max-height: 150px !important; }
+

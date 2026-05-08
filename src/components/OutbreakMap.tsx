@@ -43,8 +43,8 @@ function toGeoJSON(regions: RegionCase[]) {
 }
 
 const LEVEL_LABELS: Record<string, string> = {
-  informational: 'Unverified',
-  elevated: 'Reported',
+  informational: 'Unconfirmed Report',
+  elevated: 'Corroborated',
   high: 'Confirmed',
 }
 
@@ -146,3 +146,5 @@ export function OutbreakMap({ regions, onSelect, mapRef }: Props) {
     </div>
   )
 }
+
+
