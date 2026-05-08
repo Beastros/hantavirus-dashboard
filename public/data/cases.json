@@ -13,7 +13,7 @@
       "deaths": 0,
       "outbreak_level": "elevated",
       "last_reported": "2026-05-07",
-      "notes": "Ship departure April 1. Dutch couple likely exposed here during birdwatching trip. Rodent trapping underway."
+      "notes": "Ship departure April 1. Index case likely exposed here during birdwatching. Rodent trapping underway. 101 hantavirus cases in Argentina since June 2025 - double prior year."
     },
     {
       "id": "sh-saint-helena",
@@ -26,7 +26,7 @@
       "deaths": 1,
       "outbreak_level": "high",
       "last_reported": "2026-04-24",
-      "notes": "Case 1 (Dutch man, 70) died April 11. ~40 passengers disembarked April 24, all contact traced."
+      "notes": "Case 1 died April 11. ~40 passengers disembarked April 24 - all contact traced."
     },
     {
       "id": "sh-ascension",
@@ -39,7 +39,7 @@
       "deaths": 0,
       "outbreak_level": "high",
       "last_reported": "2026-04-27",
-      "notes": "British passenger evacuated April 27, flown to Johannesburg ICU."
+      "notes": "British passenger (case 3) evacuated April 27, flown to Johannesburg ICU. WHO confirmed."
     },
     {
       "id": "cv-cape-verde",
@@ -52,7 +52,7 @@
       "deaths": 1,
       "outbreak_level": "high",
       "last_reported": "2026-05-06",
-      "notes": "Ship anchored off Praia May 3-7. German woman died May 2. Now heading to Tenerife, arriving May 9."
+      "notes": "Ship anchored off Praia May 3-7. German woman (case 4) died May 2. Now heading to Tenerife, arriving May 9."
     },
     {
       "id": "za-johannesburg",
@@ -65,7 +65,7 @@
       "deaths": 1,
       "outbreak_level": "high",
       "last_reported": "2026-05-07",
-      "notes": "Dutch woman died April 26 (PCR confirmed). British national in ICU improving. Contact tracing for April 25 flight passengers."
+      "notes": "Case 2 died April 26 PCR confirmed. Case 3 in ICU improving. Contact tracing for April 25 flight passengers initiated."
     },
     {
       "id": "nl-netherlands",
@@ -74,11 +74,11 @@
       "lng": 4.9041,
       "suspected": 1,
       "probable": 0,
-      "confirmed": 1,
+      "confirmed": 2,
       "deaths": 0,
-      "outbreak_level": "elevated",
+      "outbreak_level": "high",
       "last_reported": "2026-05-07",
-      "notes": "3 patients airlifted May 5 including ship doctor. KLM flight attendant admitted Amsterdam UMC May 7 with suspected infection."
+      "notes": "Cases 5 and 6 airlifted from Cape Verde May 5 - WHO confirmed. KLM flight attendant (case 9) admitted Amsterdam UMC May 7 - suspected, tests pending."
     },
     {
       "id": "ch-zurich",
@@ -91,7 +91,7 @@
       "deaths": 0,
       "outbreak_level": "high",
       "last_reported": "2026-05-06",
-      "notes": "Male passenger confirmed Andes strain at University Hospital Zurich."
+      "notes": "Case 7. Male passenger confirmed Andes strain at University Hospital Zurich."
     },
     {
       "id": "fr-france",
@@ -104,7 +104,7 @@
       "deaths": 0,
       "outbreak_level": "informational",
       "last_reported": "2026-05-06",
-      "notes": "French national monitored as contact - shared Airlink flight with Case 2."
+      "notes": "RUMOR PING: Case 8. French national monitoring only - shared Airlink flight with case 2. Unconfirmed."
     },
     {
       "id": "sg-singapore",
@@ -115,9 +115,9 @@
       "probable": 0,
       "confirmed": 0,
       "deaths": 0,
-      "outbreak_level": "elevated",
+      "outbreak_level": "informational",
       "last_reported": "2026-05-07",
-      "notes": "2 residents (67 and 65) isolated in govt facility. Both on April 25 Johannesburg flight with confirmed case. One has runny nose, tests pending."
+      "notes": "RUMOR PING: Cases 10-11. Two residents (67, 65) isolated in govt facility. On April 25 Johannesburg flight with confirmed case. Tests pending."
     },
     {
       "id": "us-arizona",
@@ -130,7 +130,7 @@
       "deaths": 0,
       "outbreak_level": "informational",
       "last_reported": "2026-05-07",
-      "notes": "1 returning MV Hondius passenger under monitoring. Currently healthy per CDC."
+      "notes": "RUMOR PING: 1 returning MV Hondius passenger under CDC monitoring. Currently healthy."
     },
     {
       "id": "us-georgia",
@@ -143,7 +143,7 @@
       "deaths": 0,
       "outbreak_level": "informational",
       "last_reported": "2026-05-07",
-      "notes": "Georgia DPH confirmed 2 residents monitoring after disembarking MV Hondius. Both in good health, no signs of infection."
+      "notes": "RUMOR PING: Georgia DPH confirmed 2 residents monitoring after disembarking MV Hondius. Both healthy, no infection signs."
     },
     {
       "id": "us-california",
@@ -156,7 +156,7 @@
       "deaths": 0,
       "outbreak_level": "informational",
       "last_reported": "2026-05-07",
-      "notes": "California DPH coordinating with local officials to monitor returning MV Hondius travelers. No illness reported."
+      "notes": "RUMOR PING: California DPH monitoring returning MV Hondius travelers. No illness reported."
     },
     {
       "id": "es-tenerife",
@@ -168,9 +168,47 @@
       "confirmed": 0,
       "deaths": 0,
       "outbreak_level": "informational",
+      "last_reported": "2026-05-08",
+      "notes": "Ship arriving Granadilla port May 9. Spain reversed ban after WHO pressure. 146 passengers from 23 nationalities to disembark."
+    },
+    {
+      "id": "uk-london",
+      "name": "United Kingdom",
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "suspected": 0,
+      "probable": 0,
+      "confirmed": 0,
+      "deaths": 0,
+      "outbreak_level": "informational",
       "last_reported": "2026-05-07",
-      "notes": "Ship arriving Granadilla port May 9. Spain reversed ban. 146 passengers from 23 nationalities to disembark."
+      "notes": "WHO notified by UK IHR focal point May 2. Saint Helena is British territory - contact tracing for ~40 disembarked passengers underway."
+    },
+    {
+      "id": "uy-uruguay",
+      "name": "Uruguay",
+      "lat": -32.5228,
+      "lng": -55.7658,
+      "suspected": 0,
+      "probable": 0,
+      "confirmed": 0,
+      "deaths": 0,
+      "outbreak_level": "informational",
+      "last_reported": "2026-05-07",
+      "notes": "RUMOR PING: Dutch index case crossed into Uruguay March 13, returned March 27. Route under investigation for exposure source."
+    },
+    {
+      "id": "cl-chile",
+      "name": "Chile",
+      "lat": -35.6751,
+      "lng": -71.5430,
+      "suspected": 0,
+      "probable": 0,
+      "confirmed": 0,
+      "deaths": 0,
+      "outbreak_level": "informational",
+      "last_reported": "2026-05-07",
+      "notes": "RUMOR PING: Dutch index case crossed Chile border multiple times Nov 2025-Apr 2026. Neuquen and Misiones WHO-designated endemic zones visited."
     }
   ]
 }
-
