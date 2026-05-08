@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T14:23:09+00:00",
+  "fetched_at": "2026-05-08T15:58:41+00:00",
   "items": [
     {
       "id": "a77d58dfc08b200c",
@@ -27,6 +27,15 @@
       "source_name": "The Guardian World",
       "source_tier": 2,
       "summary": "<p>‘Unprecedented operation’ under way to receive MV Hondius off Tenerife to assess and repatriate those onboard</p><p>The Spanish authorities are finalising preparations for the arrival of the MV Hondius this weekend, saying an “unprecedented operation” is under way to receive, assess and repatriate the 149 passengers and crew members onboard <a href=\"https://www.theguardian.com/world/2026/may/07"
+    },
+    {
+      "id": "8bd6f3b0aa232ea0",
+      "title": "Opinion: I’m fighting misinformation online. False hantavirus claims follow a now-familiar playbook",
+      "url": "https://www.statnews.com/2026/05/08/hantavirus-outbreak-misinformation-spreads-faster-than-virus/",
+      "published_at": "2026-05-08",
+      "source_name": "STAT News",
+      "source_tier": 1,
+      "summary": "I learned about hantavirus misinformation this week in the same way I now learn about most public health misinformation: My followers sent it to me. Within hours of the first&#8230;"
     },
     {
       "id": "4e359e3ce404a0e7",
