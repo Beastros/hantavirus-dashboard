@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T01:17:31+00:00",
+  "fetched_at": "2026-05-08T03:40:36+00:00",
   "items": [
     {
       "id": "4e359e3ce404a0e7",
@@ -11,13 +11,22 @@
       "summary": "Past studies of Andes virus offer scant evidence on transmission risks, and have sparked debate"
     },
     {
-      "id": "1e8dd66a87808a24",
-      "title": "Public health experts are worried about the cruise ship hantavirus outbreak, but not for the reason you might think",
-      "url": "https://www.statnews.com/2026/05/07/hantavirus-cruise-ship-outbreak-scientists-say-not-new-pandemic/",
+      "id": "763373a273b6de1b",
+      "title": "What is hantavirus and how does it spread?",
+      "url": "https://www.bbc.com/news/articles/c8r8j1l6j0go",
       "published_at": "2026-05-07",
-      "source_name": "STAT News",
+      "source_name": "BBC Health",
+      "source_tier": 1,
+      "summary": "The Andes strain of the virus, which can rarely be passed from person to person,  has been confirmed in some passengers."
+    },
+    {
+      "id": "56651467b3232d4a",
+      "title": "Two Britons evacuated from hantavirus-hit ship ‘improving’ in hospital",
+      "url": "https://www.theguardian.com/world/2026/may/07/two-britons-evacuated-hantavirus-hit-ship-improving-hospital",
+      "published_at": "2026-05-07",
+      "source_name": "The Guardian World",
       "source_tier": 2,
-      "summary": "Scientists are worried that hantaviruses haven’t been as well studied as they ought to be, but not that the MV Hondius cruise ship is ground zero for the next pandemic."
+      "summary": "<p>Man, 69, is in intensive care in Johannesburg, while expedition guide Martin Anstee, 56, receiving care in Netherlands</p><ul><li><p><a href=\"https://www.theguardian.com/science/2026/may/04/what-is-hantavirus-the-infection-that-has-killed-three-people-on-a-cruise-ship\"><strong>What is hantavirus?</strong></a></p></li></ul><p>Two <a href=\"https://www.theguardian.com/world/2026/may/07/two-britons"
     },
     {
       "id": "d2450bc46be45a65",
@@ -25,7 +34,7 @@
       "url": "https://www.statnews.com/2026/05/07/luis-rodriguez-retires-cdc-vessel-sanitation-program-amid-hantavirus-outbreak/",
       "published_at": "2026-05-07",
       "source_name": "STAT News",
-      "source_tier": 2,
+      "source_tier": 1,
       "summary": "The hantavirus outbreak on the MV Hondius has focused the public's attention on cruise ship safety."
     },
     {
@@ -34,7 +43,7 @@
       "url": "https://www.statnews.com/2026/05/07/hantavirus-outbreak-key-takeaways-who-cruise-ship-briefing/",
       "published_at": "2026-05-07",
       "source_name": "STAT News",
-      "source_tier": 2,
+      "source_tier": 1,
       "summary": "Here are key takeaways from a WHO briefing on the hantavirus outbreak aboard a cruise ship."
     },
     {
@@ -42,8 +51,8 @@
       "title": "How worried should we be about hantavirus?",
       "url": "https://www.bbc.com/news/articles/c98r199e195o",
       "published_at": "2026-05-07",
-      "source_name": "BBC News - Health",
-      "source_tier": 2,
+      "source_name": "BBC Health",
+      "source_tier": 1,
       "summary": "Some passengers potentially exposed to hantavirus have already taken flights to numerous countries."
     },
     {
@@ -52,7 +61,7 @@
       "url": "https://www.statnews.com/2026/05/07/health-news-hospital-shootings-steadily-on-the-rise/",
       "published_at": "2026-05-07",
       "source_name": "STAT News",
-      "source_tier": 2,
+      "source_tier": 1,
       "summary": "What the FDA has lost, why hantavirus isn't the next pandemic, and more health news from Morning Rounds"
     },
     {
@@ -60,8 +69,8 @@
       "title": "Hantavirus: Your questions answered",
       "url": "https://www.bbc.com/news/videos/cpqp23re7z2o",
       "published_at": "2026-05-07",
-      "source_name": "BBC News - Health",
-      "source_tier": 2,
+      "source_name": "BBC Health",
+      "source_tier": 1,
       "summary": "Lucy Woodham answers your questions on the outbreak of hantavirus on board a cruise ship"
     },
     {
@@ -69,8 +78,8 @@
       "title": "Hantavirus: WHO chief says public health risk is low",
       "url": "https://www.bbc.com/news/videos/c4g0908drwpo",
       "published_at": "2026-05-07",
-      "source_name": "BBC News - Health",
-      "source_tier": 2,
+      "source_name": "BBC Health",
+      "source_tier": 1,
       "summary": "The origin of the outbreak is still unknown, with the World Health Organisation saying investigations are \"still under way\"."
     },
     {
@@ -78,8 +87,8 @@
       "title": "Hantavirus-hit cruise ship on way to Canary Islands after three evacuated",
       "url": "https://www.bbc.com/news/articles/c5y093d5n9ko",
       "published_at": "2026-05-07",
-      "source_name": "BBC News - Health",
-      "source_tier": 2,
+      "source_name": "BBC Health",
+      "source_tier": 1,
       "summary": "A British man is among three evacuees sent to the Netherlands after displaying symptoms while aboard the MV Hondius."
     },
     {
@@ -87,18 +96,36 @@
       "title": "Hantavirus survivor says sickness was like 'hell on earth'",
       "url": "https://www.bbc.com/news/articles/cy72xmk1114o",
       "published_at": "2026-05-07",
-      "source_name": "BBC News - Health",
-      "source_tier": 2,
+      "source_name": "BBC Health",
+      "source_tier": 1,
       "summary": "Two survivors who caught the hantavirus years earlier told the BBC they both felt lucky to be alive."
     },
     {
-      "id": "723f399303878592",
-      "title": "What is the cruise ship hantavirus and how does it spread?",
-      "url": "https://www.bbc.com/news/articles/c8r8j1l6j0go",
-      "published_at": "2026-05-06",
-      "source_name": "BBC News — Health",
+      "id": "2a8d1a935fb6798d",
+      "title": "Hantavirus outbreak ‘not start of pandemic’ says WHO, as Canaries secure concessions over cruise docking plans - as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/may/07/ukraine-russia-drones-latvia-hungary-bulgaria-latest-news-updates",
+      "published_at": "2026-05-07",
+      "source_name": "The Guardian World",
       "source_tier": 2,
-      "summary": "The Andes strain of the virus has been confirmed in some passengers, which can rarely be passed from person to person."
+      "summary": "<p>Health body gives briefing as Spain says ship will not dock in Tenerife but be anchored offshore and passengers will have no contact with the public</p><p>Meanwhile, <strong>Hungary’s incoming prime minister Péter Magyar has arrived for talks at Palazzo Chigi in Rome,</strong> where he is due to meet with Italy’s prime minister <strong>Giorgia Meloni.</strong></p><p>Since <strong>he is not the "
+    },
+    {
+      "id": "1e8dd66a87808a24",
+      "title": "Cruise ship hantavirus outbreak worries experts, though they discount pandemic fears",
+      "url": "https://www.statnews.com/2026/05/07/hantavirus-cruise-ship-outbreak-scientists-say-not-new-pandemic/",
+      "published_at": "2026-05-07",
+      "source_name": "STAT News",
+      "source_tier": 1,
+      "summary": "Scientists are worried that hantaviruses haven’t been as well studied as they ought to be, but not that the MV Hondius cruise ship is ground zero for the next pandemic."
+    },
+    {
+      "id": "2c4a05856abaef0f",
+      "title": "Argentina races to find origins of cruise ship hantavirus outbreak, amid reports some passengers have returned to US",
+      "url": "https://www.theguardian.com/world/2026/may/07/argentina-origins-hantavirus-outbreak-cruise-ship-mv-hondius",
+      "published_at": "2026-05-07",
+      "source_name": "The Guardian World",
+      "source_tier": 2,
+      "summary": "<p>Argentina, where the MV Hondius cruise departed, consistently ranked by WHO as having highest incidence of hantavirus in region</p><p>Officials and experts in Argentina are scrambling to determine if their country is the source of a deadly hantavirus outbreak that has gripped an Atlantic cruise ship, amid reports that a number of passengers have already returned to their home countries.</p><p>A"
     },
     {
       "id": "22ff07eb5f4dd031",
@@ -110,12 +137,21 @@
       "summary": "The Andes strain of the virus has been confirmed in two passengers who were taken to South Africa, according to the country's health minister"
     },
     {
-      "id": "11dab8e66a3beee0",
+      "id": "e62023e129d8ee09",
+      "title": "Three evacuated from hantavirus-hit ship as Spain says vessel can dock",
+      "url": "https://www.theguardian.com/world/2026/may/06/cruise-ship-hantavirus-strain-andes-spread-humans-south-africa",
+      "published_at": "2026-05-06",
+      "source_name": "The Guardian World",
+      "source_tier": 2,
+      "summary": "<p>British guide Martin Anstee among those evacuated from MV Hondius, which is now heading for Canary Islands</p><ul><li><p><a href=\"https://www.theguardian.com/science/2026/may/04/what-is-hantavirus-the-infection-that-has-killed-three-people-on-a-cruise-ship\">Explainer: What is hantavirus?</a></p></li></ul><p>Three people with suspected hantavirus have been medically evacuated from a cruise ship."
+    },
+    {
+      "id": "2f02057c81d88f8d",
       "title": "Hantavirus strain that spreads between humans found in cruise ship passengers",
       "url": "https://www.bbc.com/news/articles/ce8pypvjx1ko",
       "published_at": "2026-05-06",
-      "source_name": "BBC News — Health",
-      "source_tier": 2,
+      "source_name": "BBC Health",
+      "source_tier": 1,
       "summary": "South Africa's health ministry said the Andes strain of the virus was found in two confirmed cases linked to the outbreak."
     },
     {
@@ -128,21 +164,21 @@
       "summary": "The cruise ship hantavirus outbreak, 988 staffing problems, and more health news from Morning Rounds"
     },
     {
-      "id": "d9620c42a9e39388",
+      "id": "b18b6d145b948fa7",
       "title": "Cruise passengers tell of life on board stranded ship after hantavirus outbreak",
       "url": "https://www.bbc.com/news/articles/clype7ededzo",
       "published_at": "2026-05-06",
-      "source_name": "BBC News — Health",
-      "source_tier": 2,
+      "source_name": "BBC Health",
+      "source_tier": 1,
       "summary": "While passengers onboard the MV Hondius say the situation is calm, they face days at sea as officials warn the disease may have spread."
     },
     {
-      "id": "2a9f40924ab1c754",
+      "id": "f6b42df2b77bf38f",
       "title": "Hantavirus may have spread between passengers on cruise ship, WHO says",
       "url": "https://www.bbc.com/news/articles/cm2p186gyp2o",
       "published_at": "2026-05-05",
-      "source_name": "BBC News — Health",
-      "source_tier": 2,
+      "source_name": "BBC Health",
+      "source_tier": 1,
       "summary": "Two cases of the virus, which rarely spreads between humans, have been confirmed on the ship, and three people have died."
     },
     {
@@ -153,6 +189,24 @@
       "source_name": "Science Magazine — News",
       "source_tier": 3,
       "summary": "Questions about the culprit virus and its route of spread remain as health officials make plans for stranded passengers"
+    },
+    {
+      "id": "b5c563e99089b1e9",
+      "title": "British crew member in need of urgent medical care amid suspected hantavirus outbreak on cruise ship",
+      "url": "https://www.theguardian.com/science/2026/may/04/cruise-ship-suspected-hantavirus-outbreak-blocked-docking-cape-verde",
+      "published_at": "2026-05-05",
+      "source_name": "The Guardian World",
+      "source_tier": 2,
+      "summary": "<p>WHO says seven confirmed or suspected cases of hantavirus on MV Hondius, including three passengers who died</p><ul><li><p><a href=\"https://www.theguardian.com/science/2026/may/04/what-is-hantavirus-the-infection-that-has-killed-three-people-on-a-cruise-ship\">What is hantavirus, the infection thought to have killed three on cruise ship?</a></p></li></ul><p>A British crew member was in need of u"
+    },
+    {
+      "id": "a2068be5c3087c18",
+      "title": "Australia eyes security pact with Fiji as pushback from Beijing undermines agreement with Vanuatu",
+      "url": "https://www.theguardian.com/world/2026/may/05/australia-eyes-security-pact-with-fiji-as-pushback-from-beijing-undermines-agreement-with-vanuatu",
+      "published_at": "2026-05-05",
+      "source_name": "The Guardian World",
+      "source_tier": 2,
+      "summary": "<p>Foreign minister Penny Wong visits Fiji this week to progress the security and economic agreement</p><ul><li><p><a href=\"https://www.theguardian.com/australia-news/live/2026/may/05/hantavirus-cruise-budget-jim-chalmers-rba-interest-rates-cost-of-living-mortgage-royal-commission-antisemitism-victoria-state-budget-ntwnfb\">Follow our Australia news live blog for latest updates</a></p></li><li><p>G"
     }
   ]
 }
