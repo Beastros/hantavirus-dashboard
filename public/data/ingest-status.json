@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-07T23:27:08+00:00",
+  "last_run": "2026-05-08T01:17:32+00:00",
   "sources_ok": 5,
   "sources_failed": 0,
   "source_detail": {
@@ -9,7 +9,7 @@
     "stat-news": "ok",
     "science-news": "ok"
   },
-  "news_count": 16,
+  "news_count": 17,
   "case_count": 8,
   "processed_for_cases": [
     "1e8dd66a87808a24",
@@ -17,6 +17,7 @@
     "2f02057c81d88f8d",
     "4080f98d0fa83627",
     "4c1f63a02d157a9c",
+    "4e359e3ce404a0e7",
     "71dc37cd2dc183e5",
     "763373a273b6de1b",
     "857781ea92952db0",
