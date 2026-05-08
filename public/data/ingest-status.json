@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-08T12:20:21+00:00",
+  "last_run": "2026-05-08T14:23:10+00:00",
   "sources_ok": 7,
   "sources_failed": 3,
   "source_detail": {
@@ -14,7 +14,7 @@
     "ap-health": "failed",
     "science-news": "ok"
   },
-  "news_count": 25,
+  "news_count": 26,
   "case_count": 8,
   "processed_for_cases": [
     "1e8dd66a87808a24",
@@ -33,6 +33,7 @@
     "96a242b48869c880",
     "976ea5e8e339ef5e",
     "a2068be5c3087c18",
+    "a77d58dfc08b200c",
     "b18b6d145b948fa7",
     "b5c563e99089b1e9",
     "ce74a769d98fb762",

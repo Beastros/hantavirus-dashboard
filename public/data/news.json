@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-05-08T12:20:19+00:00",
+  "fetched_at": "2026-05-08T14:23:09+00:00",
   "items": [
+    {
+      "id": "a77d58dfc08b200c",
+      "title": "Worldwide race to trace passengers from hantavirus-hit cruise ship",
+      "url": "https://www.bbc.com/news/articles/clyp1505p84o",
+      "published_at": "2026-05-08",
+      "source_name": "BBC Health",
+      "source_tier": 1,
+      "summary": "About 12 countries have so far been linked to the hantavirus outbreak on the MV Hondius, as the UN health agency confirms at least five cases."
+    },
     {
       "id": "860061ae13042d2c",
       "title": "The aging scientific workforce collides with rising fabricating citations in medical journals",
