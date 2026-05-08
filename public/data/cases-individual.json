@@ -1,16 +1,16 @@
 {
-  "updated": "2026-05-08T21:16:15+00:00",
+  "updated": "2026-05-08T21:47:10+00:00",
   "cases": [
     {
       "id": "case-1",
       "case_ref": "case-1",
       "nationality": "Dutch",
-      "age": null,
+      "age": 70,
       "sex": "male",
       "location": "MV Hondius",
       "onset_date": "2026-04-06",
       "outcome": "died",
-      "notes": "Index case. Died on board April 11.",
+      "notes": "Index case. Dutch man 70. Died on board April 11. WHO confirmed hantavirus.",
       "source": "manual",
       "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599"
     },
@@ -23,7 +23,7 @@
       "location": "Johannesburg, South Africa",
       "onset_date": "2026-04-24",
       "outcome": "died",
-      "notes": "Deboarded at Saint Helena, died in Johannesburg April 26.",
+      "notes": "Wife of case 1. Deboarded Saint Helena April 24, died Johannesburg April 26. PCR confirmed.",
       "source": "manual",
       "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599"
     },
@@ -36,7 +36,7 @@
       "location": "Johannesburg, South Africa",
       "onset_date": "2026-04-24",
       "outcome": "hospitalized",
-      "notes": "Evacuated from Ascension Island April 27. In ICU, improving.",
+      "notes": "Evacuated Ascension Island April 27. PCR confirmed. In ICU improving.",
       "source": "manual",
       "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599"
     },
@@ -49,22 +49,22 @@
       "location": "MV Hondius",
       "onset_date": "2026-04-28",
       "outcome": "died",
-      "notes": "Died on board May 2.",
+      "notes": "Died on board May 2. Onset April 28. Under investigation for hantavirus confirmation.",
       "source": "manual",
       "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599"
     },
     {
       "id": "case-5",
       "case_ref": "case-5",
-      "nationality": "Unknown",
-      "age": null,
-      "sex": null,
+      "nationality": "Dutch",
+      "age": 41,
+      "sex": "male",
       "location": "Netherlands",
       "onset_date": null,
       "outcome": "confirmed",
-      "notes": "Airlifted from Cape Verde May 5.",
+      "notes": "41-year-old Dutch crew member. Airlifted Cape Verde to Netherlands May 5. WHO confirmed.",
       "source": "manual",
-      "source_url": "https://en.wikipedia.org/wiki/MV_Hondius_hantavirus_outbreak"
+      "source_url": "https://time.com/article/2026/05/07/countries-hantavirus-hondius-cruise-ship/"
     },
     {
       "id": "case-6",
@@ -75,9 +75,9 @@
       "location": "Netherlands",
       "onset_date": null,
       "outcome": "confirmed",
-      "notes": "Airlifted from Cape Verde May 5. Ship doctor among evacuees.",
+      "notes": "Airlifted Cape Verde to Netherlands May 5. WHO confirmed case.",
       "source": "manual",
-      "source_url": "https://en.wikipedia.org/wiki/MV_Hondius_hantavirus_outbreak"
+      "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599"
     },
     {
       "id": "case-7",
@@ -88,7 +88,7 @@
       "location": "Zurich, Switzerland",
       "onset_date": null,
       "outcome": "confirmed",
-      "notes": "Confirmed Andes strain at University Hospital Zurich.",
+      "notes": "Confirmed Andes strain at University Hospital Zurich. Passenger on MV Hondius.",
       "source": "manual",
       "source_url": "https://en.wikipedia.org/wiki/MV_Hondius_hantavirus_outbreak"
     },
@@ -101,9 +101,48 @@
       "location": "France",
       "onset_date": null,
       "outcome": "suspected",
-      "notes": "Contact case. Shared Airlink flight with case 2.",
+      "notes": "RUMOR PING: Contact case. Shared Airlink flight Saint Helena to Johannesburg with case 2. Monitoring only.",
       "source": "manual",
       "source_url": "https://www.aljazeera.com/news/2026/5/6/canary-islands-refuses-to-allow-mv-hondius-with-hantavirus-to-dock"
+    },
+    {
+      "id": "case-9",
+      "case_ref": "case-9",
+      "nationality": "Unknown",
+      "age": 41,
+      "sex": "female",
+      "location": "Amsterdam, Netherlands",
+      "onset_date": "2026-05-07",
+      "outcome": "suspected",
+      "notes": "RUMOR PING: KLM flight attendant on Apr 26 JNB-AMS flight. Admitted Amsterdam UMC May 7. Tests pending.",
+      "source": "manual",
+      "source_url": "https://en.wikipedia.org/wiki/MV_Hondius_hantavirus_outbreak"
+    },
+    {
+      "id": "case-10",
+      "case_ref": "case-10",
+      "nationality": "Singaporean",
+      "age": 67,
+      "sex": null,
+      "location": "Singapore",
+      "onset_date": null,
+      "outcome": "suspected",
+      "notes": "RUMOR PING: Disembarked early. On Apr 25 Johannesburg flight with confirmed case. Isolated, runny nose. Tests pending.",
+      "source": "manual",
+      "source_url": "https://time.com/article/2026/05/07/countries-hantavirus-hondius-cruise-ship/"
+    },
+    {
+      "id": "case-11",
+      "case_ref": "case-11",
+      "nationality": "Singaporean",
+      "age": 65,
+      "sex": null,
+      "location": "Singapore",
+      "onset_date": null,
+      "outcome": "suspected",
+      "notes": "RUMOR PING: Disembarked early. On Apr 25 Johannesburg flight with confirmed case. Isolated, asymptomatic. Tests pending.",
+      "source": "manual",
+      "source_url": "https://time.com/article/2026/05/07/countries-hantavirus-hondius-cruise-ship/"
     }
   ]
 }
