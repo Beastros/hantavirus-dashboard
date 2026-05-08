@@ -87,7 +87,7 @@ export default function App() {
         )}
         <div className="intel-divider" />
         <div className="intel-summary">
-          Andes-strain hantavirus. Ship departed Ushuaia April 1 - now heading to Canary Islands.
+          Andes-strain hantavirus. Ship departed Ushuaia April 1 - now docking at Tenerife, Spain May 9.
           WHO global risk: <strong>low</strong>. Human-to-human transmission possible via close contact.
         </div>
       </div>
@@ -117,4 +117,5 @@ export default function App() {
     </div>
   )
 }
+
 
