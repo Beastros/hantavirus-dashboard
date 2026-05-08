@@ -50,9 +50,9 @@ export default function App() {
   if (err) return <div className="shell"><p className="error-banner">{err}</p></div>
   if (!cases || !news) return <div className="shell"><p className="loading">Loading...</p></div>
 
-  const totalConfirmed = cases.regions.reduce((s, r) => s + (r.confirmed ?? 0), 0)
-  const totalSuspected = cases.regions.reduce((s, r) => s + (r.suspected ?? 0), 0)
-  const totalDeaths    = cases.regions.reduce((s, r) => s + ((r as any).deaths ?? 0), 0)
+  const totalConfirmed = individualCases.filter((c: any) => c.outcome === "confirmed" || c.outcome === "died").length
+  const totalSuspected = individualCases.filter((c: any) => c.outcome === "suspected" || c.outcome === "hospitalized").length
+  const totalDeaths = individualCases.filter((c: any) => c.outcome === "died").length
 
   return (
     <div className="shell">
@@ -117,6 +117,7 @@ export default function App() {
     </div>
   )
 }
+
 
 
 
