@@ -6,9 +6,15 @@ type Props = {
   onSelect: (id: string | null) => void
 }
 
+const LEVEL_LABELS: Record<string, string> = {
+  informational: 'Unconfirmed',
+  elevated: 'Corroborated',
+  high: 'Confirmed',
+}
+
 function Chip({ level }: { level: RegionCase['outbreak_level'] }) {
-  const lv = level ?? 'unverified'
-  return <span className={`chip chip-${lv}`}>{lv}</span>
+  const lv = level ?? 'informational'
+  return <span className={`chip chip-${lv}`}>{LEVEL_LABELS[lv] ?? lv}</span>
 }
 
 export function RegionList({ regions, selectedId, onSelect }: Props) {
@@ -33,10 +39,10 @@ export function RegionList({ regions, selectedId, onSelect }: Props) {
               <div className="region-counts">
                 <span className="count-confirmed">{r.confirmed ?? 0} confirmed</span>
                 {(r.probable ?? 0) > 0 && (
-                  <span className="count-probable"> &middot; {r.probable} probable</span>
+                  <span className="count-probable"> Â· {r.probable} probable</span>
                 )}
                 {(r.suspected ?? 0) > 0 && (
-                  <span className="count-suspected"> &middot; {r.suspected} suspected</span>
+                  <span className="count-suspected"> Â· {r.suspected} suspected</span>
                 )}
               </div>
               {r.last_reported && (
@@ -49,5 +55,3 @@ export function RegionList({ regions, selectedId, onSelect }: Props) {
     </section>
   )
 }
-
-

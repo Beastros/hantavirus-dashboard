@@ -254,3 +254,31 @@ code { font-size: .88em; background: #1a2235; padding: .12em .4em; border-radius
 .pivot-section { flex: 1; min-width: 140px; }
 .pivot-svg { max-height: 150px !important; }
 
+
+/* â”€â”€ Rt panel â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.rt-panel {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  background: rgba(8,11,16,0.92);
+  border: 1px solid var(--border2);
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 11px;
+  color: var(--dim);
+  backdrop-filter: blur(4px);
+  min-width: 140px;
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+.rt-panel:hover { border-color: var(--accent); }
+.rt-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2px; }
+.rt-title { font-size: 9px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); font-weight: 700; }
+.rt-status { font-size: 9px; text-transform: uppercase; letter-spacing: .06em; font-weight: 700; }
+.rt-value { font-size: 28px; font-weight: 700; line-height: 1.1; }
+.rt-range { font-size: 9px; color: var(--muted); margin-bottom: 6px; }
+.rt-divider { height: 1px; background: var(--border); margin: 5px 0; }
+.rt-row { display: flex; justify-content: space-between; font-size: 10px; margin-bottom: 2px; color: var(--dim); }
+.rt-row span:last-child { color: var(--text); font-weight: 500; }
+.rt-note { font-size: 8px; color: var(--muted); margin-top: 5px; line-height: 1.3; }
