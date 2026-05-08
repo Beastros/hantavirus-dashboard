@@ -23,14 +23,11 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           AIS_API_KEY: ${{ secrets.AIS_API_KEY }}
         run: python run.py
-      - name: Commit data if changed
+      - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data/news.json public/data/cases-individual.json public/data/ingest-status.json public/data/ship-position.json public/data/trends.json
-          if git diff --staged --quiet; then
-            echo "No data changes."
-          else
-            git commit -m "chore: ingest refresh"
-            git push
-          fi
+          date -u +%Y-%m-%dT%H:%M:%SZ > public/data/last-build.txt
+          git add public/data/
+          git commit -m "chore: ingest refresh" || echo "nothing to commit"
+          git push
