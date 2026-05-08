@@ -1,6 +1,24 @@
 {
-  "fetched_at": "2026-05-08T11:13:09+00:00",
+  "fetched_at": "2026-05-08T12:20:19+00:00",
   "items": [
+    {
+      "id": "860061ae13042d2c",
+      "title": "The aging scientific workforce collides with rising fabricating citations in medical journals",
+      "url": "https://www.statnews.com/2026/05/08/health-news-aging-scientific-workforce-and-fake-ai-citations/",
+      "published_at": "2026-05-08",
+      "source_name": "STAT News",
+      "source_tier": 1,
+      "summary": "The latest in the hantavirus cruise ship saga, why these former officials left the FDA, and more health news from Morning Rounds"
+    },
+    {
+      "id": "fd192c6bfb15773f",
+      "title": "Spanish authorities prepare for arrival of hantavirus-stricken cruise ship",
+      "url": "https://www.theguardian.com/world/2026/may/08/spanish-authorities-prepare-arrival-hantavirus-cruise-ship-hondius",
+      "published_at": "2026-05-08",
+      "source_name": "The Guardian World",
+      "source_tier": 2,
+      "summary": "<p>‘Unprecedented operation’ under way to receive MV Hondius off Tenerife to assess and repatriate those onboard</p><p>The Spanish authorities are finalising preparations for the arrival of the MV Hondius this weekend, saying an “unprecedented operation” is under way to receive, assess and repatriate the 149 passengers and crew members onboard <a href=\"https://www.theguardian.com/world/2026/may/07"
+    },
     {
       "id": "4e359e3ce404a0e7",
       "title": "What to do with the passengers on the cruise ship hit by hantavirus?",
