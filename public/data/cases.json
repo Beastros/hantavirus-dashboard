@@ -1,6 +1,6 @@
 ﻿{
-  "updated": "2026-05-06T12:00:00Z",
-  "disclaimer": "Personal signal tracker. Counts from WHO DON and news reports — verify at primary sources before citing.",
+  "updated": "2026-05-07T23:00:00Z",
+  "disclaimer": "Personal signal tracker. Counts from WHO DON and news reports - verify at primary sources before citing.",
   "regions": [
     {
       "id": "ar-ushuaia",
@@ -12,9 +12,8 @@
       "confirmed": 0,
       "deaths": 0,
       "outbreak_level": "elevated",
-      "last_reported": "2026-04-01",
-      "notes": "Ship departure point. Dutch couple likely exposed here or nearby before boarding April 1.",
-      "sources": ["https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599"]
+      "last_reported": "2026-05-07",
+      "notes": "Ship departure April 1. Dutch couple likely exposed here or nearby during birdwatching trip. Rodent trapping/testing underway."
     },
     {
       "id": "sh-saint-helena",
@@ -27,8 +26,7 @@
       "deaths": 1,
       "outbreak_level": "high",
       "last_reported": "2026-04-24",
-      "notes": "Case 1 (Dutch man) died on board April 11, body removed here. Case 2 (wife) deboarded April 24, flew to Johannesburg.",
-      "sources": ["https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599"]
+      "notes": "Case 1 (Dutch man, 70) died April 11. Body removed here. ~40 passengers disembarked April 24 - all being contact traced."
     },
     {
       "id": "sh-ascension",
@@ -41,8 +39,7 @@
       "deaths": 0,
       "outbreak_level": "high",
       "last_reported": "2026-04-27",
-      "notes": "Case 3 (British national) evacuated April 27, flown to Johannesburg ICU.",
-      "sources": ["https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599"]
+      "notes": "British passenger evacuated April 27, flown to Johannesburg ICU."
     },
     {
       "id": "cv-cape-verde",
@@ -55,8 +52,7 @@
       "deaths": 1,
       "outbreak_level": "high",
       "last_reported": "2026-05-06",
-      "notes": "Ship anchored off Praia. German woman died May 2. 3 suspected cases with mild symptoms remain on board.",
-      "sources": ["https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599"]
+      "notes": "Ship anchored off Praia May 3-7. German woman died May 2. Now heading to Spain, arriving May 9."
     },
     {
       "id": "za-johannesburg",
@@ -68,23 +64,21 @@
       "confirmed": 2,
       "deaths": 1,
       "outbreak_level": "high",
-      "last_reported": "2026-05-06",
-      "notes": "Case 2 (Dutch woman) died April 26 — PCR confirmed. Case 3 (British national) in ICU, improving. NICD lab confirmation site.",
-      "sources": ["https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599"]
+      "last_reported": "2026-05-07",
+      "notes": "Dutch woman died April 26 (PCR confirmed). British national in ICU improving. Contact tracing underway for April 25 flight passengers."
     },
     {
       "id": "nl-netherlands",
       "name": "Netherlands",
       "lat": 52.3676,
       "lng": 4.9041,
-      "suspected": 0,
+      "suspected": 1,
       "probable": 0,
       "confirmed": 1,
       "deaths": 0,
       "outbreak_level": "elevated",
-      "last_reported": "2026-05-05",
-      "notes": "3 patients including ship doctor airlifted from Cape Verde May 5. Ship owned by Dutch company Oceanwide Expeditions.",
-      "sources": ["https://en.wikipedia.org/wiki/MV_Hondius_hantavirus_outbreak"]
+      "last_reported": "2026-05-07",
+      "notes": "3 patients airlifted May 5 including ship doctor. Flight attendant on Apr 26 JNB-AMS KLM flight admitted to Amsterdam UMC May 7 with suspected infection."
     },
     {
       "id": "ch-zurich",
@@ -97,8 +91,7 @@
       "deaths": 0,
       "outbreak_level": "elevated",
       "last_reported": "2026-05-06",
-      "notes": "Male passenger confirmed Andes strain, treated at University Hospital Zurich.",
-      "sources": ["https://en.wikipedia.org/wiki/MV_Hondius_hantavirus_outbreak"]
+      "notes": "Male passenger confirmed Andes strain at University Hospital Zurich."
     },
     {
       "id": "fr-france",
@@ -111,22 +104,46 @@
       "deaths": 0,
       "outbreak_level": "elevated",
       "last_reported": "2026-05-06",
-      "notes": "French national monitored as contact case — shared Airlink flight with Case 2 from Saint Helena to Johannesburg.",
-      "sources": ["https://www.aljazeera.com/news/2026/5/6/canary-islands-refuses-to-allow-mv-hondius-with-hantavirus-to-dock"]
+      "notes": "French national monitored as contact - shared Airlink flight with Case 2."
     },
     {
-      "id": "es-canary-islands",
-      "name": "Canary Islands, Spain",
-      "lat": 28.2916,
-      "lng": -15.6291,
+      "id": "sg-singapore",
+      "name": "Singapore",
+      "lat": 1.3521,
+      "lng": 103.8198,
+      "suspected": 2,
+      "probable": 0,
+      "confirmed": 0,
+      "deaths": 0,
+      "outbreak_level": "elevated",
+      "last_reported": "2026-05-07",
+      "notes": "2 residents (aged 67 and 65) isolated in government facility. Both on April 25 Johannesburg flight with confirmed case. One has runny nose, tests pending."
+    },
+    {
+      "id": "us-monitoring",
+      "name": "United States",
+      "lat": 37.0902,
+      "lng": -95.7129,
       "suspected": 0,
       "probable": 0,
       "confirmed": 0,
       "deaths": 0,
       "outbreak_level": "informational",
-      "last_reported": "2026-05-06",
-      "notes": "Ship heading here for passenger disembarkation from May 11. Regional govt opposed but Spain approved.",
-      "sources": ["https://www.aljazeera.com/news/2026/5/6/canary-islands-refuses-to-allow-mv-hondius-with-hantavirus-to-dock"]
+      "last_reported": "2026-05-07",
+      "notes": "Passengers under monitoring in Arizona, Georgia, and California. 17 Americans still aboard ship. Georgia confirmed 2 residents monitoring, all currently healthy."
+    },
+    {
+      "id": "es-tenerife",
+      "name": "Tenerife, Spain",
+      "lat": 28.2916,
+      "lng": -16.6291,
+      "suspected": 0,
+      "probable": 0,
+      "confirmed": 0,
+      "deaths": 0,
+      "outbreak_level": "informational",
+      "last_reported": "2026-05-07",
+      "notes": "Ship arriving Granadilla port May 9. Spain reversed ban after WHO pressure. 146 passengers from 23 nationalities to disembark."
     }
   ]
 }
