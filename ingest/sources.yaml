@@ -7,26 +7,46 @@
   - hps
   - "MV Hondius"
   - "cruise ship outbreak"
+  - "Oceanwide Expeditions"
 
 sources:
-  - id: cdc-media
-    name: CDC Media Library
-    tier: 1
-    rss_url: https://tools.cdc.gov/api/v2/resources/media/rss.xml
-  - id: cdc-eid
-    name: CDC Emerging Infectious Diseases
-    tier: 1
-    rss_url: https://wwwnc.cdc.gov/eid/rss/ahead-of-print.xml
   - id: bbc-health
-    name: BBC News - Health
-    tier: 2
+    name: BBC Health
+    tier: 1
     rss_url: https://feeds.bbci.co.uk/news/health/rss.xml
   - id: stat-news
     name: STAT News
-    tier: 2
+    tier: 1
     rss_url: https://www.statnews.com/feed/
+  - id: cidrap
+    name: CIDRAP
+    tier: 1
+    rss_url: https://www.cidrap.umn.edu/rss.xml
+  - id: cdc-media
+    name: CDC Media
+    tier: 1
+    rss_url: https://tools.cdc.gov/api/v2/resources/media/rss.xml
+  - id: nejm
+    name: NEJM
+    tier: 1
+    rss_url: https://www.nejm.org/action/showFeed?jc=nejm&type=etoc&feed=rss
+  - id: lancet
+    name: The Lancet
+    tier: 1
+    rss_url: https://www.thelancet.com/rssfeed/lancet_online.xml
+  - id: guardian-world
+    name: The Guardian World
+    tier: 2
+    rss_url: https://www.theguardian.com/world/rss
+  - id: reuters-world
+    name: Reuters World
+    tier: 2
+    rss_url: https://feeds.reuters.com/reuters/worldNews
+  - id: ap-health
+    name: AP Health
+    tier: 2
+    rss_url: https://feeds.apnews.com/apnews/health
   - id: science-news
     name: Science Magazine
     tier: 3
     rss_url: https://www.science.org/rss/news_current.xml
-
