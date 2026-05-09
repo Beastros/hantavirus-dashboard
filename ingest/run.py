@@ -22,8 +22,10 @@ Writes to public/data/:
 from __future__ import annotations
 
 import hashlib
+import html as html_stdlib
 import json
 import os
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse, urlunparse
@@ -47,6 +49,18 @@ CASE_SIGNALS = {
     "years old", "woman", "man", "male", "female", "nationality",
     "case", "infected", "positive", "hantavirus",
 }
+
+
+def strip_html_text(raw: str, max_chars: int | None = None) -> str:
+    """RSS summaries often ship HTML (Guardian, NYT). Strip tags + entities for plain text."""
+    if not raw:
+        return ""
+    t = re.sub(r"<[^>]+>", " ", raw)
+    t = html_stdlib.unescape(t)
+    t = re.sub(r"\s+", " ", t).strip()
+    if max_chars is not None and len(t) > max_chars:
+        t = t[:max_chars].rsplit(" ", 1)[0] + "…"
+    return t
 
 # Primary sources to scrape directly every run
 PRIMARY_SOURCES = [
@@ -367,12 +381,13 @@ def ingest_rss(client, sources, keywords):
         status[src["id"]] = "ok"
         parsed = feedparser.parse(raw)
         for entry in parsed.entries:
-            title = (entry.get("title") or "").strip()
-            summary = entry.get("summary") or entry.get("description") or ""
+            title = strip_html_text((entry.get("title") or "").strip())
+            summary_raw = entry.get("summary") or entry.get("description") or ""
+            summary = strip_html_text(summary_raw, max_chars=420) if summary_raw else ""
             link = entry.get("link") or ""
             if not title or not link:
                 continue
-            if keywords and not text_matches(f"{title}\n{summary}", keywords):
+            if keywords and not text_matches(f"{title}\n{summary_raw}", keywords):
                 continue
             norm = normalize_url(link)
             published = None
@@ -391,7 +406,7 @@ def ingest_rss(client, sources, keywords):
                 "published_at": published,
                 "source_name": src.get("name") or src["id"],
                 "source_tier": int(src.get("tier") or 2),
-                "summary": summary[:400] if summary else None,
+                "summary": summary or None,
             })
     return items, status
 
@@ -412,7 +427,7 @@ def merge_news(existing, incoming, max_items=200):
             by_url[u] = row
     merged = sorted(
         by_url.values(),
-        key=lambda x: (x.get("published_at") or "", x.get("title") or ""),
+        key=lambda x: (x.get("published_at") or "1970-01-01", x.get("title") or ""),
         reverse=True,
     )
     return merged[:max_items]

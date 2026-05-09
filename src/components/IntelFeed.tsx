@@ -15,11 +15,19 @@ const SOURCE_MAP: Record<string, { label: string; cls: string }> = {
   'stat': { label: 'STAT', cls: 'badge-stat' },
   'guardian': { label: 'GUARDIAN', cls: 'badge-guardian' },
   'cidrap': { label: 'CIDRAP', cls: 'badge-stat' },
+  'nyt': { label: 'NYT', cls: 'badge-default' },
+  'nejm': { label: 'NEJM', cls: 'badge-default' },
+  'lancet': { label: 'LANCET', cls: 'badge-default' },
+  'science': { label: 'SCIENCE', cls: 'badge-default' },
 }
 
 function getBadge(sourceName: string) {
   const key = Object.keys(SOURCE_MAP).find(k => sourceName.toLowerCase().includes(k))
   return key ? SOURCE_MAP[key] : { label: sourceName.split(' ')[0].toUpperCase(), cls: 'badge-default' }
+}
+
+function stripHtml(s: string): string {
+  return s.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim()
 }
 
 function timeAgo(dateStr?: string | null): string {
@@ -43,15 +51,18 @@ export function IntelFeed({ items, fetchedAt }: { items: NewsItem[]; fetchedAt: 
       <div style={{overflowY:'auto', flex:1, scrollbarWidth:'thin', scrollbarColor:'var(--border2) transparent'}}>
         {items.map(item => {
           const badge = getBadge(item.source_name)
+          const preview = item.summary ? stripHtml(item.summary) : ''
           return (
             <div key={item.id} className="intel-item">
               <div className="intel-item-meta">
                 <span className={`source-badge ${badge.cls}`}>{badge.label}</span>
                 <span className="intel-time">{timeAgo(item.published_at)}</span>
               </div>
-              <div className="intel-title">{item.title}</div>
-              {item.summary && (
-                <div className="intel-summary">{item.summary.slice(0, 120)}{item.summary.length > 120 ? '...' : ''}</div>
+              <div className="intel-title">{stripHtml(item.title)}</div>
+              {preview && (
+                <div className="intel-summary">
+                  {preview.slice(0, 120)}{preview.length > 120 ? '...' : ''}
+                </div>
               )}
               <a className="intel-read" href={item.url} target="_blank" rel="noopener noreferrer">
                 READ FULL ARTICLE &gt;
