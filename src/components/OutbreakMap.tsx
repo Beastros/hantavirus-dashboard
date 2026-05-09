@@ -8,6 +8,15 @@ import type { ShipTrackPoint } from '../loadData'
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN
 const STYLE  = 'mapbox://styles/mapbox/dark-v11'
 
+/** Globe + fog rely on paths that are still flaky on iOS/iPadOS WebKit; use default Mercator there. */
+function useGlobeProjectionPreferred(): boolean {
+  if (typeof navigator === 'undefined') return true
+  const ua = navigator.userAgent || ''
+  if (/iPhone|iPad|iPod/i.test(ua)) return false
+  if (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1) return false
+  return true
+}
+
 interface ICase {
   id: string
   lat?: number | null; lng?: number | null
@@ -637,15 +646,17 @@ export function OutbreakMap({
         onLoad={(e) => {
           const m = e.target
           setMapInst(m)
-          m.setProjection('globe')
-          m.setFog({
-            range: [-0.5, 10],
-            color: '#060809',
-            'high-color': '#080b10',
-            'horizon-blend': 0.004,
-            'space-color': '#050607',
-            'star-intensity': 0.38,
-          })
+          if (useGlobeProjectionPreferred()) {
+            m.setProjection('globe')
+            m.setFog({
+              range: [-0.5, 10],
+              color: '#060809',
+              'high-color': '#080b10',
+              'horizon-blend': 0.004,
+              'space-color': '#050607',
+              'star-intensity': 0.38,
+            })
+          }
         }}
         onClick={onClick}
         style={{ width:'100%', height:'100%' }}
