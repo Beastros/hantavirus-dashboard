@@ -196,24 +196,55 @@ code { font-family: 'Share Tech Mono', monospace; font-size: .85em; background: 
 .intel-read { font-family: 'Share Tech Mono', monospace; font-size: 9px; color: var(--accent); letter-spacing: .06em; }
 .intel-read:hover { text-decoration: underline; }
 
-/* â”€â”€ Map popup â”€â”€ */
+/* â”€â”€ Map popup â”€â”€ (Mapbox GL uses mapboxgl-*; maplibre retained if swapped) */
+.mapboxgl-popup-content,
 .maplibregl-popup-content {
-  background: #0D1117 !important; border: 1px solid var(--border2) !important;
-  border-radius: 4px !important; padding: 10px 13px !important;
-  color: var(--text) !important; font-family: 'Rajdhani', sans-serif !important;
-  font-size: 12px !important; min-width: 170px !important;
-  box-shadow: 0 4px 20px rgba(0,0,0,.8) !important;
+  background: #18202e !important;
+  border: 1px solid #33485e !important;
+  border-radius: 6px !important;
+  padding: 11px 14px !important;
+  color: #c5d0dc !important;
+  font-family: 'Rajdhani', sans-serif !important;
+  font-size: 12px !important;
+  min-width: 176px !important;
+  max-width: 280px !important;
+  box-shadow:
+    0 10px 32px rgba(0, 0, 0, 0.55),
+    inset 0 1px 0 rgba(126, 184, 255, 0.06) !important;
 }
-.maplibregl-popup-close-button { color: var(--muted) !important; font-size: 18px !important; padding: 2px 6px !important; }
-.maplibregl-popup-tip { border-top-color: #0D1117 !important; }
-.mp-name { font-family: 'Bebas Neue', sans-serif; font-size: 16px; letter-spacing: .06em; margin-bottom: 2px; }
-.mp-level { font-family: 'Share Tech Mono', monospace; font-size: 9px; letter-spacing: .1em; color: var(--muted); margin-bottom: 6px; text-transform: uppercase; }
-.mp-stats { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 4px; font-size: 11px; font-weight: 600; font-family: 'Share Tech Mono', monospace; }
+.mapboxgl-popup-close-button,
+.maplibregl-popup-close-button {
+  color: #7a8fa3 !important;
+  font-size: 17px !important;
+  padding: 3px 7px !important;
+  line-height: 1 !important;
+}
+.mapboxgl-popup-close-button:hover,
+.maplibregl-popup-close-button:hover {
+  color: #b8cfe6 !important;
+  background: rgba(126, 184, 255, 0.08) !important;
+}
+.mapboxgl-popup-tip,
+.maplibregl-popup-tip {
+  border-top-color: #18202e !important;
+}
+.mp-name { font-family: 'Bebas Neue', sans-serif; font-size: 16px; letter-spacing: .06em; margin-bottom: 2px; color: #dce6f0 !important; }
+.mp-level { font-family: 'Share Tech Mono', monospace; font-size: 9px; letter-spacing: .1em; color: #8fa6bd !important; margin-bottom: 6px; text-transform: uppercase; }
+.mp-stats { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 4px; font-size: 11px; font-weight: 600; font-family: 'Share Tech Mono', monospace; color: #b9cad9 !important; }
 .mp-confirmed { color: #FF4444; }
 .mp-deaths    { color: #CC0000; }
 .mp-suspected { color: #FFB800; }
-.mp-date  { font-size: 10px; color: var(--muted); margin-top: 4px; font-family: 'Share Tech Mono', monospace; }
-.mp-notes { font-size: 10px; color: var(--dim); margin-top: 4px; line-height: 1.4; }
+.mp-date  { font-size: 10px; color: #8fa6bd !important; margin-top: 4px; font-family: 'Share Tech Mono', monospace; }
+.mp-notes { font-size: 10px; color: #9eb4c8 !important; margin-top: 4px; line-height: 1.45; }
+.mp-origin-tag {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 9px;
+  letter-spacing: .14em;
+  color: #7eb8ff !important;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+.mp-origin-tag--index { color: #ffcf66 !important; }
 
 /* â”€â”€ Map legend â”€â”€ */
 .map-legend {

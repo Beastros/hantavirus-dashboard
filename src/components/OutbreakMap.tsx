@@ -32,6 +32,43 @@ const COLORS: Record<string, string> = {
 
 const EMPTY_GEO = { type: 'FeatureCollection' as const, features: [] as any[] }
 
+const CLUSTER_ORIGIN_META: Record<string, { headline: string; place: string; detail: string }> = {
+  'argentina-2026': {
+    headline: 'INDEX EXPOSURE ORIGIN',
+    place: 'Ushuaia corridor, Argentina',
+    detail:
+      'WHO ties the voyage timeline to MV Hondius departure after the Antarctic leg (Apr 1). This coordinate marks the cluster anchor used for traceback lines—the earliest documented pivot before onward travel and secondary clusters.',
+  },
+  'hondius-ship': {
+    headline: 'SHIP CLUSTER ANCHOR',
+    place: 'Cape Verde anchorage (Praia)',
+    detail:
+      'Anchorage window tied to multiple laboratory-confirmed infections and an onboard death; CDC/WHO treat this offshore stop as the dominant ship-phase exposure anchor for the Cape Verde cohort.',
+  },
+  'jnb-flight-apr25': {
+    headline: 'FLIGHT CONTACT ANCHOR',
+    place: 'Johannesburg (Airlink 25 Apr)',
+    detail:
+      'Contact-tracing centroid for passengers who shared the Saint Helena → Johannesburg leg with confirmed cases; used as the shared origin for rumor/surveillance pings—not a biological point source.',
+  },
+  'tristan-visit': {
+    headline: 'TRISTAN VISIT ANCHOR',
+    place: 'Tristan da Cunha',
+    detail:
+      'Isolated settlement spillover signal: suspected exposure linked to shore visits during the outbreak window. Coordinate mirrors the island centroid used for cluster traceback.',
+  },
+}
+
+function clusterOriginMeta(clusterId: string | null | undefined, exposureFallback: string) {
+  const id = clusterId ?? ''
+  if (id && CLUSTER_ORIGIN_META[id]) return CLUSTER_ORIGIN_META[id]
+  return {
+    headline: 'EXPOSURE ANCHOR',
+    place: id || 'Unknown cluster',
+    detail: exposureFallback || 'Shared exposure coordinates for traceback grouping.',
+  }
+}
+
 function caseGeo(cases: ICase[]) {
   return {
     type: 'FeatureCollection' as const,
@@ -67,11 +104,21 @@ function lineGeo(selected: ICase, all: ICase[], bold: boolean) {
 function originGeo(selected: ICase, all: ICase[]) {
   const c = all.find(x => x.cluster_id === selected.cluster_id && typeof x.origin_lat === 'number')
   if (!c) return EMPTY_GEO
+  const meta = clusterOriginMeta(c.cluster_id, c.exposure_event ?? '')
+  const kind = c.cluster_id === 'argentina-2026' ? 'index' : 'chain'
   return {
     type: 'FeatureCollection' as const,
     features: [{
       type: 'Feature' as const,
-      properties: { event: c.exposure_event ?? '' },
+      properties: {
+        popup_kind: 'origin',
+        kind,
+        cluster_id: c.cluster_id ?? '',
+        headline: meta.headline,
+        place: meta.place,
+        detail: meta.detail,
+        eventLine: c.exposure_event ?? '',
+      },
       geometry: { type: 'Point' as const, coordinates: [c.origin_lng as number, c.origin_lat as number] },
     }],
   }
@@ -87,11 +134,17 @@ function fixedOriginPins(cases: ICase[]) {
   }
   const features = [...byCluster.values()].map((c) => {
     const kind = c.cluster_id === 'argentina-2026' ? 'index' : 'chain'
+    const meta = clusterOriginMeta(c.cluster_id, c.exposure_event ?? '')
     return {
       type: 'Feature' as const,
       properties: {
+        popup_kind: 'origin',
         kind,
-        label: c.exposure_event ?? c.cluster_id ?? '',
+        cluster_id: c.cluster_id ?? '',
+        headline: meta.headline,
+        place: meta.place,
+        detail: meta.detail,
+        eventLine: c.exposure_event ?? '',
       },
       geometry: {
         type: 'Point' as const,
@@ -157,7 +210,52 @@ export function OutbreakMap({ regions, individualCases, onSelect }: Props) {
   const onClick = useCallback((e: MapLayerMouseEvent) => {
     const f = e.features?.[0]
     if (!f) { setSel(null); setPopup(null); onSelect(null); return }
-    const found = individualCases.find(c => c.id === f.properties?.id)
+
+    const layerId = (f as { layer?: { id?: string } }).layer?.id ?? ''
+    const props = f.properties as Record<string, string | undefined> | undefined
+
+    const originLayers = new Set([
+      'fixed-origin-dot', 'fixed-origin-ring', 'fixed-index-halo',
+      'origin-dot', 'origin-ring',
+    ])
+    const isOriginPin = props?.popup_kind === 'origin' || originLayers.has(layerId)
+
+    const coords =
+      f.geometry?.type === 'Point'
+        ? (f.geometry.coordinates as [number, number])
+        : null
+
+    if (isOriginPin && coords) {
+      setSel(null)
+      onSelect(null)
+      const headline = props?.headline ?? 'EXPOSURE ANCHOR'
+      const place = props?.place ?? 'Origin'
+      const detail = props?.detail ?? ''
+      const eventLine = props?.eventLine ?? props?.label ?? ''
+      const isIndex = props?.kind === 'index'
+      setPopup({
+        lng: coords[0],
+        lat: coords[1],
+        node: (
+          <div className="map-popup map-popup--origin">
+            <div className={`mp-origin-tag${isIndex ? ' mp-origin-tag--index' : ''}`}>{headline}</div>
+            <div className="mp-name">{place}</div>
+            {props?.cluster_id && (
+              <div className="mp-date">CLUSTER: {props.cluster_id}</div>
+            )}
+            <div className="mp-notes">{detail}</div>
+            {eventLine && (
+              <div className="mp-date" style={{ color: '#ffcf66', marginTop: 6 }}>
+                EVENT: {eventLine}
+              </div>
+            )}
+          </div>
+        ),
+      })
+      return
+    }
+
+    const found = individualCases.find(c => c.id === props?.id)
     if (!found || typeof found.lat !== 'number') return
     setSel(found)
     onSelect(found.id)
@@ -177,7 +275,7 @@ export function OutbreakMap({ regions, individualCases, onSelect }: Props) {
           </div>
           {found.onset_date && <div className="mp-date">ONSET: {found.onset_date}</div>}
           {found.exposure_event && (
-            <div className="mp-date" style={{color:'#FFB800',marginTop:4}}>
+            <div className="mp-date" style={{color:'#ffcf66',marginTop:4}}>
               EXPOSURE: {found.exposure_event}
             </div>
           )}
@@ -197,7 +295,11 @@ export function OutbreakMap({ regions, individualCases, onSelect }: Props) {
       <Map mapboxAccessToken={TOKEN}
         initialViewState={{ longitude: -20, latitude: 15, zoom: 1.6 }}
         mapStyle={STYLE}
-        interactiveLayerIds={['case-dots']}
+        interactiveLayerIds={[
+          'case-dots',
+          'fixed-origin-dot', 'fixed-origin-ring', 'fixed-index-halo',
+          'origin-dot', 'origin-ring',
+        ]}
         onLoad={(e) => {
           const m = e.target
           setMapInst(m)
@@ -283,7 +385,7 @@ export function OutbreakMap({ regions, individualCases, onSelect }: Props) {
           <span key={k}><span className="legend-dot" style={{background:v}} /> {k}</span>
         ))}
         <span className="legend-note">
-          Pulses = active cases. Amber ring = Ushuaia index voyage. Red = other exposure anchors. Click case for traceback.
+          Pulses = cases. Amber anchor = Ushuaia index origin; red = other exposure anchors (click for briefings). Click a case dot for traceback.
         </span>
       </div>
 
