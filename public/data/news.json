@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-09T18:58:56+00:00",
+  "fetched_at": "2026-05-09T19:59:33+00:00",
   "items": [
     {
       "id": "feadb4387d1befc6",
@@ -27,6 +27,15 @@
       "source_name": "NYT World",
       "source_tier": 2,
       "summary": "The cruise ship will arrive on the island of Tenerife, part of the Canary Islands of Spain, officials said. All of the passengers will then be evacuated to their home countries."
+    },
+    {
+      "id": "d769096dbe91e8a2",
+      "title": "Message by the WHO Director-General to the people of Tenerife regarding the hantavirus response",
+      "url": "https://www.who.int/news/item/09-05-2026-message-by-the-who-director-general-to-the-people-of-tenerife-regarding-the-hantavirus-response",
+      "published_at": "2026-05-09",
+      "source_name": "WHO News RSS",
+      "source_tier": 1,
+      "summary": "<p>To the people of Tenerife,</p><p>My name is Tedros, and I serve as the Director-General of the World Health Organization, the United Nations agency responsible for global public health. It is not common for me to write directly to the people of a single community, but today I feel it is not only appropriate, it is necessary.</p><p>I want to speak to you directly, not through press releases or t"
     },
     {
       "id": "07d2523e53a1746d",

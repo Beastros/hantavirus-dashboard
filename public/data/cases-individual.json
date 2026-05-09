@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-09T18:58:56+00:00",
+  "updated": "2026-05-09T19:59:33+00:00",
   "cases": [
     {
       "id": "case-1",
@@ -349,6 +349,19 @@
       "notes": "National tested in connection with outbreak",
       "source": "ai-extracted",
       "source_url": "https://www.nytimes.com/2026/05/07/world/europe/hantavirus-cruise-ship-outbreak.html"
+    },
+    {
+      "id": "ai-3",
+      "case_ref": null,
+      "age": null,
+      "sex": null,
+      "nationality": null,
+      "outcome": "died",
+      "location": "cruise ship",
+      "onset_date": null,
+      "notes": "3 deaths reported in outbreak",
+      "source": "ai-extracted",
+      "source_url": null
     }
   ]
 }
