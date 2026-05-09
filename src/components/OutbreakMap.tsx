@@ -304,7 +304,14 @@ export function OutbreakMap({ regions, individualCases, onSelect }: Props) {
           const m = e.target
           setMapInst(m)
           m.setProjection('globe')
-          m.setFog({ 'space-color': '#090C10', 'star-intensity': 0.7 })
+          m.setFog({
+            range: [-0.5, 10],
+            color: '#060809',
+            'high-color': '#080b10',
+            'horizon-blend': 0.004,
+            'space-color': '#050607',
+            'star-intensity': 0.38,
+          })
         }}
         onClick={onClick}
         style={{ width:'100%', height:'100%' }}
