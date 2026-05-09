@@ -5,15 +5,29 @@ Static React dashboard for **map + curated case ledger + RSS ingest**, built wit
 **Project overview & architecture:** [`PROJECT.md`](PROJECT.md)  
 **Conventions, Mapbox/iOS pitfalls, ingest notes (for collaborators / AI):** [`CODE_RULES.md`](CODE_RULES.md)
 
+---
+
+## Prerequisites
+
+- **Node.js** 18+ (CI uses 22)
+- **Mapbox access token** for the map ([account.mapbox.com](https://account.mapbox.com/access-tokens/))
+
+---
+
 ## Local development
 
+From the repository root (folder name may differ after clone):
+
 ```bash
-cd outbreak-dashboard
 npm install
+cp .env.example .env.local   # Windows: copy .env.example .env.local
+# Edit .env.local — set VITE_MAPBOX_TOKEN=pk.…
 npm run dev
 ```
 
 Open the URL Vite prints (usually `http://localhost:5173/`).
+
+Without `VITE_MAPBOX_TOKEN`, the rest of the UI still loads; the map area shows **MAP OFFLINE** with setup instructions.
 
 ## Production build
 
@@ -22,37 +36,68 @@ npm run build
 npm run preview   # optional smoke test of dist/
 ```
 
-`vite.config.ts` sets `base` from `GITHUB_REPOSITORY` so asset URLs work under `https://<user>.github.io/<repo>/`.
+`vite.config.ts` sets `base` to `/${repoName}/` when `GITHUB_REPOSITORY` is set in the environment (GitHub Actions). Locally, `base` is `/`.
+
+---
 
 ## GitHub Pages (one-time repo settings)
 
 1. **Settings → Pages → Build and deployment → Source:** choose **GitHub Actions** (not “Deploy from a branch”).
-2. Merge to `main`. The workflow **Outbreak dashboard — GitHub Pages** uploads `outbreak-dashboard/dist`.
-3. After the first successful run, open the site at `https://<user>.github.io/<repository>/`.
+2. **Settings → Secrets and variables → Actions:** add repository secret **`VITE_MAPBOX_TOKEN`** (same value as local `.env.local`). The **GitHub Pages** workflow (`/.github/workflows/pages.yml`) injects it at build time; the build log prints `Token present: true/false` (boolean only, not the secret).
+3. Push to `main`. Workflow **GitHub Pages** builds the repo root, uploads the **`dist/`** artifact, and deploys.
+4. Open `https://<user>.github.io/<repository>/` (note trailing slash behavior is normal).
 
-If the map tiles or JSON fail to load, check the browser console: wrong `base` almost always means the workflow did not receive `GITHUB_REPOSITORY` (it does by default in Actions).
+**Troubleshooting**
 
-## Data files
+- **Blank map on live site:** missing or wrong `VITE_MAPBOX_TOKEN` secret → rebuild after fixing.
+- **JSON or JS 404 under `/repo/...`:** `base` mismatch → confirm the Pages workflow passes `GITHUB_REPOSITORY` (it does by default via `${{ github.repository }}`).
+- **Map OK on desktop but blank on iPhone:** see [`CODE_RULES.md`](CODE_RULES.md) (grid height + globe fallback).
+
+---
+
+## Data files (`public/data/`)
 
 | File | Role |
 |------|------|
-| `public/data/cases.json` | Curated regions, counts, outbreak level, **primary source URLs**. Edit by hand or generate from your own pipeline. |
-| `public/data/news.json` | Output of the ingest job; keyword-filtered headlines. |
+| `cases.json` | Curated regions, counts, outbreak level, **primary source URLs**; includes `disclaimer`. |
+| `cases-individual.json` | Per-case rows for table, map dots, traceback lines (ingest merges with seeds). |
+| `news.json` | Ingest output: keyword-filtered headlines for ticker + intel feed. |
+| `ship-position.json` | Latest AIS-style snapshot when ingest has `AIS_API_KEY` (optional). |
+| `ship-track.json` | Time-ordered `{t, lat, lng, …}` breadcrumbs for the **nominal ship path** on the map (seeded + AIS appends). |
+| `ingest-status.json`, `trends.json`, `last-build.txt` | Run metadata / optional features / rebuild stamp. |
 
-## Ingest (RSS)
+More detail: [`PROJECT.md`](PROJECT.md).
 
-Feeds and keywords live in `ingest/sources.yaml`. Run locally:
+---
+
+## Ingest (Python)
+
+Feeds and keywords: `ingest/sources.yaml`.
 
 ```bash
-cd outbreak-dashboard/ingest
-python -m venv .venv && source .venv/bin/activate  # Windows: .venv\Scripts\activate
+cd ingest
+python -m venv .venv
+# Windows: .venv\Scripts\activate   | macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
 python run.py
 ```
 
-GitHub runs **ingest** on a schedule (see `.github/workflows/ingest.yml`; currently every **15 minutes**) and on demand. When `public/data/` changes, the workflow commits to `main`, which triggers a Pages rebuild.
+**Optional environment variables** (for full ingest behavior): `ANTHROPIC_API_KEY`, `AIS_API_KEY`. Without them, RSS and file writes still run where applicable.
 
-Replace or extend feeds cautiously: respect each site’s terms and robots policy.
+GitHub runs **Ingest RSS + AI extraction** (`.github/workflows/ingest.yml`) on a **15-minute** schedule and on demand; it may commit updates under `public/data/`, which triggers a new Pages build.
+
+Respect each feed site’s terms and robots policy when changing sources.
+
+---
+
+## Go-live checklist (stopping point)
+
+- [ ] `npm run build` succeeds locally.
+- [ ] `VITE_MAPBOX_TOKEN` in **Actions secrets**; Pages workflow green on `main`.
+- [ ] Live URL: ticker + sidebars + **map** (pan/zoom); spot-check **mobile** width.
+- [ ] `public/data/*.json` committed so first clone works without waiting for ingest.
+
+---
 
 ## Honest use
 

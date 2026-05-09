@@ -14,6 +14,11 @@ Conventions and **lessons learned** for anyone (human or AI) extending this repo
 
 ## Frontend (Vite + React)
 
+### Mapbox token
+
+- **`VITE_MAPBOX_TOKEN`** must be set for the map to initialize. If it is missing or blank, `OutbreakMap` renders a **MAP OFFLINE** panel instead of a broken Mapbox canvas (clearer for local dev and misconfigured CI).
+- Copy **`.env.example`** → **`.env.local`** for local tokens (gitignored).
+
 ### Asset URLs and `base`
 
 - `vite.config.ts` sets `base` to `/${repoName}/` when `GITHUB_REPOSITORY` is set (GitHub Actions build). Locally it is `/`.

@@ -5,8 +5,9 @@ import 'mapbox-gl/dist/mapbox-gl.css'
 import type { RegionCase } from '../types'
 import type { ShipTrackPoint } from '../loadData'
 
-const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN
+const TOKEN = (import.meta.env.VITE_MAPBOX_TOKEN ?? '').trim()
 const STYLE  = 'mapbox://styles/mapbox/dark-v11'
+const MAPBOX_CONFIGURED = TOKEN.length > 0
 
 /** Globe + fog rely on paths that are still flaky on iOS/iPadOS WebKit; use default Mercator there. */
 function useGlobeProjectionPreferred(): boolean {
@@ -632,6 +633,37 @@ export function OutbreakMap({
 
   const rtCol = parseFloat(rt.mid) > 1 ? '#FFB800' : '#00FF41'
   const rtLbl = parseFloat(rt.mid) > 1.5 ? 'GROWING' : parseFloat(rt.mid) > 1 ? 'SLOWING' : 'CONTROLLED'
+
+  if (!MAPBOX_CONFIGURED) {
+    return (
+      <div
+        style={{
+          position: 'relative',
+          width: '100%',
+          height: '100%',
+          minHeight: 200,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          padding: '1.5rem',
+          background: '#060809',
+          border: '1px solid #2A4A2E',
+          fontFamily: "'Share Tech Mono', monospace",
+          fontSize: 12,
+          color: '#8B949E',
+          textAlign: 'center',
+          lineHeight: 1.55,
+        }}
+      >
+        <div>
+          <div style={{ color: '#FFB800', letterSpacing: '.12em', marginBottom: 10 }}>MAP OFFLINE</div>
+          Set <code style={{ color: '#00FF41' }}>VITE_MAPBOX_TOKEN</code> in{' '}
+          <code style={{ color: '#00FF41' }}>.env.local</code> for local dev, or add the same secret to GitHub Actions
+          for Pages builds. See README.
+        </div>
+      </div>
+    )
+  }
 
   return (
     <div style={{position:'relative', width:'100%', height:'100%'}}>
