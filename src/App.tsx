@@ -14,7 +14,7 @@ import { loadCases, loadNews, loadIndividualCases } from './loadData'
 import type { CasesFile, NewsFile } from './types'
 
 export default function App() {
-  const mapRef = useRef<MapRef>(null)
+  const mapRef = useRef<MapRef | null>(null)
   const [cases, setCases] = useState<CasesFile | null>(null)
   const [news, setNews] = useState<NewsFile | null>(null)
   const [individualCases, setIndividualCases] = useState<any[]>([])
@@ -135,3 +135,4 @@ export default function App() {
     </div>
   )
 }
+
