@@ -23,6 +23,7 @@ jobs:
       - name: Install and build
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
+          VITE_MAPBOX_TOKEN: ${{ secrets.VITE_MAPBOX_TOKEN }}
         run: |
           npm ci
           npm run build
@@ -38,3 +39,4 @@ jobs:
     steps:
       - uses: actions/deploy-pages@v4
         id: deployment
+
