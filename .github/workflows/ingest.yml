@@ -3,8 +3,14 @@ on:
   schedule:
     - cron: '*/15 * * * *'
   workflow_dispatch:
+
+concurrency:
+  group: ingest-main
+  cancel-in-progress: false
+
 permissions:
   contents: write
+
 jobs:
   ingest:
     runs-on: ubuntu-latest
@@ -12,6 +18,8 @@ jobs:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -29,5 +37,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           date -u +%Y-%m-%dT%H:%M:%SZ > public/data/last-build.txt
           git add public/data/
-          git commit -m "chore: ingest refresh" || echo "nothing to commit"
-          git push
+          git commit -m "chore: ingest refresh" || echo "[info] nothing to commit"
+          git fetch origin main
+          git pull --rebase origin main
+          git push origin main

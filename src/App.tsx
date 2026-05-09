@@ -39,7 +39,7 @@ export default function App() {
         setCases(c); setNews(n)
       } catch {}
       loadIndividualCases().then((d: any) => setIndividualCases(d.cases || [])).catch(() => {})
-    }, 15 * 60 * 1000)
+    }, 5 * 60 * 1000)
 
     return () => { cancelled = true; clearInterval(refresh) }
   }, [])
@@ -121,7 +121,7 @@ export default function App() {
       {/* Analytics below â€” page scrolls here */}
       <div style={{padding:'1rem 1rem 0'}}>
         <div className="analytics-row">
-          <CaseTable />
+          <CaseTable cases={individualCases} />
           <PivotChart cases={individualCases} />
         </div>
       </div>

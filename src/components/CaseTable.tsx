@@ -1,7 +1,4 @@
-﻿import { useEffect, useState } from 'react'
-import { loadIndividualCases } from '../loadData'
-
-interface IndividualCase {
+﻿interface IndividualCase {
   id: string
   nationality?: string | null
   age?: number | null
@@ -25,15 +22,7 @@ function unk(v: unknown): string {
   return String(v)
 }
 
-export function CaseTable() {
-  const [cases, setCases] = useState<IndividualCase[]>([])
-
-  useEffect(() => {
-    loadIndividualCases()
-      .then((d: any) => setCases(d.cases || []))
-      .catch(() => {})
-  }, [])
-
+export function CaseTable({ cases }: { cases: IndividualCase[] }) {
   if (!cases.length) return null
 
   return (
@@ -58,7 +47,7 @@ export function CaseTable() {
             </tr>
           </thead>
           <tbody>
-            {cases.map((c, i) => (
+            {cases.map((c: IndividualCase, i: number) => (
               <tr key={c.id} title={c.notes || ''}>
                 <td className="case-num">{i + 1}</td>
                 <td>{unk(c.nationality)}</td>
