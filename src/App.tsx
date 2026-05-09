@@ -9,10 +9,34 @@ import { Ticker } from './components/Ticker'
 import { StatsPanel } from './components/StatsPanel'
 import { ShipPanel } from './components/ShipPanel'
 import { StrainReadout } from './components/StrainReadout'
-import { loadCases, loadNews, loadIndividualCases, loadShipPosition } from './loadData'
+import {
+  loadCases,
+  loadNews,
+  loadIndividualCases,
+  loadShipPosition,
+  loadShipTrack,
+} from './loadData'
+import type { ShipTrackPoint } from './loadData'
 import type { CasesFile, NewsFile } from './types'
 
 type ShipPosState = { lat: number; lng: number; name?: string; course?: number | null }
+
+function normalizeShipTrackPoints(raw: unknown): ShipTrackPoint[] {
+  if (!raw || !Array.isArray(raw)) return []
+  const out: ShipTrackPoint[] = []
+  for (const row of raw) {
+    if (!row || typeof row !== 'object') continue
+    const o = row as Record<string, unknown>
+    const lat = typeof o.lat === 'number' ? o.lat : Number(o.lat)
+    const lng = typeof o.lng === 'number' ? o.lng : Number(o.lng)
+    if (!Number.isFinite(lat) || !Number.isFinite(lng)) continue
+    const t = o.t != null ? String(o.t) : undefined
+    const source = o.source != null ? String(o.source) : undefined
+    const note = o.note != null ? String(o.note) : undefined
+    out.push({ lat, lng, t, source, note })
+  }
+  return out
+}
 
 function shipPosFromSnapshot(s: any): ShipPosState | null {
   const lat = typeof s.lat === 'number' ? s.lat : Number(s.lat)
@@ -36,6 +60,7 @@ export default function App() {
   const [news, setNews] = useState<NewsFile | null>(null)
   const [individualCases, setIndividualCases] = useState<any[]>([])
   const [shipPos, setShipPos] = useState<ShipPosState | null>(null)
+  const [shipTrackPoints, setShipTrackPoints] = useState<ShipTrackPoint[]>([])
   const [err, setErr] = useState<string | null>(null)
   const [selectedId, setSelectedId] = useState<string | null>(null)
 
@@ -59,6 +84,12 @@ export default function App() {
         if (pos) setShipPos(pos)
       })
       .catch(() => {})
+    loadShipTrack()
+      .then((tr: any) => {
+        if (cancelled || !tr) return
+        setShipTrackPoints(normalizeShipTrackPoints(tr.points))
+      })
+      .catch(() => {})
 
     const refresh = setInterval(async () => {
       try {
@@ -71,6 +102,12 @@ export default function App() {
           if (!s) return
           const pos = shipPosFromSnapshot(s)
           if (pos) setShipPos(pos)
+        })
+        .catch(() => {})
+      loadShipTrack()
+        .then((tr: any) => {
+          if (!tr) return
+          setShipTrackPoints(normalizeShipTrackPoints(tr.points))
         })
         .catch(() => {})
     }, 5 * 60 * 1000)
@@ -142,6 +179,7 @@ export default function App() {
             regions={cases.regions}
             individualCases={individualCases}
             shipPosition={shipPos}
+            shipTrackPoints={shipTrackPoints}
             onSelect={setSelectedId}
           />
         </div>

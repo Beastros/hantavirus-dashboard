@@ -16,6 +16,7 @@ Writes to public/data/:
   cases-individual.json  per-case demographics (seeded + AI-extracted)
   ingest-status.json     run metadata and source health
   ship-position.json     AIS vessel position (requires AIS_API_KEY)
+  ship-track.json        append-only chronological lat/lng breadcrumbs (AIS + seeded voyage tail)
   trends.json            Google Trends interest data
   last-build.txt         timestamp to force Pages rebuild
 """
@@ -534,6 +535,46 @@ def fetch_trends(kw):
 
 # â”€â”€ AIS ship position â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
+def load_ship_track() -> dict:
+    default = {"updated": now_iso(), "mmsi": HONDIUS_MMSI, "points": []}
+    data = load_json(DATA / "ship-track.json", default)
+    if not isinstance(data, dict):
+        data = dict(default)
+    data.setdefault("points", [])
+    data.setdefault("mmsi", HONDIUS_MMSI)
+    if not isinstance(data["points"], list):
+        data["points"] = []
+    return data
+
+
+def merge_track_point(track: dict, lat: float, lng: float, *, source: str = "aisstream") -> dict:
+    """Append AIS fix if moved meaningfully or enough time passed (dedupe stationary polls)."""
+    pts: list = list(track.get("points") or [])
+    now = now_iso()
+    now_dt = datetime.fromisoformat(now.replace("Z", "+00:00"))
+
+    if pts:
+        lp = pts[-1]
+        try:
+            last_t = str(lp.get("t") or "")
+            last_dt = datetime.fromisoformat(last_t.replace("Z", "+00:00"))
+            small_move = (
+                abs(float(lat) - float(lp["lat"])) < 0.002
+                and abs(float(lng) - float(lp["lng"])) < 0.002
+            )
+            if small_move and (now_dt - last_dt).total_seconds() < 900:
+                track["updated"] = now
+                return track
+        except Exception:
+            pass
+
+    pts.append({"t": now, "lat": float(lat), "lng": float(lng), "source": source})
+    track["points"] = pts[-3000:]
+    track["updated"] = now
+    track["mmsi"] = HONDIUS_MMSI
+    return track
+
+
 def fetch_ship_position(client):
     key = os.environ.get("AIS_API_KEY")
     if not key:
@@ -622,12 +663,22 @@ def main():
     )
     print(f"[ok] cases-individual.json: {len(existing_cases)} cases")
 
-    # 7. Ship position
+    # 7. Ship position + breadcrumb track
     if ship:
         (DATA / "ship-position.json").write_text(
             json.dumps(ship, indent=2) + "\n", encoding="utf-8"
         )
         print(f"[ok] ship-position.json: {ship.get('lat')}, {ship.get('lng')}")
+        try:
+            lat_f = float(ship["lat"])
+            lng_f = float(ship["lng"])
+            track = merge_track_point(load_ship_track(), lat_f, lng_f, source="aisstream")
+            (DATA / "ship-track.json").write_text(
+                json.dumps(track, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+            )
+            print(f"[ok] ship-track.json: {len(track.get('points') or [])} points")
+        except (TypeError, ValueError) as exc:
+            print(f"[warn] ship-track skip (bad lat/lng): {exc}")
 
     # 8. Trends
     trend_kw = [k for k in keywords if '"' not in k and " " not in k][:3] or ["hantavirus"]

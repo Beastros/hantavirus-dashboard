@@ -27,6 +27,19 @@ export function loadIngestStatus(): Promise<any> {
 export function loadShipPosition(): Promise<any> {
   return fetchJson<any>(`${basePath()}data/ship-position.json`)
 }
+
+/** Chronological AIS / ingest breadcrumbs for the MV Hondius map (`public/data/ship-track.json`). */
+export type ShipTrackPoint = {
+  t?: string
+  lat: number
+  lng: number
+  source?: string
+  note?: string
+}
+
+export function loadShipTrack(): Promise<{ updated?: string; mmsi?: string; points: ShipTrackPoint[] }> {
+  return fetchJson(`${basePath()}data/ship-track.json`)
+}
 export function loadTrends(): Promise<any> {
   return fetchJson<any>(`${basePath()}data/trends.json`)
 }
