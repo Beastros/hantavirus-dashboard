@@ -1,5 +1,5 @@
 ﻿import { useEffect, useRef, useState } from 'react'
-import type { MapRef } from 'react-map-gl/maplibre'
+import type { MapRef } from 'react-map-gl'
 import { OutbreakMap } from './components/OutbreakMap'
 import { IntelFeed } from './components/IntelFeed'
 import { RegionList } from './components/RegionList'
@@ -14,7 +14,7 @@ import { loadCases, loadNews, loadIndividualCases } from './loadData'
 import type { CasesFile, NewsFile } from './types'
 
 export default function App() {
-  const mapRef = useRef<MapRef | null>(null)
+  const mapRef = useRef<MapRef>(null)
   const [cases, setCases] = useState<CasesFile | null>(null)
   const [news, setNews] = useState<NewsFile | null>(null)
   const [individualCases, setIndividualCases] = useState<any[]>([])
@@ -135,4 +135,6 @@ export default function App() {
     </div>
   )
 }
+
+
 
