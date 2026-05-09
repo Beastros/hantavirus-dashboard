@@ -21,7 +21,7 @@ type Props = {
   regions: RegionCase[]
   individualCases: ICase[]
   onSelect: (id: string | null) => void
-  mapRef: React.RefObject<MapRef | null>
+  mapRef: React.RefObject<MapRef>
 }
 
 const COLORS: Record<string, string> = {
@@ -215,3 +215,4 @@ export function OutbreakMap({ regions, individualCases, onSelect, mapRef }: Prop
     </div>
   )
 }
+
