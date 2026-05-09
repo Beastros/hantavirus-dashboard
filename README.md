@@ -2,6 +2,9 @@
 
 Static React dashboard for **map + curated case ledger + RSS ingest**, built with Vite and deployed to **GitHub Pages** from Actions.
 
+**Project overview & architecture:** [`PROJECT.md`](PROJECT.md)  
+**Conventions, Mapbox/iOS pitfalls, ingest notes (for collaborators / AI):** [`CODE_RULES.md`](CODE_RULES.md)
+
 ## Local development
 
 ```bash
@@ -47,7 +50,7 @@ pip install -r requirements.txt
 python run.py
 ```
 
-GitHub runs **Outbreak dashboard — ingest RSS** every six hours (and on demand). When `news.json` changes, the workflow commits it to `main`, which triggers a Pages rebuild.
+GitHub runs **ingest** on a schedule (see `.github/workflows/ingest.yml`; currently every **15 minutes**) and on demand. When `public/data/` changes, the workflow commits to `main`, which triggers a Pages rebuild.
 
 Replace or extend feeds cautiously: respect each site’s terms and robots policy.
 
