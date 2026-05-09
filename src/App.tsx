@@ -1,11 +1,15 @@
 ﻿import { useEffect, useRef, useState } from 'react'
 import type { MapRef } from 'react-map-gl/maplibre'
 import { OutbreakMap } from './components/OutbreakMap'
-import { NewsColumn } from './components/NewsColumn'
+import { IntelFeed } from './components/IntelFeed'
 import { RegionList } from './components/RegionList'
 import { FreshnessBar } from './components/FreshnessBar'
 import { CaseTable } from './components/CaseTable'
 import { PivotChart } from './components/PivotChart'
+import { Ticker } from './components/Ticker'
+import { StatsPanel } from './components/StatsPanel'
+import { ShipPanel } from './components/ShipPanel'
+import { StrainReadout } from './components/StrainReadout'
 import { loadCases, loadNews, loadIndividualCases } from './loadData'
 import type { CasesFile, NewsFile } from './types'
 
@@ -30,6 +34,7 @@ export default function App() {
     loadIndividualCases()
       .then((d: any) => { if (!cancelled) setIndividualCases(d.cases || []) })
       .catch(() => {})
+
     const refresh = setInterval(async () => {
       try {
         const [c, n] = await Promise.all([loadCases(), loadNews()])
@@ -37,87 +42,96 @@ export default function App() {
       } catch {}
       loadIndividualCases().then((d: any) => setIndividualCases(d.cases || [])).catch(() => {})
     }, 15 * 60 * 1000)
+
     return () => { cancelled = true; clearInterval(refresh) }
   }, [])
 
   useEffect(() => {
     if (!selectedId || !cases) return
-    const r = cases.regions.find((x) => x.id === selectedId)
+    const r = cases.regions.find(x => x.id === selectedId)
     if (!r) return
     mapRef.current?.flyTo({ center: [r.lng, r.lat], zoom: 5, duration: 900 })
   }, [selectedId, cases])
 
   if (err) return <div className="shell"><p className="error-banner">{err}</p></div>
-  if (!cases || !news) return <div className="shell"><p className="loading">Loading...</p></div>
+  if (!cases || !news) return (
+    <div className="shell" style={{display:'flex',alignItems:'center',justifyContent:'center',height:'100vh', fontFamily:"'Share Tech Mono',monospace",color:'#00FF41',fontSize:'14px',letterSpacing:'.15em'}}>
+      INITIALIZING SIGNAL DESK...
+    </div>
+  )
 
-  const totalConfirmed = individualCases.filter((c: any) => c.outcome === "confirmed" || c.outcome === "died").length
-  const totalSuspected = individualCases.filter((c: any) => c.outcome === "suspected" || c.outcome === "hospitalized").length
-  const totalDeaths = individualCases.filter((c: any) => c.outcome === "died").length
+  const totalConfirmed = individualCases.filter((c: any) => c.outcome === 'confirmed' || c.outcome === 'died').length
+  const totalSuspected = individualCases.filter((c: any) => c.outcome === 'suspected' || c.outcome === 'hospitalized').length
+  const totalDeaths    = individualCases.filter((c: any) => c.outcome === 'died').length
 
   return (
     <div className="shell">
-      <header className="top">
-        <div className="top-left">
-          <div className="top-pulse" aria-hidden="true" />
-          <div>
-            <h1>Hantavirus Signal Desk</h1>
-            <p className="tag">MV Hondius outbreak | live news ingest | curated case ledger</p>
-          </div>
-        </div>
-        <div className="top-meta">
-          <span className="top-badge">Active outbreak</span>
-          <span>Updated {cases.updated}</span>
-        </div>
-      </header>
+      <Ticker items={news.items} />
+
+      <div className="source-bar">
+        // SOURCE: WHO DON599 - CDC - REUTERS - BBC - LAST SYNC: {new Date(news.fetched_at).toUTCString().slice(0,25)}
+      </div>
 
       <div className="intel-card">
         <div className="intel-stat">
-          <div className="intel-val" style={{ color: 'var(--confirmed)' }}>{totalConfirmed}</div>
-          <div className="intel-lbl">Confirmed</div>
+          <div className="intel-val" style={{color:'var(--confirmed)'}}>{totalConfirmed}</div>
+          <div className="intel-lbl">CONFIRMED</div>
         </div>
         <div className="intel-stat">
-          <div className="intel-val" style={{ color: 'var(--suspected)' }}>{totalSuspected}</div>
-          <div className="intel-lbl">Suspected</div>
+          <div className="intel-val" style={{color:'var(--suspected)'}}>{totalSuspected}</div>
+          <div className="intel-lbl">SUSPECTED</div>
         </div>
-        {totalDeaths > 0 && (
-          <div className="intel-stat">
-            <div className="intel-val" style={{ color: '#c0392b' }}>{totalDeaths}</div>
-            <div className="intel-lbl">Deaths</div>
-          </div>
-        )}
+        <div className="intel-stat">
+          <div className="intel-val" style={{color:'#CC0000'}}>{totalDeaths}</div>
+          <div className="intel-lbl">DEATHS</div>
+        </div>
         <div className="intel-divider" />
         <div className="intel-summary">
-          Andes-strain hantavirus. Ship departed Ushuaia April 1 - now docking at Tenerife, Spain May 9.
-          WHO global risk: <strong>low</strong>. Human-to-human transmission possible via close contact.
+          Andes-strain hantavirus. MV Hondius en route Tenerife, arriving May 9.
+          WHO global risk: <strong style={{color:'var(--informational)'}}>LOW</strong>.
+          Human-to-human transmission: limited close contact only.
+        </div>
+        <div style={{marginLeft:'auto', display:'flex', flexDirection:'column', alignItems:'flex-end', gap:4}}>
+          <span className="top-badge">ACTIVE OUTBREAK</span>
+          <span style={{fontSize:'.65rem', color:'var(--muted)', fontFamily:"'Share Tech Mono',monospace"}}>
+            UPDATED {cases.updated.slice(0,10)}
+          </span>
         </div>
       </div>
 
       <p className="disclaimer">{cases.disclaimer}</p>
 
-      <main className="layout">
+      <div className="main-grid">
         <div className="left-col">
-          <div className="map-pane">
-            <OutbreakMap regions={cases.regions} onSelect={setSelectedId} mapRef={mapRef} />
+          <StatsPanel cases={individualCases} regions={cases.regions} />
+          <ShipPanel />
+          <StrainReadout />
+          <div className="sb-section" style={{flex:1}}>
+            <RegionList regions={cases.regions} selectedId={selectedId} onSelect={setSelectedId} />
           </div>
-          <CaseTable />
         </div>
-        <div className="side-pane">
-          <RegionList regions={cases.regions} selectedId={selectedId} onSelect={setSelectedId} />
-          <NewsColumn items={news.items} fetchedAt={news.fetched_at} />
+
+        <div className="map-col">
+          <OutbreakMap regions={cases.regions} onSelect={setSelectedId} mapRef={mapRef} />
         </div>
-      </main>
+
+        <div className="right-col">
+          <IntelFeed items={news.items} fetchedAt={news.fetched_at} />
+        </div>
+      </div>
 
       <FreshnessBar />
 
-      <PivotChart cases={individualCases} />
+      <div className="bottom-section">
+        <div className="analytics-row">
+          <CaseTable />
+          <PivotChart cases={individualCases} />
+        </div>
+      </div>
 
       <footer className="footer">
-        Edit <code>public/data/cases.json</code> to promote or demote signals as they develop.
+        // Edit public/data/cases.json to promote or demote signals. Ingest runs every 15 min.
       </footer>
     </div>
   )
 }
-
-
-
-
