@@ -1,8 +1,8 @@
 ﻿import React, { useMemo, useCallback, useState } from 'react'
-import type { MapLayerMouseEvent } from 'maplibre-gl'
-import Map, { Layer, Popup, Source, type MapRef } from 'react-map-gl/maplibre'
+import type { MapLayerMouseEvent } from 'mapbox-gl'
+import Map, { Layer, Popup, Source, type MapRef } from 'react-map-gl'
 import type { RegionCase } from '../types'
-import 'maplibre-gl/dist/maplibre-gl.css'
+import 'mapbox-gl/dist/mapbox-gl.css'
 
 const MAP_STYLE = 'https://basemaps.cartocdn.com/gl/dark-matter-nolabels-gl-style/style.json'
 
@@ -295,6 +295,7 @@ export function OutbreakMap({ regions, individualCases, onSelect, mapRef }: Prop
     </div>
   )
 }
+
 
 
 
