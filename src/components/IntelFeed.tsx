@@ -30,9 +30,20 @@ function stripHtml(s: string): string {
   return s.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim()
 }
 
+/** Avoid "...Belgium, I..." mid-word cuts when clipping previews */
+function clipPreview(s: string, maxLen: number): string {
+  if (s.length <= maxLen) return s
+  const chunk = s.slice(0, maxLen)
+  const sp = chunk.lastIndexOf(' ')
+  const cut = sp > Math.floor(maxLen * 0.55) ? chunk.slice(0, sp) : chunk
+  return cut.trimEnd() + '...'
+}
+
 function timeAgo(dateStr?: string | null): string {
   if (!dateStr) return ''
-  const diff = Date.now() - new Date(dateStr).getTime()
+  const t = new Date(dateStr).getTime()
+  if (Number.isNaN(t)) return ''
+  const diff = Date.now() - t
   const h = Math.floor(diff / 3600000)
   if (h < 1) return 'just now'
   if (h < 24) return `${h}h ago`
@@ -60,9 +71,7 @@ export function IntelFeed({ items, fetchedAt }: { items: NewsItem[]; fetchedAt: 
               </div>
               <div className="intel-title">{stripHtml(item.title)}</div>
               {preview && (
-                <div className="intel-summary">
-                  {preview.slice(0, 120)}{preview.length > 120 ? '...' : ''}
-                </div>
+                <div className="intel-summary">{clipPreview(preview, 120)}</div>
               )}
               <a className="intel-read" href={item.url} target="_blank" rel="noopener noreferrer">
                 READ FULL ARTICLE &gt;

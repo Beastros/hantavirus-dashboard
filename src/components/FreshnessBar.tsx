@@ -58,7 +58,9 @@ export function FreshnessBar() {
         Last ingest: {minsAgo < 1 ? 'just now' : minsAgo > 60
           ? `${Math.floor(minsAgo/60)}h ${minsAgo%60}m ago`
           : `${minsAgo}m ago`}
-        {stale && <span className="fresh-warn-text"> (pending push to CI)</span>}
+        {stale && (
+          <span className="fresh-warn-text"> (deployed status snapshot &gt;20m old)</span>
+        )}
       </span>
       <span className="fresh-sep">|</span>
       <span className="fresh-label">

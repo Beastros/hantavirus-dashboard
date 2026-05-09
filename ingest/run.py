@@ -395,7 +395,7 @@ def ingest_rss(client, sources, keywords):
                 pp = entry.get(attr)
                 if pp:
                     try:
-                        published = datetime(*pp[:6], tzinfo=timezone.utc).date().isoformat()
+                        published = datetime(*pp[:6], tzinfo=timezone.utc).isoformat()
                         break
                     except Exception:
                         pass
