@@ -21,7 +21,7 @@ type Props = {
   regions: RegionCase[]
   individualCases: ICase[]
   onSelect: (id: string | null) => void
-  mapRef: React.RefObject<MapRef>
+  
 }
 
 const COLORS: Record<string, string> = {
@@ -87,7 +87,7 @@ function estRt(regions: RegionCase[]) {
   }
 }
 
-export function OutbreakMap({ regions, individualCases, onSelect, mapRef }: Props) {
+export function OutbreakMap({ regions, individualCases, onSelect }: Props) {
   const rt = useMemo(() => estRt(regions), [regions])
   const [sel, setSel]     = useState<ICase | null>(null)
   const [popup, setPopup] = useState<{lng:number;lat:number;node:React.ReactNode}|null>(null)
@@ -152,7 +152,7 @@ export function OutbreakMap({ regions, individualCases, onSelect, mapRef }: Prop
   return (
     <div style={{position:'relative', width:'100%', height:'100%'}}>
       <Map
-        ref={mapRef as React.RefObject<MapRef>}
+        
         initialViewState={{ longitude: -20, latitude: 15, zoom: 1.6 }}
         mapStyle={MAP_STYLE}
         interactiveLayerIds={['case-dots']}
@@ -215,4 +215,5 @@ export function OutbreakMap({ regions, individualCases, onSelect, mapRef }: Prop
     </div>
   )
 }
+
 
