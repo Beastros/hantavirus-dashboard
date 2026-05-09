@@ -182,8 +182,7 @@ export function OutbreakMap({ regions, individualCases, onSelect, mapRef }: Prop
   const rtColor = parseFloat(rt.rtMid) > 1 ? '#FFB800' : '#00FF41'
   const rtLabel = parseFloat(rt.rtMid) > 1.5 ? 'GROWING' : parseFloat(rt.rtMid) > 1 ? 'SLOWING' : 'CONTROLLED'
 
-  const EMPTY_GEO = { type: 'FeatureCollection' as const, features: [] }
-
+  
   return (
     <div style={{ position: 'relative', width: '100%', height: '100%' }}>
       <Map
@@ -296,3 +295,5 @@ export function OutbreakMap({ regions, individualCases, onSelect, mapRef }: Prop
     </div>
   )
 }
+
+
