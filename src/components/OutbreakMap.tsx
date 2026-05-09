@@ -1,10 +1,11 @@
-﻿import React, { useMemo, useCallback, useState, useEffect } from 'react'
-import type { MapLayerMouseEvent } from 'maplibre-gl'
-import Map, { Layer, Popup, Source, type MapRef } from 'react-map-gl/maplibre'
+﻿import { useMemo, useCallback, useState } from 'react'
+import type { MapLayerMouseEvent } from 'mapbox-gl'
+import Map, { Layer, Popup, Source } from 'react-map-gl'
+import 'mapbox-gl/dist/mapbox-gl.css'
 import type { RegionCase } from '../types'
-import 'maplibre-gl/dist/maplibre-gl.css'
 
-const MAP_STYLE = 'https://basemaps.cartocdn.com/gl/dark-matter-nolabels-gl-style/style.json'
+const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN
+const STYLE  = 'mapbox://styles/mapbox/dark-v11'
 
 interface ICase {
   id: string
@@ -92,19 +93,6 @@ export function OutbreakMap({ regions, individualCases, onSelect }: Props) {
   const [sel, setSel]     = useState<ICase | null>(null)
   const [popup, setPopup] = useState<{lng:number;lat:number;node:React.ReactNode}|null>(null)
 
-  // Globe: poll until map style ready, then setProjection
-  useEffect(() => {
-    let n = 0
-    const t = setInterval(() => {
-      if (++n > 30) { clearInterval(t); return }
-      const m = (mapRef as any)?.current?.getMap?.() as any
-      if (!m?.isStyleLoaded?.()) return
-      clearInterval(t)
-      try { m.setProjection({ type: 'globe' }) } catch (_) {}
-      try { m.setFog({ 'space-color': '#090C10', 'star-intensity': 0.6, 'horizon-blend': 0.04 }) } catch (_) {}
-    }, 400)
-    return () => clearInterval(t)
-  }, [mapRef])
 
   const dots       = useMemo(() => caseGeo(individualCases), [individualCases])
   const boldLines  = useMemo(() => sel ? lineGeo(sel, individualCases, true)  : EMPTY_GEO, [sel, individualCases])
@@ -151,10 +139,10 @@ export function OutbreakMap({ regions, individualCases, onSelect }: Props) {
 
   return (
     <div style={{position:'relative', width:'100%', height:'100%'}}>
-      <Map
+      <Map mapboxAccessToken={TOKEN}
         
         initialViewState={{ longitude: -20, latitude: 15, zoom: 1.6 }}
-        mapStyle={MAP_STYLE}
+        mapStyle={STYLE}
         interactiveLayerIds={['case-dots']}
         onClick={onClick}
         style={{ width:'100%', height:'100%' }}
@@ -215,5 +203,8 @@ export function OutbreakMap({ regions, individualCases, onSelect }: Props) {
     </div>
   )
 }
+
+
+
 
 
