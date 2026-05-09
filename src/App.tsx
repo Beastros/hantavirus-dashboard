@@ -1,4 +1,4 @@
-﻿import { useEffect, useRef, useState } from 'react'
+﻿import { useEffect, useState } from 'react'
 import { OutbreakMap } from './components/OutbreakMap'
 import { IntelFeed } from './components/IntelFeed'
 import { RegionList } from './components/RegionList'
@@ -132,6 +132,7 @@ export default function App() {
     </div>
   )
 }
+
 
 
 
