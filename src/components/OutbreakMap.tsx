@@ -18,13 +18,17 @@ interface ICase {
   outcome?: string | null; notes?: string | null
 }
 
+type ShipPosition = { lat: number; lng: number; name?: string; course?: number | null }
+
 type Props = {
   regions: RegionCase[]
   individualCases: ICase[]
-  shipPosition?: { lat: number; lng: number; name?: string } | null
+  shipPosition?: ShipPosition | null
   onSelect: (id: string | null) => void
   
 }
+
+const SHIP_ICON_ID = 'mv-ship-icon'
 
 /** Ledger region row → Mapbox country-boundaries ISO α-3 */
 const REGION_ID_ISO: Record<string, string> = {
@@ -50,10 +54,199 @@ const REGION_ID_ISO: Record<string, string> = {
 }
 
 const USHUAIA_LNG_LAT: [number, number] = [-68.3030, -54.8019]
+const SAINT_HELENA_LNG_LAT: [number, number] = [-5.7180, -15.9247]
+const ASCENSION_LNG_LAT: [number, number] = [-14.3733, -7.9467]
 const CAPE_VERDE_LNG_LAT: [number, number] = [-23.5133, 14.9330]
 const TENERIFE_LNG_LAT: [number, number] = [-16.6291, 28.2916]
-/** Rough mid-Atlantic leg when AIS snapshot missing */
-const MIDTRACK_FALLBACK_LNG_LAT: [number, number] = [-38.0, 14.5]
+
+/**
+ * Nominal MV Hondius track: Southern Ocean exit → mid-South Atlantic → Saint Helena →
+ * Ascension → Cape Verde → Tenerife (dense samples so the globe reads as a sailed path, not a chord).
+ */
+const MV_ROUTE_PORTS: [number, number][] = [
+  USHUAIA_LNG_LAT,
+  [-61.2, -51.4],
+  [-49.0, -45.5],
+  [-38.0, -40.0],
+  [-28.0, -34.0],
+  [-18.5, -28.0],
+  [-12.0, -22.0],
+  SAINT_HELENA_LNG_LAT,
+  ASCENSION_LNG_LAT,
+  CAPE_VERDE_LNG_LAT,
+  TENERIFE_LNG_LAT,
+]
+
+const EMPTY_GEO = { type: 'FeatureCollection' as const, features: [] as any[] }
+
+function dedupeLngLat(seq: [number, number][], epsDeg = 0.04): [number, number][] {
+  const out: [number, number][] = []
+  for (const p of seq) {
+    const prev = out[out.length - 1]
+    if (!prev || Math.hypot(p[0] - prev[0], p[1] - prev[1]) > epsDeg) out.push(p)
+  }
+  return out
+}
+
+function lerp(a: number, b: number, t: number) {
+  return a + (b - a) * t
+}
+
+function densifyPortChain(ports: [number, number][], stepsPerLeg: number): [number, number][] {
+  if (ports.length < 2) return [...ports]
+  const out: [number, number][] = []
+  for (let i = 0; i < ports.length - 1; i++) {
+    const [lng0, lat0] = ports[i]
+    const [lng1, lat1] = ports[i + 1]
+    const n = Math.max(1, stepsPerLeg)
+    for (let s = 0; s < n; s++) {
+      const t = s / n
+      out.push([lerp(lng0, lng1, t), lerp(lat0, lat1, t)])
+    }
+  }
+  out.push(ports[ports.length - 1])
+  return dedupeLngLat(out, 0.002)
+}
+
+const NOMINAL_MV_ROUTE = densifyPortChain(MV_ROUTE_PORTS, 32)
+
+function distSqLngLat(a: [number, number], b: [number, number]) {
+  const dx = a[0] - b[0]
+  const dy = a[1] - b[1]
+  return dx * dx + dy * dy
+}
+
+function closestPointOnSegment(p: [number, number], a: [number, number], b: [number, number]): [number, number] {
+  const ax = a[0], ay = a[1]
+  const bx = b[0], by = b[1]
+  const px = p[0], py = p[1]
+  const abx = bx - ax, aby = by - ay
+  const apx = px - ax, apy = py - ay
+  const ab2 = abx * abx + aby * aby
+  let t = ab2 > 1e-18 ? (apx * abx + apy * aby) / ab2 : 0
+  t = Math.max(0, Math.min(1, t))
+  return [ax + t * abx, ay + t * aby]
+}
+
+function closestOnPolyline(p: [number, number], poly: [number, number][]): { segIdx: number; q: [number, number] } {
+  let bestI = 0
+  let bestQ: [number, number] = poly[0]
+  let bestD = Infinity
+  for (let i = 0; i < poly.length - 1; i++) {
+    const q = closestPointOnSegment(p, poly[i], poly[i + 1])
+    const d = distSqLngLat(p, q)
+    if (d < bestD) {
+      bestD = d
+      bestI = i
+      bestQ = q
+    }
+  }
+  return { segIdx: bestI, q: bestQ }
+}
+
+function pastPathOnNominal(nominal: [number, number][], segIdx: number, q: [number, number]): [number, number][] {
+  const out: [number, number][] = []
+  for (let j = 0; j <= segIdx; j++) out.push(nominal[j])
+  const last = out[out.length - 1]
+  if (Math.hypot(q[0] - last[0], q[1] - last[1]) > 1e-4) out.push(q)
+  return out
+}
+
+function forwardPathOnNominal(nominal: [number, number][], segIdx: number, q: [number, number]): [number, number][] {
+  const out: [number, number][] = [q]
+  const eps = 1e-4
+  for (let j = segIdx + 1; j < nominal.length; j++) {
+    const v = nominal[j]
+    const last = out[out.length - 1]
+    if (Math.hypot(v[0] - last[0], v[1] - last[1]) > eps) out.push(v)
+  }
+  return out
+}
+
+function lineStringFC(coords: [number, number][]) {
+  if (coords.length < 2) return EMPTY_GEO
+  return {
+    type: 'FeatureCollection' as const,
+    features: [{
+      type: 'Feature' as const,
+      properties: {},
+      geometry: { type: 'LineString' as const, coordinates: coords },
+    }],
+  }
+}
+
+function bearingDegrees(from: { lng: number; lat: number }, to: { lng: number; lat: number }) {
+  const φ1 = (from.lat * Math.PI) / 180
+  const φ2 = (to.lat * Math.PI) / 180
+  const Δλ = ((to.lng - from.lng) * Math.PI) / 180
+  const y = Math.sin(Δλ) * Math.cos(φ2)
+  const x = Math.cos(φ1) * Math.sin(φ2) - Math.sin(φ1) * Math.cos(φ2) * Math.cos(Δλ)
+  const θ = (Math.atan2(y, x) * 180) / Math.PI
+  return (θ + 360) % 360
+}
+
+function shipSymbolGeo(ship: ShipPosition, projectedCoords: [number, number][]) {
+  if (!Number.isFinite(ship.lat) || !Number.isFinite(ship.lng)) return EMPTY_GEO
+  let bearing: number
+  if (projectedCoords.length >= 2) {
+    const next = projectedCoords[1]
+    bearing = bearingDegrees({ lng: ship.lng, lat: ship.lat }, { lng: next[0], lat: next[1] })
+  } else if (typeof ship.course === 'number' && Number.isFinite(ship.course)) {
+    bearing = ((ship.course % 360) + 360) % 360
+  } else {
+    const tail = NOMINAL_MV_ROUTE
+    const prev = tail[tail.length - 2]
+    const end = tail[tail.length - 1]
+    bearing = bearingDegrees({ lng: prev[0], lat: prev[1] }, { lng: end[0], lat: end[1] })
+  }
+  return {
+    type: 'FeatureCollection' as const,
+    features: [{
+      type: 'Feature' as const,
+      properties: { name: ship.name ?? 'MV Hondius', bearing },
+      geometry: { type: 'Point' as const, coordinates: [ship.lng, ship.lat] },
+    }],
+  }
+}
+
+function buildShipTracks(ship: ShipPosition | null | undefined) {
+  const nominal = NOMINAL_MV_ROUTE
+  if (!ship || !Number.isFinite(ship.lat) || !Number.isFinite(ship.lng)) {
+    return {
+      solid: lineStringFC(nominal),
+      projected: EMPTY_GEO,
+      symbol: EMPTY_GEO,
+    }
+  }
+  const p: [number, number] = [ship.lng, ship.lat]
+  const { segIdx, q } = closestOnPolyline(p, nominal)
+  const pastOnNominal = pastPathOnNominal(nominal, segIdx, q)
+  const solidCoords =
+    distSqLngLat(p, q) < 1e-8
+      ? pastOnNominal
+      : [...pastOnNominal, p]
+  const forwardNominal = forwardPathOnNominal(nominal, segIdx, q)
+  const projectedCoords: [number, number][] =
+    forwardNominal.length >= 2 ? dedupeLngLat([p, ...forwardNominal.slice(1)], 0.002) : []
+
+  const projectedFC = projectedCoords.length >= 2 ? lineStringFC(projectedCoords) : EMPTY_GEO
+
+  return {
+    solid: lineStringFC(solidCoords),
+    projected: projectedFC,
+    symbol: shipSymbolGeo(ship, projectedCoords),
+  }
+}
+
+/** Minimal SVG frigate silhouette; drawn pointing north — Mapbox rotates by bearing. */
+const SHIP_ICON_DATA_URL =
+  'data:image/svg+xml;charset=utf-8,' +
+  encodeURIComponent(
+    `<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+      <path fill="#7EC8FF" stroke="#050608" stroke-width="2" stroke-linejoin="round"
+        d="M36 10 L52 58 L36 48 L20 58 Z M31 48 L36 38 L41 48"/>
+    </svg>`,
+  )
 
 function ledgerImpact(r: RegionCase): number {
   return (r.confirmed ?? 0) + (r.probable ?? 0) + (r.deaths ?? 0)
@@ -69,54 +262,10 @@ function hotspotIsoCodes(regions: RegionCase[]): string[] {
   return [...s]
 }
 
-function dedupeLngLat(seq: [number, number][], epsDeg = 0.04): [number, number][] {
-  const out: [number, number][] = []
-  for (const p of seq) {
-    const prev = out[out.length - 1]
-    if (!prev || Math.hypot(p[0] - prev[0], p[1] - prev[1]) > epsDeg) out.push(p)
-  }
-  return out
-}
-
-function shipRouteGeo(ship?: { lat: number; lng: number } | null) {
-  const mid: [number, number] =
-    ship && Number.isFinite(ship.lat) && Number.isFinite(ship.lng)
-      ? [ship.lng, ship.lat]
-      : MIDTRACK_FALLBACK_LNG_LAT
-  const coords = dedupeLngLat([
-    USHUAIA_LNG_LAT,
-    CAPE_VERDE_LNG_LAT,
-    mid,
-    TENERIFE_LNG_LAT,
-  ])
-  return {
-    type: 'FeatureCollection' as const,
-    features: [{
-      type: 'Feature' as const,
-      properties: {},
-      geometry: { type: 'LineString' as const, coordinates: coords },
-    }],
-  }
-}
-
-function shipMarkerGeo(ship?: { lat: number; lng: number; name?: string } | null) {
-  if (!ship || !Number.isFinite(ship.lat) || !Number.isFinite(ship.lng)) return EMPTY_GEO
-  return {
-    type: 'FeatureCollection' as const,
-    features: [{
-      type: 'Feature' as const,
-      properties: { name: ship.name ?? 'MV Hondius' },
-      geometry: { type: 'Point' as const, coordinates: [ship.lng, ship.lat] },
-    }],
-  }
-}
-
 const COLORS: Record<string, string> = {
   died: '#8B0000', confirmed: '#FF4444',
-  hospitalized: '#FFB800', suspected: '#5A6B7A', recovered: '#00C853',
+  hospitalized: '#FFB800', suspected: '#5A6B7A',   recovered: '#00C853',
 }
-
-const EMPTY_GEO = { type: 'FeatureCollection' as const, features: [] as any[] }
 
 const CLUSTER_ORIGIN_META: Record<string, { headline: string; place: string; detail: string }> = {
   'argentina-2026': {
@@ -258,13 +407,18 @@ export function OutbreakMap({ regions, individualCases, shipPosition = null, onS
   const [sel, setSel]     = useState<ICase | null>(null)
   const [popup, setPopup] = useState<{lng:number;lat:number;node:React.ReactNode}|null>(null)
   const [mapInst, setMapInst] = useState<MapboxMap | null>(null)
+  const [shipIconReady, setShipIconReady] = useState(false)
 
   const dots       = useMemo(() => caseGeo(individualCases), [individualCases])
   const fixedPins  = useMemo(() => fixedOriginPins(individualCases), [individualCases])
   const isoHotspots = useMemo(() => hotspotIsoCodes(regions), [regions])
-  const shipTrack   = useMemo(() => shipRouteGeo(shipPosition), [shipPosition])
-  const shipDot     = useMemo(() => shipMarkerGeo(shipPosition), [shipPosition])
+  const { solid: shipSolidTrack, projected: shipProjectedTrack, symbol: shipSymbolGeojson } = useMemo(
+    () => buildShipTracks(shipPosition),
+    [shipPosition],
+  )
   const showShipDot = !!(shipPosition && Number.isFinite(shipPosition.lat) && Number.isFinite(shipPosition.lng))
+  const showShipProjected = shipProjectedTrack.features.length > 0
+  const showShipSymbol = showShipDot && shipIconReady && shipSymbolGeojson.features.length > 0
   const boldLines  = useMemo(() => sel ? lineGeo(sel, individualCases, true)  : EMPTY_GEO, [sel, individualCases])
   const fadedLines = useMemo(() => sel ? lineGeo(sel, individualCases, false) : EMPTY_GEO, [sel, individualCases])
   const origin     = useMemo(() => sel ? originGeo(sel, individualCases) : EMPTY_GEO, [sel, individualCases])
@@ -295,6 +449,30 @@ export function OutbreakMap({ regions, individualCases, shipPosition = null, onS
     }
     frame = requestAnimationFrame(pulse)
     return () => cancelAnimationFrame(frame)
+  }, [mapInst])
+
+  useEffect(() => {
+    if (!mapInst) return
+    if (mapInst.hasImage(SHIP_ICON_ID)) {
+      setShipIconReady(true)
+      return
+    }
+    const img = new Image(72, 72)
+    img.crossOrigin = 'anonymous'
+    img.onload = () => {
+      try {
+        if (!mapInst.hasImage(SHIP_ICON_ID)) mapInst.addImage(SHIP_ICON_ID, img)
+        setShipIconReady(true)
+      } catch {
+        setShipIconReady(false)
+      }
+    }
+    img.onerror = () => setShipIconReady(false)
+    img.src = SHIP_ICON_DATA_URL
+    return () => {
+      img.onload = null
+      img.onerror = null
+    }
   }, [mapInst])
 
   const onClick = useCallback((e: MapLayerMouseEvent) => {
@@ -442,9 +620,9 @@ export function OutbreakMap({ regions, individualCases, shipPosition = null, onS
             />
           </Source>
         )}
-        <Source id="ship-route-src" type="geojson" data={shipTrack}>
+        <Source id="ship-route-solid-src" type="geojson" data={shipSolidTrack}>
           <Layer
-            id="ship-route-glow"
+            id="ship-route-solid-glow"
             type="line"
             layout={{ 'line-cap': 'round', 'line-join': 'round' }}
             paint={{
@@ -455,7 +633,7 @@ export function OutbreakMap({ regions, individualCases, shipPosition = null, onS
             }}
           />
           <Layer
-            id="ship-route-core"
+            id="ship-route-solid-core"
             type="line"
             layout={{ 'line-cap': 'round', 'line-join': 'round' }}
             paint={{
@@ -465,27 +643,54 @@ export function OutbreakMap({ regions, individualCases, shipPosition = null, onS
             }}
           />
         </Source>
-        {showShipDot && (
-          <Source id="ship-pos-src" type="geojson" data={shipDot}>
+        {showShipProjected && (
+          <Source id="ship-route-projected-src" type="geojson" data={shipProjectedTrack}>
             <Layer
-              id="ship-pos-ring"
-              type="circle"
+              id="ship-route-projected-glow"
+              type="line"
+              layout={{ 'line-cap': 'round', 'line-join': 'round' }}
               paint={{
-                'circle-radius': 16,
-                'circle-color': 'rgba(0,0,0,0)',
-                'circle-stroke-color': '#3388FF',
-                'circle-stroke-width': 2,
-                'circle-stroke-opacity': 0.75,
+                'line-color': '#99CCFF',
+                'line-width': 8,
+                'line-opacity': 0.12,
+                'line-blur': 2,
               }}
             />
             <Layer
-              id="ship-pos-dot"
+              id="ship-route-projected-core"
+              type="line"
+              layout={{ 'line-cap': 'round', 'line-join': 'round' }}
+              paint={{
+                'line-color': '#B8DCFF',
+                'line-width': 1.35,
+                'line-opacity': 0.65,
+                'line-dasharray': [0.6, 2.2],
+              }}
+            />
+          </Source>
+        )}
+        {showShipSymbol && (
+          <Source id="ship-symbol-src" type="geojson" data={shipSymbolGeojson}>
+            <Layer
+              id="ship-symbol-halo"
               type="circle"
               paint={{
-                'circle-radius': 6,
-                'circle-color': '#55AAFF',
-                'circle-stroke-color': '#090C10',
-                'circle-stroke-width': 1.5,
+                'circle-radius': 14,
+                'circle-color': 'rgba(102,187,255,0.15)',
+                'circle-stroke-width': 0,
+              }}
+            />
+            <Layer
+              id="ship-symbol-icon"
+              type="symbol"
+              layout={{
+                'icon-image': SHIP_ICON_ID,
+                'icon-size': 0.62,
+                'icon-allow-overlap': true,
+                'icon-ignore-placement': true,
+                'icon-rotate': ['get', 'bearing'],
+                'icon-rotation-alignment': 'map',
+                'icon-pitch-alignment': 'map',
               }}
             />
           </Source>
@@ -565,7 +770,7 @@ export function OutbreakMap({ regions, individualCases, shipPosition = null, onS
           <span key={k}><span className="legend-dot" style={{background:v}} /> {k}</span>
         ))}
         <span className="legend-note">
-          Blue track = MV Hondius voyage (Ushuaia → Cape Verde → AIS fix → Tenerife). Red tint = countries with confirmed/probable/deaths in ledger.
+          Solid blue = MV Hondius track sailed (Ushuaia → Atlantic → Saint Helena → Ascension → Cape Verde → Tenerife). Pale dashed = projected remainder to Tenerife. Red tint = ledger countries with confirmed/probable/deaths.
         </span>
       </div>
 

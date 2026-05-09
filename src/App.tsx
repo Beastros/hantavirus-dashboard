@@ -12,11 +12,30 @@ import { StrainReadout } from './components/StrainReadout'
 import { loadCases, loadNews, loadIndividualCases, loadShipPosition } from './loadData'
 import type { CasesFile, NewsFile } from './types'
 
+type ShipPosState = { lat: number; lng: number; name?: string; course?: number | null }
+
+function shipPosFromSnapshot(s: any): ShipPosState | null {
+  const lat = typeof s.lat === 'number' ? s.lat : Number(s.lat)
+  const lng = typeof s.lng === 'number' ? s.lng : Number(s.lng)
+  if (!Number.isFinite(lat) || !Number.isFinite(lng)) return null
+  const courseRaw = s.course
+  const courseNum =
+    typeof courseRaw === 'number' ? courseRaw
+      : courseRaw != null && courseRaw !== '' ? Number(courseRaw)
+        : NaN
+  return {
+    lat,
+    lng,
+    name: s.name,
+    course: Number.isFinite(courseNum) ? courseNum : null,
+  }
+}
+
 export default function App() {
   const [cases, setCases] = useState<CasesFile | null>(null)
   const [news, setNews] = useState<NewsFile | null>(null)
   const [individualCases, setIndividualCases] = useState<any[]>([])
-  const [shipPos, setShipPos] = useState<{ lat: number; lng: number; name?: string } | null>(null)
+  const [shipPos, setShipPos] = useState<ShipPosState | null>(null)
   const [err, setErr] = useState<string | null>(null)
   const [selectedId, setSelectedId] = useState<string | null>(null)
 
@@ -36,9 +55,8 @@ export default function App() {
     loadShipPosition()
       .then((s: any) => {
         if (cancelled || !s) return
-        const lat = typeof s.lat === 'number' ? s.lat : Number(s.lat)
-        const lng = typeof s.lng === 'number' ? s.lng : Number(s.lng)
-        if (Number.isFinite(lat) && Number.isFinite(lng)) setShipPos({ lat, lng, name: s.name })
+        const pos = shipPosFromSnapshot(s)
+        if (pos) setShipPos(pos)
       })
       .catch(() => {})
 
@@ -51,9 +69,8 @@ export default function App() {
       loadShipPosition()
         .then((s: any) => {
           if (!s) return
-          const lat = typeof s.lat === 'number' ? s.lat : Number(s.lat)
-          const lng = typeof s.lng === 'number' ? s.lng : Number(s.lng)
-          if (Number.isFinite(lat) && Number.isFinite(lng)) setShipPos({ lat, lng, name: s.name })
+          const pos = shipPosFromSnapshot(s)
+          if (pos) setShipPos(pos)
         })
         .catch(() => {})
     }, 5 * 60 * 1000)
