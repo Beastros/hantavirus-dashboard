@@ -1,5 +1,5 @@
-﻿import { useMemo, useCallback, useState } from 'react'
-import type { MapLayerMouseEvent } from 'mapbox-gl'
+﻿import { useMemo, useCallback, useState, useEffect } from 'react'
+import type { MapLayerMouseEvent, Map as MapboxMap } from 'mapbox-gl'
 import Map, { Layer, Popup, Source } from 'react-map-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import type { RegionCase } from '../types'
@@ -77,6 +77,31 @@ function originGeo(selected: ICase, all: ICase[]) {
   }
 }
 
+/** One pin per cluster — highlights argentina-2026 (Ushuaia index voyage). */
+function fixedOriginPins(cases: ICase[]) {
+  const byCluster = new globalThis.Map<string, ICase>()
+  for (const c of cases) {
+    const cid = c.cluster_id
+    if (!cid || typeof c.origin_lat !== 'number' || typeof c.origin_lng !== 'number') continue
+    if (!byCluster.has(cid)) byCluster.set(cid, c)
+  }
+  const features = [...byCluster.values()].map((c) => {
+    const kind = c.cluster_id === 'argentina-2026' ? 'index' : 'chain'
+    return {
+      type: 'Feature' as const,
+      properties: {
+        kind,
+        label: c.exposure_event ?? c.cluster_id ?? '',
+      },
+      geometry: {
+        type: 'Point' as const,
+        coordinates: [c.origin_lng as number, c.origin_lat as number],
+      },
+    }
+  })
+  return { type: 'FeatureCollection' as const, features }
+}
+
 function estRt(regions: RegionCase[]) {
   const conf = regions.reduce((s, r) => s + (r.confirmed ?? 0), 0)
   const susp = regions.reduce((s, r) => s + (r.suspected ?? 0), 0)
@@ -93,12 +118,41 @@ export function OutbreakMap({ regions, individualCases, onSelect }: Props) {
   const rt = useMemo(() => estRt(regions), [regions])
   const [sel, setSel]     = useState<ICase | null>(null)
   const [popup, setPopup] = useState<{lng:number;lat:number;node:React.ReactNode}|null>(null)
-
+  const [mapInst, setMapInst] = useState<MapboxMap | null>(null)
 
   const dots       = useMemo(() => caseGeo(individualCases), [individualCases])
+  const fixedPins  = useMemo(() => fixedOriginPins(individualCases), [individualCases])
   const boldLines  = useMemo(() => sel ? lineGeo(sel, individualCases, true)  : EMPTY_GEO, [sel, individualCases])
   const fadedLines = useMemo(() => sel ? lineGeo(sel, individualCases, false) : EMPTY_GEO, [sel, individualCases])
   const origin     = useMemo(() => sel ? originGeo(sel, individualCases) : EMPTY_GEO, [sel, individualCases])
+
+  useEffect(() => {
+    if (!mapInst) return
+    let frame = 0
+    const pulse = () => {
+      frame = requestAnimationFrame(pulse)
+      if (!mapInst.isStyleLoaded()) return
+      const t = performance.now() / 1000
+      const wave = 0.5 + 0.5 * Math.sin(t * 2.05)
+      const waveSlow = 0.5 + 0.5 * Math.sin(t * 1.35)
+      try {
+        mapInst.setPaintProperty('case-pulse', 'circle-stroke-opacity', 0.12 + wave * 0.58)
+        mapInst.setPaintProperty('case-pulse', 'circle-opacity', waveSlow * 0.32)
+        mapInst.setPaintProperty('case-pulse', 'circle-radius', [
+          'interpolate', ['linear'], ['zoom'],
+          1, 10 + wave * 14,
+          4, 22 + wave * 26,
+        ])
+        mapInst.setPaintProperty('fixed-index-halo', 'circle-radius', 16 + waveSlow * 18)
+        mapInst.setPaintProperty('fixed-index-halo', 'circle-stroke-opacity', 0.18 + waveSlow * 0.62)
+        mapInst.setPaintProperty('fixed-index-halo', 'circle-opacity', waveSlow * 0.22)
+      } catch {
+        /* layers not mounted yet */
+      }
+    }
+    frame = requestAnimationFrame(pulse)
+    return () => cancelAnimationFrame(frame)
+  }, [mapInst])
 
   const onClick = useCallback((e: MapLayerMouseEvent) => {
     const f = e.features?.[0]
@@ -145,8 +199,10 @@ export function OutbreakMap({ regions, individualCases, onSelect }: Props) {
         mapStyle={STYLE}
         interactiveLayerIds={['case-dots']}
         onLoad={(e) => {
-          e.target.setProjection('globe')
-          e.target.setFog({ 'space-color': '#090C10', 'star-intensity': 0.7 })
+          const m = e.target
+          setMapInst(m)
+          m.setProjection('globe')
+          m.setFog({ 'space-color': '#090C10', 'star-intensity': 0.7 })
         }}
         onClick={onClick}
         style={{ width:'100%', height:'100%' }}
@@ -157,6 +213,44 @@ export function OutbreakMap({ regions, individualCases, onSelect }: Props) {
         </Source>
         <Source id="bold-src" type="geojson" data={boldLines}>
           <Layer id="bold-line" type="line" paint={{'line-color':'#FF4444','line-width':2.5,'line-opacity':0.9,'line-dasharray':[4,3]}} />
+        </Source>
+        <Source id="fixed-origin-src" type="geojson" data={fixedPins}>
+          <Layer
+            id="fixed-index-halo"
+            type="circle"
+            filter={['==', ['get', 'kind'], 'index']}
+            paint={{
+              'circle-radius': 18,
+              'circle-color': '#FFB800',
+              'circle-opacity': 0.14,
+              'circle-stroke-color': '#FFB800',
+              'circle-stroke-width': 2,
+              'circle-stroke-opacity': 0.45,
+              'circle-blur': 0.35,
+            }}
+          />
+          <Layer
+            id="fixed-origin-ring"
+            type="circle"
+            paint={{
+              'circle-radius': ['match', ['get', 'kind'], 'index', 11, 9],
+              'circle-color': 'rgba(0,0,0,0)',
+              'circle-stroke-color': ['match', ['get', 'kind'], 'index', '#FFB800', '#CC4444'],
+              'circle-stroke-width': 2,
+              'circle-stroke-opacity': ['match', ['get', 'kind'], 'index', 0.95, 0.75],
+            }}
+          />
+          <Layer
+            id="fixed-origin-dot"
+            type="circle"
+            paint={{
+              'circle-radius': ['match', ['get', 'kind'], 'index', 5, 4],
+              'circle-color': ['match', ['get', 'kind'], 'index', '#FFB800', '#FF4444'],
+              'circle-opacity': 0.92,
+              'circle-stroke-color': '#090C10',
+              'circle-stroke-width': 1.2,
+            }}
+          />
         </Source>
         <Source id="origin-src" type="geojson" data={origin}>
           <Layer id="origin-ring" type="circle" paint={{'circle-radius':14,'circle-color':'rgba(0,0,0,0)','circle-stroke-color':'#FF0000','circle-stroke-width':2,'circle-stroke-opacity':0.7}} />
@@ -188,7 +282,9 @@ export function OutbreakMap({ regions, individualCases, onSelect }: Props) {
         {Object.entries(COLORS).map(([k,v]) => (
           <span key={k}><span className="legend-dot" style={{background:v}} /> {k}</span>
         ))}
-        <span className="legend-note">Click dot for exposure traceback. Red dot = origin event.</span>
+        <span className="legend-note">
+          Pulses = active cases. Amber ring = Ushuaia index voyage. Red = other exposure anchors. Click case for traceback.
+        </span>
       </div>
 
       <div className="rt-panel" onClick={clear}>
