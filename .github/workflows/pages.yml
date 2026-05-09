@@ -26,6 +26,7 @@ jobs:
           VITE_MAPBOX_TOKEN: ${{ secrets.VITE_MAPBOX_TOKEN }}
         run: |
           npm ci
+          echo "Token present: ${{ secrets.VITE_MAPBOX_TOKEN != '' }}"
           npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
@@ -39,4 +40,5 @@ jobs:
     steps:
       - uses: actions/deploy-pages@v4
         id: deployment
+
 
