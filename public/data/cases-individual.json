@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-09T16:30:39+00:00",
+  "updated": "2026-05-09T16:54:00+00:00",
   "cases": [
     {
       "id": "case-1",
@@ -323,6 +323,32 @@
       "notes": "Suspected US domestic monitoring case (Omaha, NE) tied to MV Hondius outbreak cluster.",
       "source": "manual",
       "source_url": "https://en.wikipedia.org/wiki/MV_Hondius_hantavirus_outbreak"
+    },
+    {
+      "id": "ai-1",
+      "case_ref": null,
+      "age": null,
+      "sex": null,
+      "nationality": "Dutch",
+      "outcome": "suspected",
+      "location": "cruise ship",
+      "onset_date": null,
+      "notes": "Flight attendant tested in connection with outbreak",
+      "source": "ai-extracted",
+      "source_url": "https://www.nytimes.com/2026/05/07/world/europe/hantavirus-cruise-ship-outbreak.html"
+    },
+    {
+      "id": "ai-2",
+      "case_ref": null,
+      "age": null,
+      "sex": null,
+      "nationality": "French",
+      "outcome": "suspected",
+      "location": "cruise ship",
+      "onset_date": null,
+      "notes": "National tested in connection with outbreak",
+      "source": "ai-extracted",
+      "source_url": "https://www.nytimes.com/2026/05/07/world/europe/hantavirus-cruise-ship-outbreak.html"
     }
   ]
 }

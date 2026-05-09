@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-09T15:51:03+00:00",
+  "fetched_at": "2026-05-09T16:54:00+00:00",
   "items": [
     {
       "id": "feadb4387d1befc6",
@@ -9,6 +9,33 @@
       "source_name": "The Guardian World",
       "source_tier": 2,
       "summary": "<p>This live blog is now closed</p><p>The interior minister of Spain told Reuters on Saturday that <strong>Germany</strong>, <strong>France</strong>, <strong>Belgium</strong>, <strong>Ireland</strong> and <strong>the Netherlands</strong> have confirmed they will send planes to repatriate nationals from their respective countries aboard the cruise ship hit by a hantavirus outbreak.</p><p>The <stron"
+    },
+    {
+      "id": "332929632dca97fa",
+      "title": "What to Know About the Hantavirus Outbreak on an Atlantic Cruise Ship",
+      "url": "https://www.nytimes.com/article/hantavirus-cruise-ship-outbreak-hondius.html",
+      "published_at": "2026-05-09",
+      "source_name": "NYT Health",
+      "source_tier": 2,
+      "summary": "Health authorities said three passengers from the MV Hondius had died after showing symptoms of the rare disease."
+    },
+    {
+      "id": "07d2523e53a1746d",
+      "title": "Hantavirus Vaccines and Treatments Are in the Pipeline",
+      "url": "https://www.nytimes.com/2026/05/09/science/hantavirus-vaccines-treatment.html",
+      "published_at": "2026-05-09",
+      "source_name": "NYT Health",
+      "source_tier": 2,
+      "summary": "But it has been hard to attract interest in medical interventions for viruses that have not been considered a top public health priority, scientists say."
+    },
+    {
+      "id": "231d5cb0486df332",
+      "title": "Before Hantavirus Outbreak, the MV Hondius Attracted ‘a Different Type of Traveler’",
+      "url": "https://www.nytimes.com/2026/05/08/world/hantavirus-mv-hondius-cruise.html",
+      "published_at": "2026-05-09",
+      "source_name": "NYT World",
+      "source_tier": 2,
+      "summary": "Former passengers on the MV Hondius say that the ship was made for wildlife expeditions and that the crew took safety very seriously."
     },
     {
       "id": "a77d58dfc08b200c",
@@ -47,6 +74,24 @@
       "summary": "I learned about hantavirus misinformation this week in the same way I now learn about most public health misinformation: My followers sent it to me. Within hours of the first&#8230;"
     },
     {
+      "id": "0daedaf6a276d205",
+      "title": "Health Officials Race to Track Hantavirus Cruise Ship Outbreak but Predict ‘Limited’ Spread",
+      "url": "https://www.nytimes.com/2026/05/07/world/europe/hantavirus-cruise-ship-outbreak.html",
+      "published_at": "2026-05-08",
+      "source_name": "NYT Health",
+      "source_tier": 2,
+      "summary": "A Dutch flight attendant and French national were among the latest to be tested in connection with a deadly outbreak on a cruise ship. But an analysis in South Africa showed no mutations in viral samples."
+    },
+    {
+      "id": "8db76bff85ad994d",
+      "title": "Hantavirus Is Nothing Like Coronavirus, but It’s Bringing Some ‘Covid P.T.S.D.’",
+      "url": "https://www.nytimes.com/2026/05/08/health/hantavirus-outbreak-covid-pandemic.html",
+      "published_at": "2026-05-08",
+      "source_name": "NYT Health",
+      "source_tier": 2,
+      "summary": "Experts have been quick to reassure the public after the deaths aboard the Dutch cruise ship MV Hondius, but images and turns of phrase have rekindled anxieties from Covid’s early days."
+    },
+    {
       "id": "fd192c6bfb15773f",
       "title": "Evacuation of hantavirus-stricken cruise ship could face delays due to bad weather",
       "url": "https://www.theguardian.com/world/2026/may/08/spanish-authorities-prepare-arrival-hantavirus-cruise-ship-hondius",
@@ -81,6 +126,15 @@
       "source_name": "BBC Health",
       "source_tier": 1,
       "summary": "The Andes strain of the virus, which can rarely be passed from person to person,  has been confirmed in some passengers."
+    },
+    {
+      "id": "cea984eb90137589",
+      "title": "WHO’s response to hantavirus cases linked to a cruise ship",
+      "url": "https://www.who.int/news/item/07-05-2026-who-s-response-to-hantavirus-cases-linked-to-a-cruise-ship",
+      "published_at": "2026-05-07",
+      "source_name": "WHO News RSS",
+      "source_tier": 1,
+      "summary": "<p>Dr Tedros Adhanom Ghebreyesus, WHO Director-General, briefed media today on a cluster of hantavirus cases linked to a cruise ship, the MV Hondius.</p><p>Eight cases have been reported so far, including three deaths. Five of the 8 cases have been confirmed as hantavirus.</p><p>The hantavirus involved is the <em>Andes</em> virus, the only species known to be capable of limited transmission betwee"
     },
     {
       "id": "56651467b3232d4a",
@@ -173,6 +227,15 @@
       "summary": "<p>Health body gives briefing as Spain says ship will not dock in Tenerife but be anchored offshore and passengers will have no contact with the public</p><p>Meanwhile, <strong>Hungary’s incoming prime minister Péter Magyar has arrived for talks at Palazzo Chigi in Rome,</strong> where he is due to meet with Italy’s prime minister <strong>Giorgia Meloni.</strong></p><p>Since <strong>he is not the "
     },
     {
+      "id": "3c302850e8e5b522",
+      "title": "Hantavirus Response Shows How Trump Cuts Have Compromised U.S. Preparedness",
+      "url": "https://www.nytimes.com/2026/05/07/health/hantavirus-americans-cdc.html",
+      "published_at": "2026-05-07",
+      "source_name": "NYT Health",
+      "source_tier": 2,
+      "summary": "The Trump administration has slashed funding for infectious disease research and has far fewer employees, including disease detectives, to respond to outbreaks."
+    },
+    {
       "id": "1e8dd66a87808a24",
       "title": "Cruise ship hantavirus outbreak worries experts, though they discount pandemic fears",
       "url": "https://www.statnews.com/2026/05/07/hantavirus-cruise-ship-outbreak-scientists-say-not-new-pandemic/",
@@ -245,6 +308,15 @@
       "summary": "Two cases of the virus, which rarely spreads between humans, have been confirmed on the ship, and three people have died."
     },
     {
+      "id": "2ae2b2d49eb16f89",
+      "title": "Hantavirus Outbreaks Are Rare, but They Aren’t Going Away and There’s No Cure",
+      "url": "https://www.nytimes.com/2026/05/05/health/hantavirus-outbreaks-disease-history.html",
+      "published_at": "2026-05-05",
+      "source_name": "NYT Health",
+      "source_tier": 2,
+      "summary": "Since the family of rodent-borne infections were identified in the 1950s, they have turned up all over the world."
+    },
+    {
       "id": "4c1f63a02d157a9c",
       "title": "Cruise ship’s hantavirus outbreak puts researchers in uncharted territory",
       "url": "https://www.science.org/content/article/cruise-ship-s-hantavirus-outbreak-puts-researchers-uncharted-territory",
@@ -270,6 +342,24 @@
       "source_name": "The Guardian World",
       "source_tier": 2,
       "summary": "<p>Foreign minister Penny Wong visits Fiji this week to progress the security and economic agreement</p><ul><li><p><a href=\"https://www.theguardian.com/australia-news/live/2026/may/05/hantavirus-cruise-budget-jim-chalmers-rba-interest-rates-cost-of-living-mortgage-royal-commission-antisemitism-victoria-state-budget-ntwnfb\">Follow our Australia news live blog for latest updates</a></p></li><li><p>G"
+    },
+    {
+      "id": "ad3f47671eba0645",
+      "title": "3 Dead in Hantavirus Outbreak Aboard Cruise Ship, W.H.O. Says",
+      "url": "https://www.nytimes.com/2026/05/03/well/cruise-ship-virus-fatal-outbreak.html",
+      "published_at": "2026-05-04",
+      "source_name": "NYT Health",
+      "source_tier": 2,
+      "summary": "One case of hantavirus infection has been confirmed in a laboratory, the organization said on Sunday. There are five additional suspected cases."
+    },
+    {
+      "id": "41db5ccd05f62f0f",
+      "title": "What Is Hantavirus, Which Is Linked to the Deaths of 3 People Aboard a Cruise Ship?",
+      "url": "https://www.nytimes.com/2026/05/03/well/what-is-hantavirus-cruise-ship.html",
+      "published_at": "2026-05-03",
+      "source_name": "NYT Health",
+      "source_tier": 2,
+      "summary": "Three people aboard a cruise ship sailing the Atlantic Ocean have died from what health officials suspect were hantavirus infections."
     }
   ]
 }
