@@ -48,7 +48,8 @@ function caseGeo(cases: ICase[]) {
 function lineGeo(selected: ICase, all: ICase[], bold: boolean) {
   const cluster = all.filter(c =>
     c.cluster_id === selected.cluster_id &&
-    typeof c.lat === 'number' && typeof c.origin_lat === 'number'
+    typeof c.lat === 'number' && typeof c.lng === 'number' &&
+    typeof c.origin_lat === 'number' && typeof c.origin_lng === 'number'
   )
   const targets = bold ? cluster.filter(c => c.id === selected.id) : cluster.filter(c => c.id !== selected.id)
   return {
@@ -140,10 +141,13 @@ export function OutbreakMap({ regions, individualCases, onSelect }: Props) {
   return (
     <div style={{position:'relative', width:'100%', height:'100%'}}>
       <Map mapboxAccessToken={TOKEN}
-        
         initialViewState={{ longitude: -20, latitude: 15, zoom: 1.6 }}
         mapStyle={STYLE}
         interactiveLayerIds={['case-dots']}
+        onLoad={(e) => {
+          e.target.setProjection('globe')
+          e.target.setFog({ 'space-color': '#090C10', 'star-intensity': 0.7 })
+        }}
         onClick={onClick}
         style={{ width:'100%', height:'100%' }}
         dragRotate={true}

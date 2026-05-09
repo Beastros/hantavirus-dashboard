@@ -18,10 +18,10 @@ sources:
     name: STAT News
     tier: 1
     rss_url: https://www.statnews.com/feed/
-  - id: cidrap
-    name: CIDRAP
+  - id: who-rss
+    name: WHO News RSS
     tier: 1
-    rss_url: https://www.cidrap.umn.edu/rss.xml
+    rss_url: https://www.who.int/rss-feeds/news-english.xml
   - id: cdc-media
     name: CDC Media
     tier: 1
@@ -38,14 +38,14 @@ sources:
     name: The Guardian World
     tier: 2
     rss_url: https://www.theguardian.com/world/rss
-  - id: reuters-world
-    name: Reuters World
+  - id: nyt-world
+    name: NYT World
     tier: 2
-    rss_url: https://feeds.reuters.com/reuters/worldNews
-  - id: ap-health
-    name: AP Health
+    rss_url: https://rss.nytimes.com/services/xml/rss/nyt/World.xml
+  - id: nyt-health
+    name: NYT Health
     tier: 2
-    rss_url: https://feeds.apnews.com/apnews/health
+    rss_url: https://rss.nytimes.com/services/xml/rss/nyt/Health.xml
   - id: science-news
     name: Science Magazine
     tier: 3
