@@ -1,4 +1,4 @@
-﻿import React, { useMemo, useCallback, useState, useEffect } from 'react'
+﻿import React, { useMemo, useCallback, useState } from 'react'
 import type { MapLayerMouseEvent } from 'maplibre-gl'
 import Map, { Layer, Popup, Source, type MapRef } from 'react-map-gl/maplibre'
 import type { RegionCase } from '../types'
@@ -295,5 +295,6 @@ export function OutbreakMap({ regions, individualCases, onSelect, mapRef }: Prop
     </div>
   )
 }
+
 
 
