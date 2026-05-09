@@ -9,13 +9,14 @@ import { Ticker } from './components/Ticker'
 import { StatsPanel } from './components/StatsPanel'
 import { ShipPanel } from './components/ShipPanel'
 import { StrainReadout } from './components/StrainReadout'
-import { loadCases, loadNews, loadIndividualCases } from './loadData'
+import { loadCases, loadNews, loadIndividualCases, loadShipPosition } from './loadData'
 import type { CasesFile, NewsFile } from './types'
 
 export default function App() {
   const [cases, setCases] = useState<CasesFile | null>(null)
   const [news, setNews] = useState<NewsFile | null>(null)
   const [individualCases, setIndividualCases] = useState<any[]>([])
+  const [shipPos, setShipPos] = useState<{ lat: number; lng: number; name?: string } | null>(null)
   const [err, setErr] = useState<string | null>(null)
   const [selectedId, setSelectedId] = useState<string | null>(null)
 
@@ -32,6 +33,14 @@ export default function App() {
     loadIndividualCases()
       .then((d: any) => { if (!cancelled) setIndividualCases(d.cases || []) })
       .catch(() => {})
+    loadShipPosition()
+      .then((s: any) => {
+        if (cancelled || !s) return
+        const lat = typeof s.lat === 'number' ? s.lat : Number(s.lat)
+        const lng = typeof s.lng === 'number' ? s.lng : Number(s.lng)
+        if (Number.isFinite(lat) && Number.isFinite(lng)) setShipPos({ lat, lng, name: s.name })
+      })
+      .catch(() => {})
 
     const refresh = setInterval(async () => {
       try {
@@ -39,6 +48,14 @@ export default function App() {
         setCases(c); setNews(n)
       } catch {}
       loadIndividualCases().then((d: any) => setIndividualCases(d.cases || [])).catch(() => {})
+      loadShipPosition()
+        .then((s: any) => {
+          if (!s) return
+          const lat = typeof s.lat === 'number' ? s.lat : Number(s.lat)
+          const lng = typeof s.lng === 'number' ? s.lng : Number(s.lng)
+          if (Number.isFinite(lat) && Number.isFinite(lng)) setShipPos({ lat, lng, name: s.name })
+        })
+        .catch(() => {})
     }, 5 * 60 * 1000)
 
     return () => { cancelled = true; clearInterval(refresh) }
@@ -107,6 +124,7 @@ export default function App() {
           <OutbreakMap
             regions={cases.regions}
             individualCases={individualCases}
+            shipPosition={shipPos}
             onSelect={setSelectedId}
           />
         </div>

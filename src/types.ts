@@ -8,6 +8,7 @@ export interface RegionCase {
   suspected?: number
   probable?: number
   confirmed?: number
+  deaths?: number
   ruled_out?: number
   outbreak_level?: OutbreakLevel
   last_reported?: string

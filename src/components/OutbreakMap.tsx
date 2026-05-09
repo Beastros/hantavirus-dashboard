@@ -21,8 +21,94 @@ interface ICase {
 type Props = {
   regions: RegionCase[]
   individualCases: ICase[]
+  shipPosition?: { lat: number; lng: number; name?: string } | null
   onSelect: (id: string | null) => void
   
+}
+
+/** Ledger region row → Mapbox country-boundaries ISO α-3 */
+const REGION_ID_ISO: Record<string, string> = {
+  'ar-ushuaia': 'ARG',
+  'sh-saint-helena': 'SHN',
+  'sh-ascension': 'SHN',
+  'cv-cape-verde': 'CPV',
+  'za-johannesburg': 'ZAF',
+  'nl-netherlands': 'NLD',
+  'ch-zurich': 'CHE',
+  'fr-france': 'FRA',
+  'sg-singapore': 'SGP',
+  'us-arizona': 'USA',
+  'us-georgia': 'USA',
+  'us-california': 'USA',
+  'us-omaha': 'USA',
+  'es-tenerife': 'ESP',
+  'uk-london': 'GBR',
+  'uk-tristan': 'SHN',
+  'ca-canada': 'CAN',
+  'uy-uruguay': 'URY',
+  'cl-chile': 'CHL',
+}
+
+const USHUAIA_LNG_LAT: [number, number] = [-68.3030, -54.8019]
+const CAPE_VERDE_LNG_LAT: [number, number] = [-23.5133, 14.9330]
+const TENERIFE_LNG_LAT: [number, number] = [-16.6291, 28.2916]
+/** Rough mid-Atlantic leg when AIS snapshot missing */
+const MIDTRACK_FALLBACK_LNG_LAT: [number, number] = [-38.0, 14.5]
+
+function ledgerImpact(r: RegionCase): number {
+  return (r.confirmed ?? 0) + (r.probable ?? 0) + (r.deaths ?? 0)
+}
+
+function hotspotIsoCodes(regions: RegionCase[]): string[] {
+  const s = new globalThis.Set<string>()
+  for (const row of regions) {
+    if (ledgerImpact(row) < 1) continue
+    const iso = REGION_ID_ISO[row.id]
+    if (iso) s.add(iso)
+  }
+  return [...s]
+}
+
+function dedupeLngLat(seq: [number, number][], epsDeg = 0.04): [number, number][] {
+  const out: [number, number][] = []
+  for (const p of seq) {
+    const prev = out[out.length - 1]
+    if (!prev || Math.hypot(p[0] - prev[0], p[1] - prev[1]) > epsDeg) out.push(p)
+  }
+  return out
+}
+
+function shipRouteGeo(ship?: { lat: number; lng: number } | null) {
+  const mid: [number, number] =
+    ship && Number.isFinite(ship.lat) && Number.isFinite(ship.lng)
+      ? [ship.lng, ship.lat]
+      : MIDTRACK_FALLBACK_LNG_LAT
+  const coords = dedupeLngLat([
+    USHUAIA_LNG_LAT,
+    CAPE_VERDE_LNG_LAT,
+    mid,
+    TENERIFE_LNG_LAT,
+  ])
+  return {
+    type: 'FeatureCollection' as const,
+    features: [{
+      type: 'Feature' as const,
+      properties: {},
+      geometry: { type: 'LineString' as const, coordinates: coords },
+    }],
+  }
+}
+
+function shipMarkerGeo(ship?: { lat: number; lng: number; name?: string } | null) {
+  if (!ship || !Number.isFinite(ship.lat) || !Number.isFinite(ship.lng)) return EMPTY_GEO
+  return {
+    type: 'FeatureCollection' as const,
+    features: [{
+      type: 'Feature' as const,
+      properties: { name: ship.name ?? 'MV Hondius' },
+      geometry: { type: 'Point' as const, coordinates: [ship.lng, ship.lat] },
+    }],
+  }
 }
 
 const COLORS: Record<string, string> = {
@@ -167,7 +253,7 @@ function estRt(regions: RegionCase[]) {
   }
 }
 
-export function OutbreakMap({ regions, individualCases, onSelect }: Props) {
+export function OutbreakMap({ regions, individualCases, shipPosition = null, onSelect }: Props) {
   const rt = useMemo(() => estRt(regions), [regions])
   const [sel, setSel]     = useState<ICase | null>(null)
   const [popup, setPopup] = useState<{lng:number;lat:number;node:React.ReactNode}|null>(null)
@@ -175,6 +261,10 @@ export function OutbreakMap({ regions, individualCases, onSelect }: Props) {
 
   const dots       = useMemo(() => caseGeo(individualCases), [individualCases])
   const fixedPins  = useMemo(() => fixedOriginPins(individualCases), [individualCases])
+  const isoHotspots = useMemo(() => hotspotIsoCodes(regions), [regions])
+  const shipTrack   = useMemo(() => shipRouteGeo(shipPosition), [shipPosition])
+  const shipDot     = useMemo(() => shipMarkerGeo(shipPosition), [shipPosition])
+  const showShipDot = !!(shipPosition && Number.isFinite(shipPosition.lat) && Number.isFinite(shipPosition.lng))
   const boldLines  = useMemo(() => sel ? lineGeo(sel, individualCases, true)  : EMPTY_GEO, [sel, individualCases])
   const fadedLines = useMemo(() => sel ? lineGeo(sel, individualCases, false) : EMPTY_GEO, [sel, individualCases])
   const origin     = useMemo(() => sel ? originGeo(sel, individualCases) : EMPTY_GEO, [sel, individualCases])
@@ -317,6 +407,89 @@ export function OutbreakMap({ regions, individualCases, onSelect }: Props) {
         style={{ width:'100%', height:'100%' }}
         dragRotate={true}
       >
+        {isoHotspots.length > 0 && (
+          <Source id="country-boundaries-src" type="vector" url="mapbox://mapbox.country-boundaries-v1">
+            <Layer
+              id="country-hot-fill"
+              type="fill"
+              source-layer="country_boundaries"
+              filter={[
+                'all',
+                ['match', ['get', 'worldview'], ['all', 'US'], true, false],
+                ['==', ['get', 'disputed'], false],
+                ['in', ['get', 'iso_3166_1_alpha_3'], ['literal', isoHotspots]],
+              ]}
+              paint={{
+                'fill-color': '#FF5533',
+                'fill-opacity': 0.06,
+              }}
+            />
+            <Layer
+              id="country-hot-line"
+              type="line"
+              source-layer="country_boundaries"
+              filter={[
+                'all',
+                ['match', ['get', 'worldview'], ['all', 'US'], true, false],
+                ['==', ['get', 'disputed'], false],
+                ['in', ['get', 'iso_3166_1_alpha_3'], ['literal', isoHotspots]],
+              ]}
+              paint={{
+                'line-color': '#FF7744',
+                'line-width': 2,
+                'line-opacity': 0.62,
+              }}
+            />
+          </Source>
+        )}
+        <Source id="ship-route-src" type="geojson" data={shipTrack}>
+          <Layer
+            id="ship-route-glow"
+            type="line"
+            layout={{ 'line-cap': 'round', 'line-join': 'round' }}
+            paint={{
+              'line-color': '#3388FF',
+              'line-width': 10,
+              'line-opacity': 0.2,
+              'line-blur': 2.5,
+            }}
+          />
+          <Layer
+            id="ship-route-core"
+            type="line"
+            layout={{ 'line-cap': 'round', 'line-join': 'round' }}
+            paint={{
+              'line-color': '#66BBFF',
+              'line-width': 2.4,
+              'line-opacity': 0.95,
+            }}
+          />
+        </Source>
+        {showShipDot && (
+          <Source id="ship-pos-src" type="geojson" data={shipDot}>
+            <Layer
+              id="ship-pos-ring"
+              type="circle"
+              paint={{
+                'circle-radius': 16,
+                'circle-color': 'rgba(0,0,0,0)',
+                'circle-stroke-color': '#3388FF',
+                'circle-stroke-width': 2,
+                'circle-stroke-opacity': 0.75,
+              }}
+            />
+            <Layer
+              id="ship-pos-dot"
+              type="circle"
+              paint={{
+                'circle-radius': 6,
+                'circle-color': '#55AAFF',
+                'circle-stroke-color': '#090C10',
+                'circle-stroke-width': 1.5,
+              }}
+            />
+          </Source>
+        )}
         <Source id="faded-src" type="geojson" data={fadedLines}>
           <Layer id="faded-line" type="line" paint={{'line-color':'#FF8888','line-width':1,'line-opacity':0.3,'line-dasharray':[3,4]}} />
         </Source>
@@ -392,7 +565,7 @@ export function OutbreakMap({ regions, individualCases, onSelect }: Props) {
           <span key={k}><span className="legend-dot" style={{background:v}} /> {k}</span>
         ))}
         <span className="legend-note">
-          Pulses = cases. Amber anchor = Ushuaia index origin; red = other exposure anchors (click for briefings). Click a case dot for traceback.
+          Blue track = MV Hondius voyage (Ushuaia → Cape Verde → AIS fix → Tenerife). Red tint = countries with confirmed/probable/deaths in ledger.
         </span>
       </div>
 
