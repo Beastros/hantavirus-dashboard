@@ -46,16 +46,9 @@ export default function App() {
     return () => { cancelled = true; clearInterval(refresh) }
   }, [])
 
-  useEffect(() => {
-    if (!selectedId || !cases) return
-    const r = cases.regions.find(x => x.id === selectedId)
-    if (!r) return
-    mapRef.current?.flyTo({ center: [r.lng, r.lat], zoom: 5, duration: 900 })
-  }, [selectedId, cases])
-
   if (err) return <div className="shell"><p className="error-banner">{err}</p></div>
   if (!cases || !news) return (
-    <div className="shell" style={{display:'flex',alignItems:'center',justifyContent:'center',height:'100vh', fontFamily:"'Share Tech Mono',monospace",color:'#00FF41',fontSize:'14px',letterSpacing:'.15em'}}>
+    <div style={{display:'flex',alignItems:'center',justifyContent:'center',height:'100vh',fontFamily:"'Share Tech Mono',monospace",color:'#00FF41',fontSize:'14px',letterSpacing:'.15em',background:'#090C10'}}>
       INITIALIZING SIGNAL DESK...
     </div>
   )
@@ -89,11 +82,11 @@ export default function App() {
         <div className="intel-summary">
           Andes-strain hantavirus. MV Hondius en route Tenerife, arriving May 9.
           WHO global risk: <strong style={{color:'var(--informational)'}}>LOW</strong>.
-          Human-to-human transmission: limited close contact only.
+          H2H transmission: limited close contact only.
         </div>
-        <div style={{marginLeft:'auto', display:'flex', flexDirection:'column', alignItems:'flex-end', gap:4}}>
+        <div style={{marginLeft:'auto',display:'flex',flexDirection:'column',alignItems:'flex-end',gap:4}}>
           <span className="top-badge">ACTIVE OUTBREAK</span>
-          <span style={{fontSize:'.65rem', color:'var(--muted)', fontFamily:"'Share Tech Mono',monospace"}}>
+          <span style={{fontSize:'.65rem',color:'var(--muted)',fontFamily:"'Share Tech Mono',monospace"}}>
             UPDATED {cases.updated.slice(0,10)}
           </span>
         </div>
@@ -101,18 +94,24 @@ export default function App() {
 
       <p className="disclaimer">{cases.disclaimer}</p>
 
+      {/* Main 3-column grid â€” fixed height, does not stretch */}
       <div className="main-grid">
         <div className="left-col">
           <StatsPanel cases={individualCases} regions={cases.regions} />
           <ShipPanel />
           <StrainReadout />
-          <div className="sb-section" style={{flex:1}}>
+          <div className="sb-section" style={{flex:1,overflowY:'auto'}}>
             <RegionList regions={cases.regions} selectedId={selectedId} onSelect={setSelectedId} />
           </div>
         </div>
 
         <div className="map-col">
-          <OutbreakMap regions={cases.regions} onSelect={setSelectedId} mapRef={mapRef} />
+          <OutbreakMap
+            regions={cases.regions}
+            individualCases={individualCases}
+            onSelect={setSelectedId}
+            mapRef={mapRef}
+          />
         </div>
 
         <div className="right-col">
@@ -122,7 +121,8 @@ export default function App() {
 
       <FreshnessBar />
 
-      <div className="bottom-section">
+      {/* Analytics below â€” page scrolls here */}
+      <div style={{padding:'1rem 1rem 0'}}>
         <div className="analytics-row">
           <CaseTable />
           <PivotChart cases={individualCases} />
