@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-05-10T19:01:10+00:00",
+  "fetched_at": "2026-05-10T20:04:33+00:00",
   "items": [
+    {
+      "id": "35ecd6f29494387a",
+      "title": "French national shows symptoms on return from hantavirus-hit ship",
+      "url": "https://www.bbc.com/news/articles/c3r2p70jdy7o",
+      "published_at": "2026-05-10T19:43:57+00:00",
+      "source_name": "BBC Health",
+      "source_tier": 1,
+      "summary": "Five passengers of the MV Hondius will be quarantined in Paris \"until further notice\", France's prime minister says."
+    },
     {
       "id": "236b26b7a15e4cf8",
       "title": "British paratroopers land on Tristan da Cunha for suspected hantavirus case",
