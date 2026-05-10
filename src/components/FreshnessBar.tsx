@@ -33,23 +33,28 @@ export function FreshnessBar() {
   const nowMs = now.getTime()
   const minsAgo = Math.floor((nowMs - lastRun.getTime()) / 60_000)
 
-  // Next wall-clock quarter-hour (ingest workflow runs every fifteen minutes).
-  const PERIOD_MS = 15 * 60 * 1000
-  const nextMs = Math.ceil(nowMs / PERIOD_MS) * PERIOD_MS
-  const secsToNext = Math.max(0, Math.round((nextMs - nowMs) / 1000))
-  const minsToNext = Math.floor(secsToNext / 60)
-  const secsRem = secsToNext % 60
-
-  const stale = minsAgo > 30
+  // Seconds until next :00 / :15 / :30 / :45 UTC (GitHub ingest uses a fifteen-minute cron).
+  const remSec =
+    (now.getUTCMinutes() % 15) * 60 + now.getUTCSeconds() + now.getUTCMilliseconds() / 1000
+  const secToNextUtcQuarter = Math.max(0, Math.round(15 * 60 - remSec))
+  const minsToNext = Math.floor(secToNextUtcQuarter / 60)
+  const secsRem = secToNextUtcQuarter % 60
   const countdownStr = minsToNext > 0
-    ? `${minsToNext}m ${secsRem.toString().padStart(2,'0')}s`
+    ? `${minsToNext}m ${secsRem.toString().padStart(2, '0')}s`
     : `${secsRem}s`
 
+  /** `ingest-status.json` is only rewritten when ingest runs; allow ~3 missed slots before warning. */
+  const STALE_MINS = 45
+  const stale = minsAgo > STALE_MINS
+
   return (
-    <div className="freshness-bar">
+    <div
+      className="freshness-bar"
+      title="Green dot = ingest-status.json is fresh. Amber = last_run older than 45m (workflow may be failing or skipped). Countdown = next UTC quarter-hour (cron cadence), not a guarantee of new commits."
+    >
       <span className={`fresh-dot ${stale ? 'fresh-warn' : 'fresh-ok'}`} />
       <span className="fresh-label">
-        Next update in: <strong>{countdownStr}</strong>
+        Next UTC ingest slot: <strong>{countdownStr}</strong>
       </span>
       <span className="fresh-sep">|</span>
       <span className="fresh-label">
@@ -57,7 +62,10 @@ export function FreshnessBar() {
           ? `${Math.floor(minsAgo/60)}h ${minsAgo%60}m ago`
           : `${minsAgo}m ago`}
         {stale && (
-          <span className="fresh-warn-text"> (ingest-status &gt;30m old — check Actions / cron)</span>
+          <span className="fresh-warn-text">
+            {' '}
+            (ingest-status.json &gt;{STALE_MINS}m — check GitHub Actions)
+          </span>
         )}
       </span>
       <span className="fresh-sep">|</span>

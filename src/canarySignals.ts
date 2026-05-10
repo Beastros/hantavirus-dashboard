@@ -45,7 +45,7 @@ function ingestRow(ingestStatus: Record<string, unknown> | null, base: string): 
   const caseCount = Number(ingestStatus.case_count) || 0
   let level: CanaryLevel = 'ok'
   if (mins > 180 || fail >= 4) level = 'alert'
-  else if (mins > 40 || fail >= 1) level = 'watch'
+  else if (mins > 45 || fail >= 1) level = 'watch'
   const detail =
     `Last run ${mins < 1 ? 'just now' : mins < 60 ? `${mins}m ago` : `${Math.floor(mins / 60)}h ${mins % 60}m ago`}. ` +
     `RSS sources ${ok} ok${fail ? `, ${fail} failed` : ''}. ` +
