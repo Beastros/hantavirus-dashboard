@@ -25,18 +25,21 @@ jobs:
           python-version: '3.12'
       - name: Install dependencies
         run: pip install -r ingest/requirements.txt
-      - name: Run ingest
-        working-directory: ingest
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          AIS_API_KEY: ${{ secrets.AIS_API_KEY }}
-        run: python run.py
+      # Reddit must run even when Claude/AIS ingest fails (secrets/API errors).
       - name: Mirror r/hantavirus intel (hot + new)
+        continue-on-error: true
         working-directory: ingest
         env:
           REDDIT_SUBREDDIT: hantavirus
           REDDIT_HOT_LIMIT: '18'
         run: python reddit_hot.py
+      - name: Run ingest (RSS + AI)
+        continue-on-error: true
+        working-directory: ingest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          AIS_API_KEY: ${{ secrets.AIS_API_KEY }}
+        run: python run.py
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
