@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-10T23:08:57+00:00",
+  "last_run": "2026-05-10T23:35:56+00:00",
   "sources_ok": 10,
   "sources_failed": 0,
   "source_detail": {
@@ -73,11 +73,5 @@
     "primary-cdc-statement",
     "primary-who-don",
     "primary-who-response"
-  ],
-  "reddit_intel": {
-    "fetched_at": "2026-05-10T23:08:58+00:00",
-    "subreddit": "hantavirus",
-    "hot_count": 0,
-    "new_count": 0
-  }
+  ]
 }
