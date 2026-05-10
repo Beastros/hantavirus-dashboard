@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-05-10T15:52:39+00:00",
+  "fetched_at": "2026-05-10T16:54:09+00:00",
   "items": [
+    {
+      "id": "1410680480536f13",
+      "title": "Americans onboard hantavirus cruise ship to be repatriated to US",
+      "url": "https://www.theguardian.com/us-news/2026/may/10/americans-hantavirus-cruise-ship-repatriated",
+      "published_at": "2026-05-10T16:20:38+00:00",
+      "source_name": "The Guardian World",
+      "source_tier": 2,
+      "summary": "The 17 passengers are set to be transferred to a special quarantine center in Nebraska to ‘assess them for risk’ The 17 Americans onboard the hantavirus -stricken cruise ship M/V Hondius were being repatriated to the United States on Sunday after the vessel docked in Tenerife and all the passengers were evacuated. Upon their arrival in Spain, medical teams from the US Centers for Disease Control and Prevention (CDC)…"
+    },
     {
       "id": "f39173ad4db7016d",
       "title": "British Paratroopers Deliver Aid to Remote Islands With Possible Hantavirus Case",
