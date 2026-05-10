@@ -39,24 +39,67 @@ function clipPreview(s: string, maxLen: number): string {
   return cut.trimEnd() + '...'
 }
 
-function timeAgo(dateStr?: string | null): string {
-  if (!dateStr) return ''
-  const t = new Date(dateStr).getTime()
-  if (Number.isNaN(t)) return ''
-  const diff = Date.now() - t
+/**
+ * RSS often emits `published_at` as date-only (`YYYY-MM-DD`). Parsing that as ISO UTC midnight
+ * makes every headline look "1d old" the next calendar day — use local noon for date-only strings.
+ */
+function parsePublishedInstant(dateStr?: string | null): number | null {
+  if (!dateStr) return null
+  const s = dateStr.trim()
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s)
+  if (m) {
+    const y = Number(m[1])
+    const mo = Number(m[2]) - 1
+    const d = Number(m[3])
+    return new Date(y, mo, d, 12, 0, 0, 0).getTime()
+  }
+  const t = new Date(s).getTime()
+  return Number.isNaN(t) ? null : t
+}
+
+function formatShortDate(ts: number): string {
+  return new Date(ts).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' })
+}
+
+function timeAgoFromTs(ts: number): string {
+  const diff = Date.now() - ts
+  if (diff < 60_000) return 'just now'
   const h = Math.floor(diff / 3600000)
-  if (h < 1) return 'just now'
+  if (h < 1) return `${Math.floor(diff / 60_000)}m ago`
   if (h < 24) return `${h}h ago`
-  return `${Math.floor(h/24)}d ago`
+  const days = Math.floor(h / 24)
+  return `${days}d ago`
+}
+
+function articleTimeLabel(publishedAt?: string | null): string {
+  const ts = parsePublishedInstant(publishedAt)
+  if (ts == null) return '—'
+  const rel = timeAgoFromTs(ts)
+  const dateOnly = publishedAt && /^\d{4}-\d{2}-\d{2}$/.test(publishedAt.trim())
+  if (dateOnly) return `${rel} · ${formatShortDate(ts)}`
+  return rel
 }
 
 export function IntelFeed({ items, fetchedAt }: { items: NewsItem[]; fetchedAt: string }) {
+  const fetchedTs = parsePublishedInstant(fetchedAt)
+  const pulledLabel =
+    fetchedTs != null && !Number.isNaN(fetchedTs) ? `Pulled ${timeAgoFromTs(fetchedTs)}` : ''
+  const fetchedDisplay =
+    fetchedTs != null && !Number.isNaN(fetchedTs)
+      ? new Date(fetchedTs).toLocaleString()
+      : fetchedAt
+
   return (
     <div style={{height:'100%', display:'flex', flexDirection:'column'}}>
       <div className="intel-feed-header">
         INTEL FEED
-        <span style={{marginLeft:'auto', color:'var(--muted)', fontSize:'8px'}}>
-          SYNC {new Date(fetchedAt).toUTCString().slice(17,22)} UTC
+        <span
+          style={{ marginLeft: 'auto', color: 'var(--muted)', fontSize: '8px', textAlign: 'right', maxWidth: '58%' }}
+          title={fetchedAt}
+        >
+          {pulledLabel}
+          {pulledLabel && <br />}
+          <span style={{ opacity: 0.85 }}>{fetchedDisplay}</span>
         </span>
       </div>
       <div style={{overflowY:'auto', flex:1, scrollbarWidth:'thin', scrollbarColor:'var(--border2) transparent'}}>
@@ -67,7 +110,7 @@ export function IntelFeed({ items, fetchedAt }: { items: NewsItem[]; fetchedAt: 
             <div key={item.id} className="intel-item">
               <div className="intel-item-meta">
                 <span className={`source-badge ${badge.cls}`}>{badge.label}</span>
-                <span className="intel-time">{timeAgo(item.published_at)}</span>
+                <span className="intel-time" title={item.published_at ?? ''}>{articleTimeLabel(item.published_at)}</span>
               </div>
               <div className="intel-title">{stripHtml(item.title)}</div>
               {preview && (

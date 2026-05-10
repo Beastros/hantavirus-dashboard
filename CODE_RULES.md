@@ -14,6 +14,10 @@ Conventions and **lessons learned** for anyone (human or AI) extending this repo
 
 ## Frontend (Vite + React)
 
+### Intel feed timestamps (`IntelFeed.tsx`)
+
+- Many RSS items only provide **`published_at` as a calendar date** (`YYYY-MM-DD`). Parsing that string with `new Date("2026-05-09")` is **UTC midnight**, so the UI looked “**1d ago**” as soon as the viewer’s local time passed that instant — even when the article is still “today’s” story. **Fix:** treat date-only values as **local noon** when computing “time ago”, and show the short calendar date beside the relative label when helpful.
+
 ### Mapbox token
 
 - **`VITE_MAPBOX_TOKEN`** must be set for the map to initialize. If it is missing or blank, `OutbreakMap` renders a **MAP OFFLINE** panel instead of a broken Mapbox canvas (clearer for local dev and misconfigured CI).
@@ -23,6 +27,10 @@ Conventions and **lessons learned** for anyone (human or AI) extending this repo
 
 - `vite.config.ts` sets `base` to `/${repoName}/` when `GITHUB_REPOSITORY` is set (GitHub Actions build). Locally it is `/`.
 - All runtime JSON loads must go through **`loadData.ts`** helpers so paths respect `import.meta.env.BASE_URL` (see `basePath()` + `fetchJson` cache-busting). Do not hard-code `/data/...` at the site root.
+
+### Case ledger column (`.sb-section--ledger`)
+
+- Do not cap **`.region-list`** with a small **`max-height`** inside a flex sidebar: it created a useless inner scroll strip and clipped region rows. The ledger section should **`flex: 1`**, **`min-height: 0`**, and delegate vertical scrolling to **one** scroll container (`.region-list` with `max-height: none` in that context).
 
 ### Layout and Mapbox on mobile / iOS
 

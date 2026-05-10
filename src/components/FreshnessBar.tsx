@@ -30,19 +30,17 @@ export function FreshnessBar() {
 
   const lastRun = new Date(status.last_run)
   const now = new Date()
-  const minsAgo = Math.floor((now.getTime() - lastRun.getTime()) / 60_000)
+  const nowMs = now.getTime()
+  const minsAgo = Math.floor((nowMs - lastRun.getTime()) / 60_000)
 
-  const next = new Date(now)
-  next.setSeconds(0, 0)
-  const m = next.getMinutes()
-  const nextM = Math.ceil((m + 1) / 15) * 15
-  if (nextM >= 60) { next.setHours(next.getHours() + 1); next.setMinutes(0) }
-  else next.setMinutes(nextM)
-  const secsToNext = Math.max(0, Math.round((next.getTime() - now.getTime()) / 1000))
+  // Next wall-clock quarter-hour (ingest workflow runs every fifteen minutes).
+  const PERIOD_MS = 15 * 60 * 1000
+  const nextMs = Math.ceil(nowMs / PERIOD_MS) * PERIOD_MS
+  const secsToNext = Math.max(0, Math.round((nextMs - nowMs) / 1000))
   const minsToNext = Math.floor(secsToNext / 60)
   const secsRem = secsToNext % 60
 
-  const stale = minsAgo > 20
+  const stale = minsAgo > 30
   const countdownStr = minsToNext > 0
     ? `${minsToNext}m ${secsRem.toString().padStart(2,'0')}s`
     : `${secsRem}s`
@@ -59,7 +57,7 @@ export function FreshnessBar() {
           ? `${Math.floor(minsAgo/60)}h ${minsAgo%60}m ago`
           : `${minsAgo}m ago`}
         {stale && (
-          <span className="fresh-warn-text"> (deployed status snapshot &gt;20m old)</span>
+          <span className="fresh-warn-text"> (ingest-status &gt;30m old — check Actions / cron)</span>
         )}
       </span>
       <span className="fresh-sep">|</span>

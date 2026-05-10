@@ -169,7 +169,7 @@ export default function App() {
           <StatsPanel cases={individualCases} regions={cases.regions} />
           <ShipPanel />
           <StrainReadout />
-          <div className="sb-section" style={{flex:1,overflowY:'auto'}}>
+          <div className="sb-section sb-section--ledger">
             <RegionList regions={cases.regions} selectedId={selectedId} onSelect={setSelectedId} />
           </div>
         </div>

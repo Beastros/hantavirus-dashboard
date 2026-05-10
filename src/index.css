@@ -100,6 +100,28 @@ code { font-family: 'Share Tech Mono', monospace; font-size: .85em; background: 
   scrollbar-width: thin; scrollbar-color: var(--border2) transparent;
   background: var(--panel);
   display: flex; flex-direction: column; gap: 0;
+  min-height: 0;
+}
+
+/* Case ledger: fill remaining sidebar height; single scroll (no 340px inner trap). */
+.sb-section--ledger {
+  flex: 1 1 0%;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+.sb-section--ledger .region-panel {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 0;
+}
+.sb-section--ledger .region-panel .panel-head {
+  flex-shrink: 0;
 }
 
 /* â”€â”€ Map col â”€â”€ */
@@ -184,7 +206,17 @@ code { font-family: 'Share Tech Mono', monospace; font-size: .85em; background: 
 }
 .intel-item:hover { background: var(--panel2); }
 .intel-item-meta {
-  display: flex; align-items: center; gap: 6px; margin-bottom: 5px;
+  display: flex; align-items: flex-start; justify-content: space-between; gap: 6px; margin-bottom: 5px;
+  flex-wrap: wrap;
+}
+.intel-time {
+  margin-left: auto;
+  text-align: right;
+  max-width: 100%;
+  line-height: 1.35;
+  font-size: 9px;
+  color: var(--muted);
+  font-family: 'Share Tech Mono', monospace;
 }
 .source-badge {
   font-family: 'Share Tech Mono', monospace;
@@ -198,7 +230,6 @@ code { font-family: 'Share Tech Mono', monospace; font-size: .85em; background: 
 .badge-stat   { background: rgba(26,188,156,.2); color: #1ABC9C; border: 1px solid rgba(26,188,156,.4); }
 .badge-guardian{background: rgba(35,75,138,.2);  color: #5B9FE4; border: 1px solid rgba(35,75,138,.4); }
 .badge-default{ background: rgba(139,148,158,.2);color: #8B949E; border: 1px solid rgba(139,148,158,.4); }
-.intel-time { font-size: 9px; color: var(--muted); font-family: 'Share Tech Mono', monospace; margin-left: auto; }
 .intel-title { font-size: 13px; font-weight: 600; color: var(--text); line-height: 1.35; margin-bottom: 4px; }
 .intel-summary { font-size: 11px; color: var(--muted); line-height: 1.45; margin-bottom: 6px; }
 .intel-read { font-family: 'Share Tech Mono', monospace; font-size: 9px; color: var(--accent); letter-spacing: .06em; }
@@ -368,13 +399,24 @@ code { font-family: 'Share Tech Mono', monospace; font-size: .85em; background: 
 .chip-high, .chip-confirmed           { color:var(--confirmed); border-color:rgba(255,68,68,.4); }
 
 /* â”€â”€ Region list â”€â”€ */
-.region-list, .news-list { list-style:none; margin:.45rem 0 0; padding:0; display:flex; flex-direction:column; gap:.3rem; max-height:340px; overflow-y:auto; scrollbar-width:thin; scrollbar-color:var(--border2) transparent; }
-.region-row { width:100%; text-align:left; background:var(--panel2); border:1px solid var(--border); border-radius:4px; padding:.45rem .6rem; color:inherit; cursor:pointer; transition:border-color .15s; }
+.region-list, .news-list { list-style:none; margin:.45rem 0 0; padding:0; display:flex; flex-direction:column; gap:.3rem; scrollbar-width:thin; scrollbar-color:var(--border2) transparent; }
+.news-list { max-height:340px; overflow-y:auto; }
+.sb-section--ledger .region-list {
+  flex: 1 1 auto;
+  min-height: 0;
+  max-height: none;
+  margin-top: 0.35rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.region-row { width:100%; max-width:100%; text-align:left; background:var(--panel2); border:1px solid var(--border); border-radius:4px; padding:.45rem .6rem; color:inherit; cursor:pointer; transition:border-color .15s; box-sizing:border-box; }
 .region-row:hover  { border-color:var(--border2); }
 .region-row.active { border-color:var(--accent); box-shadow:0 0 0 1px rgba(0,255,65,.2); }
-.region-title { display:flex; justify-content:space-between; align-items:center; gap:.5rem; font-size:.85rem; font-weight:600; }
-.region-counts { margin-top:.25rem; display:flex; gap:.45rem; font-size:.72rem; font-family:'Share Tech Mono',monospace; }
-.region-meta { margin-top:.15rem; font-size:.67rem; color:var(--muted); font-family:'Share Tech Mono',monospace; }
+.region-title { display:flex; justify-content:space-between; align-items:flex-start; gap:.4rem; font-size:.85rem; font-weight:600; flex-wrap:wrap; }
+.region-title strong { min-width:0; flex:1 1 8rem; line-height:1.25; word-break:break-word; }
+.region-title .chip { flex-shrink:0; align-self:flex-start; }
+.region-counts { margin-top:.25rem; display:flex; flex-wrap:wrap; gap:.35rem .45rem; font-size:.72rem; font-family:'Share Tech Mono',monospace; }
+.region-meta { margin-top:.15rem; font-size:.67rem; color:var(--muted); font-family:'Share Tech Mono',monospace; word-break:break-word; }
 
 /* â”€â”€ Intel bar (top counts) â”€â”€ */
 .intel-card {

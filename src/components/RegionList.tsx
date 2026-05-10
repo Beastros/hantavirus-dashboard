@@ -39,10 +39,10 @@ export function RegionList({ regions, selectedId, onSelect }: Props) {
               <div className="region-counts">
                 <span className="count-confirmed">{r.confirmed ?? 0} confirmed</span>
                 {(r.probable ?? 0) > 0 && (
-                  <span className="count-probable"> Â· {r.probable} probable</span>
+                  <span className="count-probable"> · {r.probable} probable</span>
                 )}
                 {(r.suspected ?? 0) > 0 && (
-                  <span className="count-suspected"> Â· {r.suspected} suspected</span>
+                  <span className="count-suspected"> · {r.suspected} suspected</span>
                 )}
               </div>
               {r.last_reported && (
