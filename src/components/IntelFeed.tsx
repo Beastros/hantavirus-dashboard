@@ -1,97 +1,133 @@
-﻿import { formatShortDate, parsePublishedInstant, timeAgoFromTs } from '../rssDates'
+﻿import type { RedditIntelFile, RedditListingSlice, RedditPost } from '../types'
+import { parsePublishedInstant, timeAgoFromTs } from '../rssDates'
 
-interface NewsItem {
-  id: string
-  title: string
-  url: string
-  published_at?: string | null
-  source_name: string
-  summary?: string | null
+function redditCreatedTs(p: RedditPost): number | null {
+  const u = p.created_utc
+  if (u == null || typeof u !== 'number' || Number.isNaN(u)) return null
+  return u * 1000
 }
 
-const SOURCE_MAP: Record<string, { label: string; cls: string }> = {
-  'who': { label: 'WHO', cls: 'badge-who' },
-  'cdc': { label: 'CDC', cls: 'badge-cdc' },
-  'reuters': { label: 'REUTERS', cls: 'badge-reuters' },
-  'bbc': { label: 'BBC', cls: 'badge-bbc' },
-  'stat': { label: 'STAT', cls: 'badge-stat' },
-  'guardian': { label: 'GUARDIAN', cls: 'badge-guardian' },
-  'cidrap': { label: 'CIDRAP', cls: 'badge-stat' },
-  'nyt': { label: 'NYT', cls: 'badge-default' },
-  'nejm': { label: 'NEJM', cls: 'badge-default' },
-  'lancet': { label: 'LANCET', cls: 'badge-default' },
-  'science': { label: 'SCIENCE', cls: 'badge-default' },
-}
-
-function getBadge(sourceName: string) {
-  const key = Object.keys(SOURCE_MAP).find(k => sourceName.toLowerCase().includes(k))
-  return key ? SOURCE_MAP[key] : { label: sourceName.split(' ')[0].toUpperCase(), cls: 'badge-default' }
-}
-
-function stripHtml(s: string): string {
-  return s.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim()
-}
-
-/** Avoid "...Belgium, I..." mid-word cuts when clipping previews */
-function clipPreview(s: string, maxLen: number): string {
-  if (s.length <= maxLen) return s
-  const chunk = s.slice(0, maxLen)
-  const sp = chunk.lastIndexOf(' ')
-  const cut = sp > Math.floor(maxLen * 0.55) ? chunk.slice(0, sp) : chunk
-  return cut.trimEnd() + '...'
-}
-
-function articleTimeLabel(publishedAt?: string | null): string {
-  const ts = parsePublishedInstant(publishedAt)
+function postTimeLabel(p: RedditPost): string {
+  const ts = redditCreatedTs(p)
   if (ts == null) return '—'
-  const rel = timeAgoFromTs(ts)
-  const dateOnly = publishedAt && /^\d{4}-\d{2}-\d{2}$/.test(publishedAt.trim())
-  if (dateOnly) return `${rel} · ${formatShortDate(ts)}`
-  return rel
+  return timeAgoFromTs(ts)
 }
 
-export function IntelFeed({ items, fetchedAt }: { items: NewsItem[]; fetchedAt: string }) {
-  const fetchedTs = parsePublishedInstant(fetchedAt)
+function sliceHot(data: RedditIntelFile): RedditListingSlice {
+  const sub = data.subreddit ?? 'hantavirus'
+  return {
+    feed_url:
+      data.sources?.hot?.feed_url ??
+      data.feed_url ??
+      `https://www.reddit.com/r/${sub}/hot/`,
+    items: data.sources?.hot?.items ?? data.items ?? [],
+  }
+}
+
+function sliceNew(data: RedditIntelFile): RedditListingSlice {
+  const sub = data.subreddit ?? 'hantavirus'
+  return {
+    feed_url:
+      data.sources?.new?.feed_url ?? `https://www.reddit.com/r/${sub}/new/`,
+    items: data.sources?.new?.items ?? [],
+  }
+}
+
+function ListingColumn({
+  label,
+  badgeCls,
+  slice,
+}: {
+  label: string
+  badgeCls: string
+  slice: RedditListingSlice
+}) {
+  const items = slice.items ?? []
+
+  return (
+    <div className="reddit-intel-col">
+      <div className="reddit-intel-col-head">
+        <span className="reddit-sort-tag">{label}</span>
+        <a className="reddit-intel-open" href={slice.feed_url} target="_blank" rel="noopener noreferrer">
+          open →
+        </a>
+      </div>
+      <div className="reddit-intel-scroll">
+        {items.length === 0 ? (
+          <div className="reddit-intel-empty">No posts in snapshot.</div>
+        ) : (
+          items.map((p) => (
+            <div key={p.id} className="intel-item">
+              <div className="intel-item-meta">
+                <span className={`source-badge ${badgeCls}`}>{label}</span>
+                <span className="intel-time" title={String(p.created_utc ?? '')}>
+                  {postTimeLabel(p)}
+                </span>
+              </div>
+              <div className="intel-title">
+                <a href={p.reddit_url} target="_blank" rel="noopener noreferrer">
+                  {p.title}
+                </a>
+              </div>
+              <div className="intel-summary">
+                ↑ {p.score} · {p.num_comments} comments
+                {p.link_flair_text ? ` · ${p.link_flair_text}` : ''}
+              </div>
+              <a className="intel-read" href={p.reddit_url} target="_blank" rel="noopener noreferrer">
+                OPEN THREAD ON REDDIT &gt;
+              </a>
+            </div>
+          ))
+        )}
+      </div>
+    </div>
+  )
+}
+
+export function IntelFeed({ reddit }: { reddit: RedditIntelFile }) {
+  const hot = sliceHot(reddit)
+  const neu = sliceNew(reddit)
+  const sub = (reddit.subreddit ?? 'hantavirus').toLowerCase()
+  const hub = `https://www.reddit.com/r/${sub}/`
+
+  const fetchedTs = parsePublishedInstant(reddit.fetched_at)
   const pulledLabel =
-    fetchedTs != null && !Number.isNaN(fetchedTs) ? `Pulled ${timeAgoFromTs(fetchedTs)}` : ''
+    fetchedTs != null && !Number.isNaN(fetchedTs) ? `Snapshot ${timeAgoFromTs(fetchedTs)}` : ''
   const fetchedDisplay =
     fetchedTs != null && !Number.isNaN(fetchedTs)
       ? new Date(fetchedTs).toLocaleString()
-      : fetchedAt
+      : reddit.fetched_at
 
   return (
-    <div style={{height:'100%', display:'flex', flexDirection:'column'}}>
+    <div style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
       <div className="intel-feed-header">
-        INTEL FEED
+        INTEL · R/{sub.toUpperCase()} · HOT + NEW
         <span
-          style={{ marginLeft: 'auto', color: 'var(--muted)', fontSize: '8px', textAlign: 'right', maxWidth: '58%' }}
-          title={fetchedAt}
+          style={{
+            marginLeft: 'auto',
+            color: 'var(--muted)',
+            fontSize: '8px',
+            textAlign: 'right',
+            maxWidth: '58%',
+          }}
+          title={reddit.fetched_at}
         >
           {pulledLabel}
           {pulledLabel && <br />}
           <span style={{ opacity: 0.85 }}>{fetchedDisplay}</span>
         </span>
       </div>
-      <div style={{overflowY:'auto', flex:1, scrollbarWidth:'thin', scrollbarColor:'var(--border2) transparent'}}>
-        {items.map(item => {
-          const badge = getBadge(item.source_name)
-          const preview = item.summary ? stripHtml(item.summary) : ''
-          return (
-            <div key={item.id} className="intel-item">
-              <div className="intel-item-meta">
-                <span className={`source-badge ${badge.cls}`}>{badge.label}</span>
-                <span className="intel-time" title={item.published_at ?? ''}>{articleTimeLabel(item.published_at)}</span>
-              </div>
-              <div className="intel-title">{stripHtml(item.title)}</div>
-              {preview && (
-                <div className="intel-summary">{clipPreview(preview, 120)}</div>
-              )}
-              <a className="intel-read" href={item.url} target="_blank" rel="noopener noreferrer">
-                READ FULL ARTICLE &gt;
-              </a>
-            </div>
-          )
-        })}
+      {reddit.note ? (
+        <div className="reddit-intel-note">{reddit.note}</div>
+      ) : null}
+      <div className="reddit-intel-hub">
+        <a href={hub} target="_blank" rel="noopener noreferrer">
+          Live subreddit (scroll) → r/{sub}
+        </a>
+      </div>
+      <div className="reddit-intel-grid">
+        <ListingColumn label="HOT" badgeCls="badge-reddit-hot" slice={hot} />
+        <ListingColumn label="NEW" badgeCls="badge-reddit-new" slice={neu} />
       </div>
     </div>
   )

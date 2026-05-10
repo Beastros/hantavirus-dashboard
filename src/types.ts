@@ -35,3 +35,49 @@ export interface NewsFile {
   fetched_at: string
   items: NewsItem[]
 }
+
+/** Reddit JSON mirror for the intel column (r/hantavirus hot + new). */
+export interface RedditPost {
+  id: string
+  title: string
+  reddit_url: string
+  score: number
+  num_comments: number
+  created_utc?: number | null
+  author?: string | null
+  link_flair_text?: string | null
+}
+
+export interface RedditListingSlice {
+  feed_url: string
+  items: RedditPost[]
+}
+
+export interface RedditIntelFile {
+  fetched_at: string
+  subreddit: string
+  note?: string
+  sources: {
+    hot: RedditListingSlice
+    new: RedditListingSlice
+  }
+  /** Legacy single-list readers */
+  feed_url?: string
+  items?: RedditPost[]
+}
+
+export const EMPTY_REDDIT_INTEL: RedditIntelFile = {
+  fetched_at: '1970-01-01T00:00:00+00:00',
+  subreddit: 'hantavirus',
+  note: 'Waiting for ingest to populate reddit_hot.json…',
+  sources: {
+    hot: {
+      feed_url: 'https://www.reddit.com/r/hantavirus/hot/',
+      items: [],
+    },
+    new: {
+      feed_url: 'https://www.reddit.com/r/hantavirus/new/',
+      items: [],
+    },
+  },
+}

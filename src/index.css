@@ -235,6 +235,97 @@ code { font-family: 'Share Tech Mono', monospace; font-size: .85em; background: 
 .intel-read { font-family: 'Share Tech Mono', monospace; font-size: 9px; color: var(--accent); letter-spacing: .06em; }
 .intel-read:hover { text-decoration: underline; }
 
+.badge-reddit-hot {
+  background: rgba(255, 69, 0, .18);
+  color: #ff875a;
+  border: 1px solid rgba(255, 69, 0, .42);
+}
+.badge-reddit-new {
+  background: rgba(100, 210, 255, .12);
+  color: #7ecbff;
+  border: 1px solid rgba(100, 210, 255, .35);
+}
+
+.reddit-intel-note {
+  padding: 6px 12px 0;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 8px;
+  line-height: 1.45;
+  color: var(--muted);
+  letter-spacing: .04em;
+}
+
+.reddit-intel-hub {
+  padding: 4px 12px 8px;
+  border-bottom: 1px solid var(--border);
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 9px;
+}
+.reddit-intel-hub a { color: var(--accent); letter-spacing: .06em; }
+
+.reddit-intel-grid {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 0;
+  border-top: 1px solid var(--border);
+}
+
+@media (max-width: 1100px) {
+  .reddit-intel-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.reddit-intel-col {
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid var(--border);
+}
+.reddit-intel-col:last-child {
+  border-right: none;
+}
+
+.reddit-intel-col-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border2);
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 8px;
+  letter-spacing: .12em;
+  color: var(--muted);
+}
+
+.reddit-sort-tag {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.reddit-intel-open {
+  font-size: 8px;
+  color: var(--accent);
+  letter-spacing: .06em;
+}
+
+.reddit-intel-scroll {
+  flex: 1;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border2) transparent;
+  min-height: 180px;
+}
+
+.reddit-intel-empty {
+  padding: 14px 12px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 9px;
+  color: var(--muted);
+}
+
 /* â”€â”€ Map popup â”€â”€ (Mapbox GL uses mapboxgl-*; maplibre retained if swapped) */
 .mapboxgl-popup-content,
 .maplibregl-popup-content {
