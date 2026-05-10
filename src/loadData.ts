@@ -1,4 +1,4 @@
-﻿import type { CasesFile, NewsFile } from './types'
+﻿import type { CasesFile, NewsFile, RedditIntelFile } from './types'
 
 function basePath(): string {
   const base = import.meta.env.BASE_URL
@@ -17,6 +17,10 @@ export function loadCases(): Promise<CasesFile> {
 }
 export function loadNews(): Promise<NewsFile> {
   return fetchJson<NewsFile>(`${basePath()}data/news.json`)
+}
+
+export function loadRedditIntel(): Promise<RedditIntelFile> {
+  return fetchJson<RedditIntelFile>(`${basePath()}data/reddit_hot.json`)
 }
 export function loadIndividualCases(): Promise<any> {
   return fetchJson<any>(`${basePath()}data/cases-individual.json`)

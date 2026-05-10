@@ -13,6 +13,7 @@ import { CanaryPanel } from './components/CanaryPanel'
 import {
   loadCases,
   loadNews,
+  loadRedditIntel,
   loadIndividualCases,
   loadShipPosition,
   loadShipTrack,
@@ -20,7 +21,8 @@ import {
   loadTrends,
 } from './loadData'
 import type { ShipTrackPoint } from './loadData'
-import type { CasesFile, NewsFile } from './types'
+import type { CasesFile, NewsFile, RedditIntelFile } from './types'
+import { EMPTY_REDDIT_INTEL } from './types'
 
 type ShipPosState = { lat: number; lng: number; name?: string; course?: number | null }
 
@@ -61,6 +63,7 @@ function shipPosFromSnapshot(s: any): ShipPosState | null {
 export default function App() {
   const [cases, setCases] = useState<CasesFile | null>(null)
   const [news, setNews] = useState<NewsFile | null>(null)
+  const [redditIntel, setRedditIntel] = useState<RedditIntelFile>(EMPTY_REDDIT_INTEL)
   const [individualCases, setIndividualCases] = useState<any[]>([])
   const [shipPos, setShipPos] = useState<ShipPosState | null>(null)
   const [shipTrackPoints, setShipTrackPoints] = useState<ShipTrackPoint[]>([])
@@ -108,6 +111,14 @@ export default function App() {
       })
       .catch(() => setTrends(null))
 
+    loadRedditIntel()
+      .then((r) => {
+        if (!cancelled) setRedditIntel(r)
+      })
+      .catch(() => {
+        if (!cancelled) setRedditIntel(EMPTY_REDDIT_INTEL)
+      })
+
     const refresh = setInterval(async () => {
       try {
         const [c, n] = await Promise.all([loadCases(), loadNews()])
@@ -136,6 +147,7 @@ export default function App() {
       loadTrends()
         .then((t: unknown) => setTrends(t))
         .catch(() => setTrends(null))
+      loadRedditIntel().then(setRedditIntel).catch(() => setRedditIntel(EMPTY_REDDIT_INTEL))
     }, 5 * 60 * 1000)
 
     return () => { cancelled = true; clearInterval(refresh) }
@@ -211,7 +223,7 @@ export default function App() {
         </div>
 
         <div className="right-col">
-          <IntelFeed items={news.items} fetchedAt={news.fetched_at} />
+          <IntelFeed reddit={redditIntel} />
         </div>
       </div>
 
@@ -236,8 +248,8 @@ export default function App() {
       </div>
 
       <footer className="footer">
-        // Edit public/data/cases.json to promote or demote signals. Ingest runs every 15 min. Canary deck
-        reads cases.json, news.json, cases-individual.json, ingest-status.json, and trends.json.
+        // Intel column mirrors r/hantavirus (reddit_hot.json). Ingest runs ~15 min. Canary reads
+        cases.json, news.json, reddit_hot.json, cases-individual.json, ingest-status.json, trends.json.
       </footer>
     </div>
   )

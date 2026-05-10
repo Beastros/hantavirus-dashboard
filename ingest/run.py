@@ -12,7 +12,8 @@ These are passed to Claude to extract new cases and diff against known state.
 RSS feeds catch broader news signal.
 
 Writes to public/data/:
-  news.json              keyword-filtered headlines
+  news.json              keyword-filtered headlines (ticker / canary)
+  reddit_hot.json        filled by reddit_hot.py after this script (r/hantavirus hot+new mirror)
   cases-individual.json  per-case demographics (seeded + AI-extracted)
   ingest-status.json     run metadata and source health
   ship-position.json     AIS vessel position (requires AIS_API_KEY)
