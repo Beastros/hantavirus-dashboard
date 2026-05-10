@@ -1,6 +1,24 @@
 {
-  "fetched_at": "2026-05-10T12:06:35+00:00",
+  "fetched_at": "2026-05-10T13:56:06+00:00",
   "items": [
+    {
+      "id": "f39173ad4db7016d",
+      "title": "British Paratroopers Deliver Aid to Remote Islands With Possible Hantavirus Case",
+      "url": "https://www.nytimes.com/2026/05/10/world/europe/britain-parachute-hantavirus-hondius-tristan.html",
+      "published_at": "2026-05-10T13:49:01+00:00",
+      "source_name": "NYT World",
+      "source_tier": 2,
+      "summary": "The British military took critical medical supplies to Tristan da Cunha, a tiny British archipelago where authorities have identified a suspected hantavirus case."
+    },
+    {
+      "id": "ee715a7a1b8cb837",
+      "title": "First plane carrying passengers from cruise ship hit by hantavirus leaves Tenerife",
+      "url": "https://www.theguardian.com/world/2026/may/10/hantavirus-cruise-ship-tenerife-evacuate-passengers-mv-hondius",
+      "published_at": "2026-05-10T13:23:34+00:00",
+      "source_name": "The Guardian World",
+      "source_tier": 2,
+      "summary": "Spanish passengers taken off MV Hondius by medical teams in hazmat suits after being screened for the infection Cruise ship hantavirus outbreak – latest updates The first passengers to have left the cruise ship at the centre of a deadly outbreak of hantavirus have departed by plane for Spain, as the evacuation of other nationalities continues. Spanish passengers wearing blue plastic ponchos and hair coverings were…"
+    },
     {
       "id": "2d9b25f04d5a517e",
       "title": "Hantavirus-hit cruise ship arrives in Tenerife with Spanish passengers to be evacuated first – Europe live",
@@ -9,15 +27,6 @@
       "source_name": "The Guardian World",
       "source_tier": 2,
       "summary": "Spanish health officials says all 146 passengers remain asymptomatic as vessel arrives in Tenerife waters We have a useful explainer on the hantavirus here: While nobody onboard the vessel has symptoms, passengers and crew have been confined to their cabins in the last few days to help halt the spread of the virus, which is only transmitted through very close contact. Continue reading..."
-    },
-    {
-      "id": "ee715a7a1b8cb837",
-      "title": "Cruise ship hit by hantavirus arrives in Tenerife to evacuate passengers",
-      "url": "https://www.theguardian.com/world/2026/may/10/hantavirus-cruise-ship-tenerife-evacuate-passengers-mv-hondius",
-      "published_at": "2026-05-10T08:21:26+00:00",
-      "source_name": "The Guardian World",
-      "source_tier": 2,
-      "summary": "MV Hondius anchors offshore carrying 146 people as authorities scramble to get planes to take them home The cruise ship at the centre of a deadly outbreak of hantavirus has arrived in Tenerife for the evacuation of those onboard. The ship arrived in the Canary Islands in the early hours of Sunday morning carrying 146 people, after three people died of the virus and eight more became ill. Continue reading..."
     },
     {
       "id": "acdfd6a2ed815f56",
