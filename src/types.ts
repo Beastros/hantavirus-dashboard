@@ -46,6 +46,8 @@ export interface RedditPost {
   created_utc?: number | null
   author?: string | null
   link_flair_text?: string | null
+  /** Present when row came from .rss fallback */
+  source?: string | null
 }
 
 export interface RedditListingSlice {
@@ -64,6 +66,11 @@ export interface RedditIntelFile {
   /** Legacy single-list readers */
   feed_url?: string
   items?: RedditPost[]
+  fetch_meta?: {
+    json_attempted?: boolean
+    hot_via?: string
+    new_via?: string
+  }
 }
 
 export const EMPTY_REDDIT_INTEL: RedditIntelFile = {
