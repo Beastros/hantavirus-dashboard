@@ -1,6 +1,33 @@
 {
-  "fetched_at": "2026-05-10T06:47:27+00:00",
+  "fetched_at": "2026-05-10T08:52:31+00:00",
   "items": [
+    {
+      "id": "2d9b25f04d5a517e",
+      "title": "Hantavirus-hit cruise ship arrives in Tenerife with Spanish passengers to be evacuated first – Europe live",
+      "url": "https://www.theguardian.com/world/live/2026/may/10/hantavirus-cruise-ship-rat-spain-tenerife-russia-ukraine-putin-zelenskyy-war-europe-latest-news-updates",
+      "published_at": "2026-05-10T08:32:03+00:00",
+      "source_name": "The Guardian World",
+      "source_tier": 2,
+      "summary": "Spanish health officials says all 146 passengers remain asymptomatic as vessel arrives in Tenerife waters We have a useful explainer on the hantavirus here: While nobody onboard the vessel has symptoms, passengers and crew have been confined to their cabins in the last few days to help halt the spread of the virus, which is only transmitted through very close contact. Continue reading..."
+    },
+    {
+      "id": "ee715a7a1b8cb837",
+      "title": "Cruise ship hit by hantavirus arrives in Tenerife to evacuate passengers",
+      "url": "https://www.theguardian.com/world/2026/may/10/hantavirus-cruise-ship-tenerife-evacuate-passengers-mv-hondius",
+      "published_at": "2026-05-10T08:21:26+00:00",
+      "source_name": "The Guardian World",
+      "source_tier": 2,
+      "summary": "MV Hondius anchors offshore carrying 146 people as authorities scramble to get planes to take them home The cruise ship at the centre of a deadly outbreak of hantavirus has arrived in Tenerife for the evacuation of those onboard. The ship arrived in the Canary Islands in the early hours of Sunday morning carrying 146 people, after three people died of the virus and eight more became ill. Continue reading..."
+    },
+    {
+      "id": "acdfd6a2ed815f56",
+      "title": "Cruise Ship Linked to Hantavirus Outbreak Arrives in Spain’s Canary Islands for Disembarking",
+      "url": "https://www.nytimes.com/2026/05/10/world/europe/hantavirus-cruise-ship-canary-islands.html",
+      "published_at": "2026-05-10T07:07:11+00:00",
+      "source_name": "NYT World",
+      "source_tier": 2,
+      "summary": "The MV Hondius, the cruise ship that had carried passengers infected with hantavirus, anchored off the Spanish territory, where other passengers would soon disembark."
+    },
     {
       "id": "feadb4387d1befc6",
       "title": "‘This is not another Covid,’ WHO chief tells Tenerife as hantavirus cruise ship heads to island – as it happened",
