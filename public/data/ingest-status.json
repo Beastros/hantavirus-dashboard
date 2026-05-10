@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-10T21:06:34+00:00",
+  "last_run": "2026-05-10T22:04:56+00:00",
   "sources_ok": 10,
   "sources_failed": 0,
   "source_detail": {
@@ -14,7 +14,7 @@
     "nyt-health": "ok",
     "science-news": "ok"
   },
-  "news_count": 51,
+  "news_count": 52,
   "case_count": 20,
   "processed_for_cases": [
     "07d2523e53a1746d",
@@ -40,6 +40,7 @@
     "56651467b3232d4a",
     "71dc37cd2dc183e5",
     "763373a273b6de1b",
+    "770bf70a773f36f4",
     "81db249d26bbcfbc",
     "857781ea92952db0",
     "860061ae13042d2c",
@@ -71,5 +72,11 @@
     "primary-cdc-statement",
     "primary-who-don",
     "primary-who-response"
-  ]
+  ],
+  "reddit_intel": {
+    "fetched_at": "2026-05-10T22:04:56+00:00",
+    "subreddit": "hantavirus",
+    "hot_count": 0,
+    "new_count": 0
+  }
 }

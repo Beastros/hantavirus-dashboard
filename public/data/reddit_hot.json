@@ -1,7 +1,7 @@
 {
-  "fetched_at": "1970-01-01T00:00:00+00:00",
+  "fetched_at": "2026-05-10T22:04:56+00:00",
   "subreddit": "hantavirus",
-  "note": "Placeholder until ingest runs reddit_hot.py — then hot + new populate from Reddit.",
+  "note": "Mirrors r/hantavirus hot + new via Reddit JSON. Refreshed each ingest run; open subreddit for live view.",
   "sources": {
     "hot": {
       "feed_url": "https://www.reddit.com/r/hantavirus/hot/",
