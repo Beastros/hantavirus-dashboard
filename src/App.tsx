@@ -16,6 +16,8 @@ import {
   loadIndividualCases,
   loadShipPosition,
   loadShipTrack,
+  loadIngestStatus,
+  loadTrends,
 } from './loadData'
 import type { ShipTrackPoint } from './loadData'
 import type { CasesFile, NewsFile } from './types'
@@ -62,6 +64,8 @@ export default function App() {
   const [individualCases, setIndividualCases] = useState<any[]>([])
   const [shipPos, setShipPos] = useState<ShipPosState | null>(null)
   const [shipTrackPoints, setShipTrackPoints] = useState<ShipTrackPoint[]>([])
+  const [ingestStatus, setIngestStatus] = useState<Record<string, unknown> | null>(null)
+  const [trends, setTrends] = useState<unknown>(null)
   const [err, setErr] = useState<string | null>(null)
   const [selectedId, setSelectedId] = useState<string | null>(null)
 
@@ -91,6 +95,18 @@ export default function App() {
         setShipTrackPoints(normalizeShipTrackPoints(tr.points))
       })
       .catch(() => {})
+    loadIngestStatus()
+      .then((s: unknown) => {
+        if (cancelled || !s || typeof s !== 'object') return
+        setIngestStatus(s as Record<string, unknown>)
+      })
+      .catch(() => setIngestStatus(null))
+    loadTrends()
+      .then((t: unknown) => {
+        if (cancelled) return
+        setTrends(t)
+      })
+      .catch(() => setTrends(null))
 
     const refresh = setInterval(async () => {
       try {
@@ -111,6 +127,15 @@ export default function App() {
           setShipTrackPoints(normalizeShipTrackPoints(tr.points))
         })
         .catch(() => {})
+      loadIngestStatus()
+        .then((s: unknown) => {
+          if (!s || typeof s !== 'object') return
+          setIngestStatus(s as Record<string, unknown>)
+        })
+        .catch(() => setIngestStatus(null))
+      loadTrends()
+        .then((t: unknown) => setTrends(t))
+        .catch(() => setTrends(null))
     }, 5 * 60 * 1000)
 
     return () => { cancelled = true; clearInterval(refresh) }
@@ -192,20 +217,27 @@ export default function App() {
 
       <FreshnessBar />
 
-      <div className="canary-wrap">
-        <CanaryPanel regions={cases.regions} />
-      </div>
-
-      {/* Analytics below â€” page scrolls here */}
-      <div style={{padding:'1rem 1rem 0'}}>
+      {/* Analytics — page scrolls here */}
+      <div style={{ padding: '1rem 1rem 0' }}>
         <div className="analytics-row">
           <CaseTable cases={individualCases} />
           <PivotChart cases={individualCases} />
         </div>
       </div>
 
+      <div className="canary-wrap">
+        <CanaryPanel
+          cases={cases}
+          news={news}
+          individualCases={individualCases}
+          ingestStatus={ingestStatus}
+          trends={trends}
+        />
+      </div>
+
       <footer className="footer">
-        // Edit public/data/cases.json to promote or demote signals. Ingest runs every 15 min.
+        // Edit public/data/cases.json to promote or demote signals. Ingest runs every 15 min. Canary deck
+        reads cases.json, news.json, cases-individual.json, ingest-status.json, and trends.json.
       </footer>
     </div>
   )

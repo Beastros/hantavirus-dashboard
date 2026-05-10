@@ -14,6 +14,11 @@ Conventions and **lessons learned** for anyone (human or AI) extending this repo
 
 ## Frontend (Vite + React)
 
+### Canary deck (`CanaryPanel` + `canarySignals.ts`)
+
+- **Live** rows are computed in the browser from **`cases.json`**, **`news.json`**, **`cases-individual.json`**, **`ingest-status.json`**, and **`trends.json`** (same files as the rest of the UI). `App` loads ingest status + trends on the same refresh interval as cases/news.
+- Shared RSS date parsing lives in **`rssDates.ts`** (used by `IntelFeed` and canary logic).
+
 ### Intel feed timestamps (`IntelFeed.tsx`)
 
 - Many RSS items only provide **`published_at` as a calendar date** (`YYYY-MM-DD`). Parsing that string with `new Date("2026-05-09")` is **UTC midnight**, so the UI looked “**1d ago**” as soon as the viewer’s local time passed that instant — even when the article is still “today’s” story. **Fix:** treat date-only values as **local noon** when computing “time ago”, and show the short calendar date beside the relative label when helpful.
