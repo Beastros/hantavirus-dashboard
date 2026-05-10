@@ -9,6 +9,7 @@ import { Ticker } from './components/Ticker'
 import { StatsPanel } from './components/StatsPanel'
 import { ShipPanel } from './components/ShipPanel'
 import { StrainReadout } from './components/StrainReadout'
+import { CanaryPanel } from './components/CanaryPanel'
 import {
   loadCases,
   loadNews,
@@ -190,6 +191,10 @@ export default function App() {
       </div>
 
       <FreshnessBar />
+
+      <div className="canary-wrap">
+        <CanaryPanel regions={cases.regions} />
+      </div>
 
       {/* Analytics below â€” page scrolls here */}
       <div style={{padding:'1rem 1rem 0'}}>

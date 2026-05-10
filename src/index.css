@@ -392,6 +392,112 @@ code { font-family: 'Share Tech Mono', monospace; font-size: .85em; background: 
 .fresh-sep  { color:var(--border2); }
 .fresh-warn-text { color:var(--elevated); }
 
+/* â”€â”€ Canary deck (global threat signals mock) â”€â”€ */
+.canary-wrap {
+  padding: 0 1rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.canary-deck {
+  margin-top: 0.35rem;
+  border-color: var(--border2);
+  box-shadow: inset 0 1px 0 rgba(0, 255, 65, 0.04);
+}
+.canary-deck-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+.canary-deck-head h2 {
+  margin: 0;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.canary-deck-sub {
+  margin: 0.35rem 0 0;
+  max-width: 42rem;
+}
+.canary-mock-pill {
+  flex-shrink: 0;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #ffb800;
+  border: 1px solid rgba(255, 184, 0, 0.45);
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  background: rgba(255, 184, 0, 0.08);
+}
+.canary-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
+}
+@media (max-width: 900px) {
+  .canary-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.canary-row {
+  background: var(--panel2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.65rem 0.75rem 0.7rem;
+  min-height: 0;
+}
+.canary-row-top {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.35rem;
+}
+.canary-badge {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  padding: 0.12rem 0.38rem;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+.canary-label {
+  margin: 0;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.25;
+}
+.canary-detail {
+  margin: 0 0 0.4rem;
+  font-size: 0.74rem;
+  color: var(--dim);
+  line-height: 1.45;
+}
+.canary-source {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.62rem;
+  color: var(--accent);
+  letter-spacing: 0.04em;
+  text-decoration: none;
+}
+.canary-source:hover {
+  text-decoration: underline;
+}
+.canary-foot {
+  margin: 0.75rem 0 0;
+  font-size: 0.65rem;
+  color: var(--muted);
+  line-height: 1.45;
+  font-family: 'Share Tech Mono', monospace;
+}
+
 /* â”€â”€ Chips â”€â”€ */
 .chip { font-family:'Share Tech Mono',monospace; font-size:.6rem; font-weight:700; text-transform:uppercase; letter-spacing:.06em; padding:.1rem .38rem; border-radius:2px; border:1px solid transparent; white-space:nowrap; }
 .chip-informational, .chip-unconfirmed { color:var(--informational); border-color:rgba(0,200,83,.3); }
