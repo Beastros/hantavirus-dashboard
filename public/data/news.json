@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-10T10:13:05+00:00",
+  "fetched_at": "2026-05-10T11:15:26+00:00",
   "items": [
     {
       "id": "2d9b25f04d5a517e",
@@ -27,6 +27,15 @@
       "source_name": "NYT World",
       "source_tier": 2,
       "summary": "The MV Hondius, the cruise ship that had carried passengers infected with hantavirus, anchored off the Spanish territory, where other passengers would soon disembark."
+    },
+    {
+      "id": "81db249d26bbcfbc",
+      "title": "Argentina in spotlight over hantavirus as authorities retrace footsteps of ship’s passengers",
+      "url": "https://www.theguardian.com/world/2026/may/10/hantavirus-is-not-easily-spread-but-is-global-heating-upping-our-exposure",
+      "published_at": "2026-05-10T04:00:15+00:00",
+      "source_name": "The Guardian World",
+      "source_tier": 2,
+      "summary": "Thirty years after first person-to-person transmission was documented in Patagonia, scientists say global heating could increase world’s exposure An outbreak in rural communities 30 years ago in the Patagonia area of Argentina led scientists, for the first time, to document person-to-person transmission of hantavirus, which until then had been known only to spread through contact with rodents. Nearly a decade ago…"
     },
     {
       "id": "feadb4387d1befc6",
