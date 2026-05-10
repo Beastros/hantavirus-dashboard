@@ -3,3 +3,5 @@ dist/
 ingest/.venv/
 .env
 .env.local
+
+ingest/__pycache__/
