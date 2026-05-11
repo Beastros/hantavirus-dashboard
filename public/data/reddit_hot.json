@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-11T14:08:31+00:00",
+  "fetched_at": "2026-05-11T16:47:14+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -32,6 +32,17 @@
           "id": "rss-001429246fd5fc45",
           "title": "I cannot imagine a worse way of handling the virus than what was done",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9zhvv/i_cannot_imagine_a_worse_way_of_handling_the/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-002aa6175f71e8c3",
+          "title": "I doubt the rareness of transmission",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta4lnv/i_doubt_the_rareness_of_transmission/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -73,53 +84,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-876ad10413046bb5",
-          "title": "Positive hantavirus patients being flown back to the US",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9qu56/positive_hantavirus_patients_being_flown_back_to/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-2e89bd744f918e03",
-          "title": "At least one American who was a passenger aboard the MV Hondius has tested positive for hantavirus, and another has shown mild symptoms, according to HHS.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9sezp/at_least_one_american_who_was_a_passenger_aboard/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-d478e33fbec51e12",
-          "title": "AP: French woman and an American tested positive for the hantavirus, as nations around the world scrambled Monday to repatriate passengers from a cruise ship hit by a deadly outbreak and quarantine or isolate them.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9zx0j/ap_french_woman_and_an_american_tested_positive/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-63c6fc1223008805",
-          "title": "‘Public deserves to know’: Harvard professor says official messaging contradicts hantavirus science",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9rfh6/public_deserves_to_know_harvard_professor_says/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-444ae071d7cc260a",
-          "title": "An American tests positive for Hantavirus",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9yg1v/an_american_tests_positive_for_hantavirus/",
+          "id": "rss-239352290328c983",
+          "title": "How did it spread? —> “the route of infection in secondary cases was possibly through inhalation of droplets or aerosolized virions.” Prolonged close contact is NOT necessary and that it’s spread through the air.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta6c63/how_did_it_spread_the_route_of_infection_in/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -139,17 +106,6 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-651f9fb09f08da4c",
-          "title": "Creating a hantavirus news tracking website",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta2r8p/creating_a_hantavirus_news_tracking_website/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-516849c9f0c7f9d2",
           "title": "WHO says seven cases of hantavirus confirmed from cruise ship",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta2pbp/who_says_seven_cases_of_hantavirus_confirmed_from/",
@@ -161,9 +117,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-9df20fbe967f7fd8",
-          "title": "As long as we collectively don't learn disease management, we are condemned to suffer",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9h1e4/as_long_as_we_collectively_dont_learn_disease/",
+          "id": "rss-2e89bd744f918e03",
+          "title": "At least one American who was a passenger aboard the MV Hondius has tested positive for hantavirus, and another has shown mild symptoms, according to HHS.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9sezp/at_least_one_american_who_was_a_passenger_aboard/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -172,9 +128,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-b2836195669aeef3",
-          "title": "Contradictory",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9wedj/contradictory/",
+          "id": "rss-876ad10413046bb5",
+          "title": "Positive hantavirus patients being flown back to the US",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9qu56/positive_hantavirus_patients_being_flown_back_to/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -183,9 +139,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-29d234ea903e01f8",
-          "title": "Is it optimistic to say that the ones who disembarked 2 weeks ago might not have had much contact with the virus?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9woci/is_it_optimistic_to_say_that_the_ones_who/",
+          "id": "rss-0eee49d5a7e6c79d",
+          "title": "Is self isolation not mandatory?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta751n/is_self_isolation_not_mandatory/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -194,9 +150,53 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-49442cd3abfc1c2d",
-          "title": "MV Hondius Hantavirus Outbreak: Live Tracker Shows 9 Cases Across 7 Countries",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9yqqs/mv_hondius_hantavirus_outbreak_live_tracker_shows/",
+          "id": "rss-fa089ed0015f2387",
+          "title": "Hantavirus latest updates: U.S. citizen tests positive as 17 American passengers airlifted back",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta5m4c/hantavirus_latest_updates_us_citizen_tests/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-33b1e5fa8e6c0925",
+          "title": "‘Public deserves to know’: Harvard professor says official messaging contradicts hantavirus science",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta8kbw/public_deserves_to_know_harvard_professor_says/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-d478e33fbec51e12",
+          "title": "AP: French woman and an American tested positive for the hantavirus, as nations around the world scrambled Monday to repatriate passengers from a cruise ship hit by a deadly outbreak and quarantine or isolate them.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9zx0j/ap_french_woman_and_an_american_tested_positive/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-651f9fb09f08da4c",
+          "title": "Creating a hantavirus news tracking website",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta2r8p/creating_a_hantavirus_news_tracking_website/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-444ae071d7cc260a",
+          "title": "An American tests positive for Hantavirus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9yg1v/an_american_tests_positive_for_hantavirus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -209,6 +209,127 @@
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-33b1e5fa8e6c0925",
+          "title": "‘Public deserves to know’: Harvard professor says official messaging contradicts hantavirus science",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta8kbw/public_deserves_to_know_harvard_professor_says/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-3648bf4e2d83591e",
+          "title": "This is mind blowing 🤯 hantavirus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta7k34/this_is_mind_blowing_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-0eee49d5a7e6c79d",
+          "title": "Is self isolation not mandatory?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta751n/is_self_isolation_not_mandatory/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-16c29e72890de327",
+          "title": "U.S. and French Nationals Test Positive for Hantavirus After Leaving Cruise Ship",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta6vvz/us_and_french_nationals_test_positive_for/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-fdde06109121fd15",
+          "title": "Хантавирус обнаружен на борту самолета – заражены пассажиры из Франции и США, - На рейсе из Тенерифе зафиксированы случаи хантавируса среди пассажиров французского и американского направлений. Пятеро украинцев остаются на борту лайнера и отправятся в Нидерланды на дезинфекцию судна, симптомов у",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta6qyw/хантавирус_обнаружен_на_борту_самолета_заражены/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-92fc71f300e4ee41",
+          "title": "Eerie moment rat virus cruise ship passenger clad in heavy-duty hazmat gear is led down steps of jumbo jet at Atlanta Airport after arriving back in US",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta6iav/eerie_moment_rat_virus_cruise_ship_passenger_clad/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-239352290328c983",
+          "title": "How did it spread? —> “the route of infection in secondary cases was possibly through inhalation of droplets or aerosolized virions.” Prolonged close contact is NOT necessary and that it’s spread through the air.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta6c63/how_did_it_spread_the_route_of_infection_in/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-fa089ed0015f2387",
+          "title": "Hantavirus latest updates: U.S. citizen tests positive as 17 American passengers airlifted back",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta5m4c/hantavirus_latest_updates_us_citizen_tests/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-fe96ddb40ed52916",
+          "title": "Third Ontario resident in isolation for 45 days due to hantavirus is Peel Region resident (Mississauga, Brampton)",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta5kek/third_ontario_resident_in_isolation_for_45_days/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-002aa6175f71e8c3",
+          "title": "I doubt the rareness of transmission",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta4lnv/i_doubt_the_rareness_of_transmission/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-10e290d789c99e98",
+          "title": "Am I the only one that can't access hantavirusmap.com",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta4j1r/am_i_the_only_one_that_cant_access/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-4863024c42c25bb9",
           "title": "Surveillance needs to start now",
@@ -285,127 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-7b711d916aca354d",
-          "title": "The CDC quietly changed its hantavirus protocol on Sunday. High-risk exposures now include being within 2 rows of a known case on a plane.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9ziwy/the_cdc_quietly_changed_its_hantavirus_protocol/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-001429246fd5fc45",
-          "title": "I cannot imagine a worse way of handling the virus than what was done",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9zhvv/i_cannot_imagine_a_worse_way_of_handling_the/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-388362ee75aab9d6",
-          "title": "Hantavirus symptoms dramatically reduced by Griffithsin",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9z9by/hantavirus_symptoms_dramatically_reduced_by/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-7c0f84863a35599d",
-          "title": "Argentinian tourism hotspot denies causing hantavirus outbreak",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9z99i/argentinian_tourism_hotspot_denies_causing/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-49442cd3abfc1c2d",
-          "title": "MV Hondius Hantavirus Outbreak: Live Tracker Shows 9 Cases Across 7 Countries",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9yqqs/mv_hondius_hantavirus_outbreak_live_tracker_shows/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-444ae071d7cc260a",
-          "title": "An American tests positive for Hantavirus",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9yg1v/an_american_tests_positive_for_hantavirus/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-cae499fad7e837cd",
-          "title": "If Taiwan is not on lockdown for hantavirus..",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9xzaa/if_taiwan_is_not_on_lockdown_for_hantavirus/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-773f0680674ac8c2",
-          "title": "Hantavirus outbreak renews painful memories for Patagonian village",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9wxce/hantavirus_outbreak_renews_painful_memories_for/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-d40b2dbd21feedc0",
-          "title": "Army parachutes hantavirus medical team onto remote island to help infected Brit",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9wp7z/army_parachutes_hantavirus_medical_team_onto/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-29d234ea903e01f8",
-          "title": "Is it optimistic to say that the ones who disembarked 2 weeks ago might not have had much contact with the virus?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9woci/is_it_optimistic_to_say_that_the_ones_who/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-b2836195669aeef3",
-          "title": "Contradictory",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9wedj/contradictory/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -438,6 +438,17 @@
       "id": "rss-001429246fd5fc45",
       "title": "I cannot imagine a worse way of handling the virus than what was done",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9zhvv/i_cannot_imagine_a_worse_way_of_handling_the/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-002aa6175f71e8c3",
+      "title": "I doubt the rareness of transmission",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta4lnv/i_doubt_the_rareness_of_transmission/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -479,53 +490,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-876ad10413046bb5",
-      "title": "Positive hantavirus patients being flown back to the US",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9qu56/positive_hantavirus_patients_being_flown_back_to/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-2e89bd744f918e03",
-      "title": "At least one American who was a passenger aboard the MV Hondius has tested positive for hantavirus, and another has shown mild symptoms, according to HHS.",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9sezp/at_least_one_american_who_was_a_passenger_aboard/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-d478e33fbec51e12",
-      "title": "AP: French woman and an American tested positive for the hantavirus, as nations around the world scrambled Monday to repatriate passengers from a cruise ship hit by a deadly outbreak and quarantine or isolate them.",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9zx0j/ap_french_woman_and_an_american_tested_positive/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-63c6fc1223008805",
-      "title": "‘Public deserves to know’: Harvard professor says official messaging contradicts hantavirus science",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9rfh6/public_deserves_to_know_harvard_professor_says/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-444ae071d7cc260a",
-      "title": "An American tests positive for Hantavirus",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9yg1v/an_american_tests_positive_for_hantavirus/",
+      "id": "rss-239352290328c983",
+      "title": "How did it spread? —> “the route of infection in secondary cases was possibly through inhalation of droplets or aerosolized virions.” Prolonged close contact is NOT necessary and that it’s spread through the air.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta6c63/how_did_it_spread_the_route_of_infection_in/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -545,17 +512,6 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-651f9fb09f08da4c",
-      "title": "Creating a hantavirus news tracking website",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta2r8p/creating_a_hantavirus_news_tracking_website/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-516849c9f0c7f9d2",
       "title": "WHO says seven cases of hantavirus confirmed from cruise ship",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta2pbp/who_says_seven_cases_of_hantavirus_confirmed_from/",
@@ -567,9 +523,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-9df20fbe967f7fd8",
-      "title": "As long as we collectively don't learn disease management, we are condemned to suffer",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9h1e4/as_long_as_we_collectively_dont_learn_disease/",
+      "id": "rss-2e89bd744f918e03",
+      "title": "At least one American who was a passenger aboard the MV Hondius has tested positive for hantavirus, and another has shown mild symptoms, according to HHS.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9sezp/at_least_one_american_who_was_a_passenger_aboard/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -578,9 +534,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-b2836195669aeef3",
-      "title": "Contradictory",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9wedj/contradictory/",
+      "id": "rss-876ad10413046bb5",
+      "title": "Positive hantavirus patients being flown back to the US",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9qu56/positive_hantavirus_patients_being_flown_back_to/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -589,9 +545,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-29d234ea903e01f8",
-      "title": "Is it optimistic to say that the ones who disembarked 2 weeks ago might not have had much contact with the virus?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9woci/is_it_optimistic_to_say_that_the_ones_who/",
+      "id": "rss-0eee49d5a7e6c79d",
+      "title": "Is self isolation not mandatory?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta751n/is_self_isolation_not_mandatory/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -600,9 +556,53 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-49442cd3abfc1c2d",
-      "title": "MV Hondius Hantavirus Outbreak: Live Tracker Shows 9 Cases Across 7 Countries",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9yqqs/mv_hondius_hantavirus_outbreak_live_tracker_shows/",
+      "id": "rss-fa089ed0015f2387",
+      "title": "Hantavirus latest updates: U.S. citizen tests positive as 17 American passengers airlifted back",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta5m4c/hantavirus_latest_updates_us_citizen_tests/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-33b1e5fa8e6c0925",
+      "title": "‘Public deserves to know’: Harvard professor says official messaging contradicts hantavirus science",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta8kbw/public_deserves_to_know_harvard_professor_says/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-d478e33fbec51e12",
+      "title": "AP: French woman and an American tested positive for the hantavirus, as nations around the world scrambled Monday to repatriate passengers from a cruise ship hit by a deadly outbreak and quarantine or isolate them.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9zx0j/ap_french_woman_and_an_american_tested_positive/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-651f9fb09f08da4c",
+      "title": "Creating a hantavirus news tracking website",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta2r8p/creating_a_hantavirus_news_tracking_website/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-444ae071d7cc260a",
+      "title": "An American tests positive for Hantavirus",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9yg1v/an_american_tests_positive_for_hantavirus/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
