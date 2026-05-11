@@ -3,6 +3,14 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Ingest commits `public/data/*` using `GITHUB_TOKEN`; those pushes do not fire
+  # `push` workflows. Without this, GitHub Pages keeps serving an older `dist/`
+  # (stale JSON baked in at last build). Rebuild when ingest finishes successfully.
+  workflow_run:
+    workflows:
+      - 'Ingest RSS + AI extraction'
+    types:
+      - completed
 permissions:
   contents: read
   pages: write
@@ -12,6 +20,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   build:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -40,5 +49,3 @@ jobs:
     steps:
       - uses: actions/deploy-pages@v4
         id: deployment
-
-
