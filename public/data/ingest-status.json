@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-11T18:57:45+00:00",
+  "last_run": "2026-05-11T20:48:03+00:00",
   "sources_ok": 10,
   "sources_failed": 0,
   "source_detail": {
@@ -14,7 +14,7 @@
     "nyt-health": "ok",
     "science-news": "ok"
   },
-  "news_count": 64,
+  "news_count": 65,
   "case_count": 20,
   "processed_for_cases": [
     "07d2523e53a1746d",
@@ -50,6 +50,7 @@
     "860061ae13042d2c",
     "8bd6f3b0aa232ea0",
     "8db76bff85ad994d",
+    "9384a385cd4abb66",
     "96a242b48869c880",
     "976ea5e8e339ef5e",
     "9ef6b7766a3af39d",

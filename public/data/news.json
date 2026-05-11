@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-05-11T18:57:44+00:00",
+  "fetched_at": "2026-05-11T20:48:02+00:00",
   "items": [
+    {
+      "id": "9384a385cd4abb66",
+      "title": "Cruise Ship Hit by Hantavirus Leaves Canary Islands and Sails Toward Netherlands",
+      "url": "https://www.nytimes.com/2026/05/11/world/europe/hantavirus-cruise-ship-canary-islands.html",
+      "published_at": "2026-05-11T19:54:49+00:00",
+      "source_name": "NYT World",
+      "source_tier": 2,
+      "summary": "The last evacuees disembarked in the Canary Islands, and a smaller crew is now en route to Rotterdam, where the ship will be disinfected, officials said."
+    },
     {
       "id": "3064040d10ff2869",
       "title": "How are countries responding to hantavirus?",
