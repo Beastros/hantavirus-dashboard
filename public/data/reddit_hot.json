@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-11T22:06:19+00:00",
+  "fetched_at": "2026-05-11T23:11:33+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -51,31 +51,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-33b1e5fa8e6c0925",
-          "title": "‘Public deserves to know’: Harvard professor says official messaging contradicts hantavirus science",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta8kbw/public_deserves_to_know_harvard_professor_says/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-1756bf756b3b66ef",
           "title": "Tell me I'm not the only one baffled by the incompetence",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tag3xw/tell_me_im_not_the_only_one_baffled_by_the/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-002aa6175f71e8c3",
-          "title": "I doubt the rareness of transmission",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta4lnv/i_doubt_the_rareness_of_transmission/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -95,9 +73,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-001429246fd5fc45",
-          "title": "I cannot imagine a worse way of handling the virus than what was done",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9zhvv/i_cannot_imagine_a_worse_way_of_handling_the/",
+          "id": "rss-33b1e5fa8e6c0925",
+          "title": "‘Public deserves to know’: Harvard professor says official messaging contradicts hantavirus science",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta8kbw/public_deserves_to_know_harvard_professor_says/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -106,9 +84,31 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-93846edee996f9eb",
-          "title": "Why are people being quarantined for 72 hours and then let out if they have no symptoms but the incubation period can be up to 40 day?!",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tabf4k/why_are_people_being_quarantined_for_72_hours_and/",
+          "id": "rss-002aa6175f71e8c3",
+          "title": "I doubt the rareness of transmission",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta4lnv/i_doubt_the_rareness_of_transmission/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-622cf6ae5dc7bf55",
+          "title": "Hantavirus: 12 Radboud hospital workers to quarantine due to slack safety measures",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taiu2u/hantavirus_12_radboud_hospital_workers_to/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-001429246fd5fc45",
+          "title": "I cannot imagine a worse way of handling the virus than what was done",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9zhvv/i_cannot_imagine_a_worse_way_of_handling_the/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -139,9 +139,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-7b711d916aca354d",
-          "title": "The CDC quietly changed its hantavirus protocol on Sunday. High-risk exposures now include being within 2 rows of a known case on a plane.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9ziwy/the_cdc_quietly_changed_its_hantavirus_protocol/",
+          "id": "rss-93846edee996f9eb",
+          "title": "Why are people being quarantined for 72 hours and then let out if they have no symptoms but the incubation period can be up to 40 day?!",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tabf4k/why_are_people_being_quarantined_for_72_hours_and/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -153,6 +153,17 @@
           "id": "rss-9c26f270fb5b8ca9",
           "title": "Staff placed in quarantine as a precaution after not following strict guidelines..",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tag39g/staff_placed_in_quarantine_as_a_precaution_after/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-7b711d916aca354d",
+          "title": "The CDC quietly changed its hantavirus protocol on Sunday. High-risk exposures now include being within 2 rows of a known case on a plane.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9ziwy/the_cdc_quietly_changed_its_hantavirus_protocol/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -183,20 +194,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-3b6434aaec5924cb",
-          "title": "The US wants to release all people after being tested, but I think that’s a huge mistake cause of the long time of being not visible in tests",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tabiup/the_us_wants_to_release_all_people_after_being/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-0eee49d5a7e6c79d",
-          "title": "Is self isolation not mandatory?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta751n/is_self_isolation_not_mandatory/",
+          "id": "rss-6994eb5321b4cfcd",
+          "title": "We got the best people on it don’t worry",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taf9dt/we_got_the_best_people_on_it_dont_worry/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -209,6 +209,61 @@
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-88e2668e4ea8cdbb",
+          "title": "Has anyone here canceled travel because of this?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tajn17/has_anyone_here_canceled_travel_because_of_this/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-c543e231bac55897",
+          "title": "Andes Virus FAQ",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tajc9j/andes_virus_faq/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-622cf6ae5dc7bf55",
+          "title": "Hantavirus: 12 Radboud hospital workers to quarantine due to slack safety measures",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taiu2u/hantavirus_12_radboud_hospital_workers_to/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-7fd9a4d80f051905",
+          "title": "Any Nederlanders in here?? /Hantavirus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tai9bd/any_nederlanders_in_here_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-bd9bddc8e99aec68",
+          "title": "I created this tool to track Hantavirus cases",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tai4i3/i_created_this_tool_to_track_hantavirus_cases/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-3a5efb7a2e44cf60",
           "title": "Europe Trip Coming Up, Should we Go?",
@@ -351,61 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-52e36b5c27c11aad",
-          "title": "is my argument dumb?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taes5l/is_my_argument_dumb/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-3e4b753f7269b328",
-          "title": "Article",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taerta/article/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-23ba6fd15fb5abae",
-          "title": "What was the fatality rate of COVID-19, and what will the fatality rate be of HAVID-26?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tadxmw/what_was_the_fatality_rate_of_covid19_and_what/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-02d998decc84ef1b",
-          "title": "Oh dear r/hantavirus if I become one with you I will go to furry conventions and pass the disease to cure the world",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tacn7c/oh_dear_rhantavirus_if_i_become_one_with_you_i/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-94ff7d457868480b",
-          "title": "Inside biocontainment units for hantavirus cruise ship passengers",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tabrza/inside_biocontainment_units_for_hantavirus_cruise/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -457,31 +457,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-33b1e5fa8e6c0925",
-      "title": "‘Public deserves to know’: Harvard professor says official messaging contradicts hantavirus science",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta8kbw/public_deserves_to_know_harvard_professor_says/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-1756bf756b3b66ef",
       "title": "Tell me I'm not the only one baffled by the incompetence",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tag3xw/tell_me_im_not_the_only_one_baffled_by_the/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-002aa6175f71e8c3",
-      "title": "I doubt the rareness of transmission",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta4lnv/i_doubt_the_rareness_of_transmission/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -501,9 +479,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-001429246fd5fc45",
-      "title": "I cannot imagine a worse way of handling the virus than what was done",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9zhvv/i_cannot_imagine_a_worse_way_of_handling_the/",
+      "id": "rss-33b1e5fa8e6c0925",
+      "title": "‘Public deserves to know’: Harvard professor says official messaging contradicts hantavirus science",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta8kbw/public_deserves_to_know_harvard_professor_says/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -512,9 +490,31 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-93846edee996f9eb",
-      "title": "Why are people being quarantined for 72 hours and then let out if they have no symptoms but the incubation period can be up to 40 day?!",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tabf4k/why_are_people_being_quarantined_for_72_hours_and/",
+      "id": "rss-002aa6175f71e8c3",
+      "title": "I doubt the rareness of transmission",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta4lnv/i_doubt_the_rareness_of_transmission/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-622cf6ae5dc7bf55",
+      "title": "Hantavirus: 12 Radboud hospital workers to quarantine due to slack safety measures",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taiu2u/hantavirus_12_radboud_hospital_workers_to/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-001429246fd5fc45",
+      "title": "I cannot imagine a worse way of handling the virus than what was done",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9zhvv/i_cannot_imagine_a_worse_way_of_handling_the/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -545,9 +545,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-7b711d916aca354d",
-      "title": "The CDC quietly changed its hantavirus protocol on Sunday. High-risk exposures now include being within 2 rows of a known case on a plane.",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9ziwy/the_cdc_quietly_changed_its_hantavirus_protocol/",
+      "id": "rss-93846edee996f9eb",
+      "title": "Why are people being quarantined for 72 hours and then let out if they have no symptoms but the incubation period can be up to 40 day?!",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tabf4k/why_are_people_being_quarantined_for_72_hours_and/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -559,6 +559,17 @@
       "id": "rss-9c26f270fb5b8ca9",
       "title": "Staff placed in quarantine as a precaution after not following strict guidelines..",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tag39g/staff_placed_in_quarantine_as_a_precaution_after/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-7b711d916aca354d",
+      "title": "The CDC quietly changed its hantavirus protocol on Sunday. High-risk exposures now include being within 2 rows of a known case on a plane.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9ziwy/the_cdc_quietly_changed_its_hantavirus_protocol/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -589,20 +600,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-3b6434aaec5924cb",
-      "title": "The US wants to release all people after being tested, but I think that’s a huge mistake cause of the long time of being not visible in tests",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tabiup/the_us_wants_to_release_all_people_after_being/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-0eee49d5a7e6c79d",
-      "title": "Is self isolation not mandatory?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta751n/is_self_isolation_not_mandatory/",
+      "id": "rss-6994eb5321b4cfcd",
+      "title": "We got the best people on it don’t worry",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taf9dt/we_got_the_best_people_on_it_dont_worry/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
