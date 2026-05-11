@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-10T23:42:00+00:00",
+  "fetched_at": "2026-05-11T00:08:37+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -62,9 +62,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-d022f520d18f4356",
-          "title": "Preliminary analysis of Orthobunyavirus andesense virus sequences from a cruise-ship related cluster, May 2026",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9kgq8/preliminary_analysis_of_orthobunyavirus_andesense/",
+          "id": "rss-8dc0215c642b705b",
+          "title": "Hantavirus vs. Covid",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9kdh0/hantavirus_vs_covid/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -73,9 +73,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-8dc0215c642b705b",
-          "title": "Hantavirus vs. Covid",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9kdh0/hantavirus_vs_covid/",
+          "id": "rss-d022f520d18f4356",
+          "title": "Preliminary analysis of Orthobunyavirus andesense virus sequences from a cruise-ship related cluster, May 2026",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9kgq8/preliminary_analysis_of_orthobunyavirus_andesense/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -117,17 +117,6 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-adf0dacd052f7cfa",
-          "title": "How optomistic are you that we can deal with another pandemic??? Let this sink in...",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t97nx1/how_optomistic_are_you_that_we_can_deal_with/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-df1eba970f9317bf",
           "title": "Scientific Literature Review (and some speculation)",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9dxx4/scientific_literature_review_and_some_speculation/",
@@ -142,6 +131,17 @@
           "id": "rss-140db557e3ac6f20",
           "title": "Passengers from the hantavirus-struck cruise ship MV Hondius have begun disembarking. Dressed in blue protective clothing and face masks, the first five passengers were escorted by the civil guard.",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t968mn/passengers_from_the_hantavirusstruck_cruise_ship/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-adf0dacd052f7cfa",
+          "title": "How optomistic are you that we can deal with another pandemic??? Let this sink in...",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t97nx1/how_optomistic_are_you_that_we_can_deal_with/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -172,6 +172,17 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-4ca98a66868475f4",
+          "title": "Helpful FAQ Hantavirus \\ Andes Virus Resource",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9l0df/helpful_faq_hantavirus_andes_virus_resource/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-89e21d7717760bb6",
           "title": "what is the ultimate goal of the National Biocontainment Unit in Nebraska",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9czxj/what_is_the_ultimate_goal_of_the_national/",
@@ -183,20 +194,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-f2dc1e07cb229025",
-          "title": "Has the Hanta begun to spread throughout the USA?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9l9hz/has_the_hanta_begun_to_spread_throughout_the_usa/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-4ca98a66868475f4",
-          "title": "Helpful FAQ Hantavirus \\ Andes Virus Resource",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9l0df/helpful_faq_hantavirus_andes_virus_resource/",
+          "id": "rss-77fea5307ffa5627",
+          "title": "How to Manage Your Health Anxiety About Hantavirus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9hb6w/how_to_manage_your_health_anxiety_about_hantavirus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -468,9 +468,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-d022f520d18f4356",
-      "title": "Preliminary analysis of Orthobunyavirus andesense virus sequences from a cruise-ship related cluster, May 2026",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9kgq8/preliminary_analysis_of_orthobunyavirus_andesense/",
+      "id": "rss-8dc0215c642b705b",
+      "title": "Hantavirus vs. Covid",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9kdh0/hantavirus_vs_covid/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -479,9 +479,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-8dc0215c642b705b",
-      "title": "Hantavirus vs. Covid",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9kdh0/hantavirus_vs_covid/",
+      "id": "rss-d022f520d18f4356",
+      "title": "Preliminary analysis of Orthobunyavirus andesense virus sequences from a cruise-ship related cluster, May 2026",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9kgq8/preliminary_analysis_of_orthobunyavirus_andesense/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -523,17 +523,6 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-adf0dacd052f7cfa",
-      "title": "How optomistic are you that we can deal with another pandemic??? Let this sink in...",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t97nx1/how_optomistic_are_you_that_we_can_deal_with/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-df1eba970f9317bf",
       "title": "Scientific Literature Review (and some speculation)",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9dxx4/scientific_literature_review_and_some_speculation/",
@@ -548,6 +537,17 @@
       "id": "rss-140db557e3ac6f20",
       "title": "Passengers from the hantavirus-struck cruise ship MV Hondius have begun disembarking. Dressed in blue protective clothing and face masks, the first five passengers were escorted by the civil guard.",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t968mn/passengers_from_the_hantavirusstruck_cruise_ship/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-adf0dacd052f7cfa",
+      "title": "How optomistic are you that we can deal with another pandemic??? Let this sink in...",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t97nx1/how_optomistic_are_you_that_we_can_deal_with/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -578,6 +578,17 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-4ca98a66868475f4",
+      "title": "Helpful FAQ Hantavirus \\ Andes Virus Resource",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9l0df/helpful_faq_hantavirus_andes_virus_resource/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-89e21d7717760bb6",
       "title": "what is the ultimate goal of the National Biocontainment Unit in Nebraska",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9czxj/what_is_the_ultimate_goal_of_the_national/",
@@ -589,20 +600,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-f2dc1e07cb229025",
-      "title": "Has the Hanta begun to spread throughout the USA?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9l9hz/has_the_hanta_begun_to_spread_throughout_the_usa/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-4ca98a66868475f4",
-      "title": "Helpful FAQ Hantavirus \\ Andes Virus Resource",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9l0df/helpful_faq_hantavirus_andes_virus_resource/",
+      "id": "rss-77fea5307ffa5627",
+      "title": "How to Manage Your Health Anxiety About Hantavirus",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9hb6w/how_to_manage_your_health_anxiety_about_hantavirus/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
