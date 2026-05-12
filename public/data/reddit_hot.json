@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-12T11:34:37+00:00",
+  "fetched_at": "2026-05-12T13:27:01+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -29,9 +29,53 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-5c984bae61d4e513",
+          "title": "Feels like the early days of Covid",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb0gnf/feels_like_the_early_days_of_covid/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-3370af06032a9420",
           "title": "PLEASE let’s not forget the past.",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tav319/please_lets_not_forget_the_past/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-13f5c005f9dc1797",
+          "title": "I've made a Hanta-Virus tracker",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taynqt/ive_made_a_hantavirus_tracker/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-2acc0c47c81aaadd",
+          "title": "Difference in isolation measures",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tayvct/difference_in_isolation_measures/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-870ef62138917d70",
+          "title": "Canada refuses to PCR test the 10 passengers of the cruise ship back in Canada. The couple that disembarked early on April 24 are back at Grey-Bruce, Ontario, Canada not in quarantine. Canadian Health Officials are averse to testing for Hantavirus.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb0sz1/canada_refuses_to_pcr_test_the_10_passengers_of/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -51,9 +95,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-c8b5ae67c7bedecf",
-          "title": "Spain just confirmed another hantavirus-positive passenger tied to the MV Hondius cluster.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tafaxc/spain_just_confirmed_another_hantaviruspositive/",
+          "id": "rss-628afc2a692d3589",
+          "title": "Sadly there’s nothing more I can quickly find about rn but it‘s sky news telling that the WHO expects more cases soon",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tawetf/sadly_theres_nothing_more_i_can_quickly_find/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -73,6 +117,17 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-c8b5ae67c7bedecf",
+          "title": "Spain just confirmed another hantavirus-positive passenger tied to the MV Hondius cluster.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tafaxc/spain_just_confirmed_another_hantaviruspositive/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-1756bf756b3b66ef",
           "title": "Tell me I'm not the only one baffled by the incompetence",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tag3xw/tell_me_im_not_the_only_one_baffled_by_the/",
@@ -84,9 +139,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-628afc2a692d3589",
-          "title": "Sadly there’s nothing more I can quickly find about rn but it‘s sky news telling that the WHO expects more cases soon",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tawetf/sadly_theres_nothing_more_i_can_quickly_find/",
+          "id": "rss-9be79ee513b1fea3",
+          "title": "France is the one to watch (plus other musings)",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb1i0k/france_is_the_one_to_watch_plus_other_musings/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -98,6 +153,17 @@
           "id": "rss-b3dc7639b111b567",
           "title": "Dutch Health authorities: Andes hantavirus may be most contagious before symptoms appear",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tabd3z/dutch_health_authorities_andes_hantavirus_may_be/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-14f778ea0ecac01d",
+          "title": "French woman was told by doctors hantavirus symptoms were just anxiety | Hantavirus | The Guardian",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tastb0/french_woman_was_told_by_doctors_hantavirus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -128,75 +194,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-14f778ea0ecac01d",
-          "title": "French woman was told by doctors hantavirus symptoms were just anxiety | Hantavirus | The Guardian",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tastb0/french_woman_was_told_by_doctors_hantavirus/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-4fbbf8b5e1a8a66b",
           "title": "“Super-Spreaders” and Person-to-Person Transmission of Andes Virus in Argentina",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tavme3/superspreaders_and_persontoperson_transmission_of/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-dee13dc72375ef9d",
-          "title": "What Worries Me Most Right Now About the Hantavirus Outbreak",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tanea0/what_worries_me_most_right_now_about_the/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-13f5c005f9dc1797",
-          "title": "I've made a Hanta-Virus tracker",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taynqt/ive_made_a_hantavirus_tracker/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-7156a1c9860ebb57",
-          "title": "How transmissible is the Hantavirus, really?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tat02o/how_transmissible_is_the_hantavirus_really/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-d78909fc85289de0",
-          "title": "stress, so much stress",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taobju/stress_so_much_stress/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-dca8038d38173d76",
-          "title": "Spaniard Tests Positive for Hantavirus After Cruise Evacuation",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taez2q/spaniard_tests_positive_for_hantavirus_after/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -209,6 +209,61 @@
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-9be79ee513b1fea3",
+          "title": "France is the one to watch (plus other musings)",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb1i0k/france_is_the_one_to_watch_plus_other_musings/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-c40dbe8d844981a1",
+          "title": "How climate change could increase the risk of rodent-borne diseases like hantavirus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb1b6t/how_climate_change_could_increase_the_risk_of/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-870ef62138917d70",
+          "title": "Canada refuses to PCR test the 10 passengers of the cruise ship back in Canada. The couple that disembarked early on April 24 are back at Grey-Bruce, Ontario, Canada not in quarantine. Canadian Health Officials are averse to testing for Hantavirus.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb0sz1/canada_refuses_to_pcr_test_the_10_passengers_of/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-5c984bae61d4e513",
+          "title": "Feels like the early days of Covid",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb0gnf/feels_like_the_early_days_of_covid/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-cd92bf75eaf99c62",
+          "title": "Protocols for possible outbreak",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tazz2m/protocols_for_possible_outbreak/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-2acc0c47c81aaadd",
           "title": "Difference in isolation measures",
@@ -351,61 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-14f778ea0ecac01d",
-          "title": "French woman was told by doctors hantavirus symptoms were just anxiety | Hantavirus | The Guardian",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tastb0/french_woman_was_told_by_doctors_hantavirus/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-ba74013c77b31b34",
-          "title": "What are the realistic chances of Hanta becoming another global pandemic?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tasbt3/what_are_the_realistic_chances_of_hanta_becoming/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-9f31613b9a85f169",
-          "title": "So scary...",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tarc9o/so_scary/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-db172afbe735f566",
-          "title": "Since when are polictians doctors?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tapm8s/since_when_are_polictians_doctors/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-b2542be127ab4ba7",
-          "title": "Truth or Fake - ‘Plandemic, Covid 2.0’: Fact-checking viral conspiracy theories about Hantavirus",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tap9pp/truth_or_fake_plandemic_covid_20_factchecking/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -435,9 +435,53 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-5c984bae61d4e513",
+      "title": "Feels like the early days of Covid",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb0gnf/feels_like_the_early_days_of_covid/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-3370af06032a9420",
       "title": "PLEASE let’s not forget the past.",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tav319/please_lets_not_forget_the_past/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-13f5c005f9dc1797",
+      "title": "I've made a Hanta-Virus tracker",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taynqt/ive_made_a_hantavirus_tracker/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-2acc0c47c81aaadd",
+      "title": "Difference in isolation measures",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tayvct/difference_in_isolation_measures/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-870ef62138917d70",
+      "title": "Canada refuses to PCR test the 10 passengers of the cruise ship back in Canada. The couple that disembarked early on April 24 are back at Grey-Bruce, Ontario, Canada not in quarantine. Canadian Health Officials are averse to testing for Hantavirus.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb0sz1/canada_refuses_to_pcr_test_the_10_passengers_of/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -457,9 +501,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-c8b5ae67c7bedecf",
-      "title": "Spain just confirmed another hantavirus-positive passenger tied to the MV Hondius cluster.",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tafaxc/spain_just_confirmed_another_hantaviruspositive/",
+      "id": "rss-628afc2a692d3589",
+      "title": "Sadly there’s nothing more I can quickly find about rn but it‘s sky news telling that the WHO expects more cases soon",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tawetf/sadly_theres_nothing_more_i_can_quickly_find/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -479,6 +523,17 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-c8b5ae67c7bedecf",
+      "title": "Spain just confirmed another hantavirus-positive passenger tied to the MV Hondius cluster.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tafaxc/spain_just_confirmed_another_hantaviruspositive/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-1756bf756b3b66ef",
       "title": "Tell me I'm not the only one baffled by the incompetence",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tag3xw/tell_me_im_not_the_only_one_baffled_by_the/",
@@ -490,9 +545,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-628afc2a692d3589",
-      "title": "Sadly there’s nothing more I can quickly find about rn but it‘s sky news telling that the WHO expects more cases soon",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tawetf/sadly_theres_nothing_more_i_can_quickly_find/",
+      "id": "rss-9be79ee513b1fea3",
+      "title": "France is the one to watch (plus other musings)",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb1i0k/france_is_the_one_to_watch_plus_other_musings/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -504,6 +559,17 @@
       "id": "rss-b3dc7639b111b567",
       "title": "Dutch Health authorities: Andes hantavirus may be most contagious before symptoms appear",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tabd3z/dutch_health_authorities_andes_hantavirus_may_be/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-14f778ea0ecac01d",
+      "title": "French woman was told by doctors hantavirus symptoms were just anxiety | Hantavirus | The Guardian",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tastb0/french_woman_was_told_by_doctors_hantavirus/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -534,75 +600,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-14f778ea0ecac01d",
-      "title": "French woman was told by doctors hantavirus symptoms were just anxiety | Hantavirus | The Guardian",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tastb0/french_woman_was_told_by_doctors_hantavirus/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-4fbbf8b5e1a8a66b",
       "title": "“Super-Spreaders” and Person-to-Person Transmission of Andes Virus in Argentina",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tavme3/superspreaders_and_persontoperson_transmission_of/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-dee13dc72375ef9d",
-      "title": "What Worries Me Most Right Now About the Hantavirus Outbreak",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tanea0/what_worries_me_most_right_now_about_the/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-13f5c005f9dc1797",
-      "title": "I've made a Hanta-Virus tracker",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taynqt/ive_made_a_hantavirus_tracker/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-7156a1c9860ebb57",
-      "title": "How transmissible is the Hantavirus, really?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tat02o/how_transmissible_is_the_hantavirus_really/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-d78909fc85289de0",
-      "title": "stress, so much stress",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taobju/stress_so_much_stress/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-dca8038d38173d76",
-      "title": "Spaniard Tests Positive for Hantavirus After Cruise Evacuation",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taez2q/spaniard_tests_positive_for_hantavirus_after/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
