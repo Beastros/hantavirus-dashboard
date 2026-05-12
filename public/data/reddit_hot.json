@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-12T06:48:57+00:00",
+  "fetched_at": "2026-05-12T09:36:40+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -21,6 +21,17 @@
           "id": "rss-c41f3dcb3015652d",
           "title": "Hanta Virus Project",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t718cb/hanta_virus_project/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-3370af06032a9420",
+          "title": "PLEASE let’s not forget the past.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tav319/please_lets_not_forget_the_past/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -62,9 +73,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-b3dc7639b111b567",
-          "title": "Dutch Health authorities: Andes hantavirus may be most contagious before symptoms appear",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tabd3z/dutch_health_authorities_andes_hantavirus_may_be/",
+          "id": "rss-6c82c3018a957e6b",
+          "title": "2 Maryland residents possibly exposed to hantavirus cruise passenger",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tanpdp/2_maryland_residents_possibly_exposed_to/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -73,9 +84,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-6c82c3018a957e6b",
-          "title": "2 Maryland residents possibly exposed to hantavirus cruise passenger",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tanpdp/2_maryland_residents_possibly_exposed_to/",
+          "id": "rss-b3dc7639b111b567",
+          "title": "Dutch Health authorities: Andes hantavirus may be most contagious before symptoms appear",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tabd3z/dutch_health_authorities_andes_hantavirus_may_be/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -98,6 +109,17 @@
           "id": "rss-622cf6ae5dc7bf55",
           "title": "Hantavirus: 12 Radboud hospital workers to quarantine due to slack safety measures",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taiu2u/hantavirus_12_radboud_hospital_workers_to/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-14f778ea0ecac01d",
+          "title": "French woman was told by doctors hantavirus symptoms were just anxiety | Hantavirus | The Guardian",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tastb0/french_woman_was_told_by_doctors_hantavirus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -139,9 +161,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-d78909fc85289de0",
-          "title": "stress, so much stress",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taobju/stress_so_much_stress/",
+          "id": "rss-ec15bace637356ed",
+          "title": "those of us immunocompromised",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taoery/those_of_us_immunocompromised/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -150,9 +172,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-002aa6175f71e8c3",
-          "title": "I doubt the rareness of transmission",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta4lnv/i_doubt_the_rareness_of_transmission/",
+          "id": "rss-d78909fc85289de0",
+          "title": "stress, so much stress",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taobju/stress_so_much_stress/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -172,31 +194,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-001429246fd5fc45",
-          "title": "I cannot imagine a worse way of handling the virus than what was done",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9zhvv/i_cannot_imagine_a_worse_way_of_handling_the/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-24896f21a62c1b3f",
-          "title": "French woman was told by doctors hantavirus symptoms were just anxiety",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taf9w5/french_woman_was_told_by_doctors_hantavirus/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-93846edee996f9eb",
-          "title": "Why are people being quarantined for 72 hours and then let out if they have no symptoms but the incubation period can be up to 40 day?!",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tabf4k/why_are_people_being_quarantined_for_72_hours_and/",
+          "id": "rss-002aa6175f71e8c3",
+          "title": "I doubt the rareness of transmission",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta4lnv/i_doubt_the_rareness_of_transmission/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -209,6 +209,94 @@
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-628afc2a692d3589",
+          "title": "Sadly there’s nothing more I can quickly find about rn but it‘s sky news telling that the WHO expects more cases soon",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tawetf/sadly_theres_nothing_more_i_can_quickly_find/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-4fbbf8b5e1a8a66b",
+          "title": "“Super-Spreaders” and Person-to-Person Transmission of Andes Virus in Argentina",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tavme3/superspreaders_and_persontoperson_transmission_of/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-183892054a5be3c1",
+          "title": "Which would you rather have?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tavgui/which_would_you_rather_have/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-cd39b4d426e6559d",
+          "title": "If Andes hantavirus is transmitted by close prolonged contact with an ill person",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tav4ph/if_andes_hantavirus_is_transmitted_by_close/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-3370af06032a9420",
+          "title": "PLEASE let’s not forget the past.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tav319/please_lets_not_forget_the_past/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-e0a67baf3ee154eb",
+          "title": "Rat/mouse droppings?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taubyu/ratmouse_droppings/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-1df3b96109915430",
+          "title": "I'm going on a flight back to my home in few weeks. Any advice on keeping precaution with the Hantavirus?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tatvcb/im_going_on_a_flight_back_to_my_home_in_few_weeks/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-581cbf9301e39ffd",
+          "title": "From Trump's bleach cure for COVID to RFK Jr's response to the Hantavirus: Mapping the deadly price of clowns managing healthcare. https://arcg.is/1H4WyS3",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tatm5i/from_trumps_bleach_cure_for_covid_to_rfk_jrs/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-7156a1c9860ebb57",
           "title": "How transmissible is the Hantavirus, really?",
@@ -318,94 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-d78909fc85289de0",
-          "title": "stress, so much stress",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taobju/stress_so_much_stress/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-6c82c3018a957e6b",
-          "title": "2 Maryland residents possibly exposed to hantavirus cruise passenger",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tanpdp/2_maryland_residents_possibly_exposed_to/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-dee13dc72375ef9d",
-          "title": "What Worries Me Most Right Now About the Hantavirus Outbreak",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tanea0/what_worries_me_most_right_now_about_the/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-1ba7b03da7882201",
-          "title": "We’re all gonna die",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1talsh5/were_all_gonna_die/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-2335b0d4497358f3",
-          "title": "We created a Discord server for discussion!",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taljro/we_created_a_discord_server_for_discussion/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-b390e5c32682a78d",
-          "title": "I built an Open Source dashboard to track the #Hantavirus outbreak in real-time. It’s more detailed than most trackers I’ve seen.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1talich/i_built_an_open_source_dashboard_to_track_the/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-02b9dffe60575563",
-          "title": "I built an Open Source dashboard to track the #Hantavirus outbreak in real-time. It’s more detailed than most trackers I’ve seen.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1talh3q/i_built_an_open_source_dashboard_to_track_the/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-688a560a2df7a35d",
-          "title": "Will the low transmission rate negate the mortality rate?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taksg7/will_the_low_transmission_rate_negate_the/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -427,6 +427,17 @@
       "id": "rss-c41f3dcb3015652d",
       "title": "Hanta Virus Project",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t718cb/hanta_virus_project/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-3370af06032a9420",
+      "title": "PLEASE let’s not forget the past.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tav319/please_lets_not_forget_the_past/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -468,9 +479,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-b3dc7639b111b567",
-      "title": "Dutch Health authorities: Andes hantavirus may be most contagious before symptoms appear",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tabd3z/dutch_health_authorities_andes_hantavirus_may_be/",
+      "id": "rss-6c82c3018a957e6b",
+      "title": "2 Maryland residents possibly exposed to hantavirus cruise passenger",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tanpdp/2_maryland_residents_possibly_exposed_to/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -479,9 +490,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-6c82c3018a957e6b",
-      "title": "2 Maryland residents possibly exposed to hantavirus cruise passenger",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tanpdp/2_maryland_residents_possibly_exposed_to/",
+      "id": "rss-b3dc7639b111b567",
+      "title": "Dutch Health authorities: Andes hantavirus may be most contagious before symptoms appear",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tabd3z/dutch_health_authorities_andes_hantavirus_may_be/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -504,6 +515,17 @@
       "id": "rss-622cf6ae5dc7bf55",
       "title": "Hantavirus: 12 Radboud hospital workers to quarantine due to slack safety measures",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taiu2u/hantavirus_12_radboud_hospital_workers_to/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-14f778ea0ecac01d",
+      "title": "French woman was told by doctors hantavirus symptoms were just anxiety | Hantavirus | The Guardian",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tastb0/french_woman_was_told_by_doctors_hantavirus/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -545,9 +567,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-d78909fc85289de0",
-      "title": "stress, so much stress",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taobju/stress_so_much_stress/",
+      "id": "rss-ec15bace637356ed",
+      "title": "those of us immunocompromised",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taoery/those_of_us_immunocompromised/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -556,9 +578,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-002aa6175f71e8c3",
-      "title": "I doubt the rareness of transmission",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta4lnv/i_doubt_the_rareness_of_transmission/",
+      "id": "rss-d78909fc85289de0",
+      "title": "stress, so much stress",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taobju/stress_so_much_stress/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -578,31 +600,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-001429246fd5fc45",
-      "title": "I cannot imagine a worse way of handling the virus than what was done",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9zhvv/i_cannot_imagine_a_worse_way_of_handling_the/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-24896f21a62c1b3f",
-      "title": "French woman was told by doctors hantavirus symptoms were just anxiety",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1taf9w5/french_woman_was_told_by_doctors_hantavirus/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-93846edee996f9eb",
-      "title": "Why are people being quarantined for 72 hours and then let out if they have no symptoms but the incubation period can be up to 40 day?!",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tabf4k/why_are_people_being_quarantined_for_72_hours_and/",
+      "id": "rss-002aa6175f71e8c3",
+      "title": "I doubt the rareness of transmission",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ta4lnv/i_doubt_the_rareness_of_transmission/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
