@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-05-12T21:42:30+00:00",
+  "fetched_at": "2026-05-12T22:47:20+00:00",
   "items": [
+    {
+      "id": "38b70f5a471fbed2",
+      "title": "How Worried Should We Be About Hantavirus?",
+      "url": "https://www.nytimes.com/video/health/100000010896688/how-worried-should-we-be-about-hantavirus.html",
+      "published_at": "2026-05-12T22:15:43+00:00",
+      "source_name": "NYT Health",
+      "source_tier": 2,
+      "summary": "Our global health reporter, Apoorva Mandavilli, explains that there is no indication the hantavirus outbreak could turn into a pandemic — but also that the public might not be getting all of the details."
+    },
     {
       "id": "c3604fb74a47bd62",
       "title": "WHO head warns countries to prepare for more hantavirus cases",
