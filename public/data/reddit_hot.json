@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-13T03:59:22+00:00",
+  "fetched_at": "2026-05-13T06:53:01+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -62,9 +62,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-4868412534329fce",
-          "title": "Fun fact, the Hantavirus remains viable within human semen for up to and beyond 71 months!",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbb7q3/fun_fact_the_hantavirus_remains_viable_within/",
+          "id": "rss-1791a7707bf56ce3",
+          "title": "Why is it with a fatality rate of 50%, they are not taking this as seriously as they should?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbmf4h/why_is_it_with_a_fatality_rate_of_50_they_are_not/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -84,28 +84,6 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-bf679c8597fe4ef8",
-          "title": "I will not be worried until somebody with no relationship to the passengers tests positive",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb895b/i_will_not_be_worried_until_somebody_with_no/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-8486f6190a0c248e",
-          "title": "Pay attention to the wording.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tblob7/pay_attention_to_the_wording/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-64b53caeee58b79b",
           "title": "I’m freaking out",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbm74l/im_freaking_out/",
@@ -117,64 +95,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-03ae77046eec0747",
-          "title": "How much more fucking proof u need. It is way easier transmittable than officially described. One man from the KLM- flight is likely to have it",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb6f1q/how_much_more_fucking_proof_u_need_it_is_way/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-dd400ae1d2eb1ee6",
-          "title": "Ever since the United States withdrew from the World Health Organization in 2025, this could potentially trigger a pandemic.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbiimo/ever_since_the_united_states_withdrew_from_the/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-0149da329e85baaa",
-          "title": "OpEd in the New York Times: “Public health officials, from the W.H.O. to U.S. officials, would be more helpful if they stopped constantly reassuring people about the likelihood of future events they can’t accurately calculate,” Zeynep Tufekci writes about the hantavirus outbreak.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbivvs/oped_in_the_new_york_times_public_health/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-f24a5f51a6647373",
-          "title": "Another op-ed calling out the close contact messaging",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbknz8/another_oped_calling_out_the_close_contact/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-1791a7707bf56ce3",
-          "title": "Why is it with a fatality rate of 50%, they are not taking this as seriously as they should?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbmf4h/why_is_it_with_a_fatality_rate_of_50_they_are_not/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-5c984bae61d4e513",
-          "title": "Feels like the early days of Covid",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb0gnf/feels_like_the_early_days_of_covid/",
+          "id": "rss-4868412534329fce",
+          "title": "Fun fact, the Hantavirus remains viable within human semen for up to and beyond 71 months!",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbb7q3/fun_fact_the_hantavirus_remains_viable_within/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -194,9 +117,86 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-8486f6190a0c248e",
+          "title": "Pay attention to the wording.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tblob7/pay_attention_to_the_wording/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-bf679c8597fe4ef8",
+          "title": "I will not be worried until somebody with no relationship to the passengers tests positive",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb895b/i_will_not_be_worried_until_somebody_with_no/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-0149da329e85baaa",
+          "title": "OpEd in the New York Times: “Public health officials, from the W.H.O. to U.S. officials, would be more helpful if they stopped constantly reassuring people about the likelihood of future events they can’t accurately calculate,” Zeynep Tufekci writes about the hantavirus outbreak.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbivvs/oped_in_the_new_york_times_public_health/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-dd400ae1d2eb1ee6",
+          "title": "Ever since the United States withdrew from the World Health Organization in 2025, this could potentially trigger a pandemic.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbiimo/ever_since_the_united_states_withdrew_from_the/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-03ae77046eec0747",
+          "title": "How much more fucking proof u need. It is way easier transmittable than officially described. One man from the KLM- flight is likely to have it",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb6f1q/how_much_more_fucking_proof_u_need_it_is_way/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-a6c220496d916c76",
           "title": "Potential hantavirus case in Illinois not linked to cruise ship and originated from separate exposure to rat droppings",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbj2g7/potential_hantavirus_case_in_illinois_not_linked/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-f24a5f51a6647373",
+          "title": "Another op-ed calling out the close contact messaging",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbknz8/another_oped_calling_out_the_close_contact/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-5c984bae61d4e513",
+          "title": "Feels like the early days of Covid",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb0gnf/feels_like_the_early_days_of_covid/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -209,6 +209,39 @@
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-32ff2770736e4b0c",
+          "title": "Champions League Final",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbqjm1/champions_league_final/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-533cb99cec394534",
+          "title": "Would movie theaters be safe?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbq0y1/would_movie_theaters_be_safe/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-22ef713725e0c24e",
+          "title": "Arcgis mapping change",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tboumd/arcgis_mapping_change/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-5dce31ed74ca0123",
           "title": "American who tested \"mildly positive\" yesterday is now testing negative?",
@@ -373,39 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-f24a5f51a6647373",
-          "title": "Another op-ed calling out the close contact messaging",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbknz8/another_oped_calling_out_the_close_contact/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-e3227f912db701d0",
-          "title": "Wait is the hantavirus acc gonna spread?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbklcg/wait_is_the_hantavirus_acc_gonna_spread/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-42eddc4ebc11dd3e",
-          "title": "We are fucked",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbjwgl/we_are_fucked/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -468,9 +468,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-4868412534329fce",
-      "title": "Fun fact, the Hantavirus remains viable within human semen for up to and beyond 71 months!",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbb7q3/fun_fact_the_hantavirus_remains_viable_within/",
+      "id": "rss-1791a7707bf56ce3",
+      "title": "Why is it with a fatality rate of 50%, they are not taking this as seriously as they should?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbmf4h/why_is_it_with_a_fatality_rate_of_50_they_are_not/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -490,28 +490,6 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-bf679c8597fe4ef8",
-      "title": "I will not be worried until somebody with no relationship to the passengers tests positive",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb895b/i_will_not_be_worried_until_somebody_with_no/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-8486f6190a0c248e",
-      "title": "Pay attention to the wording.",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tblob7/pay_attention_to_the_wording/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-64b53caeee58b79b",
       "title": "I’m freaking out",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbm74l/im_freaking_out/",
@@ -523,64 +501,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-03ae77046eec0747",
-      "title": "How much more fucking proof u need. It is way easier transmittable than officially described. One man from the KLM- flight is likely to have it",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb6f1q/how_much_more_fucking_proof_u_need_it_is_way/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-dd400ae1d2eb1ee6",
-      "title": "Ever since the United States withdrew from the World Health Organization in 2025, this could potentially trigger a pandemic.",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbiimo/ever_since_the_united_states_withdrew_from_the/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-0149da329e85baaa",
-      "title": "OpEd in the New York Times: “Public health officials, from the W.H.O. to U.S. officials, would be more helpful if they stopped constantly reassuring people about the likelihood of future events they can’t accurately calculate,” Zeynep Tufekci writes about the hantavirus outbreak.",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbivvs/oped_in_the_new_york_times_public_health/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-f24a5f51a6647373",
-      "title": "Another op-ed calling out the close contact messaging",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbknz8/another_oped_calling_out_the_close_contact/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-1791a7707bf56ce3",
-      "title": "Why is it with a fatality rate of 50%, they are not taking this as seriously as they should?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbmf4h/why_is_it_with_a_fatality_rate_of_50_they_are_not/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-5c984bae61d4e513",
-      "title": "Feels like the early days of Covid",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb0gnf/feels_like_the_early_days_of_covid/",
+      "id": "rss-4868412534329fce",
+      "title": "Fun fact, the Hantavirus remains viable within human semen for up to and beyond 71 months!",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbb7q3/fun_fact_the_hantavirus_remains_viable_within/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -600,9 +523,86 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-8486f6190a0c248e",
+      "title": "Pay attention to the wording.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tblob7/pay_attention_to_the_wording/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-bf679c8597fe4ef8",
+      "title": "I will not be worried until somebody with no relationship to the passengers tests positive",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb895b/i_will_not_be_worried_until_somebody_with_no/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-0149da329e85baaa",
+      "title": "OpEd in the New York Times: “Public health officials, from the W.H.O. to U.S. officials, would be more helpful if they stopped constantly reassuring people about the likelihood of future events they can’t accurately calculate,” Zeynep Tufekci writes about the hantavirus outbreak.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbivvs/oped_in_the_new_york_times_public_health/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-dd400ae1d2eb1ee6",
+      "title": "Ever since the United States withdrew from the World Health Organization in 2025, this could potentially trigger a pandemic.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbiimo/ever_since_the_united_states_withdrew_from_the/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-03ae77046eec0747",
+      "title": "How much more fucking proof u need. It is way easier transmittable than officially described. One man from the KLM- flight is likely to have it",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb6f1q/how_much_more_fucking_proof_u_need_it_is_way/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-a6c220496d916c76",
       "title": "Potential hantavirus case in Illinois not linked to cruise ship and originated from separate exposure to rat droppings",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbj2g7/potential_hantavirus_case_in_illinois_not_linked/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-f24a5f51a6647373",
+      "title": "Another op-ed calling out the close contact messaging",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbknz8/another_oped_calling_out_the_close_contact/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-5c984bae61d4e513",
+      "title": "Feels like the early days of Covid",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb0gnf/feels_like_the_early_days_of_covid/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
