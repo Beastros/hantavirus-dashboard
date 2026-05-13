@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-12T23:58:35+00:00",
+  "fetched_at": "2026-05-13T03:59:22+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -21,6 +21,39 @@
           "id": "rss-c41f3dcb3015652d",
           "title": "Hanta Virus Project",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t718cb/hanta_virus_project/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-dc2c43408d2f4c98",
+          "title": "French woman with hantavirus has severe form of disease, is in final stage of supportive care",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbjg1v/french_woman_with_hantavirus_has_severe_form_of/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-3704698b26088ee2",
+          "title": "Tomorrow we find out test results from the first \"Generation Three\" suspected cases in Italy and France.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbl0w1/tomorrow_we_find_out_test_results_from_the_first/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-ead2a85b508b9e41",
+          "title": "Argentine Health Ministry: Hantavirus caseload this year is double the caseload as previous years, and mortality rate at 33%, up from 15%",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tblx05/argentine_health_ministry_hantavirus_caseload/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -51,17 +84,6 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-03ae77046eec0747",
-          "title": "How much more fucking proof u need. It is way easier transmittable than officially described. One man from the KLM- flight is likely to have it",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb6f1q/how_much_more_fucking_proof_u_need_it_is_way/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-bf679c8597fe4ef8",
           "title": "I will not be worried until somebody with no relationship to the passengers tests positive",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb895b/i_will_not_be_worried_until_somebody_with_no/",
@@ -73,9 +95,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-5c984bae61d4e513",
-          "title": "Feels like the early days of Covid",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb0gnf/feels_like_the_early_days_of_covid/",
+          "id": "rss-8486f6190a0c248e",
+          "title": "Pay attention to the wording.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tblob7/pay_attention_to_the_wording/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -84,9 +106,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-bffadf66eced69be",
-          "title": "3 King County residents possibly exposed to hantavirus linked to cruise",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbcuih/3_king_county_residents_possibly_exposed_to/",
+          "id": "rss-64b53caeee58b79b",
+          "title": "I’m freaking out",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbm74l/im_freaking_out/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -95,64 +117,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-7c3532821e69a61f",
-          "title": "Possible Illinois hantavirus case not connected to cruise ship outbreak",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbfidl/possible_illinois_hantavirus_case_not_connected/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-870ef62138917d70",
-          "title": "Canada refuses to PCR test the 10 passengers of the cruise ship back in Canada. The couple that disembarked early on April 24 are back at Grey-Bruce, Ontario, Canada not in quarantine. Canadian Health Officials are averse to testing for Hantavirus.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb0sz1/canada_refuses_to_pcr_test_the_10_passengers_of/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-efb01199388c981b",
-          "title": "(Unconfirmed) KXYL 4 News: Maryland confirms two hantavirus cases",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb5lon/unconfirmed_kxyl_4_news_maryland_confirms_two/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-0617fe190b795118",
-          "title": "Governments downplay pandemic risk as MV Hondius hantavirus cases mount in US, Europe",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb9o4w/governments_downplay_pandemic_risk_as_mv_hondius/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-01c0cdf6fa6c0974",
-          "title": "Co-author of the main 2018 Epuyén outbreak study: 'Andes virus is not as transmissible as other respiratory viruses'",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbe1ym/coauthor_of_the_main_2018_epuyén_outbreak_study/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-a78ac3810866f72c",
-          "title": "“Statement from the International Hantavirus Society and members of the international hantavirus research and clinical community regarding Andes virus transmission and the current outbreak investigation”",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbgbwt/statement_from_the_international_hantavirus/",
+          "id": "rss-03ae77046eec0747",
+          "title": "How much more fucking proof u need. It is way easier transmittable than officially described. One man from the KLM- flight is likely to have it",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb6f1q/how_much_more_fucking_proof_u_need_it_is_way/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -164,66 +131,6 @@
           "id": "rss-dd400ae1d2eb1ee6",
           "title": "Ever since the United States withdrew from the World Health Organization in 2025, this could potentially trigger a pandemic.",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbiimo/ever_since_the_united_states_withdrew_from_the/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-09969dfd10abca5f",
-          "title": "Has any passenger from the KLM flight from Johannesburgh tested positive for hantavirus?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbe3wo/has_any_passenger_from_the_klm_flight_from/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-d8c88151cc87757b",
-          "title": "Hantavirus protocol breach at Dutch hospital as medics race to curb spread",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbd7it/hantavirus_protocol_breach_at_dutch_hospital_as/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-3370af06032a9420",
-          "title": "PLEASE let’s not forget the past.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tav319/please_lets_not_forget_the_past/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        }
-      ]
-    },
-    "new": {
-      "feed_url": "https://www.reddit.com/r/hantavirus/new/",
-      "items": [
-        {
-          "id": "rss-a6c220496d916c76",
-          "title": "Potential hantavirus case in Illinois not linked to cruise ship and originated from separate exposure to rat droppings",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbj2g7/potential_hantavirus_case_in_illinois_not_linked/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-167e2629a2577d1d",
-          "title": "Hot take: Half the people panicking about Hantavirus right now secretly want it to be COVID 2.0 because of lockdown nostalgia.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbiz9i/hot_take_half_the_people_panicking_about/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -243,9 +150,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-dd400ae1d2eb1ee6",
-          "title": "Ever since the United States withdrew from the World Health Organization in 2025, this could potentially trigger a pandemic.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbiimo/ever_since_the_united_states_withdrew_from_the/",
+          "id": "rss-f24a5f51a6647373",
+          "title": "Another op-ed calling out the close contact messaging",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbknz8/another_oped_calling_out_the_close_contact/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -254,9 +161,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-b7c4a50679322a6d",
-          "title": "CDC: Andes Virus Outbreak on a Cruise Ship: Current Situation",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbii12/cdc_andes_virus_outbreak_on_a_cruise_ship_current/",
+          "id": "rss-1791a7707bf56ce3",
+          "title": "Why is it with a fatality rate of 50%, they are not taking this as seriously as they should?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbmf4h/why_is_it_with_a_fatality_rate_of_50_they_are_not/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -265,9 +172,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-33b5fc082a3e54bd",
-          "title": "Gen 3 of hantavirus",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbi52w/gen_3_of_hantavirus/",
+          "id": "rss-5c984bae61d4e513",
+          "title": "Feels like the early days of Covid",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb0gnf/feels_like_the_early_days_of_covid/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -276,9 +183,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-c37e6e5fc5b63094",
-          "title": "As a Seattle resident this is now too eeriely similar to COVID",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbi0hx/as_a_seattle_resident_this_is_now_too_eeriely/",
+          "id": "rss-9c375e367dd40e9b",
+          "title": "“In any outbreak, the single most important question is: How does it spread? The answer informs the guidance for everything else, including how to stay safe, which protective measures to put in place, and who should be notified during contact tracing. Get it wrong and everything else breaks down.\"",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbn3q6/in_any_outbreak_the_single_most_important/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -287,9 +194,25 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-8c13b4a155b41753",
-          "title": "Hanta virus Sylvia Brown anyone?? She was right about Covid and it lines up it would take two years to make a vaccine 10 years from 2020 is 2030 so 2027 first vaccine then 2028 full vaccine then 2029 no virus",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbgebf/hanta_virus_sylvia_brown_anyone_she_was_right/",
+          "id": "rss-a6c220496d916c76",
+          "title": "Potential hantavirus case in Illinois not linked to cruise ship and originated from separate exposure to rat droppings",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbj2g7/potential_hantavirus_case_in_illinois_not_linked/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        }
+      ]
+    },
+    "new": {
+      "feed_url": "https://www.reddit.com/r/hantavirus/new/",
+      "items": [
+        {
+          "id": "rss-5dce31ed74ca0123",
+          "title": "American who tested \"mildly positive\" yesterday is now testing negative?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbnv7n/american_who_tested_mildly_positive_yesterday_is/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -298,9 +221,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-a4d9ca6f37ddbb63",
-          "title": "Anyone know if https://maphantavirus.com/ is actually a decent source for Hantavirus info?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbge3v/anyone_know_if_httpsmaphantaviruscom_is_actually/",
+          "id": "rss-9c375e367dd40e9b",
+          "title": "“In any outbreak, the single most important question is: How does it spread? The answer informs the guidance for everything else, including how to stay safe, which protective measures to put in place, and who should be notified during contact tracing. Get it wrong and everything else breaks down.\"",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbn3q6/in_any_outbreak_the_single_most_important/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -309,9 +232,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-eae5c4367dec1935",
-          "title": "Anxiety",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbgdpr/anxiety/",
+          "id": "rss-96a91c9b68862178",
+          "title": "Cruise Ship Evacuations",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbmu1p/cruise_ship_evacuations/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -320,9 +243,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-a78ac3810866f72c",
-          "title": "“Statement from the International Hantavirus Society and members of the international hantavirus research and clinical community regarding Andes virus transmission and the current outbreak investigation”",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbgbwt/statement_from_the_international_hantavirus/",
+          "id": "rss-fcc76c0c98b87f26",
+          "title": "Estou em Pânico!",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbmpa5/estou_em_pânico/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -331,9 +254,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-7c3532821e69a61f",
-          "title": "Possible Illinois hantavirus case not connected to cruise ship outbreak",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbfidl/possible_illinois_hantavirus_case_not_connected/",
+          "id": "rss-851667621e6883bb",
+          "title": "Should I not go to an amusement park?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbmiz7/should_i_not_go_to_an_amusement_park/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -342,9 +265,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-baf96c19c22de3e2",
-          "title": "question about the spread on hantavirus through animals",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbf8fn/question_about_the_spread_on_hantavirus_through/",
+          "id": "rss-1791a7707bf56ce3",
+          "title": "Why is it with a fatality rate of 50%, they are not taking this as seriously as they should?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbmf4h/why_is_it_with_a_fatality_rate_of_50_they_are_not/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -353,9 +276,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-09969dfd10abca5f",
-          "title": "Has any passenger from the KLM flight from Johannesburgh tested positive for hantavirus?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbe3wo/has_any_passenger_from_the_klm_flight_from/",
+          "id": "rss-64b53caeee58b79b",
+          "title": "I’m freaking out",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbm74l/im_freaking_out/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -364,9 +287,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-01c0cdf6fa6c0974",
-          "title": "Co-author of the main 2018 Epuyén outbreak study: 'Andes virus is not as transmissible as other respiratory viruses'",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbe1ym/coauthor_of_the_main_2018_epuyén_outbreak_study/",
+          "id": "rss-95ffc95c538ff09b",
+          "title": "2007 Andes hantavirus study in Chile",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbm2xa/2007_andes_hantavirus_study_in_chile/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -375,9 +298,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-f05961873cf6e0e5",
-          "title": "Health experts are warning that Hantavirus may be even more contagious then initially expected.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbdsmm/health_experts_are_warning_that_hantavirus_may_be/",
+          "id": "rss-ead2a85b508b9e41",
+          "title": "Argentine Health Ministry: Hantavirus caseload this year is double the caseload as previous years, and mortality rate at 33%, up from 15%",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tblx05/argentine_health_ministry_hantavirus_caseload/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -386,9 +309,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-23ff5369ff4c42ac",
-          "title": "Hantavirus testing might not be useful for people without symptoms: experts",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbdoef/hantavirus_testing_might_not_be_useful_for_people/",
+          "id": "rss-0a64ef3580da5c01",
+          "title": "Quebec's Health Department says a Canadian resident of the province who was possibly exposed to hantavirus is no longer required to isolate.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tblr5r/quebecs_health_department_says_a_canadian/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -397,9 +320,86 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-d8c88151cc87757b",
-          "title": "Hantavirus protocol breach at Dutch hospital as medics race to curb spread",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbd7it/hantavirus_protocol_breach_at_dutch_hospital_as/",
+          "id": "rss-8486f6190a0c248e",
+          "title": "Pay attention to the wording.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tblob7/pay_attention_to_the_wording/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-d1925d587ad403de",
+          "title": "Hantavirus Tracker Website",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbllll/hantavirus_tracker_website/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-189cf8ef20610aa3",
+          "title": "Can someone explain contact tracing",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tblivw/can_someone_explain_contact_tracing/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-97e3e0942147fd82",
+          "title": "Concerned abt hantavirus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tblcfw/concerned_abt_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-3704698b26088ee2",
+          "title": "Tomorrow we find out test results from the first \"Generation Three\" suspected cases in Italy and France.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbl0w1/tomorrow_we_find_out_test_results_from_the_first/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-f24a5f51a6647373",
+          "title": "Another op-ed calling out the close contact messaging",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbknz8/another_oped_calling_out_the_close_contact/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-e3227f912db701d0",
+          "title": "Wait is the hantavirus acc gonna spread?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbklcg/wait_is_the_hantavirus_acc_gonna_spread/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-42eddc4ebc11dd3e",
+          "title": "We are fucked",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbjwgl/we_are_fucked/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -435,6 +435,39 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-dc2c43408d2f4c98",
+      "title": "French woman with hantavirus has severe form of disease, is in final stage of supportive care",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbjg1v/french_woman_with_hantavirus_has_severe_form_of/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-3704698b26088ee2",
+      "title": "Tomorrow we find out test results from the first \"Generation Three\" suspected cases in Italy and France.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbl0w1/tomorrow_we_find_out_test_results_from_the_first/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-ead2a85b508b9e41",
+      "title": "Argentine Health Ministry: Hantavirus caseload this year is double the caseload as previous years, and mortality rate at 33%, up from 15%",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tblx05/argentine_health_ministry_hantavirus_caseload/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-4868412534329fce",
       "title": "Fun fact, the Hantavirus remains viable within human semen for up to and beyond 71 months!",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbb7q3/fun_fact_the_hantavirus_remains_viable_within/",
@@ -457,17 +490,6 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-03ae77046eec0747",
-      "title": "How much more fucking proof u need. It is way easier transmittable than officially described. One man from the KLM- flight is likely to have it",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb6f1q/how_much_more_fucking_proof_u_need_it_is_way/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-bf679c8597fe4ef8",
       "title": "I will not be worried until somebody with no relationship to the passengers tests positive",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb895b/i_will_not_be_worried_until_somebody_with_no/",
@@ -479,9 +501,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-5c984bae61d4e513",
-      "title": "Feels like the early days of Covid",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb0gnf/feels_like_the_early_days_of_covid/",
+      "id": "rss-8486f6190a0c248e",
+      "title": "Pay attention to the wording.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tblob7/pay_attention_to_the_wording/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -490,9 +512,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-bffadf66eced69be",
-      "title": "3 King County residents possibly exposed to hantavirus linked to cruise",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbcuih/3_king_county_residents_possibly_exposed_to/",
+      "id": "rss-64b53caeee58b79b",
+      "title": "I’m freaking out",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbm74l/im_freaking_out/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -501,64 +523,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-7c3532821e69a61f",
-      "title": "Possible Illinois hantavirus case not connected to cruise ship outbreak",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbfidl/possible_illinois_hantavirus_case_not_connected/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-870ef62138917d70",
-      "title": "Canada refuses to PCR test the 10 passengers of the cruise ship back in Canada. The couple that disembarked early on April 24 are back at Grey-Bruce, Ontario, Canada not in quarantine. Canadian Health Officials are averse to testing for Hantavirus.",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb0sz1/canada_refuses_to_pcr_test_the_10_passengers_of/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-efb01199388c981b",
-      "title": "(Unconfirmed) KXYL 4 News: Maryland confirms two hantavirus cases",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb5lon/unconfirmed_kxyl_4_news_maryland_confirms_two/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-0617fe190b795118",
-      "title": "Governments downplay pandemic risk as MV Hondius hantavirus cases mount in US, Europe",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb9o4w/governments_downplay_pandemic_risk_as_mv_hondius/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-01c0cdf6fa6c0974",
-      "title": "Co-author of the main 2018 Epuyén outbreak study: 'Andes virus is not as transmissible as other respiratory viruses'",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbe1ym/coauthor_of_the_main_2018_epuyén_outbreak_study/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-a78ac3810866f72c",
-      "title": "“Statement from the International Hantavirus Society and members of the international hantavirus research and clinical community regarding Andes virus transmission and the current outbreak investigation”",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbgbwt/statement_from_the_international_hantavirus/",
+      "id": "rss-03ae77046eec0747",
+      "title": "How much more fucking proof u need. It is way easier transmittable than officially described. One man from the KLM- flight is likely to have it",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb6f1q/how_much_more_fucking_proof_u_need_it_is_way/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -578,9 +545,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-09969dfd10abca5f",
-      "title": "Has any passenger from the KLM flight from Johannesburgh tested positive for hantavirus?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbe3wo/has_any_passenger_from_the_klm_flight_from/",
+      "id": "rss-0149da329e85baaa",
+      "title": "OpEd in the New York Times: “Public health officials, from the W.H.O. to U.S. officials, would be more helpful if they stopped constantly reassuring people about the likelihood of future events they can’t accurately calculate,” Zeynep Tufekci writes about the hantavirus outbreak.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbivvs/oped_in_the_new_york_times_public_health/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -589,9 +556,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-d8c88151cc87757b",
-      "title": "Hantavirus protocol breach at Dutch hospital as medics race to curb spread",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbd7it/hantavirus_protocol_breach_at_dutch_hospital_as/",
+      "id": "rss-f24a5f51a6647373",
+      "title": "Another op-ed calling out the close contact messaging",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbknz8/another_oped_calling_out_the_close_contact/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -600,9 +567,42 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-3370af06032a9420",
-      "title": "PLEASE let’s not forget the past.",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tav319/please_lets_not_forget_the_past/",
+      "id": "rss-1791a7707bf56ce3",
+      "title": "Why is it with a fatality rate of 50%, they are not taking this as seriously as they should?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbmf4h/why_is_it_with_a_fatality_rate_of_50_they_are_not/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-5c984bae61d4e513",
+      "title": "Feels like the early days of Covid",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb0gnf/feels_like_the_early_days_of_covid/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-9c375e367dd40e9b",
+      "title": "“In any outbreak, the single most important question is: How does it spread? The answer informs the guidance for everything else, including how to stay safe, which protective measures to put in place, and who should be notified during contact tracing. Get it wrong and everything else breaks down.\"",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbn3q6/in_any_outbreak_the_single_most_important/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-a6c220496d916c76",
+      "title": "Potential hantavirus case in Illinois not linked to cruise ship and originated from separate exposure to rat droppings",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbj2g7/potential_hantavirus_case_in_illinois_not_linked/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
