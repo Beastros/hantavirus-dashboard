@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-13T11:51:45+00:00",
+  "fetched_at": "2026-05-13T14:29:50+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -29,9 +29,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-dc2c43408d2f4c98",
-          "title": "French woman with hantavirus has severe form of disease, is in final stage of supportive care",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbjg1v/french_woman_with_hantavirus_has_severe_form_of/",
+          "id": "rss-0c5c3628524894f5",
+          "title": "Italy says four people quarantined for hantavirus have all tested negative",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc00of/italy_says_four_people_quarantined_for_hantavirus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -40,9 +40,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-3704698b26088ee2",
-          "title": "Tomorrow we find out test results from the first \"Generation Three\" suspected cases in Italy and France.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbl0w1/tomorrow_we_find_out_test_results_from_the_first/",
+          "id": "rss-25712319f40e3030",
+          "title": "French hantavirus patient is critically ill as outbreak grows to 11",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc0e7o/french_hantavirus_patient_is_critically_ill_as/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -62,6 +62,28 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-0b18b8193ab26d60",
+          "title": "I don't think the WHO's messaging can really be trusted",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbtu1f/i_dont_think_the_whos_messaging_can_really_be/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-dc2c43408d2f4c98",
+          "title": "French woman with hantavirus has severe form of disease, is in final stage of supportive care",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbjg1v/french_woman_with_hantavirus_has_severe_form_of/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-1791a7707bf56ce3",
           "title": "Why is it with a fatality rate of 50%, they are not taking this as seriously as they should?",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbmf4h/why_is_it_with_a_fatality_rate_of_50_they_are_not/",
@@ -73,9 +95,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-0b18b8193ab26d60",
-          "title": "I don't think the WHO's messaging can really be trusted",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbtu1f/i_dont_think_the_whos_messaging_can_really_be/",
+          "id": "rss-3704698b26088ee2",
+          "title": "Tomorrow we find out test results from the first \"Generation Three\" suspected cases in Italy and France.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbl0w1/tomorrow_we_find_out_test_results_from_the_first/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -95,9 +117,42 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-c97bea7550f89e35",
+          "title": "Retired oncologist is a hero.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbu3mu/retired_oncologist_is_a_hero/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-549b46ce0dffb34d",
+          "title": "2018 vs. M/V Hondius",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc02ac/2018_vs_mv_hondius/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-64b53caeee58b79b",
           "title": "I’m freaking out",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbm74l/im_freaking_out/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-2d580f5270c35edd",
+          "title": "Do you agree that theres only 9% pandemic chance?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbzg0z/do_you_agree_that_theres_only_9_pandemic_chance/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -128,17 +183,6 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-c97bea7550f89e35",
-          "title": "Retired oncologist is a hero.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbu3mu/retired_oncologist_is_a_hero/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-4868412534329fce",
           "title": "Fun fact, the Hantavirus remains viable within human semen for up to and beyond 71 months!",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbb7q3/fun_fact_the_hantavirus_remains_viable_within/",
@@ -159,56 +203,122 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-0149da329e85baaa",
-          "title": "OpEd in the New York Times: “Public health officials, from the W.H.O. to U.S. officials, would be more helpful if they stopped constantly reassuring people about the likelihood of future events they can’t accurately calculate,” Zeynep Tufekci writes about the hantavirus outbreak.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbivvs/oped_in_the_new_york_times_public_health/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-bf679c8597fe4ef8",
-          "title": "I will not be worried until somebody with no relationship to the passengers tests positive",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb895b/i_will_not_be_worried_until_somebody_with_no/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-dd400ae1d2eb1ee6",
-          "title": "Ever since the United States withdrew from the World Health Organization in 2025, this could potentially trigger a pandemic.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbiimo/ever_since_the_united_states_withdrew_from_the/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-a6c220496d916c76",
-          "title": "Potential hantavirus case in Illinois not linked to cruise ship and originated from separate exposure to rat droppings",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbj2g7/potential_hantavirus_case_in_illinois_not_linked/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-67375e77c533d297",
+          "title": "Y'all got...",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc1bbb/yall_got/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-99a33d9f88bb2193",
+          "title": "We need a megathread...",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc0uwp/we_need_a_megathread/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-25712319f40e3030",
+          "title": "French hantavirus patient is critically ill as outbreak grows to 11",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc0e7o/french_hantavirus_patient_is_critically_ill_as/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-f01c0bf8659ec768",
+          "title": "Excellent podcast from virologist",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc02ts/excellent_podcast_from_virologist/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-549b46ce0dffb34d",
+          "title": "2018 vs. M/V Hondius",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc02ac/2018_vs_mv_hondius/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-0c5c3628524894f5",
+          "title": "Italy says four people quarantined for hantavirus have all tested negative",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc00of/italy_says_four_people_quarantined_for_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-404fe4b38c525025",
+          "title": "NBC: \"11 cases and three deaths\" of the \"deadly outbreak\"",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc003i/nbc_11_cases_and_three_deaths_of_the_deadly/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-2d580f5270c35edd",
+          "title": "Do you agree that theres only 9% pandemic chance?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbzg0z/do_you_agree_that_theres_only_9_pandemic_chance/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-f340ededfb706910",
+          "title": "What are you thinking about spread of hantavirus?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbyl9c/what_are_you_thinking_about_spread_of_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-862b809149e25031",
+          "title": "Who’s going to be my Hanta friend",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbxs7i/whos_going_to_be_my_hanta_friend/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-10d949719b2af8f8",
           "title": "Panic Attacks from Hanta Fears",
@@ -296,116 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-7c542a7e85723b87",
-          "title": "nothing ever happens",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbuwy4/nothing_ever_happens/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-c97bea7550f89e35",
-          "title": "Retired oncologist is a hero.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbu3mu/retired_oncologist_is_a_hero/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-0b18b8193ab26d60",
-          "title": "I don't think the WHO's messaging can really be trusted",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbtu1f/i_dont_think_the_whos_messaging_can_really_be/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-20eaa1088d696494",
-          "title": "🦠 HantaAtlas Community Discord",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbsw2q/hantaatlas_community_discord/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-1bddd64184fa8a79",
-          "title": "sharing a hantavirus tracker",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbssjs/sharing_a_hantavirus_tracker/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-4d412b11694d8357",
-          "title": "Research with Claude. If Hantavirus spreads as easily as COVID did.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbsida/research_with_claude_if_hantavirus_spreads_as/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-cb26192b31aaa671",
-          "title": "Would it be safe to go to france?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbrxlv/would_it_be_safe_to_go_to_france/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-32ff2770736e4b0c",
-          "title": "Champions League Final",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbqjm1/champions_league_final/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-533cb99cec394534",
-          "title": "Would movie theaters be safe?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbq0y1/would_movie_theaters_be_safe/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-22ef713725e0c24e",
-          "title": "Arcgis mapping change",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tboumd/arcgis_mapping_change/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -435,9 +435,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-dc2c43408d2f4c98",
-      "title": "French woman with hantavirus has severe form of disease, is in final stage of supportive care",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbjg1v/french_woman_with_hantavirus_has_severe_form_of/",
+      "id": "rss-0c5c3628524894f5",
+      "title": "Italy says four people quarantined for hantavirus have all tested negative",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc00of/italy_says_four_people_quarantined_for_hantavirus/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -446,9 +446,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-3704698b26088ee2",
-      "title": "Tomorrow we find out test results from the first \"Generation Three\" suspected cases in Italy and France.",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbl0w1/tomorrow_we_find_out_test_results_from_the_first/",
+      "id": "rss-25712319f40e3030",
+      "title": "French hantavirus patient is critically ill as outbreak grows to 11",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc0e7o/french_hantavirus_patient_is_critically_ill_as/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -468,6 +468,28 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-0b18b8193ab26d60",
+      "title": "I don't think the WHO's messaging can really be trusted",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbtu1f/i_dont_think_the_whos_messaging_can_really_be/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-dc2c43408d2f4c98",
+      "title": "French woman with hantavirus has severe form of disease, is in final stage of supportive care",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbjg1v/french_woman_with_hantavirus_has_severe_form_of/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-1791a7707bf56ce3",
       "title": "Why is it with a fatality rate of 50%, they are not taking this as seriously as they should?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbmf4h/why_is_it_with_a_fatality_rate_of_50_they_are_not/",
@@ -479,9 +501,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-0b18b8193ab26d60",
-      "title": "I don't think the WHO's messaging can really be trusted",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbtu1f/i_dont_think_the_whos_messaging_can_really_be/",
+      "id": "rss-3704698b26088ee2",
+      "title": "Tomorrow we find out test results from the first \"Generation Three\" suspected cases in Italy and France.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbl0w1/tomorrow_we_find_out_test_results_from_the_first/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -501,9 +523,42 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-c97bea7550f89e35",
+      "title": "Retired oncologist is a hero.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbu3mu/retired_oncologist_is_a_hero/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-549b46ce0dffb34d",
+      "title": "2018 vs. M/V Hondius",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc02ac/2018_vs_mv_hondius/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-64b53caeee58b79b",
       "title": "I’m freaking out",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbm74l/im_freaking_out/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-2d580f5270c35edd",
+      "title": "Do you agree that theres only 9% pandemic chance?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbzg0z/do_you_agree_that_theres_only_9_pandemic_chance/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -534,17 +589,6 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-c97bea7550f89e35",
-      "title": "Retired oncologist is a hero.",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbu3mu/retired_oncologist_is_a_hero/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-4868412534329fce",
       "title": "Fun fact, the Hantavirus remains viable within human semen for up to and beyond 71 months!",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbb7q3/fun_fact_the_hantavirus_remains_viable_within/",
@@ -559,50 +603,6 @@
       "id": "rss-9c375e367dd40e9b",
       "title": "“In any outbreak, the single most important question is: How does it spread? The answer informs the guidance for everything else, including how to stay safe, which protective measures to put in place, and who should be notified during contact tracing. Get it wrong and everything else breaks down.\"",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbn3q6/in_any_outbreak_the_single_most_important/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-0149da329e85baaa",
-      "title": "OpEd in the New York Times: “Public health officials, from the W.H.O. to U.S. officials, would be more helpful if they stopped constantly reassuring people about the likelihood of future events they can’t accurately calculate,” Zeynep Tufekci writes about the hantavirus outbreak.",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbivvs/oped_in_the_new_york_times_public_health/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-bf679c8597fe4ef8",
-      "title": "I will not be worried until somebody with no relationship to the passengers tests positive",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tb895b/i_will_not_be_worried_until_somebody_with_no/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-dd400ae1d2eb1ee6",
-      "title": "Ever since the United States withdrew from the World Health Organization in 2025, this could potentially trigger a pandemic.",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbiimo/ever_since_the_united_states_withdrew_from_the/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-a6c220496d916c76",
-      "title": "Potential hantavirus case in Illinois not linked to cruise ship and originated from separate exposure to rat droppings",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbj2g7/potential_hantavirus_case_in_illinois_not_linked/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,

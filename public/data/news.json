@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-05-13T11:51:47+00:00",
+  "fetched_at": "2026-05-13T14:29:54+00:00",
   "items": [
+    {
+      "id": "915da7672651c42d",
+      "title": "French Hantavirus Patient Is Critically Ill as Outbreak Reaches 11 Cases",
+      "url": "https://www.nytimes.com/2026/05/13/world/europe/hantavirus-outbreak-cases-france.html",
+      "published_at": "2026-05-13T13:45:18+00:00",
+      "source_name": "NYT World",
+      "source_tier": 2,
+      "summary": "The woman, who was a passenger on the MV Hondius, was breathing with the help of an artificial lung, officials in Paris said."
+    },
     {
       "id": "38b70f5a471fbed2",
       "title": "How Worried Should We Be About Hantavirus?",
