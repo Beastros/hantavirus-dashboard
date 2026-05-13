@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-13T14:29:50+00:00",
+  "fetched_at": "2026-05-13T16:41:39+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -32,6 +32,17 @@
           "id": "rss-0c5c3628524894f5",
           "title": "Italy says four people quarantined for hantavirus have all tested negative",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc00of/italy_says_four_people_quarantined_for_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-67375e77c533d297",
+          "title": "Y'all got...",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc1bbb/yall_got/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -73,9 +84,53 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-6d50052669dc186e",
+          "title": "A lab in Nebraska built and validated an Andes-specific PCR test in literal days in anticipation of receiving the American cruise ship passengers.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc3qwo/a_lab_in_nebraska_built_and_validated_an/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-2d580f5270c35edd",
+          "title": "Do you agree that theres only 9% pandemic chance?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbzg0z/do_you_agree_that_theres_only_9_pandemic_chance/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-dc2c43408d2f4c98",
           "title": "French woman with hantavirus has severe form of disease, is in final stage of supportive care",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbjg1v/french_woman_with_hantavirus_has_severe_form_of/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-99a33d9f88bb2193",
+          "title": "We need a megathread...",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc0uwp/we_need_a_megathread/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-f98d282bfcd5c4a3",
+          "title": "More hantavirus cases are expected, WHO chief says",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc3nks/more_hantavirus_cases_are_expected_who_chief_says/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -148,67 +203,67 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-2d580f5270c35edd",
-          "title": "Do you agree that theres only 9% pandemic chance?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbzg0z/do_you_agree_that_theres_only_9_pandemic_chance/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-de8d86bd0e18804a",
-          "title": "Airborne ✔",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbcp8o/airborne/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-8486f6190a0c248e",
-          "title": "Pay attention to the wording.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tblob7/pay_attention_to_the_wording/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-4868412534329fce",
-          "title": "Fun fact, the Hantavirus remains viable within human semen for up to and beyond 71 months!",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbb7q3/fun_fact_the_hantavirus_remains_viable_within/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-9c375e367dd40e9b",
-          "title": "“In any outbreak, the single most important question is: How does it spread? The answer informs the guidance for everything else, including how to stay safe, which protective measures to put in place, and who should be notified during contact tracing. Get it wrong and everything else breaks down.\"",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbn3q6/in_any_outbreak_the_single_most_important/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-c2d61ab23170fb4f",
+          "title": "Is Hantavirus the Next Pandemic?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc453g/is_hantavirus_the_next_pandemic/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-6d50052669dc186e",
+          "title": "A lab in Nebraska built and validated an Andes-specific PCR test in literal days in anticipation of receiving the American cruise ship passengers.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc3qwo/a_lab_in_nebraska_built_and_validated_an/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-f98d282bfcd5c4a3",
+          "title": "More hantavirus cases are expected, WHO chief says",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc3nks/more_hantavirus_cases_are_expected_who_chief_says/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-3163bf90658565ce",
+          "title": "Follow the Money",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc2ta7/follow_the_money/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-4754c3ad46527318",
+          "title": "I built a real-time data globe, and Hantavirus is currently \"glowing\" brighter than the Eurovision finals.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc20ht/i_built_a_realtime_data_globe_and_hantavirus_is/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-67375e77c533d297",
           "title": "Y'all got...",
@@ -351,61 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-ea065473b7e5c43d",
-          "title": "This has been hell for my ocd. Travel question",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbwhs2/this_has_been_hell_for_my_ocd_travel_question/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-e72e8444bcc35efd",
-          "title": "Let’s not ignore the 80+ health care workers that worked with the 2018 outbreak patients did not get Hanta",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbwder/lets_not_ignore_the_80_health_care_workers_that/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-31f5388d5757e1d0",
-          "title": "Worried abt Hanta26 and having kids… advice?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbvtg9/worried_abt_hanta26_and_having_kids_advice/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-10f66a2cb8c4d8e2",
-          "title": "Impact in Sweden/Nordics",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbvoqw/impact_in_swedennordics/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-8f158024f461cc03",
-          "title": "this article was updated 2 weeks BEFORE we found out about the ship outbreak",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbvon7/this_article_was_updated_2_weeks_before_we_found/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -438,6 +438,17 @@
       "id": "rss-0c5c3628524894f5",
       "title": "Italy says four people quarantined for hantavirus have all tested negative",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc00of/italy_says_four_people_quarantined_for_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-67375e77c533d297",
+      "title": "Y'all got...",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc1bbb/yall_got/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -479,9 +490,53 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-6d50052669dc186e",
+      "title": "A lab in Nebraska built and validated an Andes-specific PCR test in literal days in anticipation of receiving the American cruise ship passengers.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc3qwo/a_lab_in_nebraska_built_and_validated_an/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-2d580f5270c35edd",
+      "title": "Do you agree that theres only 9% pandemic chance?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbzg0z/do_you_agree_that_theres_only_9_pandemic_chance/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-dc2c43408d2f4c98",
       "title": "French woman with hantavirus has severe form of disease, is in final stage of supportive care",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbjg1v/french_woman_with_hantavirus_has_severe_form_of/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-99a33d9f88bb2193",
+      "title": "We need a megathread...",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc0uwp/we_need_a_megathread/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-f98d282bfcd5c4a3",
+      "title": "More hantavirus cases are expected, WHO chief says",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc3nks/more_hantavirus_cases_are_expected_who_chief_says/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -548,61 +603,6 @@
       "id": "rss-64b53caeee58b79b",
       "title": "I’m freaking out",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbm74l/im_freaking_out/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-2d580f5270c35edd",
-      "title": "Do you agree that theres only 9% pandemic chance?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbzg0z/do_you_agree_that_theres_only_9_pandemic_chance/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-de8d86bd0e18804a",
-      "title": "Airborne ✔",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbcp8o/airborne/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-8486f6190a0c248e",
-      "title": "Pay attention to the wording.",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tblob7/pay_attention_to_the_wording/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-4868412534329fce",
-      "title": "Fun fact, the Hantavirus remains viable within human semen for up to and beyond 71 months!",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbb7q3/fun_fact_the_hantavirus_remains_viable_within/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-9c375e367dd40e9b",
-      "title": "“In any outbreak, the single most important question is: How does it spread? The answer informs the guidance for everything else, including how to stay safe, which protective measures to put in place, and who should be notified during contact tracing. Get it wrong and everything else breaks down.\"",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbn3q6/in_any_outbreak_the_single_most_important/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
