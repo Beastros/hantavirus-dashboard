@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-13T20:20:12+00:00",
+  "fetched_at": "2026-05-13T21:51:53+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -21,6 +21,17 @@
           "id": "rss-c41f3dcb3015652d",
           "title": "Hanta Virus Project",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t718cb/hanta_virus_project/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-86204b3aa53cb0c4",
+          "title": "Sequence of Andes Strain found in Swiss Man Hospitalized with Hantavirus is NEW",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcbqn1/sequence_of_andes_strain_found_in_swiss_man/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -62,9 +73,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-25712319f40e3030",
-          "title": "French hantavirus patient is critically ill as outbreak grows to 11",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc0e7o/french_hantavirus_patient_is_critically_ill_as/",
+          "id": "rss-f98d282bfcd5c4a3",
+          "title": "More hantavirus cases are expected, WHO chief says",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc3nks/more_hantavirus_cases_are_expected_who_chief_says/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -73,9 +84,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-f98d282bfcd5c4a3",
-          "title": "More hantavirus cases are expected, WHO chief says",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc3nks/more_hantavirus_cases_are_expected_who_chief_says/",
+          "id": "rss-25712319f40e3030",
+          "title": "French hantavirus patient is critically ill as outbreak grows to 11",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc0e7o/french_hantavirus_patient_is_critically_ill_as/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -106,17 +117,6 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-99a33d9f88bb2193",
-          "title": "We need a megathread...",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc0uwp/we_need_a_megathread/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-0b18b8193ab26d60",
           "title": "I don't think the WHO's messaging can really be trusted",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbtu1f/i_dont_think_the_whos_messaging_can_really_be/",
@@ -139,6 +139,17 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-99a33d9f88bb2193",
+          "title": "We need a megathread...",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc0uwp/we_need_a_megathread/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-dc2c43408d2f4c98",
           "title": "French woman with hantavirus has severe form of disease, is in final stage of supportive care",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbjg1v/french_woman_with_hantavirus_has_severe_form_of/",
@@ -150,9 +161,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-80f49e05907b983d",
-          "title": "What’s the number of cases now?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc5btl/whats_the_number_of_cases_now/",
+          "id": "rss-0dbda466606a377f",
+          "title": "Are we sure that only the Hondius is infected?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tce1u5/are_we_sure_that_only_the_hondius_is_infected/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -161,9 +172,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-2fb8e74132f1614e",
-          "title": "Covid Grandpa and Dr Clare Craig",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc9ohe/covid_grandpa_and_dr_clare_craig/",
+          "id": "rss-80f49e05907b983d",
+          "title": "What’s the number of cases now?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc5btl/whats_the_number_of_cases_now/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,23 +203,67 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-c2d61ab23170fb4f",
-          "title": "Is Hantavirus the Next Pandemic?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc453g/is_hantavirus_the_next_pandemic/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-0dbda466606a377f",
+          "title": "Are we sure that only the Hondius is infected?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tce1u5/are_we_sure_that_only_the_hondius_is_infected/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-269b1ef6e886925f",
+          "title": "Should we be worried about Hantavirus?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcdylk/should_we_be_worried_about_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-17fb87b26f05f8ae",
+          "title": "If this hantavirus thing becomes a worldwide pandemic roughly how long is it till then?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcckmp/if_this_hantavirus_thing_becomes_a_worldwide/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-cf6a291490fc7599",
+          "title": "Is it over? Can all we go away and live our lives?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcci7y/is_it_over_can_all_we_go_away_and_live_our_lives/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-86204b3aa53cb0c4",
+          "title": "Sequence of Andes Strain found in Swiss Man Hospitalized with Hantavirus is NEW",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcbqn1/sequence_of_andes_strain_found_in_swiss_man/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-bc345d490a0d1a43",
           "title": "WHY THE FUCK DID THEY HAVE TO DOCK THAT DAMN BOAT",
@@ -351,61 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-25712319f40e3030",
-          "title": "French hantavirus patient is critically ill as outbreak grows to 11",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc0e7o/french_hantavirus_patient_is_critically_ill_as/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-f01c0bf8659ec768",
-          "title": "Excellent podcast from virologist",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc02ts/excellent_podcast_from_virologist/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-549b46ce0dffb34d",
-          "title": "2018 vs. M/V Hondius",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc02ac/2018_vs_mv_hondius/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-0c5c3628524894f5",
-          "title": "Italy says four people quarantined for hantavirus have all tested negative",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc00of/italy_says_four_people_quarantined_for_hantavirus/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-404fe4b38c525025",
-          "title": "NBC: \"11 cases and three deaths\" of the \"deadly outbreak\"",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc003i/nbc_11_cases_and_three_deaths_of_the_deadly/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -427,6 +427,17 @@
       "id": "rss-c41f3dcb3015652d",
       "title": "Hanta Virus Project",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t718cb/hanta_virus_project/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-86204b3aa53cb0c4",
+      "title": "Sequence of Andes Strain found in Swiss Man Hospitalized with Hantavirus is NEW",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcbqn1/sequence_of_andes_strain_found_in_swiss_man/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -468,9 +479,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-25712319f40e3030",
-      "title": "French hantavirus patient is critically ill as outbreak grows to 11",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc0e7o/french_hantavirus_patient_is_critically_ill_as/",
+      "id": "rss-f98d282bfcd5c4a3",
+      "title": "More hantavirus cases are expected, WHO chief says",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc3nks/more_hantavirus_cases_are_expected_who_chief_says/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -479,9 +490,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-f98d282bfcd5c4a3",
-      "title": "More hantavirus cases are expected, WHO chief says",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc3nks/more_hantavirus_cases_are_expected_who_chief_says/",
+      "id": "rss-25712319f40e3030",
+      "title": "French hantavirus patient is critically ill as outbreak grows to 11",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc0e7o/french_hantavirus_patient_is_critically_ill_as/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -512,17 +523,6 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-99a33d9f88bb2193",
-      "title": "We need a megathread...",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc0uwp/we_need_a_megathread/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-0b18b8193ab26d60",
       "title": "I don't think the WHO's messaging can really be trusted",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbtu1f/i_dont_think_the_whos_messaging_can_really_be/",
@@ -545,6 +545,17 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-99a33d9f88bb2193",
+      "title": "We need a megathread...",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc0uwp/we_need_a_megathread/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-dc2c43408d2f4c98",
       "title": "French woman with hantavirus has severe form of disease, is in final stage of supportive care",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbjg1v/french_woman_with_hantavirus_has_severe_form_of/",
@@ -556,9 +567,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-80f49e05907b983d",
-      "title": "What’s the number of cases now?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc5btl/whats_the_number_of_cases_now/",
+      "id": "rss-0dbda466606a377f",
+      "title": "Are we sure that only the Hondius is infected?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tce1u5/are_we_sure_that_only_the_hondius_is_infected/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -567,9 +578,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-2fb8e74132f1614e",
-      "title": "Covid Grandpa and Dr Clare Craig",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc9ohe/covid_grandpa_and_dr_clare_craig/",
+      "id": "rss-80f49e05907b983d",
+      "title": "What’s the number of cases now?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc5btl/whats_the_number_of_cases_now/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -592,17 +603,6 @@
       "id": "rss-3704698b26088ee2",
       "title": "Tomorrow we find out test results from the first \"Generation Three\" suspected cases in Italy and France.",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tbl0w1/tomorrow_we_find_out_test_results_from_the_first/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-c2d61ab23170fb4f",
-      "title": "Is Hantavirus the Next Pandemic?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc453g/is_hantavirus_the_next_pandemic/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,

@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-05-13T20:20:16+00:00",
+  "fetched_at": "2026-05-13T21:51:57+00:00",
   "items": [
+    {
+      "id": "ec51bb5200cdf9a0",
+      "title": "Hantavirus risk remains low, CDC says, citing its ‘playbook’ response",
+      "url": "https://www.statnews.com/2026/05/13/hantavirus-outbreak-cdc-briefing-cruise-ship-outbreak-response/",
+      "published_at": "2026-05-13T21:12:10+00:00",
+      "source_name": "STAT News",
+      "source_tier": 1,
+      "summary": "Despite rising concern about the hantavirus outbreak on a cruise ship, two CDC doctors say the risk to the public remains low."
+    },
     {
       "id": "fd66d09289207a72",
       "title": "Opinion: The hantavirus is a wake-up call. Will the Trump administration answer it?",
