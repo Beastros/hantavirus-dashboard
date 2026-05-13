@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-05-13T16:41:42+00:00",
+  "fetched_at": "2026-05-13T18:28:41+00:00",
   "items": [
+    {
+      "id": "58f0200fb7a3c8e9",
+      "title": "Six from hantavirus cruise ship leave Arrowe Park hospital to isolate at home",
+      "url": "https://www.theguardian.com/world/2026/may/13/six-from-hantavirus-cruise-ship-leave-arrowe-park-hospital-to-isolate-at-home",
+      "published_at": "2026-05-13T17:23:29+00:00",
+      "source_name": "The Guardian World",
+      "source_tier": 2,
+      "summary": "Passengers will now continue their 45 days of isolation at home, with health officials confirming they remain asymptomatic Six people who were on the cruise ship linked to an outbreak of hantavirus have left Arrowe Park hospital in Wirral to isolate at home, health officials have said. Passengers from the MV Hondius were taken to the Merseyside facility for checks by specialists. Continue reading..."
+    },
     {
       "id": "915da7672651c42d",
       "title": "French Hantavirus Patient Is Critically Ill as Outbreak Reaches 11 Cases",
