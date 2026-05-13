@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-05-13T18:28:41+00:00",
+  "fetched_at": "2026-05-13T20:20:16+00:00",
   "items": [
+    {
+      "id": "fd66d09289207a72",
+      "title": "Opinion: The hantavirus is a wake-up call. Will the Trump administration answer it?",
+      "url": "https://www.statnews.com/2026/05/13/hantavirus-biocontainment-response-cdc-who-pandemic-preparedness/",
+      "published_at": "2026-05-13T19:10:34+00:00",
+      "source_name": "STAT News",
+      "source_tier": 1,
+      "summary": "Arriving in the isolation ward of a biocontainment hospital is an unsettling, scary experience. In 2014, I spent 19 days in one while being treated for Ebola, watching the news…"
+    },
     {
       "id": "58f0200fb7a3c8e9",
       "title": "Six from hantavirus cruise ship leave Arrowe Park hospital to isolate at home",
