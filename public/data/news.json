@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-05-14T07:24:58+00:00",
+  "fetched_at": "2026-05-14T09:55:25+00:00",
   "items": [
+    {
+      "id": "bb3cfd921ab243e2",
+      "title": "Argentina Races To Find Origin of Hantavirus Outbreak",
+      "url": "https://www.nytimes.com/2026/05/14/world/americas/hantavirus-cruise-ship-argentina.html",
+      "published_at": "2026-05-14T09:04:59+00:00",
+      "source_name": "NYT World",
+      "source_tier": 2,
+      "summary": "The scientific investigation into the origin of cruise infection has become entangled with international finger pointing."
+    },
     {
       "id": "9e8426e7a0aaa6b0",
       "title": "Falling backwards and plunging through clouds: British paratroopers’ landing on Tristan da Cunha",

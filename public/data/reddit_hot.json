@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-14T07:24:53+00:00",
+  "fetched_at": "2026-05-14T09:55:20+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -106,9 +106,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-2ce5eac3577f078a",
-          "title": "Possibility the first case from MV Hondius was not patient zero",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcm4lj/possibility_the_first_case_from_mv_hondius_was/",
+          "id": "rss-23052743bb5ffded",
+          "title": "Why is it that pathogens are becoming an increasing problem since 2019?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcpaxe/why_is_it_that_pathogens_are_becoming_an/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -117,9 +117,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-fcb6b396e85798ab",
-          "title": "I think this is pretty informative",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc8tjh/i_think_this_is_pretty_informative/",
+          "id": "rss-2ce5eac3577f078a",
+          "title": "Possibility the first case from MV Hondius was not patient zero",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcm4lj/possibility_the_first_case_from_mv_hondius_was/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -139,9 +139,20 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-23052743bb5ffded",
-          "title": "Why is it that pathogens are becoming an increasing problem since 2019?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcpaxe/why_is_it_that_pathogens_are_becoming_an/",
+          "id": "rss-fcb6b396e85798ab",
+          "title": "I think this is pretty informative",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc8tjh/i_think_this_is_pretty_informative/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-692924c567fcef82",
+          "title": "HantaAtlas — Interactive Hantavirus Platform",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcrhip/hantaatlas_interactive_hantavirus_platform/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -153,6 +164,17 @@
           "id": "rss-6d50052669dc186e",
           "title": "A lab in Nebraska built and validated an Andes-specific PCR test in literal days in anticipation of receiving the American cruise ship passengers.",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc3qwo/a_lab_in_nebraska_built_and_validated_an/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-d851f173ec2c54c1",
+          "title": "What hantavirus is, and why the WHO says it’s ’not another COVID’",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tctbq3/what_hantavirus_is_and_why_the_who_says_its_not/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -181,34 +203,34 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-adac347f76a71112",
-          "title": "Are there any updates on the status of people who currently have Hantavirus?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc5cxq/are_there_any_updates_on_the_status_of_people_who/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-4fa287e3d618738a",
-          "title": "User flairs",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcm4jp/user_flairs/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-d851f173ec2c54c1",
+          "title": "What hantavirus is, and why the WHO says it’s ’not another COVID’",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tctbq3/what_hantavirus_is_and_why_the_who_says_its_not/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-692924c567fcef82",
+          "title": "HantaAtlas — Interactive Hantavirus Platform",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcrhip/hantaatlas_interactive_hantavirus_platform/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-23052743bb5ffded",
           "title": "Why is it that pathogens are becoming an increasing problem since 2019?",
@@ -235,17 +257,6 @@
           "id": "rss-4fa287e3d618738a",
           "title": "User flairs",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcm4jp/user_flairs/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-e3bb1fa6f17e447b",
-          "title": "No... No I dont",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcle4e/no_no_i_dont/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -290,17 +301,6 @@
           "id": "rss-77a21f9122729aca",
           "title": "cruise passenger in manhattan",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcj2r1/cruise_passenger_in_manhattan/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-4b8b3287e433082b",
-          "title": "Doom Enthusiasts",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tciwpn/doom_enthusiasts/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -512,9 +512,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-2ce5eac3577f078a",
-      "title": "Possibility the first case from MV Hondius was not patient zero",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcm4lj/possibility_the_first_case_from_mv_hondius_was/",
+      "id": "rss-23052743bb5ffded",
+      "title": "Why is it that pathogens are becoming an increasing problem since 2019?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcpaxe/why_is_it_that_pathogens_are_becoming_an/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -523,9 +523,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-fcb6b396e85798ab",
-      "title": "I think this is pretty informative",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc8tjh/i_think_this_is_pretty_informative/",
+      "id": "rss-2ce5eac3577f078a",
+      "title": "Possibility the first case from MV Hondius was not patient zero",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcm4lj/possibility_the_first_case_from_mv_hondius_was/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -545,9 +545,20 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-23052743bb5ffded",
-      "title": "Why is it that pathogens are becoming an increasing problem since 2019?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcpaxe/why_is_it_that_pathogens_are_becoming_an/",
+      "id": "rss-fcb6b396e85798ab",
+      "title": "I think this is pretty informative",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc8tjh/i_think_this_is_pretty_informative/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-692924c567fcef82",
+      "title": "HantaAtlas — Interactive Hantavirus Platform",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcrhip/hantaatlas_interactive_hantavirus_platform/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -559,6 +570,17 @@
       "id": "rss-6d50052669dc186e",
       "title": "A lab in Nebraska built and validated an Andes-specific PCR test in literal days in anticipation of receiving the American cruise ship passengers.",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc3qwo/a_lab_in_nebraska_built_and_validated_an/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-d851f173ec2c54c1",
+      "title": "What hantavirus is, and why the WHO says it’s ’not another COVID’",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tctbq3/what_hantavirus_is_and_why_the_who_says_its_not/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -581,28 +603,6 @@
       "id": "rss-25712319f40e3030",
       "title": "French hantavirus patient is critically ill as outbreak grows to 11",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc0e7o/french_hantavirus_patient_is_critically_ill_as/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-adac347f76a71112",
-      "title": "Are there any updates on the status of people who currently have Hantavirus?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc5cxq/are_there_any_updates_on_the_status_of_people_who/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-4fa287e3d618738a",
-      "title": "User flairs",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcm4jp/user_flairs/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
