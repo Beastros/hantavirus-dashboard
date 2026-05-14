@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-14T18:15:43+00:00",
+  "fetched_at": "2026-05-14T20:13:44+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -40,6 +40,17 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-ad2e8f5e3e3d6cc4",
+          "title": "26 ‘low-risk’ Canadian air passengers may have hantavirus exposure - National",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td5pxe/26_lowrisk_canadian_air_passengers_may_have/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-41710026221c51ae",
           "title": "ANDV Hantavirus: A summary on what we know (Strain, Transmission, Mutations, Genetics, Treatments & Protections)",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcv7ot/andv_hantavirus_a_summary_on_what_we_know_strain/",
@@ -62,17 +73,6 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-ad2e8f5e3e3d6cc4",
-          "title": "26 ‘low-risk’ Canadian air passengers may have hantavirus exposure - National",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td5pxe/26_lowrisk_canadian_air_passengers_may_have/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-5bbee59f0eb429f1",
           "title": "Sixteen states warn of possible Hantavirus exposure-YouTube",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw6ys/sixteen_states_warn_of_possible_hantavirus/",
@@ -84,31 +84,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-a020aae5bbd538b0",
-          "title": "A second woman jet-setted around the globe after leaving the hantavirus-plagued vessel, without anyone noticing",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcehil/a_second_woman_jetsetted_around_the_globe_after/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-d1308465635578dc",
-          "title": "States Reporting Potential Hantavirus Exposure Grows to 16 -Today Show on YouTube",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcwc90/states_reporting_potential_hantavirus_exposure/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-a6491ec9c0642216",
-          "title": "Helpful Norovirus FAQ",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td5fx9/helpful_norovirus_faq/",
+          "id": "rss-4b6943748a709698",
+          "title": "Claude 3 Hantavirus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td6nlz/claude_3_hantavirus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -139,9 +117,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-d5eb90a9c51cda77",
-          "title": "Hantavirus is on the list of priority pathogens that could cause the next pandemic",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcjp78/hantavirus_is_on_the_list_of_priority_pathogens/",
+          "id": "rss-a020aae5bbd538b0",
+          "title": "A second woman jet-setted around the globe after leaving the hantavirus-plagued vessel, without anyone noticing",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcehil/a_second_woman_jetsetted_around_the_globe_after/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -150,9 +128,31 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-191aac0cc9598ec5",
-          "title": "May 14 update: All 16 Americans in quarantine, zero in biocontainment — ECDC confirms no new cases",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td5uki/may_14_update_all_16_americans_in_quarantine_zero/",
+          "id": "rss-d1308465635578dc",
+          "title": "States Reporting Potential Hantavirus Exposure Grows to 16 -Today Show on YouTube",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcwc90/states_reporting_potential_hantavirus_exposure/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-50b828ffc6a82e44",
+          "title": "Censoring peer-reviewed discussion helps no one",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td220k/censoring_peerreviewed_discussion_helps_no_one/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-d5eb90a9c51cda77",
+          "title": "Hantavirus is on the list of priority pathogens that could cause the next pandemic",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcjp78/hantavirus_is_on_the_list_of_priority_pathogens/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -183,9 +183,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-50b828ffc6a82e44",
-          "title": "Censoring peer-reviewed discussion helps no one",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td220k/censoring_peerreviewed_discussion_helps_no_one/",
+          "id": "rss-2ce5eac3577f078a",
+          "title": "Possibility the first case from MV Hondius was not patient zero",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcm4lj/possibility_the_first_case_from_mv_hondius_was/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -194,9 +194,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-2ce5eac3577f078a",
-          "title": "Possibility the first case from MV Hondius was not patient zero",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcm4lj/possibility_the_first_case_from_mv_hondius_was/",
+          "id": "rss-77a21f9122729aca",
+          "title": "cruise passenger in manhattan",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcj2r1/cruise_passenger_in_manhattan/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -210,9 +210,20 @@
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
         {
-          "id": "rss-191aac0cc9598ec5",
-          "title": "May 14 update: All 16 Americans in quarantine, zero in biocontainment — ECDC confirms no new cases",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td5uki/may_14_update_all_16_americans_in_quarantine_zero/",
+          "id": "rss-bc6f3943bb0a0144",
+          "title": "18 Hantavirus Cases In The USA With 17 Quarantine 😲 Will They Be Another...",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td7zwf/18_hantavirus_cases_in_the_usa_with_17_quarantine/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-4b6943748a709698",
+          "title": "Claude 3 Hantavirus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td6nlz/claude_3_hantavirus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -395,17 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-2a50c67619619f4e",
-          "title": "How To Clean Food, Rugs Etc. Also Supplements",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tctwv0/how_to_clean_food_rugs_etc_also_supplements/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -446,6 +446,17 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-ad2e8f5e3e3d6cc4",
+      "title": "26 ‘low-risk’ Canadian air passengers may have hantavirus exposure - National",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td5pxe/26_lowrisk_canadian_air_passengers_may_have/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-41710026221c51ae",
       "title": "ANDV Hantavirus: A summary on what we know (Strain, Transmission, Mutations, Genetics, Treatments & Protections)",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcv7ot/andv_hantavirus_a_summary_on_what_we_know_strain/",
@@ -468,17 +479,6 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-ad2e8f5e3e3d6cc4",
-      "title": "26 ‘low-risk’ Canadian air passengers may have hantavirus exposure - National",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td5pxe/26_lowrisk_canadian_air_passengers_may_have/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-5bbee59f0eb429f1",
       "title": "Sixteen states warn of possible Hantavirus exposure-YouTube",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw6ys/sixteen_states_warn_of_possible_hantavirus/",
@@ -490,31 +490,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-a020aae5bbd538b0",
-      "title": "A second woman jet-setted around the globe after leaving the hantavirus-plagued vessel, without anyone noticing",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcehil/a_second_woman_jetsetted_around_the_globe_after/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-d1308465635578dc",
-      "title": "States Reporting Potential Hantavirus Exposure Grows to 16 -Today Show on YouTube",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcwc90/states_reporting_potential_hantavirus_exposure/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-a6491ec9c0642216",
-      "title": "Helpful Norovirus FAQ",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td5fx9/helpful_norovirus_faq/",
+      "id": "rss-4b6943748a709698",
+      "title": "Claude 3 Hantavirus",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td6nlz/claude_3_hantavirus/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -545,9 +523,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-d5eb90a9c51cda77",
-      "title": "Hantavirus is on the list of priority pathogens that could cause the next pandemic",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcjp78/hantavirus_is_on_the_list_of_priority_pathogens/",
+      "id": "rss-a020aae5bbd538b0",
+      "title": "A second woman jet-setted around the globe after leaving the hantavirus-plagued vessel, without anyone noticing",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcehil/a_second_woman_jetsetted_around_the_globe_after/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -556,9 +534,31 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-191aac0cc9598ec5",
-      "title": "May 14 update: All 16 Americans in quarantine, zero in biocontainment — ECDC confirms no new cases",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td5uki/may_14_update_all_16_americans_in_quarantine_zero/",
+      "id": "rss-d1308465635578dc",
+      "title": "States Reporting Potential Hantavirus Exposure Grows to 16 -Today Show on YouTube",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcwc90/states_reporting_potential_hantavirus_exposure/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-50b828ffc6a82e44",
+      "title": "Censoring peer-reviewed discussion helps no one",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td220k/censoring_peerreviewed_discussion_helps_no_one/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-d5eb90a9c51cda77",
+      "title": "Hantavirus is on the list of priority pathogens that could cause the next pandemic",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcjp78/hantavirus_is_on_the_list_of_priority_pathogens/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -589,9 +589,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-50b828ffc6a82e44",
-      "title": "Censoring peer-reviewed discussion helps no one",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td220k/censoring_peerreviewed_discussion_helps_no_one/",
+      "id": "rss-2ce5eac3577f078a",
+      "title": "Possibility the first case from MV Hondius was not patient zero",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcm4lj/possibility_the_first_case_from_mv_hondius_was/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -600,9 +600,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-2ce5eac3577f078a",
-      "title": "Possibility the first case from MV Hondius was not patient zero",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcm4lj/possibility_the_first_case_from_mv_hondius_was/",
+      "id": "rss-77a21f9122729aca",
+      "title": "cruise passenger in manhattan",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcj2r1/cruise_passenger_in_manhattan/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
