@@ -1,22 +1,619 @@
 {
-  "fetched_at": "2026-05-14T00:14:47+00:00",
+  "fetched_at": "2026-05-14T04:15:08+00:00",
   "subreddit": "hantavirus",
-  "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows.",
+  "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
     "hot": {
       "feed_url": "https://www.reddit.com/r/hantavirus/hot/",
-      "items": []
+      "items": [
+        {
+          "id": "rss-438490020645d7da",
+          "title": "Expert reaction to first complete sequence of the hantavirus from the current cluster from MV Hondius (from the Swiss patient with confirmed Andes strain) uploaded to the Virological.org platform by the Swiss National Reference Center for Emerging Viral Infections, Geneva University Hospitals and…",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9eua7/expert_reaction_to_first_complete_sequence_of_the/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-c41f3dcb3015652d",
+          "title": "Hanta Virus Project",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t718cb/hanta_virus_project/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-a020aae5bbd538b0",
+          "title": "A second woman jet-setted around the globe after leaving the hantavirus-plagued vessel, without anyone noticing",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcehil/a_second_woman_jetsetted_around_the_globe_after/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-86204b3aa53cb0c4",
+          "title": "Sequence of Andes Strain found in Swiss Man Hospitalized with Hantavirus is NEW",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcbqn1/sequence_of_andes_strain_found_in_swiss_man/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-d5eb90a9c51cda77",
+          "title": "Hantavirus is on the list of priority pathogens that could cause the next pandemic",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcjp78/hantavirus_is_on_the_list_of_priority_pathogens/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-09b50e9ebbaff08e",
+          "title": "Dr. Kornfeld, the American “mild positive” from nasal swab, has tested negative via blood PCR test.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tciupp/dr_kornfeld_the_american_mild_positive_from_nasal/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-77a21f9122729aca",
+          "title": "cruise passenger in manhattan",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcj2r1/cruise_passenger_in_manhattan/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-640acc2d79b5ad2d",
+          "title": "A Scientist’s Close Call with Hantavirus Aboard the M.V. Hondius Cruise Article from The New Yorker",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tch8rb/a_scientists_close_call_with_hantavirus_aboard/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-0c5c3628524894f5",
+          "title": "Italy says four people quarantined for hantavirus have all tested negative",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc00of/italy_says_four_people_quarantined_for_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-fcb6b396e85798ab",
+          "title": "I think this is pretty informative",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc8tjh/i_think_this_is_pretty_informative/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-b44908d31679ad97",
+          "title": "Reverse Zoonosis and Horizontal Spread",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcjmxs/reverse_zoonosis_and_horizontal_spread/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-6d50052669dc186e",
+          "title": "A lab in Nebraska built and validated an Andes-specific PCR test in literal days in anticipation of receiving the American cruise ship passengers.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc3qwo/a_lab_in_nebraska_built_and_validated_an/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-f98d282bfcd5c4a3",
+          "title": "More hantavirus cases are expected, WHO chief says",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc3nks/more_hantavirus_cases_are_expected_who_chief_says/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-2ce5eac3577f078a",
+          "title": "Possibility the first case from MV Hondius was not patient zero",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcm4lj/possibility_the_first_case_from_mv_hondius_was/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-25712319f40e3030",
+          "title": "French hantavirus patient is critically ill as outbreak grows to 11",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc0e7o/french_hantavirus_patient_is_critically_ill_as/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-dcd0d29a70b59bf4",
+          "title": "Nothing ever happens",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tck529/nothing_ever_happens/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-adac347f76a71112",
+          "title": "Are there any updates on the status of people who currently have Hantavirus?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc5cxq/are_there_any_updates_on_the_status_of_people_who/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-269b1ef6e886925f",
+          "title": "Should we be worried about Hantavirus?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcdylk/should_we_be_worried_about_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        }
+      ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
-      "items": []
+      "items": [
+        {
+          "id": "rss-2ce5eac3577f078a",
+          "title": "Possibility the first case from MV Hondius was not patient zero",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcm4lj/possibility_the_first_case_from_mv_hondius_was/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-4fa287e3d618738a",
+          "title": "User flairs",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcm4jp/user_flairs/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-e3bb1fa6f17e447b",
+          "title": "No... No I dont",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcle4e/no_no_i_dont/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-dcd0d29a70b59bf4",
+          "title": "Nothing ever happens",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tck529/nothing_ever_happens/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-d5eb90a9c51cda77",
+          "title": "Hantavirus is on the list of priority pathogens that could cause the next pandemic",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcjp78/hantavirus_is_on_the_list_of_priority_pathogens/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-b44908d31679ad97",
+          "title": "Reverse Zoonosis and Horizontal Spread",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcjmxs/reverse_zoonosis_and_horizontal_spread/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-77a21f9122729aca",
+          "title": "cruise passenger in manhattan",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcj2r1/cruise_passenger_in_manhattan/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-4b8b3287e433082b",
+          "title": "Doom Enthusiasts",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tciwpn/doom_enthusiasts/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-09b50e9ebbaff08e",
+          "title": "Dr. Kornfeld, the American “mild positive” from nasal swab, has tested negative via blood PCR test.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tciupp/dr_kornfeld_the_american_mild_positive_from_nasal/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-eadc24724dee34ce",
+          "title": "I'm a \"Calm-Monger\" and your doomsday fantasies are harming real people. A Plea to the Mods",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tchqbi/im_a_calmmonger_and_your_doomsday_fantasies_are/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-640acc2d79b5ad2d",
+          "title": "A Scientist’s Close Call with Hantavirus Aboard the M.V. Hondius Cruise Article from The New Yorker",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tch8rb/a_scientists_close_call_with_hantavirus_aboard/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-db33d4f133054453",
+          "title": "Does anyone know what happened to the British man who left the infected cruise ship was being looked for?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcgg3r/does_anyone_know_what_happened_to_the_british_man/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-a020aae5bbd538b0",
+          "title": "A second woman jet-setted around the globe after leaving the hantavirus-plagued vessel, without anyone noticing",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcehil/a_second_woman_jetsetted_around_the_globe_after/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-0dbda466606a377f",
+          "title": "Are we sure that only the Hondius is infected?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tce1u5/are_we_sure_that_only_the_hondius_is_infected/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-269b1ef6e886925f",
+          "title": "Should we be worried about Hantavirus?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcdylk/should_we_be_worried_about_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-17fb87b26f05f8ae",
+          "title": "If this hantavirus thing becomes a worldwide pandemic roughly how long is it till then?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcckmp/if_this_hantavirus_thing_becomes_a_worldwide/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-cf6a291490fc7599",
+          "title": "Is it over? Can all we go away and live our lives?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcci7y/is_it_over_can_all_we_go_away_and_live_our_lives/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-86204b3aa53cb0c4",
+          "title": "Sequence of Andes Strain found in Swiss Man Hospitalized with Hantavirus is NEW",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcbqn1/sequence_of_andes_strain_found_in_swiss_man/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        }
+      ]
     }
   },
   "feed_url": "https://www.reddit.com/r/hantavirus/hot/",
-  "items": [],
+  "items": [
+    {
+      "id": "rss-438490020645d7da",
+      "title": "Expert reaction to first complete sequence of the hantavirus from the current cluster from MV Hondius (from the Swiss patient with confirmed Andes strain) uploaded to the Virological.org platform by the Swiss National Reference Center for Emerging Viral Infections, Geneva University Hospitals and…",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t9eua7/expert_reaction_to_first_complete_sequence_of_the/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-c41f3dcb3015652d",
+      "title": "Hanta Virus Project",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t718cb/hanta_virus_project/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-a020aae5bbd538b0",
+      "title": "A second woman jet-setted around the globe after leaving the hantavirus-plagued vessel, without anyone noticing",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcehil/a_second_woman_jetsetted_around_the_globe_after/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-86204b3aa53cb0c4",
+      "title": "Sequence of Andes Strain found in Swiss Man Hospitalized with Hantavirus is NEW",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcbqn1/sequence_of_andes_strain_found_in_swiss_man/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-d5eb90a9c51cda77",
+      "title": "Hantavirus is on the list of priority pathogens that could cause the next pandemic",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcjp78/hantavirus_is_on_the_list_of_priority_pathogens/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-09b50e9ebbaff08e",
+      "title": "Dr. Kornfeld, the American “mild positive” from nasal swab, has tested negative via blood PCR test.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tciupp/dr_kornfeld_the_american_mild_positive_from_nasal/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-77a21f9122729aca",
+      "title": "cruise passenger in manhattan",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcj2r1/cruise_passenger_in_manhattan/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-640acc2d79b5ad2d",
+      "title": "A Scientist’s Close Call with Hantavirus Aboard the M.V. Hondius Cruise Article from The New Yorker",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tch8rb/a_scientists_close_call_with_hantavirus_aboard/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-0c5c3628524894f5",
+      "title": "Italy says four people quarantined for hantavirus have all tested negative",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc00of/italy_says_four_people_quarantined_for_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-fcb6b396e85798ab",
+      "title": "I think this is pretty informative",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc8tjh/i_think_this_is_pretty_informative/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-b44908d31679ad97",
+      "title": "Reverse Zoonosis and Horizontal Spread",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcjmxs/reverse_zoonosis_and_horizontal_spread/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-6d50052669dc186e",
+      "title": "A lab in Nebraska built and validated an Andes-specific PCR test in literal days in anticipation of receiving the American cruise ship passengers.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc3qwo/a_lab_in_nebraska_built_and_validated_an/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-f98d282bfcd5c4a3",
+      "title": "More hantavirus cases are expected, WHO chief says",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc3nks/more_hantavirus_cases_are_expected_who_chief_says/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-2ce5eac3577f078a",
+      "title": "Possibility the first case from MV Hondius was not patient zero",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcm4lj/possibility_the_first_case_from_mv_hondius_was/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-25712319f40e3030",
+      "title": "French hantavirus patient is critically ill as outbreak grows to 11",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc0e7o/french_hantavirus_patient_is_critically_ill_as/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-dcd0d29a70b59bf4",
+      "title": "Nothing ever happens",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tck529/nothing_ever_happens/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-adac347f76a71112",
+      "title": "Are there any updates on the status of people who currently have Hantavirus?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc5cxq/are_there_any_updates_on_the_status_of_people_who/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-269b1ef6e886925f",
+      "title": "Should we be worried about Hantavirus?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcdylk/should_we_be_worried_about_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    }
+  ],
   "fetch_meta": {
     "json_attempted": false,
-    "hot_via": "json",
-    "new_via": "json"
+    "hot_via": "rss_fallback",
+    "new_via": "rss_fallback"
   }
 }
