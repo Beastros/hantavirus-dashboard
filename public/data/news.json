@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-05-14T20:13:48+00:00",
+  "fetched_at": "2026-05-14T21:38:27+00:00",
   "items": [
+    {
+      "id": "e1ac1a2110093a65",
+      "title": "16 More People in the U.S. Are Being Monitored for Hantavirus, C.D.C. Says",
+      "url": "https://www.nytimes.com/2026/05/14/health/hantavirus-outbreak-quarantine.html",
+      "published_at": "2026-05-14T21:09:58+00:00",
+      "source_name": "NYT World",
+      "source_tier": 2,
+      "summary": "They were passengers on a plane to Johannesburg with an infected Dutch woman who later died."
+    },
     {
       "id": "fb06b169d36991ea",
       "title": "Hantavirus Doesn’t Spread Easily, but Officials May Be Downplaying Risks",
