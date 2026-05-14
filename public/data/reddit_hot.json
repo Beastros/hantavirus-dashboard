@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-14T21:38:20+00:00",
+  "fetched_at": "2026-05-14T22:41:19+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -21,6 +21,17 @@
           "id": "rss-c41f3dcb3015652d",
           "title": "Hanta Virus Project",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t718cb/hanta_virus_project/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-d82814a15b12ec34",
+          "title": "CDC not requiring hantavirus cruise passengers to isolate at home",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdbbr5/cdc_not_requiring_hantavirus_cruise_passengers_to/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -62,9 +73,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-78054fc2787d4908",
-          "title": "World Health Organization Pandemic Risk Chart",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcxhpx/world_health_organization_pandemic_risk_chart/",
+          "id": "rss-96d72c17c563b078",
+          "title": "“Hantavirus is nowhere near as infectious as COVID-19 was,” he said.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdbibm/hantavirus_is_nowhere_near_as_infectious_as/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -73,9 +84,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-4b6943748a709698",
-          "title": "Claude 3 Hantavirus",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td6nlz/claude_3_hantavirus/",
+          "id": "rss-78054fc2787d4908",
+          "title": "World Health Organization Pandemic Risk Chart",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcxhpx/world_health_organization_pandemic_risk_chart/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -95,9 +106,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-7856253effaa99c8",
-          "title": "seems like nothing is happening",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw518/seems_like_nothing_is_happening/",
+          "id": "rss-4b6943748a709698",
+          "title": "Claude 3 Hantavirus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td6nlz/claude_3_hantavirus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -106,9 +117,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-d82814a15b12ec34",
-          "title": "CDC not requiring hantavirus cruise passengers to isolate at home",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdbbr5/cdc_not_requiring_hantavirus_cruise_passengers_to/",
+          "id": "rss-7856253effaa99c8",
+          "title": "seems like nothing is happening",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw518/seems_like_nothing_is_happening/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -128,31 +139,20 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-a020aae5bbd538b0",
-          "title": "A second woman jet-setted around the globe after leaving the hantavirus-plagued vessel, without anyone noticing",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcehil/a_second_woman_jetsetted_around_the_globe_after/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-96d72c17c563b078",
-          "title": "“Hantavirus is nowhere near as infectious as COVID-19 was,” he said.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdbibm/hantavirus_is_nowhere_near_as_infectious_as/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-50b828ffc6a82e44",
           "title": "Censoring peer-reviewed discussion helps no one",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td220k/censoring_peerreviewed_discussion_helps_no_one/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-a020aae5bbd538b0",
+          "title": "A second woman jet-setted around the globe after leaving the hantavirus-plagued vessel, without anyone noticing",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcehil/a_second_woman_jetsetted_around_the_globe_after/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -183,9 +183,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-86204b3aa53cb0c4",
-          "title": "Sequence of Andes Strain found in Swiss Man Hospitalized with Hantavirus is NEW",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcbqn1/sequence_of_andes_strain_found_in_swiss_man/",
+          "id": "rss-b34e14ccc6596e1b",
+          "title": "A dozen American passengers from hantavirus ship in quarantine",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td58bd/a_dozen_american_passengers_from_hantavirus_ship/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -194,9 +194,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-09b50e9ebbaff08e",
-          "title": "Dr. Kornfeld, the American “mild positive” from nasal swab, has tested negative via blood PCR test.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tciupp/dr_kornfeld_the_american_mild_positive_from_nasal/",
+          "id": "rss-86204b3aa53cb0c4",
+          "title": "Sequence of Andes Strain found in Swiss Man Hospitalized with Hantavirus is NEW",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcbqn1/sequence_of_andes_strain_found_in_swiss_man/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -209,6 +209,17 @@
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-3fd688eee8484962",
+          "title": "Coincidence???",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdcrea/coincidence/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-96d72c17c563b078",
           "title": "“Hantavirus is nowhere near as infectious as COVID-19 was,” he said.",
@@ -395,17 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-5eeedae6b15c0b1b",
-          "title": "Supplements And Things That Can Help",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcurik/supplements_and_things_that_can_help/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -427,6 +427,17 @@
       "id": "rss-c41f3dcb3015652d",
       "title": "Hanta Virus Project",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t718cb/hanta_virus_project/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-d82814a15b12ec34",
+      "title": "CDC not requiring hantavirus cruise passengers to isolate at home",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdbbr5/cdc_not_requiring_hantavirus_cruise_passengers_to/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -468,9 +479,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-78054fc2787d4908",
-      "title": "World Health Organization Pandemic Risk Chart",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcxhpx/world_health_organization_pandemic_risk_chart/",
+      "id": "rss-96d72c17c563b078",
+      "title": "“Hantavirus is nowhere near as infectious as COVID-19 was,” he said.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdbibm/hantavirus_is_nowhere_near_as_infectious_as/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -479,9 +490,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-4b6943748a709698",
-      "title": "Claude 3 Hantavirus",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td6nlz/claude_3_hantavirus/",
+      "id": "rss-78054fc2787d4908",
+      "title": "World Health Organization Pandemic Risk Chart",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcxhpx/world_health_organization_pandemic_risk_chart/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -501,9 +512,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-7856253effaa99c8",
-      "title": "seems like nothing is happening",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw518/seems_like_nothing_is_happening/",
+      "id": "rss-4b6943748a709698",
+      "title": "Claude 3 Hantavirus",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td6nlz/claude_3_hantavirus/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -512,9 +523,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-d82814a15b12ec34",
-      "title": "CDC not requiring hantavirus cruise passengers to isolate at home",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdbbr5/cdc_not_requiring_hantavirus_cruise_passengers_to/",
+      "id": "rss-7856253effaa99c8",
+      "title": "seems like nothing is happening",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw518/seems_like_nothing_is_happening/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -534,31 +545,20 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-a020aae5bbd538b0",
-      "title": "A second woman jet-setted around the globe after leaving the hantavirus-plagued vessel, without anyone noticing",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcehil/a_second_woman_jetsetted_around_the_globe_after/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-96d72c17c563b078",
-      "title": "“Hantavirus is nowhere near as infectious as COVID-19 was,” he said.",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdbibm/hantavirus_is_nowhere_near_as_infectious_as/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-50b828ffc6a82e44",
       "title": "Censoring peer-reviewed discussion helps no one",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td220k/censoring_peerreviewed_discussion_helps_no_one/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-a020aae5bbd538b0",
+      "title": "A second woman jet-setted around the globe after leaving the hantavirus-plagued vessel, without anyone noticing",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcehil/a_second_woman_jetsetted_around_the_globe_after/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -589,9 +589,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-86204b3aa53cb0c4",
-      "title": "Sequence of Andes Strain found in Swiss Man Hospitalized with Hantavirus is NEW",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcbqn1/sequence_of_andes_strain_found_in_swiss_man/",
+      "id": "rss-b34e14ccc6596e1b",
+      "title": "A dozen American passengers from hantavirus ship in quarantine",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td58bd/a_dozen_american_passengers_from_hantavirus_ship/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -600,9 +600,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-09b50e9ebbaff08e",
-      "title": "Dr. Kornfeld, the American “mild positive” from nasal swab, has tested negative via blood PCR test.",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tciupp/dr_kornfeld_the_american_mild_positive_from_nasal/",
+      "id": "rss-86204b3aa53cb0c4",
+      "title": "Sequence of Andes Strain found in Swiss Man Hospitalized with Hantavirus is NEW",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcbqn1/sequence_of_andes_strain_found_in_swiss_man/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
