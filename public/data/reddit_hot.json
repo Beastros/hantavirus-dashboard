@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-14T04:15:08+00:00",
+  "fetched_at": "2026-05-14T07:24:53+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -106,6 +106,17 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-2ce5eac3577f078a",
+          "title": "Possibility the first case from MV Hondius was not patient zero",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcm4lj/possibility_the_first_case_from_mv_hondius_was/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-fcb6b396e85798ab",
           "title": "I think this is pretty informative",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc8tjh/i_think_this_is_pretty_informative/",
@@ -120,6 +131,17 @@
           "id": "rss-b44908d31679ad97",
           "title": "Reverse Zoonosis and Horizontal Spread",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcjmxs/reverse_zoonosis_and_horizontal_spread/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-23052743bb5ffded",
+          "title": "Why is it that pathogens are becoming an increasing problem since 2019?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcpaxe/why_is_it_that_pathogens_are_becoming_an/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -150,31 +172,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-2ce5eac3577f078a",
-          "title": "Possibility the first case from MV Hondius was not patient zero",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcm4lj/possibility_the_first_case_from_mv_hondius_was/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-25712319f40e3030",
           "title": "French hantavirus patient is critically ill as outbreak grows to 11",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc0e7o/french_hantavirus_patient_is_critically_ill_as/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-dcd0d29a70b59bf4",
-          "title": "Nothing ever happens",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tck529/nothing_ever_happens/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -194,9 +194,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-269b1ef6e886925f",
-          "title": "Should we be worried about Hantavirus?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcdylk/should_we_be_worried_about_hantavirus/",
+          "id": "rss-4fa287e3d618738a",
+          "title": "User flairs",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcm4jp/user_flairs/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -209,6 +209,17 @@
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-23052743bb5ffded",
+          "title": "Why is it that pathogens are becoming an increasing problem since 2019?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcpaxe/why_is_it_that_pathogens_are_becoming_an/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-2ce5eac3577f078a",
           "title": "Possibility the first case from MV Hondius was not patient zero",
@@ -395,17 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-86204b3aa53cb0c4",
-          "title": "Sequence of Andes Strain found in Swiss Man Hospitalized with Hantavirus is NEW",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcbqn1/sequence_of_andes_strain_found_in_swiss_man/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -512,6 +512,17 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-2ce5eac3577f078a",
+      "title": "Possibility the first case from MV Hondius was not patient zero",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcm4lj/possibility_the_first_case_from_mv_hondius_was/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-fcb6b396e85798ab",
       "title": "I think this is pretty informative",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc8tjh/i_think_this_is_pretty_informative/",
@@ -526,6 +537,17 @@
       "id": "rss-b44908d31679ad97",
       "title": "Reverse Zoonosis and Horizontal Spread",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcjmxs/reverse_zoonosis_and_horizontal_spread/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-23052743bb5ffded",
+      "title": "Why is it that pathogens are becoming an increasing problem since 2019?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcpaxe/why_is_it_that_pathogens_are_becoming_an/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -556,31 +578,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-2ce5eac3577f078a",
-      "title": "Possibility the first case from MV Hondius was not patient zero",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcm4lj/possibility_the_first_case_from_mv_hondius_was/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-25712319f40e3030",
       "title": "French hantavirus patient is critically ill as outbreak grows to 11",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tc0e7o/french_hantavirus_patient_is_critically_ill_as/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-dcd0d29a70b59bf4",
-      "title": "Nothing ever happens",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tck529/nothing_ever_happens/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -600,9 +600,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-269b1ef6e886925f",
-      "title": "Should we be worried about Hantavirus?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcdylk/should_we_be_worried_about_hantavirus/",
+      "id": "rss-4fa287e3d618738a",
+      "title": "User flairs",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcm4jp/user_flairs/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
