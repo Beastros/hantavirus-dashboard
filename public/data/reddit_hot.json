@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-14T14:07:08+00:00",
+  "fetched_at": "2026-05-14T16:21:55+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -51,17 +51,6 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-a020aae5bbd538b0",
-          "title": "A second woman jet-setted around the globe after leaving the hantavirus-plagued vessel, without anyone noticing",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcehil/a_second_woman_jetsetted_around_the_globe_after/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-78054fc2787d4908",
           "title": "World Health Organization Pandemic Risk Chart",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcxhpx/world_health_organization_pandemic_risk_chart/",
@@ -73,9 +62,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-d5eb90a9c51cda77",
-          "title": "Hantavirus is on the list of priority pathogens that could cause the next pandemic",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcjp78/hantavirus_is_on_the_list_of_priority_pathogens/",
+          "id": "rss-a020aae5bbd538b0",
+          "title": "A second woman jet-setted around the globe after leaving the hantavirus-plagued vessel, without anyone noticing",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcehil/a_second_woman_jetsetted_around_the_globe_after/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -95,9 +84,31 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-7856253effaa99c8",
-          "title": "seems like nothing is happening",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw518/seems_like_nothing_is_happening/",
+          "id": "rss-9d5e5671e03d372e",
+          "title": "Please read and research yourself but this article says \"Unlike more common hantavirus strains that are only spread by rodents, this particular type of virus, known as Andes hantavirus, can spread between people in close contact.\"",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td2mu9/please_read_and_research_yourself_but_this/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-5bbee59f0eb429f1",
+          "title": "Sixteen states warn of possible Hantavirus exposure-YouTube",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw6ys/sixteen_states_warn_of_possible_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-d5eb90a9c51cda77",
+          "title": "Hantavirus is on the list of priority pathogens that could cause the next pandemic",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcjp78/hantavirus_is_on_the_list_of_priority_pathogens/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -128,9 +139,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-2ce5eac3577f078a",
-          "title": "Possibility the first case from MV Hondius was not patient zero",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcm4lj/possibility_the_first_case_from_mv_hondius_was/",
+          "id": "rss-7856253effaa99c8",
+          "title": "seems like nothing is happening",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw518/seems_like_nothing_is_happening/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -139,9 +150,20 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-c853d227e114c82a",
-          "title": "Various hantavirus live maps with news tickers.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcyuv1/various_hantavirus_live_maps_with_news_tickers/",
+          "id": "rss-fda92070d5f75acf",
+          "title": "Will this virus cause pandemic ?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td21o2/will_this_virus_cause_pandemic/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-2ce5eac3577f078a",
+          "title": "Possibility the first case from MV Hondius was not patient zero",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcm4lj/possibility_the_first_case_from_mv_hondius_was/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -172,31 +194,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-5bbee59f0eb429f1",
-          "title": "Sixteen states warn of possible Hantavirus exposure-YouTube",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw6ys/sixteen_states_warn_of_possible_hantavirus/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-23052743bb5ffded",
           "title": "Why is it that pathogens are becoming an increasing problem since 2019?",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcpaxe/why_is_it_that_pathogens_are_becoming_an/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-b44908d31679ad97",
-          "title": "Reverse Zoonosis and Horizontal Spread",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcjmxs/reverse_zoonosis_and_horizontal_spread/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -210,9 +210,31 @@
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
         {
-          "id": "rss-c853d227e114c82a",
-          "title": "Various hantavirus live maps with news tickers.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcyuv1/various_hantavirus_live_maps_with_news_tickers/",
+          "id": "rss-9d5e5671e03d372e",
+          "title": "Please read and research yourself but this article says \"Unlike more common hantavirus strains that are only spread by rodents, this particular type of virus, known as Andes hantavirus, can spread between people in close contact.\"",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td2mu9/please_read_and_research_yourself_but_this/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-50b828ffc6a82e44",
+          "title": "Censoring peer-reviewed discussion helps no one",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td220k/censoring_peerreviewed_discussion_helps_no_one/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-fda92070d5f75acf",
+          "title": "Will this virus cause pandemic ?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td21o2/will_this_virus_cause_pandemic/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -384,28 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-4fa287e3d618738a",
-          "title": "User flairs",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcm4jp/user_flairs/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-d5eb90a9c51cda77",
-          "title": "Hantavirus is on the list of priority pathogens that could cause the next pandemic",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcjp78/hantavirus_is_on_the_list_of_priority_pathogens/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -457,17 +457,6 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-a020aae5bbd538b0",
-      "title": "A second woman jet-setted around the globe after leaving the hantavirus-plagued vessel, without anyone noticing",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcehil/a_second_woman_jetsetted_around_the_globe_after/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-78054fc2787d4908",
       "title": "World Health Organization Pandemic Risk Chart",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcxhpx/world_health_organization_pandemic_risk_chart/",
@@ -479,9 +468,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-d5eb90a9c51cda77",
-      "title": "Hantavirus is on the list of priority pathogens that could cause the next pandemic",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcjp78/hantavirus_is_on_the_list_of_priority_pathogens/",
+      "id": "rss-a020aae5bbd538b0",
+      "title": "A second woman jet-setted around the globe after leaving the hantavirus-plagued vessel, without anyone noticing",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcehil/a_second_woman_jetsetted_around_the_globe_after/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -501,9 +490,31 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-7856253effaa99c8",
-      "title": "seems like nothing is happening",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw518/seems_like_nothing_is_happening/",
+      "id": "rss-9d5e5671e03d372e",
+      "title": "Please read and research yourself but this article says \"Unlike more common hantavirus strains that are only spread by rodents, this particular type of virus, known as Andes hantavirus, can spread between people in close contact.\"",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td2mu9/please_read_and_research_yourself_but_this/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-5bbee59f0eb429f1",
+      "title": "Sixteen states warn of possible Hantavirus exposure-YouTube",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw6ys/sixteen_states_warn_of_possible_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-d5eb90a9c51cda77",
+      "title": "Hantavirus is on the list of priority pathogens that could cause the next pandemic",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcjp78/hantavirus_is_on_the_list_of_priority_pathogens/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -534,9 +545,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-2ce5eac3577f078a",
-      "title": "Possibility the first case from MV Hondius was not patient zero",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcm4lj/possibility_the_first_case_from_mv_hondius_was/",
+      "id": "rss-7856253effaa99c8",
+      "title": "seems like nothing is happening",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw518/seems_like_nothing_is_happening/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -545,9 +556,20 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-c853d227e114c82a",
-      "title": "Various hantavirus live maps with news tickers.",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcyuv1/various_hantavirus_live_maps_with_news_tickers/",
+      "id": "rss-fda92070d5f75acf",
+      "title": "Will this virus cause pandemic ?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td21o2/will_this_virus_cause_pandemic/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-2ce5eac3577f078a",
+      "title": "Possibility the first case from MV Hondius was not patient zero",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcm4lj/possibility_the_first_case_from_mv_hondius_was/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -578,31 +600,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-5bbee59f0eb429f1",
-      "title": "Sixteen states warn of possible Hantavirus exposure-YouTube",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw6ys/sixteen_states_warn_of_possible_hantavirus/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-23052743bb5ffded",
       "title": "Why is it that pathogens are becoming an increasing problem since 2019?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcpaxe/why_is_it_that_pathogens_are_becoming_an/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-b44908d31679ad97",
-      "title": "Reverse Zoonosis and Horizontal Spread",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcjmxs/reverse_zoonosis_and_horizontal_spread/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,

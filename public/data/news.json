@@ -1,6 +1,24 @@
 {
-  "fetched_at": "2026-05-14T14:07:12+00:00",
+  "fetched_at": "2026-05-14T16:22:03+00:00",
   "items": [
+    {
+      "id": "fb06b169d36991ea",
+      "title": "Hantavirus Doesn’t Spread Easily but Officials May Be Downplaying Risks",
+      "url": "https://www.nytimes.com/2026/05/14/health/hantavirus-spread-risk.html",
+      "published_at": "2026-05-14T15:55:50+00:00",
+      "source_name": "NYT World",
+      "source_tier": 2,
+      "summary": "The virus is clearly far less contagious than the coronavirus, scientists agree, but they have found cases where it spread among people without direct contact."
+    },
+    {
+      "id": "27cffbc1306665ff",
+      "title": "Follow-up message by the WHO Director-General to the people of Tenerife regarding the hantavirus response",
+      "url": "https://www.who.int/news/item/14-05-2026-follow-up-message-by-the-who-director-general-to-the-people-of-tenerife-regarding-the-hantavirus-response",
+      "published_at": "2026-05-14T13:27:15+00:00",
+      "source_name": "WHO News RSS",
+      "source_tier": 1,
+      "summary": "A message from the Director-General of the World Health Organization expressing gratitude to the people of Tenerife for their solidarity and successful cooperation during the operation to safely disembark and care for over 120 passengers from 23 countries amid an outbreak of hantavirus."
+    },
     {
       "id": "37a8b5a62b7e47e6",
       "title": "STAT+: Three years of declining overdose deaths begets cautious optimism and some concerns",
