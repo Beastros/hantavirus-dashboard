@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-15T05:39:50+00:00",
+  "fetched_at": "2026-05-15T08:30:39+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -51,9 +51,53 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-2fb02df7a1fbcfe7",
+          "title": "Couldn’t hantavirus be already spreading?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdj69x/couldnt_hantavirus_be_already_spreading/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-bd376e5b90f4b486",
           "title": "What's the actual outlook of this?",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tde4kx/whats_the_actual_outlook_of_this/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-71bad8bfb92784fe",
+          "title": "British man hauled out of bar when he was meant to be in hantavirus quarantine",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdk8a1/british_man_hauled_out_of_bar_when_he_was_meant/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-ba6ff95075a1a027",
+          "title": "Flight with Australian and New Zealand passengers from hantavirus cruise ship arrives in Perth",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdohzf/flight_with_australian_and_new_zealand_passengers/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-5233741b31841692",
+          "title": "An alternate perspective for consideration",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdo170/an_alternate_perspective_for_consideration/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -73,31 +117,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-2fb02df7a1fbcfe7",
-          "title": "Couldn’t hantavirus be already spreading?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdj69x/couldnt_hantavirus_be_already_spreading/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-ad2e8f5e3e3d6cc4",
           "title": "26 ‘low-risk’ Canadian air passengers may have hantavirus exposure - National",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td5pxe/26_lowrisk_canadian_air_passengers_may_have/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-71bad8bfb92784fe",
-          "title": "British man hauled out of bar when he was meant to be in hantavirus quarantine",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdk8a1/british_man_hauled_out_of_bar_when_he_was_meant/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -172,31 +194,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-de527c2804aa71a2",
-          "title": "Hope I don’t catch the hantavirus.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdkjhj/hope_i_dont_catch_the_hantavirus/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-5bbee59f0eb429f1",
           "title": "Sixteen states warn of possible Hantavirus exposure-YouTube",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw6ys/sixteen_states_warn_of_possible_hantavirus/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-4b6943748a709698",
-          "title": "Claude 3 Hantavirus",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td6nlz/claude_3_hantavirus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -209,6 +209,28 @@
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-ba6ff95075a1a027",
+          "title": "Flight with Australian and New Zealand passengers from hantavirus cruise ship arrives in Perth",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdohzf/flight_with_australian_and_new_zealand_passengers/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-5233741b31841692",
+          "title": "An alternate perspective for consideration",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdo170/an_alternate_perspective_for_consideration/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-5443171adb116cb2",
           "title": "Another day another nothing burger",
@@ -384,28 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-ad2e8f5e3e3d6cc4",
-          "title": "26 ‘low-risk’ Canadian air passengers may have hantavirus exposure - National",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td5pxe/26_lowrisk_canadian_air_passengers_may_have/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-a6491ec9c0642216",
-          "title": "Helpful Norovirus FAQ",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td5fx9/helpful_norovirus_faq/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -457,9 +457,53 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-2fb02df7a1fbcfe7",
+      "title": "Couldn’t hantavirus be already spreading?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdj69x/couldnt_hantavirus_be_already_spreading/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-bd376e5b90f4b486",
       "title": "What's the actual outlook of this?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tde4kx/whats_the_actual_outlook_of_this/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-71bad8bfb92784fe",
+      "title": "British man hauled out of bar when he was meant to be in hantavirus quarantine",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdk8a1/british_man_hauled_out_of_bar_when_he_was_meant/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-ba6ff95075a1a027",
+      "title": "Flight with Australian and New Zealand passengers from hantavirus cruise ship arrives in Perth",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdohzf/flight_with_australian_and_new_zealand_passengers/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-5233741b31841692",
+      "title": "An alternate perspective for consideration",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdo170/an_alternate_perspective_for_consideration/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -479,31 +523,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-2fb02df7a1fbcfe7",
-      "title": "Couldn’t hantavirus be already spreading?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdj69x/couldnt_hantavirus_be_already_spreading/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-ad2e8f5e3e3d6cc4",
       "title": "26 ‘low-risk’ Canadian air passengers may have hantavirus exposure - National",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td5pxe/26_lowrisk_canadian_air_passengers_may_have/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-71bad8bfb92784fe",
-      "title": "British man hauled out of bar when he was meant to be in hantavirus quarantine",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdk8a1/british_man_hauled_out_of_bar_when_he_was_meant/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -578,31 +600,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-de527c2804aa71a2",
-      "title": "Hope I don’t catch the hantavirus.",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdkjhj/hope_i_dont_catch_the_hantavirus/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-5bbee59f0eb429f1",
       "title": "Sixteen states warn of possible Hantavirus exposure-YouTube",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw6ys/sixteen_states_warn_of_possible_hantavirus/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-4b6943748a709698",
-      "title": "Claude 3 Hantavirus",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td6nlz/claude_3_hantavirus/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
