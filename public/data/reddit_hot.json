@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-14T23:37:50+00:00",
+  "fetched_at": "2026-05-15T01:30:45+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -40,9 +40,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-ad2e8f5e3e3d6cc4",
-          "title": "26 ‘low-risk’ Canadian air passengers may have hantavirus exposure - National",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td5pxe/26_lowrisk_canadian_air_passengers_may_have/",
+          "id": "rss-bd376e5b90f4b486",
+          "title": "What's the actual outlook of this?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tde4kx/whats_the_actual_outlook_of_this/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -51,9 +51,20 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-bd376e5b90f4b486",
-          "title": "What's the actual outlook of this?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tde4kx/whats_the_actual_outlook_of_this/",
+          "id": "rss-ae989748e5c3af14",
+          "title": "Hehe",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdg64q/hehe/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-ad2e8f5e3e3d6cc4",
+          "title": "26 ‘low-risk’ Canadian air passengers may have hantavirus exposure - National",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td5pxe/26_lowrisk_canadian_air_passengers_may_have/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -84,6 +95,17 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-95042fd3d97abd4f",
+          "title": "a different travel case of the andes virus from 2018",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdhilj/a_different_travel_case_of_the_andes_virus_from/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-41710026221c51ae",
           "title": "ANDV Hantavirus: A summary on what we know (Strain, Transmission, Mutations, Genetics, Treatments & Protections)",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcv7ot/andv_hantavirus_a_summary_on_what_we_know_strain/",
@@ -106,17 +128,6 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-5bbee59f0eb429f1",
-          "title": "Sixteen states warn of possible Hantavirus exposure-YouTube",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw6ys/sixteen_states_warn_of_possible_hantavirus/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-7856253effaa99c8",
           "title": "seems like nothing is happening",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw518/seems_like_nothing_is_happening/",
@@ -128,9 +139,31 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-5bbee59f0eb429f1",
+          "title": "Sixteen states warn of possible Hantavirus exposure-YouTube",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw6ys/sixteen_states_warn_of_possible_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-4b6943748a709698",
           "title": "Claude 3 Hantavirus",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td6nlz/claude_3_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-47cbb848b97bc7c9",
+          "title": "Andes Variant",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdh12z/andes_variant/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -170,45 +203,45 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-b34e14ccc6596e1b",
-          "title": "A dozen American passengers from hantavirus ship in quarantine",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td58bd/a_dozen_american_passengers_from_hantavirus_ship/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-d1308465635578dc",
-          "title": "States Reporting Potential Hantavirus Exposure Grows to 16 -Today Show on YouTube",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcwc90/states_reporting_potential_hantavirus_exposure/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-d5eb90a9c51cda77",
-          "title": "Hantavirus is on the list of priority pathogens that could cause the next pandemic",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcjp78/hantavirus_is_on_the_list_of_priority_pathogens/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-95042fd3d97abd4f",
+          "title": "a different travel case of the andes virus from 2018",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdhilj/a_different_travel_case_of_the_andes_virus_from/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-47cbb848b97bc7c9",
+          "title": "Andes Variant",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdh12z/andes_variant/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-ae989748e5c3af14",
+          "title": "Hehe",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdg64q/hehe/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-bd376e5b90f4b486",
           "title": "What's the actual outlook of this?",
@@ -373,39 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-7856253effaa99c8",
-          "title": "seems like nothing is happening",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw518/seems_like_nothing_is_happening/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-ae34f777716078eb",
-          "title": "Traveling with Toddler",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw0ez/traveling_with_toddler/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-bae1e3ed0b6f757c",
-          "title": "Perché la minaccia dell’Hantavirus ci spaventa tanto",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcvywu/perché_la_minaccia_dellhantavirus_ci_spaventa/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -446,9 +446,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-ad2e8f5e3e3d6cc4",
-      "title": "26 ‘low-risk’ Canadian air passengers may have hantavirus exposure - National",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td5pxe/26_lowrisk_canadian_air_passengers_may_have/",
+      "id": "rss-bd376e5b90f4b486",
+      "title": "What's the actual outlook of this?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tde4kx/whats_the_actual_outlook_of_this/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -457,9 +457,20 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-bd376e5b90f4b486",
-      "title": "What's the actual outlook of this?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tde4kx/whats_the_actual_outlook_of_this/",
+      "id": "rss-ae989748e5c3af14",
+      "title": "Hehe",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdg64q/hehe/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-ad2e8f5e3e3d6cc4",
+      "title": "26 ‘low-risk’ Canadian air passengers may have hantavirus exposure - National",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td5pxe/26_lowrisk_canadian_air_passengers_may_have/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -490,6 +501,17 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-95042fd3d97abd4f",
+      "title": "a different travel case of the andes virus from 2018",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdhilj/a_different_travel_case_of_the_andes_virus_from/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-41710026221c51ae",
       "title": "ANDV Hantavirus: A summary on what we know (Strain, Transmission, Mutations, Genetics, Treatments & Protections)",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcv7ot/andv_hantavirus_a_summary_on_what_we_know_strain/",
@@ -512,17 +534,6 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-5bbee59f0eb429f1",
-      "title": "Sixteen states warn of possible Hantavirus exposure-YouTube",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw6ys/sixteen_states_warn_of_possible_hantavirus/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-7856253effaa99c8",
       "title": "seems like nothing is happening",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw518/seems_like_nothing_is_happening/",
@@ -534,9 +545,31 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-5bbee59f0eb429f1",
+      "title": "Sixteen states warn of possible Hantavirus exposure-YouTube",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw6ys/sixteen_states_warn_of_possible_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-4b6943748a709698",
       "title": "Claude 3 Hantavirus",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td6nlz/claude_3_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-47cbb848b97bc7c9",
+      "title": "Andes Variant",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdh12z/andes_variant/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -570,39 +603,6 @@
       "id": "rss-a020aae5bbd538b0",
       "title": "A second woman jet-setted around the globe after leaving the hantavirus-plagued vessel, without anyone noticing",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcehil/a_second_woman_jetsetted_around_the_globe_after/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-b34e14ccc6596e1b",
-      "title": "A dozen American passengers from hantavirus ship in quarantine",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td58bd/a_dozen_american_passengers_from_hantavirus_ship/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-d1308465635578dc",
-      "title": "States Reporting Potential Hantavirus Exposure Grows to 16 -Today Show on YouTube",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcwc90/states_reporting_potential_hantavirus_exposure/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-d5eb90a9c51cda77",
-      "title": "Hantavirus is on the list of priority pathogens that could cause the next pandemic",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcjp78/hantavirus_is_on_the_list_of_priority_pathogens/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
