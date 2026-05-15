@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-15T22:37:43+00:00",
+  "fetched_at": "2026-05-15T23:38:25+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -95,20 +95,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-077f117d18ce4be8",
-          "title": "Risk after feeding wild chipmunk?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1team8k/risk_after_feeding_wild_chipmunk/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-2fb02df7a1fbcfe7",
-          "title": "Couldn’t hantavirus be already spreading?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdj69x/couldnt_hantavirus_be_already_spreading/",
+          "id": "rss-dd3efb4cb43cfb2b",
+          "title": "Revile of Rats",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tecys2/revile_of_rats/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -120,6 +109,17 @@
           "id": "rss-71bad8bfb92784fe",
           "title": "British man hauled out of bar when he was meant to be in hantavirus quarantine",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdk8a1/british_man_hauled_out_of_bar_when_he_was_meant/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-2fb02df7a1fbcfe7",
+          "title": "Couldn’t hantavirus be already spreading?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdj69x/couldnt_hantavirus_be_already_spreading/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -194,9 +194,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-ad2e8f5e3e3d6cc4",
-          "title": "26 ‘low-risk’ Canadian air passengers may have hantavirus exposure - National",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td5pxe/26_lowrisk_canadian_air_passengers_may_have/",
+          "id": "rss-077f117d18ce4be8",
+          "title": "Risk after feeding wild chipmunk?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1team8k/risk_after_feeding_wild_chipmunk/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -209,6 +209,28 @@
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-dd3efb4cb43cfb2b",
+          "title": "Revile of Rats",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tecys2/revile_of_rats/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-2ed483b2c65489ec",
+          "title": "El hantavirus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tec159/el_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-077f117d18ce4be8",
           "title": "Risk after feeding wild chipmunk?",
@@ -384,28 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-818b67c9f634ec65",
-          "title": "Should I worry that I have Hantavirus?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdka3n/should_i_worry_that_i_have_hantavirus/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-71bad8bfb92784fe",
-          "title": "British man hauled out of bar when he was meant to be in hantavirus quarantine",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdk8a1/british_man_hauled_out_of_bar_when_he_was_meant/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -501,20 +501,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-077f117d18ce4be8",
-      "title": "Risk after feeding wild chipmunk?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1team8k/risk_after_feeding_wild_chipmunk/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-2fb02df7a1fbcfe7",
-      "title": "Couldn’t hantavirus be already spreading?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdj69x/couldnt_hantavirus_be_already_spreading/",
+      "id": "rss-dd3efb4cb43cfb2b",
+      "title": "Revile of Rats",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tecys2/revile_of_rats/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -526,6 +515,17 @@
       "id": "rss-71bad8bfb92784fe",
       "title": "British man hauled out of bar when he was meant to be in hantavirus quarantine",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdk8a1/british_man_hauled_out_of_bar_when_he_was_meant/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-2fb02df7a1fbcfe7",
+      "title": "Couldn’t hantavirus be already spreading?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdj69x/couldnt_hantavirus_be_already_spreading/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -600,9 +600,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-ad2e8f5e3e3d6cc4",
-      "title": "26 ‘low-risk’ Canadian air passengers may have hantavirus exposure - National",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td5pxe/26_lowrisk_canadian_air_passengers_may_have/",
+      "id": "rss-077f117d18ce4be8",
+      "title": "Risk after feeding wild chipmunk?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1team8k/risk_after_feeding_wild_chipmunk/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
