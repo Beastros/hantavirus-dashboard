@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-15T17:11:49+00:00",
+  "fetched_at": "2026-05-15T18:54:50+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -29,9 +29,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-00e30e06d3023ba8",
-          "title": "Doubts grow over theory that bird-watchers trip to Argentina landfill sparked hantavirus outbreak",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdy4sc/doubts_grow_over_theory_that_birdwatchers_trip_to/",
+          "id": "rss-79b9e672fffec713",
+          "title": "One sick person will infect two other people",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdwefc/one_sick_person_will_infect_two_other_people/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -40,9 +40,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-79b9e672fffec713",
-          "title": "One sick person will infect two other people",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdwefc/one_sick_person_will_infect_two_other_people/",
+          "id": "rss-00e30e06d3023ba8",
+          "title": "Doubts grow over theory that bird-watchers trip to Argentina landfill sparked hantavirus outbreak",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdy4sc/doubts_grow_over_theory_that_birdwatchers_trip_to/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -95,6 +95,17 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-71bad8bfb92784fe",
+          "title": "British man hauled out of bar when he was meant to be in hantavirus quarantine",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdk8a1/british_man_hauled_out_of_bar_when_he_was_meant/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-2fb02df7a1fbcfe7",
           "title": "Couldn’t hantavirus be already spreading?",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdj69x/couldnt_hantavirus_be_already_spreading/",
@@ -117,9 +128,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-71bad8bfb92784fe",
-          "title": "British man hauled out of bar when he was meant to be in hantavirus quarantine",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdk8a1/british_man_hauled_out_of_bar_when_he_was_meant/",
+          "id": "rss-bd376e5b90f4b486",
+          "title": "What's the actual outlook of this?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tde4kx/whats_the_actual_outlook_of_this/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -128,9 +139,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-bd376e5b90f4b486",
-          "title": "What's the actual outlook of this?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tde4kx/whats_the_actual_outlook_of_this/",
+          "id": "rss-785b78f662fcbf15",
+          "title": "Me interesa saber vuestra opinión. [english/español]",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1te2zpx/me_interesa_saber_vuestra_opinión_englishespañol/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,23 +203,34 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-41710026221c51ae",
-          "title": "ANDV Hantavirus: A summary on what we know (Strain, Transmission, Mutations, Genetics, Treatments & Protections)",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcv7ot/andv_hantavirus_a_summary_on_what_we_know_strain/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-c130ee217fcbdc51",
+          "title": "Do I have Hantavirus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1te4nyn/do_i_have_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-785b78f662fcbf15",
+          "title": "Me interesa saber vuestra opinión. [english/español]",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1te2zpx/me_interesa_saber_vuestra_opinión_englishespañol/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-8dc69bd630f07248",
           "title": "At what point should we start considering cancelling trips?",
@@ -384,28 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-95042fd3d97abd4f",
-          "title": "a different travel case of the andes virus from 2018",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdhilj/a_different_travel_case_of_the_andes_virus_from/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-47cbb848b97bc7c9",
-          "title": "Andes Variant",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdh12z/andes_variant/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -435,9 +435,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-00e30e06d3023ba8",
-      "title": "Doubts grow over theory that bird-watchers trip to Argentina landfill sparked hantavirus outbreak",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdy4sc/doubts_grow_over_theory_that_birdwatchers_trip_to/",
+      "id": "rss-79b9e672fffec713",
+      "title": "One sick person will infect two other people",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdwefc/one_sick_person_will_infect_two_other_people/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -446,9 +446,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-79b9e672fffec713",
-      "title": "One sick person will infect two other people",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdwefc/one_sick_person_will_infect_two_other_people/",
+      "id": "rss-00e30e06d3023ba8",
+      "title": "Doubts grow over theory that bird-watchers trip to Argentina landfill sparked hantavirus outbreak",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdy4sc/doubts_grow_over_theory_that_birdwatchers_trip_to/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -501,6 +501,17 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-71bad8bfb92784fe",
+      "title": "British man hauled out of bar when he was meant to be in hantavirus quarantine",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdk8a1/british_man_hauled_out_of_bar_when_he_was_meant/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-2fb02df7a1fbcfe7",
       "title": "Couldn’t hantavirus be already spreading?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdj69x/couldnt_hantavirus_be_already_spreading/",
@@ -523,9 +534,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-71bad8bfb92784fe",
-      "title": "British man hauled out of bar when he was meant to be in hantavirus quarantine",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdk8a1/british_man_hauled_out_of_bar_when_he_was_meant/",
+      "id": "rss-bd376e5b90f4b486",
+      "title": "What's the actual outlook of this?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tde4kx/whats_the_actual_outlook_of_this/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -534,9 +545,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-bd376e5b90f4b486",
-      "title": "What's the actual outlook of this?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tde4kx/whats_the_actual_outlook_of_this/",
+      "id": "rss-785b78f662fcbf15",
+      "title": "Me interesa saber vuestra opinión. [english/español]",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1te2zpx/me_interesa_saber_vuestra_opinión_englishespañol/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -592,17 +603,6 @@
       "id": "rss-0289dd702405e984",
       "title": "Penile implant specialist with history of far-right comments led hantavirus presser",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdwq3l/penile_implant_specialist_with_history_of/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-41710026221c51ae",
-      "title": "ANDV Hantavirus: A summary on what we know (Strain, Transmission, Mutations, Genetics, Treatments & Protections)",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcv7ot/andv_hantavirus_a_summary_on_what_we_know_strain/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
