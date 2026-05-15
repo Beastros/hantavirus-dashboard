@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-15T13:04:31+00:00",
+  "fetched_at": "2026-05-15T15:29:13+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -29,42 +29,42 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-79b9e672fffec713",
+          "title": "One sick person will infect two other people",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdwefc/one_sick_person_will_infect_two_other_people/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-00e30e06d3023ba8",
+          "title": "Doubts grow over theory that bird-watchers trip to Argentina landfill sparked hantavirus outbreak",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdy4sc/doubts_grow_over_theory_that_birdwatchers_trip_to/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-28887e50f430d3f5",
+          "title": "Covid has warped our views on disease outbreaks",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdxwpc/covid_has_warped_our_views_on_disease_outbreaks/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-95042fd3d97abd4f",
           "title": "a different travel case of the andes virus from 2018",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdhilj/a_different_travel_case_of_the_andes_virus_from/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-d82814a15b12ec34",
-          "title": "CDC not requiring hantavirus cruise passengers to isolate at home",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdbbr5/cdc_not_requiring_hantavirus_cruise_passengers_to/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-2fb02df7a1fbcfe7",
-          "title": "Couldn’t hantavirus be already spreading?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdj69x/couldnt_hantavirus_be_already_spreading/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-71bad8bfb92784fe",
-          "title": "British man hauled out of bar when he was meant to be in hantavirus quarantine",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdk8a1/british_man_hauled_out_of_bar_when_he_was_meant/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -84,9 +84,53 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-2fb02df7a1fbcfe7",
+          "title": "Couldn’t hantavirus be already spreading?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdj69x/couldnt_hantavirus_be_already_spreading/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-ba6ff95075a1a027",
           "title": "Flight with Australian and New Zealand passengers from hantavirus cruise ship arrives in Perth",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdohzf/flight_with_australian_and_new_zealand_passengers/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-d82814a15b12ec34",
+          "title": "CDC not requiring hantavirus cruise passengers to isolate at home",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdbbr5/cdc_not_requiring_hantavirus_cruise_passengers_to/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-71bad8bfb92784fe",
+          "title": "British man hauled out of bar when he was meant to be in hantavirus quarantine",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdk8a1/british_man_hauled_out_of_bar_when_he_was_meant/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-2e1ce176e1e587c2",
+          "title": "On being concerned about Hantavirus and traveling... (5/15/26)",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdzfwk/on_being_concerned_about_hantavirus_and_traveling/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -128,6 +172,17 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-0289dd702405e984",
+          "title": "Penile implant specialist with history of far-right comments led hantavirus presser",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdwq3l/penile_implant_specialist_with_history_of/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-96d72c17c563b078",
           "title": "“Hantavirus is nowhere near as infectious as COVID-19 was,” he said.",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdbibm/hantavirus_is_nowhere_near_as_infectious_as/",
@@ -139,64 +194,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-e3c0e2020c32058b",
-          "title": "Hantavirus Outbreak: South Africa Tracks 97 Exposed Contacts",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcwg0g/hantavirus_outbreak_south_africa_tracks_97/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-41710026221c51ae",
-          "title": "ANDV Hantavirus: A summary on what we know (Strain, Transmission, Mutations, Genetics, Treatments & Protections)",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcv7ot/andv_hantavirus_a_summary_on_what_we_know_strain/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-78054fc2787d4908",
-          "title": "World Health Organization Pandemic Risk Chart",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcxhpx/world_health_organization_pandemic_risk_chart/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-5bbee59f0eb429f1",
-          "title": "Sixteen states warn of possible Hantavirus exposure-YouTube",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw6ys/sixteen_states_warn_of_possible_hantavirus/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-47cbb848b97bc7c9",
-          "title": "Andes Variant",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdh12z/andes_variant/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-7856253effaa99c8",
-          "title": "seems like nothing is happening",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw518/seems_like_nothing_is_happening/",
+          "id": "rss-8dc69bd630f07248",
+          "title": "At what point should we start considering cancelling trips?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdyrnj/at_what_point_should_we_start_considering/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -209,6 +209,72 @@
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-2e1ce176e1e587c2",
+          "title": "On being concerned about Hantavirus and traveling... (5/15/26)",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdzfwk/on_being_concerned_about_hantavirus_and_traveling/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-8dc69bd630f07248",
+          "title": "At what point should we start considering cancelling trips?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdyrnj/at_what_point_should_we_start_considering/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-00e30e06d3023ba8",
+          "title": "Doubts grow over theory that bird-watchers trip to Argentina landfill sparked hantavirus outbreak",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdy4sc/doubts_grow_over_theory_that_birdwatchers_trip_to/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-28887e50f430d3f5",
+          "title": "Covid has warped our views on disease outbreaks",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdxwpc/covid_has_warped_our_views_on_disease_outbreaks/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-0289dd702405e984",
+          "title": "Penile implant specialist with history of far-right comments led hantavirus presser",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdwq3l/penile_implant_specialist_with_history_of/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-79b9e672fffec713",
+          "title": "One sick person will infect two other people",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdwefc/one_sick_person_will_infect_two_other_people/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-ba6ff95075a1a027",
           "title": "Flight with Australian and New Zealand passengers from hantavirus cruise ship arrives in Perth",
@@ -340,72 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-47cbb848b97bc7c9",
-          "title": "Andes Variant",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdh12z/andes_variant/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-bd376e5b90f4b486",
-          "title": "What's the actual outlook of this?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tde4kx/whats_the_actual_outlook_of_this/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-96d72c17c563b078",
-          "title": "“Hantavirus is nowhere near as infectious as COVID-19 was,” he said.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdbibm/hantavirus_is_nowhere_near_as_infectious_as/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-d82814a15b12ec34",
-          "title": "CDC not requiring hantavirus cruise passengers to isolate at home",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdbbr5/cdc_not_requiring_hantavirus_cruise_passengers_to/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-4b6943748a709698",
-          "title": "Claude 3 Hantavirus",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td6nlz/claude_3_hantavirus/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-ad2e8f5e3e3d6cc4",
-          "title": "26 ‘low-risk’ Canadian air passengers may have hantavirus exposure - National",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td5pxe/26_lowrisk_canadian_air_passengers_may_have/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -435,42 +435,42 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-79b9e672fffec713",
+      "title": "One sick person will infect two other people",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdwefc/one_sick_person_will_infect_two_other_people/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-00e30e06d3023ba8",
+      "title": "Doubts grow over theory that bird-watchers trip to Argentina landfill sparked hantavirus outbreak",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdy4sc/doubts_grow_over_theory_that_birdwatchers_trip_to/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-28887e50f430d3f5",
+      "title": "Covid has warped our views on disease outbreaks",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdxwpc/covid_has_warped_our_views_on_disease_outbreaks/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-95042fd3d97abd4f",
       "title": "a different travel case of the andes virus from 2018",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdhilj/a_different_travel_case_of_the_andes_virus_from/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-d82814a15b12ec34",
-      "title": "CDC not requiring hantavirus cruise passengers to isolate at home",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdbbr5/cdc_not_requiring_hantavirus_cruise_passengers_to/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-2fb02df7a1fbcfe7",
-      "title": "Couldn’t hantavirus be already spreading?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdj69x/couldnt_hantavirus_be_already_spreading/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-71bad8bfb92784fe",
-      "title": "British man hauled out of bar when he was meant to be in hantavirus quarantine",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdk8a1/british_man_hauled_out_of_bar_when_he_was_meant/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -490,9 +490,53 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-2fb02df7a1fbcfe7",
+      "title": "Couldn’t hantavirus be already spreading?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdj69x/couldnt_hantavirus_be_already_spreading/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-ba6ff95075a1a027",
       "title": "Flight with Australian and New Zealand passengers from hantavirus cruise ship arrives in Perth",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdohzf/flight_with_australian_and_new_zealand_passengers/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-d82814a15b12ec34",
+      "title": "CDC not requiring hantavirus cruise passengers to isolate at home",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdbbr5/cdc_not_requiring_hantavirus_cruise_passengers_to/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-71bad8bfb92784fe",
+      "title": "British man hauled out of bar when he was meant to be in hantavirus quarantine",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdk8a1/british_man_hauled_out_of_bar_when_he_was_meant/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-2e1ce176e1e587c2",
+      "title": "On being concerned about Hantavirus and traveling... (5/15/26)",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdzfwk/on_being_concerned_about_hantavirus_and_traveling/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -534,6 +578,17 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-0289dd702405e984",
+      "title": "Penile implant specialist with history of far-right comments led hantavirus presser",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdwq3l/penile_implant_specialist_with_history_of/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-96d72c17c563b078",
       "title": "“Hantavirus is nowhere near as infectious as COVID-19 was,” he said.",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdbibm/hantavirus_is_nowhere_near_as_infectious_as/",
@@ -545,64 +600,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-e3c0e2020c32058b",
-      "title": "Hantavirus Outbreak: South Africa Tracks 97 Exposed Contacts",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcwg0g/hantavirus_outbreak_south_africa_tracks_97/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-41710026221c51ae",
-      "title": "ANDV Hantavirus: A summary on what we know (Strain, Transmission, Mutations, Genetics, Treatments & Protections)",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcv7ot/andv_hantavirus_a_summary_on_what_we_know_strain/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-78054fc2787d4908",
-      "title": "World Health Organization Pandemic Risk Chart",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcxhpx/world_health_organization_pandemic_risk_chart/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-5bbee59f0eb429f1",
-      "title": "Sixteen states warn of possible Hantavirus exposure-YouTube",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw6ys/sixteen_states_warn_of_possible_hantavirus/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-47cbb848b97bc7c9",
-      "title": "Andes Variant",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdh12z/andes_variant/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-7856253effaa99c8",
-      "title": "seems like nothing is happening",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcw518/seems_like_nothing_is_happening/",
+      "id": "rss-8dc69bd630f07248",
+      "title": "At what point should we start considering cancelling trips?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdyrnj/at_what_point_should_we_start_considering/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,

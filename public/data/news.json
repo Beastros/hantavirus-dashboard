@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-05-15T13:04:34+00:00",
+  "fetched_at": "2026-05-15T15:29:19+00:00",
   "items": [
+    {
+      "id": "8968889231841c80",
+      "title": "Opinion: First hantavirus, now Ebola: What two outbreaks reveal about global preparedness",
+      "url": "https://www.statnews.com/2026/05/15/ebola-outbreak-drc-hantavirus-who/",
+      "published_at": "2026-05-15T14:35:52+00:00",
+      "source_name": "STAT News",
+      "source_tier": 1,
+      "summary": "“Preparedness is not built during a crisis press conference or after a pathogen has already crossed borders,” writes Krutika Kuppalli."
+    },
     {
       "id": "5c0a6d22153a2ded",
       "title": "[Correspondence] Hantavirus outbreak on a cruise ship in the South Atlantic",
