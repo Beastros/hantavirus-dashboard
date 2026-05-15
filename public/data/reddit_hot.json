@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-15T20:15:46+00:00",
+  "fetched_at": "2026-05-15T21:33:41+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -51,6 +51,17 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-31059b0b090ea59f",
+          "title": "High school student may be infected with hantavirus in New York",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1te7sjm/high_school_student_may_be_infected_with/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-28887e50f430d3f5",
           "title": "Covid has warped our views on disease outbreaks",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdxwpc/covid_has_warped_our_views_on_disease_outbreaks/",
@@ -62,9 +73,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-31059b0b090ea59f",
-          "title": "High school student may be infected with hantavirus in New York",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1te7sjm/high_school_student_may_be_infected_with/",
+          "id": "rss-45be8e2e07f6b566",
+          "title": "Masking up for airline travel",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1te8lt5/masking_up_for_airline_travel/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -84,9 +95,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-5233741b31841692",
-          "title": "An alternate perspective for consideration",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdo170/an_alternate_perspective_for_consideration/",
+          "id": "rss-2fb02df7a1fbcfe7",
+          "title": "Couldn’t hantavirus be already spreading?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdj69x/couldnt_hantavirus_be_already_spreading/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -95,9 +106,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-2fb02df7a1fbcfe7",
-          "title": "Couldn’t hantavirus be already spreading?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdj69x/couldnt_hantavirus_be_already_spreading/",
+          "id": "rss-ba6ff95075a1a027",
+          "title": "Flight with Australian and New Zealand passengers from hantavirus cruise ship arrives in Perth",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdohzf/flight_with_australian_and_new_zealand_passengers/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -117,9 +128,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-ba6ff95075a1a027",
-          "title": "Flight with Australian and New Zealand passengers from hantavirus cruise ship arrives in Perth",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdohzf/flight_with_australian_and_new_zealand_passengers/",
+          "id": "rss-5233741b31841692",
+          "title": "An alternate perspective for consideration",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdo170/an_alternate_perspective_for_consideration/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,23 +203,23 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-e3c0e2020c32058b",
-          "title": "Hantavirus Outbreak: South Africa Tracks 97 Exposed Contacts",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcwg0g/hantavirus_outbreak_south_africa_tracks_97/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-45be8e2e07f6b566",
+          "title": "Masking up for airline travel",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1te8lt5/masking_up_for_airline_travel/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-31059b0b090ea59f",
           "title": "High school student may be infected with hantavirus in New York",
@@ -395,17 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-996cf5ed3d65bcee",
-          "title": "Why does the media coverage exactly the same as Covid ?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdijr3/why_does_the_media_coverage_exactly_the_same_as/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -457,6 +457,17 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-31059b0b090ea59f",
+      "title": "High school student may be infected with hantavirus in New York",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1te7sjm/high_school_student_may_be_infected_with/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-28887e50f430d3f5",
       "title": "Covid has warped our views on disease outbreaks",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdxwpc/covid_has_warped_our_views_on_disease_outbreaks/",
@@ -468,9 +479,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-31059b0b090ea59f",
-      "title": "High school student may be infected with hantavirus in New York",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1te7sjm/high_school_student_may_be_infected_with/",
+      "id": "rss-45be8e2e07f6b566",
+      "title": "Masking up for airline travel",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1te8lt5/masking_up_for_airline_travel/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -490,9 +501,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-5233741b31841692",
-      "title": "An alternate perspective for consideration",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdo170/an_alternate_perspective_for_consideration/",
+      "id": "rss-2fb02df7a1fbcfe7",
+      "title": "Couldn’t hantavirus be already spreading?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdj69x/couldnt_hantavirus_be_already_spreading/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -501,9 +512,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-2fb02df7a1fbcfe7",
-      "title": "Couldn’t hantavirus be already spreading?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdj69x/couldnt_hantavirus_be_already_spreading/",
+      "id": "rss-ba6ff95075a1a027",
+      "title": "Flight with Australian and New Zealand passengers from hantavirus cruise ship arrives in Perth",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdohzf/flight_with_australian_and_new_zealand_passengers/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -523,9 +534,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-ba6ff95075a1a027",
-      "title": "Flight with Australian and New Zealand passengers from hantavirus cruise ship arrives in Perth",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdohzf/flight_with_australian_and_new_zealand_passengers/",
+      "id": "rss-5233741b31841692",
+      "title": "An alternate perspective for consideration",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdo170/an_alternate_perspective_for_consideration/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -592,17 +603,6 @@
       "id": "rss-96d72c17c563b078",
       "title": "“Hantavirus is nowhere near as infectious as COVID-19 was,” he said.",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdbibm/hantavirus_is_nowhere_near_as_infectious_as/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-e3c0e2020c32058b",
-      "title": "Hantavirus Outbreak: South Africa Tracks 97 Exposed Contacts",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tcwg0g/hantavirus_outbreak_south_africa_tracks_97/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
