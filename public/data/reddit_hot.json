@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-16T19:47:41+00:00",
+  "fetched_at": "2026-05-16T20:43:25+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -40,17 +40,6 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-fa0856f6fd745969",
-          "title": "NY Times: Hantavirus doesn't spread easily, but officials may be downplaying risks",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf251w/ny_times_hantavirus_doesnt_spread_easily_but/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-300fbfe753904a08",
           "title": "Hantavirus-stricken cruise passenger in B.C. has tested positive, top doctor says",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf2r8q/hantavirusstricken_cruise_passenger_in_bc_has/",
@@ -62,9 +51,20 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-541437d5633df9db",
-          "title": "Canadian in isolation tests positive for hantavirus after leaving cruise ship, B.C.'s top doctor says | CBC News",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf1jew/canadian_in_isolation_tests_positive_for/",
+          "id": "rss-3a766317c5161319",
+          "title": "Finally, common sense has prevailed. “As an added precaution, testing has been offered to all identified contacts, even in the absence of symptoms, to further reduce any potential risk and to support early detection” in Ontario, Canada",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3m6h/finally_common_sense_has_prevailed_as_an_added/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-fa0856f6fd745969",
+          "title": "NY Times: Hantavirus doesn't spread easily, but officials may be downplaying risks",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf251w/ny_times_hantavirus_doesnt_spread_easily_but/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -76,6 +76,17 @@
           "id": "rss-7bf54f30b1981f1d",
           "title": "This sub is going to become a doomer conspiracy sub soon if mods dont do something",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuebp/this_sub_is_going_to_become_a_doomer_conspiracy/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-541437d5633df9db",
+          "title": "Canadian in isolation tests positive for hantavirus after leaving cruise ship, B.C.'s top doctor says | CBC News",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf1jew/canadian_in_isolation_tests_positive_for/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -109,6 +120,17 @@
           "id": "rss-fafafd5c1dacf8c5",
           "title": "What science knows about Andes hantavirus and why governments ignore it",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tevxne/what_science_knows_about_andes_hantavirus_and_why/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-e9dc55fffd066179",
+          "title": "Why were no healthcare workers infected at Epuyén?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3qwq/why_were_no_healthcare_workers_infected_at_epuyén/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -181,34 +203,34 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-67f9220105b369cd",
-          "title": "Hantavirus mentioned in Suburgatory",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1terdyz/hantavirus_mentioned_in_suburgatory/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-95042fd3d97abd4f",
-          "title": "a different travel case of the andes virus from 2018",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdhilj/a_different_travel_case_of_the_andes_virus_from/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-e9dc55fffd066179",
+          "title": "Why were no healthcare workers infected at Epuyén?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3qwq/why_were_no_healthcare_workers_infected_at_epuyén/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-3a766317c5161319",
+          "title": "Finally, common sense has prevailed. “As an added precaution, testing has been offered to all identified contacts, even in the absence of symptoms, to further reduce any potential risk and to support early detection” in Ontario, Canada",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3m6h/finally_common_sense_has_prevailed_as_an_added/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-8c82f686bec1bac1",
           "title": "Hantavirus - State of the Subreddit",
@@ -384,28 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-45be8e2e07f6b566",
-          "title": "Masking up for airline travel",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1te8lt5/masking_up_for_airline_travel/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-31059b0b090ea59f",
-          "title": "High school student may be infected with hantavirus in New York",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1te7sjm/high_school_student_may_be_infected_with/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -446,17 +446,6 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-fa0856f6fd745969",
-      "title": "NY Times: Hantavirus doesn't spread easily, but officials may be downplaying risks",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf251w/ny_times_hantavirus_doesnt_spread_easily_but/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-300fbfe753904a08",
       "title": "Hantavirus-stricken cruise passenger in B.C. has tested positive, top doctor says",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf2r8q/hantavirusstricken_cruise_passenger_in_bc_has/",
@@ -468,9 +457,20 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-541437d5633df9db",
-      "title": "Canadian in isolation tests positive for hantavirus after leaving cruise ship, B.C.'s top doctor says | CBC News",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf1jew/canadian_in_isolation_tests_positive_for/",
+      "id": "rss-3a766317c5161319",
+      "title": "Finally, common sense has prevailed. “As an added precaution, testing has been offered to all identified contacts, even in the absence of symptoms, to further reduce any potential risk and to support early detection” in Ontario, Canada",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3m6h/finally_common_sense_has_prevailed_as_an_added/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-fa0856f6fd745969",
+      "title": "NY Times: Hantavirus doesn't spread easily, but officials may be downplaying risks",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf251w/ny_times_hantavirus_doesnt_spread_easily_but/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -482,6 +482,17 @@
       "id": "rss-7bf54f30b1981f1d",
       "title": "This sub is going to become a doomer conspiracy sub soon if mods dont do something",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuebp/this_sub_is_going_to_become_a_doomer_conspiracy/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-541437d5633df9db",
+      "title": "Canadian in isolation tests positive for hantavirus after leaving cruise ship, B.C.'s top doctor says | CBC News",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf1jew/canadian_in_isolation_tests_positive_for/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -515,6 +526,17 @@
       "id": "rss-fafafd5c1dacf8c5",
       "title": "What science knows about Andes hantavirus and why governments ignore it",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tevxne/what_science_knows_about_andes_hantavirus_and_why/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-e9dc55fffd066179",
+      "title": "Why were no healthcare workers infected at Epuyén?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3qwq/why_were_no_healthcare_workers_infected_at_epuyén/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -581,28 +603,6 @@
       "id": "rss-45be8e2e07f6b566",
       "title": "Masking up for airline travel",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1te8lt5/masking_up_for_airline_travel/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-67f9220105b369cd",
-      "title": "Hantavirus mentioned in Suburgatory",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1terdyz/hantavirus_mentioned_in_suburgatory/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-95042fd3d97abd4f",
-      "title": "a different travel case of the andes virus from 2018",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdhilj/a_different_travel_case_of_the_andes_virus_from/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,

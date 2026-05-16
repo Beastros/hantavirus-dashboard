@@ -1,6 +1,24 @@
 {
-  "fetched_at": "2026-05-16T19:47:44+00:00",
+  "fetched_at": "2026-05-16T20:43:30+00:00",
   "items": [
+    {
+      "id": "c38998d470c074cc",
+      "title": "Canadian from hantavirus-hit cruise ship tests positive",
+      "url": "https://www.bbc.com/news/articles/c2k2p057ezno",
+      "published_at": "2026-05-16T20:36:53+00:00",
+      "source_name": "BBC Health",
+      "source_tier": 1,
+      "summary": "The individual is one of four former passengers on the MV Hondius isolating on Vancouver Island, British Columbia."
+    },
+    {
+      "id": "5f4e3f161238386c",
+      "title": "Canada confirms first hantavirus case in isolation in British Columbia",
+      "url": "https://www.theguardian.com/world/2026/may/16/canada-first-hantavirus-case-british-columbia",
+      "published_at": "2026-05-16T20:12:56+00:00",
+      "source_name": "The Guardian World",
+      "source_tier": 2,
+      "summary": "The person was on board the MV Hondius, the center of the outbreak that has claimed three lives Canadian officials said on Saturday that one of the four Canadians currently quarantining in British Columbia after being exposed to the hantavirus while on board the cruise ship where the outbreak occurred has presumptively tested positive. Speaking at news conference , Dr Bonnie Henry, British Columbia’s provincial…"
+    },
     {
       "id": "dffeaff77e7f3353",
       "title": "How a Nature Cruise Turned Into a Nightmare",
