@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-16T15:16:52+00:00",
+  "fetched_at": "2026-05-16T16:28:19+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -29,9 +29,20 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-7bf54f30b1981f1d",
-          "title": "This sub is going to become a doomer conspiracy sub soon if mods dont do something",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuebp/this_sub_is_going_to_become_a_doomer_conspiracy/",
+          "id": "rss-93c9c38d4778c15c",
+          "title": "A visual dashboard to track Hantavirus updates",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tew77g/a_visual_dashboard_to_track_hantavirus_updates/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-a5162aa14b8f62a1",
+          "title": "The poor management of the virus is what's most scary",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tewlwr/the_poor_management_of_the_virus_is_whats_most/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -43,6 +54,17 @@
           "id": "rss-e5bced5c85f4c411",
           "title": "So if it takes a while for someone to test positive with Hantavirus, could there be people out there spreading it without us knowing?",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1terucb/so_if_it_takes_a_while_for_someone_to_test/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-7bf54f30b1981f1d",
+          "title": "This sub is going to become a doomer conspiracy sub soon if mods dont do something",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuebp/this_sub_is_going_to_become_a_doomer_conspiracy/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -76,17 +98,6 @@
           "id": "rss-31059b0b090ea59f",
           "title": "High school student may be infected with hantavirus in New York",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1te7sjm/high_school_student_may_be_infected_with/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-93c9c38d4778c15c",
-          "title": "A visual dashboard to track Hantavirus updates",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tew77g/a_visual_dashboard_to_track_hantavirus_updates/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -139,17 +150,6 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-a2415b494f579392",
-          "title": "Now will you accept Poopie Quantz as your Mahanta?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuovn/now_will_you_accept_poopie_quantz_as_your_mahanta/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-67f9220105b369cd",
           "title": "Hantavirus mentioned in Suburgatory",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1terdyz/hantavirus_mentioned_in_suburgatory/",
@@ -183,9 +183,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-ba6ff95075a1a027",
-          "title": "Flight with Australian and New Zealand passengers from hantavirus cruise ship arrives in Perth",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdohzf/flight_with_australian_and_new_zealand_passengers/",
+          "id": "rss-2fb02df7a1fbcfe7",
+          "title": "Couldn’t hantavirus be already spreading?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdj69x/couldnt_hantavirus_be_already_spreading/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -194,9 +194,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-2fb02df7a1fbcfe7",
-          "title": "Couldn’t hantavirus be already spreading?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdj69x/couldnt_hantavirus_be_already_spreading/",
+          "id": "rss-ba6ff95075a1a027",
+          "title": "Flight with Australian and New Zealand passengers from hantavirus cruise ship arrives in Perth",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdohzf/flight_with_australian_and_new_zealand_passengers/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -209,6 +209,17 @@
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-a5162aa14b8f62a1",
+          "title": "The poor management of the virus is what's most scary",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tewlwr/the_poor_management_of_the_virus_is_whats_most/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-93c9c38d4778c15c",
           "title": "A visual dashboard to track Hantavirus updates",
@@ -224,17 +235,6 @@
           "id": "rss-fafafd5c1dacf8c5",
           "title": "What science knows about Andes hantavirus and why governments ignore it",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tevxne/what_science_knows_about_andes_hantavirus_and_why/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-a2415b494f579392",
-          "title": "Now will you accept Poopie Quantz as your Mahanta?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuovn/now_will_you_accept_poopie_quantz_as_your_mahanta/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -435,9 +435,20 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-7bf54f30b1981f1d",
-      "title": "This sub is going to become a doomer conspiracy sub soon if mods dont do something",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuebp/this_sub_is_going_to_become_a_doomer_conspiracy/",
+      "id": "rss-93c9c38d4778c15c",
+      "title": "A visual dashboard to track Hantavirus updates",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tew77g/a_visual_dashboard_to_track_hantavirus_updates/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-a5162aa14b8f62a1",
+      "title": "The poor management of the virus is what's most scary",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tewlwr/the_poor_management_of_the_virus_is_whats_most/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -449,6 +460,17 @@
       "id": "rss-e5bced5c85f4c411",
       "title": "So if it takes a while for someone to test positive with Hantavirus, could there be people out there spreading it without us knowing?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1terucb/so_if_it_takes_a_while_for_someone_to_test/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-7bf54f30b1981f1d",
+      "title": "This sub is going to become a doomer conspiracy sub soon if mods dont do something",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuebp/this_sub_is_going_to_become_a_doomer_conspiracy/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -482,17 +504,6 @@
       "id": "rss-31059b0b090ea59f",
       "title": "High school student may be infected with hantavirus in New York",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1te7sjm/high_school_student_may_be_infected_with/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-93c9c38d4778c15c",
-      "title": "A visual dashboard to track Hantavirus updates",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tew77g/a_visual_dashboard_to_track_hantavirus_updates/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -545,17 +556,6 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-a2415b494f579392",
-      "title": "Now will you accept Poopie Quantz as your Mahanta?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuovn/now_will_you_accept_poopie_quantz_as_your_mahanta/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-67f9220105b369cd",
       "title": "Hantavirus mentioned in Suburgatory",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1terdyz/hantavirus_mentioned_in_suburgatory/",
@@ -589,9 +589,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-ba6ff95075a1a027",
-      "title": "Flight with Australian and New Zealand passengers from hantavirus cruise ship arrives in Perth",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdohzf/flight_with_australian_and_new_zealand_passengers/",
+      "id": "rss-2fb02df7a1fbcfe7",
+      "title": "Couldn’t hantavirus be already spreading?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdj69x/couldnt_hantavirus_be_already_spreading/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -600,9 +600,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-2fb02df7a1fbcfe7",
-      "title": "Couldn’t hantavirus be already spreading?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdj69x/couldnt_hantavirus_be_already_spreading/",
+      "id": "rss-ba6ff95075a1a027",
+      "title": "Flight with Australian and New Zealand passengers from hantavirus cruise ship arrives in Perth",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdohzf/flight_with_australian_and_new_zealand_passengers/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
