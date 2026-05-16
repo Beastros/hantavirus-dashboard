@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-15T23:38:25+00:00",
+  "fetched_at": "2026-05-16T01:24:17+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -194,9 +194,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-077f117d18ce4be8",
-          "title": "Risk after feeding wild chipmunk?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1team8k/risk_after_feeding_wild_chipmunk/",
+          "id": "rss-ad2e8f5e3e3d6cc4",
+          "title": "26 ‘low-risk’ Canadian air passengers may have hantavirus exposure - National",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td5pxe/26_lowrisk_canadian_air_passengers_may_have/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -600,9 +600,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-077f117d18ce4be8",
-      "title": "Risk after feeding wild chipmunk?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1team8k/risk_after_feeding_wild_chipmunk/",
+      "id": "rss-ad2e8f5e3e3d6cc4",
+      "title": "26 ‘low-risk’ Canadian air passengers may have hantavirus exposure - National",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1td5pxe/26_lowrisk_canadian_air_passengers_may_have/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
