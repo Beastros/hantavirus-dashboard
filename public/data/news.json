@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-05-16T09:02:56+00:00",
+  "fetched_at": "2026-05-16T10:38:10+00:00",
   "items": [
+    {
+      "id": "dffeaff77e7f3353",
+      "title": "How a Nature Cruise Turned Into a Nightmare",
+      "url": "https://www.nytimes.com/2026/05/16/world/europe/hantavirus-hondius-cruise.html",
+      "published_at": "2026-05-16T09:01:11+00:00",
+      "source_name": "NYT World",
+      "source_tier": 2,
+      "summary": "The hantavirus outbreak on the MV Hondius set off alarms for a world still traumatized by Covid. For those on board, the danger was much closer."
+    },
     {
       "id": "8968889231841c80",
       "title": "Opinion: First hantavirus, now Ebola: What two outbreaks reveal about global preparedness",
