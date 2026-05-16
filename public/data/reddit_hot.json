@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-16T14:12:10+00:00",
+  "fetched_at": "2026-05-16T15:16:52+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -29,9 +29,31 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-7bf54f30b1981f1d",
+          "title": "This sub is going to become a doomer conspiracy sub soon if mods dont do something",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuebp/this_sub_is_going_to_become_a_doomer_conspiracy/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-e5bced5c85f4c411",
           "title": "So if it takes a while for someone to test positive with Hantavirus, could there be people out there spreading it without us knowing?",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1terucb/so_if_it_takes_a_while_for_someone_to_test/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-fafafd5c1dacf8c5",
+          "title": "What science knows about Andes hantavirus and why governments ignore it",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tevxne/what_science_knows_about_andes_hantavirus_and_why/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -62,20 +84,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-a2415b494f579392",
-          "title": "Now will you accept Poopie Quantz as your Mahanta?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuovn/now_will_you_accept_poopie_quantz_as_your_mahanta/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-7bf54f30b1981f1d",
-          "title": "This sub is going to become a doomer conspiracy sub soon if mods dont do something",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuebp/this_sub_is_going_to_become_a_doomer_conspiracy/",
+          "id": "rss-93c9c38d4778c15c",
+          "title": "A visual dashboard to track Hantavirus updates",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tew77g/a_visual_dashboard_to_track_hantavirus_updates/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -120,6 +131,17 @@
           "id": "rss-45be8e2e07f6b566",
           "title": "Masking up for airline travel",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1te8lt5/masking_up_for_airline_travel/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-a2415b494f579392",
+          "title": "Now will you accept Poopie Quantz as your Mahanta?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuovn/now_will_you_accept_poopie_quantz_as_your_mahanta/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -181,34 +203,34 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-5233741b31841692",
-          "title": "An alternate perspective for consideration",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdo170/an_alternate_perspective_for_consideration/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-d82814a15b12ec34",
-          "title": "CDC not requiring hantavirus cruise passengers to isolate at home",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdbbr5/cdc_not_requiring_hantavirus_cruise_passengers_to/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-93c9c38d4778c15c",
+          "title": "A visual dashboard to track Hantavirus updates",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tew77g/a_visual_dashboard_to_track_hantavirus_updates/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-fafafd5c1dacf8c5",
+          "title": "What science knows about Andes hantavirus and why governments ignore it",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tevxne/what_science_knows_about_andes_hantavirus_and_why/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-a2415b494f579392",
           "title": "Now will you accept Poopie Quantz as your Mahanta?",
@@ -384,28 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-28887e50f430d3f5",
-          "title": "Covid has warped our views on disease outbreaks",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdxwpc/covid_has_warped_our_views_on_disease_outbreaks/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-0289dd702405e984",
-          "title": "Penile implant specialist with history of far-right comments led hantavirus presser",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdwq3l/penile_implant_specialist_with_history_of/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -435,9 +435,31 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-7bf54f30b1981f1d",
+      "title": "This sub is going to become a doomer conspiracy sub soon if mods dont do something",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuebp/this_sub_is_going_to_become_a_doomer_conspiracy/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-e5bced5c85f4c411",
       "title": "So if it takes a while for someone to test positive with Hantavirus, could there be people out there spreading it without us knowing?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1terucb/so_if_it_takes_a_while_for_someone_to_test/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-fafafd5c1dacf8c5",
+      "title": "What science knows about Andes hantavirus and why governments ignore it",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tevxne/what_science_knows_about_andes_hantavirus_and_why/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -468,20 +490,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-a2415b494f579392",
-      "title": "Now will you accept Poopie Quantz as your Mahanta?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuovn/now_will_you_accept_poopie_quantz_as_your_mahanta/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-7bf54f30b1981f1d",
-      "title": "This sub is going to become a doomer conspiracy sub soon if mods dont do something",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuebp/this_sub_is_going_to_become_a_doomer_conspiracy/",
+      "id": "rss-93c9c38d4778c15c",
+      "title": "A visual dashboard to track Hantavirus updates",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tew77g/a_visual_dashboard_to_track_hantavirus_updates/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -526,6 +537,17 @@
       "id": "rss-45be8e2e07f6b566",
       "title": "Masking up for airline travel",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1te8lt5/masking_up_for_airline_travel/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-a2415b494f579392",
+      "title": "Now will you accept Poopie Quantz as your Mahanta?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuovn/now_will_you_accept_poopie_quantz_as_your_mahanta/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -581,28 +603,6 @@
       "id": "rss-2fb02df7a1fbcfe7",
       "title": "Couldn’t hantavirus be already spreading?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdj69x/couldnt_hantavirus_be_already_spreading/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-5233741b31841692",
-      "title": "An alternate perspective for consideration",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdo170/an_alternate_perspective_for_consideration/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-d82814a15b12ec34",
-      "title": "CDC not requiring hantavirus cruise passengers to isolate at home",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdbbr5/cdc_not_requiring_hantavirus_cruise_passengers_to/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
