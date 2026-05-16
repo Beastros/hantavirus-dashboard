@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-16T21:35:26+00:00",
+  "fetched_at": "2026-05-16T22:29:20+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -106,17 +106,6 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-a1e0369d70fe999f",
-          "title": "Has the virus really mutated as the french said?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf5qqr/has_the_virus_really_mutated_as_the_french_said/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-2859e6d1dc7a60f4",
           "title": "Thoughts on the New Yorker who tested positive for Hantavirus?",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf12r5/thoughts_on_the_new_yorker_who_tested_positive/",
@@ -128,9 +117,42 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-8fac375b3bac9a48",
+          "title": "Prepare Yo",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf6zv9/prepare_yo/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-bca2c73bb8db5921",
+          "title": "Frontiers | Chloroquine, an Anti-Malaria Drug as Effective Prevention for Hantavirus Infections",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf6dt6/frontiers_chloroquine_an_antimalaria_drug_as/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-e9dc55fffd066179",
           "title": "Why were no healthcare workers infected at Epuyén?",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3qwq/why_were_no_healthcare_workers_infected_at_epuyén/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-a1e0369d70fe999f",
+          "title": "Has the virus really mutated as the french said?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf5qqr/has_the_virus_really_mutated_as_the_french_said/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -181,34 +203,34 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-00e30e06d3023ba8",
-          "title": "Doubts grow over theory that bird-watchers trip to Argentina landfill sparked hantavirus outbreak",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdy4sc/doubts_grow_over_theory_that_birdwatchers_trip_to/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-28887e50f430d3f5",
-          "title": "Covid has warped our views on disease outbreaks",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdxwpc/covid_has_warped_our_views_on_disease_outbreaks/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-8fac375b3bac9a48",
+          "title": "Prepare Yo",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf6zv9/prepare_yo/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-bca2c73bb8db5921",
+          "title": "Frontiers | Chloroquine, an Anti-Malaria Drug as Effective Prevention for Hantavirus Infections",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf6dt6/frontiers_chloroquine_an_antimalaria_drug_as/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-a1e0369d70fe999f",
           "title": "Has the virus really mutated as the french said?",
@@ -384,28 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-31059b0b090ea59f",
-          "title": "High school student may be infected with hantavirus in New York",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1te7sjm/high_school_student_may_be_infected_with/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-c130ee217fcbdc51",
-          "title": "Do I have Hantavirus",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1te4nyn/do_i_have_hantavirus/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -512,17 +512,6 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-a1e0369d70fe999f",
-      "title": "Has the virus really mutated as the french said?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf5qqr/has_the_virus_really_mutated_as_the_french_said/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-2859e6d1dc7a60f4",
       "title": "Thoughts on the New Yorker who tested positive for Hantavirus?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf12r5/thoughts_on_the_new_yorker_who_tested_positive/",
@@ -534,9 +523,42 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-8fac375b3bac9a48",
+      "title": "Prepare Yo",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf6zv9/prepare_yo/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-bca2c73bb8db5921",
+      "title": "Frontiers | Chloroquine, an Anti-Malaria Drug as Effective Prevention for Hantavirus Infections",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf6dt6/frontiers_chloroquine_an_antimalaria_drug_as/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-e9dc55fffd066179",
       "title": "Why were no healthcare workers infected at Epuyén?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3qwq/why_were_no_healthcare_workers_infected_at_epuyén/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-a1e0369d70fe999f",
+      "title": "Has the virus really mutated as the french said?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf5qqr/has_the_virus_really_mutated_as_the_french_said/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -581,28 +603,6 @@
       "id": "rss-79b9e672fffec713",
       "title": "One sick person will infect two other people",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdwefc/one_sick_person_will_infect_two_other_people/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-00e30e06d3023ba8",
-      "title": "Doubts grow over theory that bird-watchers trip to Argentina landfill sparked hantavirus outbreak",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdy4sc/doubts_grow_over_theory_that_birdwatchers_trip_to/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-28887e50f430d3f5",
-      "title": "Covid has warped our views on disease outbreaks",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdxwpc/covid_has_warped_our_views_on_disease_outbreaks/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
