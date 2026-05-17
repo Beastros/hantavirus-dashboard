@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-17T11:18:52+00:00",
+  "fetched_at": "2026-05-17T12:11:04+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -40,6 +40,17 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-41ece5ee8e3dc549",
+          "title": "2020: U.S. Army Outbreak Investigation Reveals “Super-Spreader” Potential of Andes Virus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfmehm/2020_us_army_outbreak_investigation_reveals/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-0bf3f653b5061d21",
           "title": "Contact tracing",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfikdf/contact_tracing/",
@@ -54,17 +65,6 @@
           "id": "rss-300fbfe753904a08",
           "title": "Hantavirus-stricken cruise passenger in B.C. has tested positive, top doctor says",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf2r8q/hantavirusstricken_cruise_passenger_in_bc_has/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-41ece5ee8e3dc549",
-          "title": "2020: U.S. Army Outbreak Investigation Reveals “Super-Spreader” Potential of Andes Virus",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfmehm/2020_us_army_outbreak_investigation_reveals/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -95,9 +95,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-a5162aa14b8f62a1",
-          "title": "The poor management of the virus is what's most scary",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tewlwr/the_poor_management_of_the_virus_is_whats_most/",
+          "id": "rss-fa0856f6fd745969",
+          "title": "NY Times: Hantavirus doesn't spread easily, but officials may be downplaying risks",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf251w/ny_times_hantavirus_doesnt_spread_easily_but/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -106,9 +106,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-fa0856f6fd745969",
-          "title": "NY Times: Hantavirus doesn't spread easily, but officials may be downplaying risks",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf251w/ny_times_hantavirus_doesnt_spread_easily_but/",
+          "id": "rss-a5162aa14b8f62a1",
+          "title": "The poor management of the virus is what's most scary",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tewlwr/the_poor_management_of_the_virus_is_whats_most/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -128,9 +128,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-98a09dbe65cb990b",
-          "title": "How a Nature Cruise Turned Into a Nightmare",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
+          "id": "rss-dea7c9fb3b0eff75",
+          "title": "does a kn95 work well enough to protect against the hantavirus?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf91kh/does_a_kn95_work_well_enough_to_protect_against/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -150,9 +150,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-dea7c9fb3b0eff75",
-          "title": "does a kn95 work well enough to protect against the hantavirus?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf91kh/does_a_kn95_work_well_enough_to_protect_against/",
+          "id": "rss-98a09dbe65cb990b",
+          "title": "How a Nature Cruise Turned Into a Nightmare",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -194,9 +194,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-2859e6d1dc7a60f4",
-          "title": "Thoughts on the New Yorker who tested positive for Hantavirus?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf12r5/thoughts_on_the_new_yorker_who_tested_positive/",
+          "id": "rss-a1e0369d70fe999f",
+          "title": "Has the virus really mutated as the french said?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf5qqr/has_the_virus_really_mutated_as_the_french_said/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -446,6 +446,17 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-41ece5ee8e3dc549",
+      "title": "2020: U.S. Army Outbreak Investigation Reveals “Super-Spreader” Potential of Andes Virus",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfmehm/2020_us_army_outbreak_investigation_reveals/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-0bf3f653b5061d21",
       "title": "Contact tracing",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfikdf/contact_tracing/",
@@ -460,17 +471,6 @@
       "id": "rss-300fbfe753904a08",
       "title": "Hantavirus-stricken cruise passenger in B.C. has tested positive, top doctor says",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf2r8q/hantavirusstricken_cruise_passenger_in_bc_has/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-41ece5ee8e3dc549",
-      "title": "2020: U.S. Army Outbreak Investigation Reveals “Super-Spreader” Potential of Andes Virus",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfmehm/2020_us_army_outbreak_investigation_reveals/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -501,9 +501,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-a5162aa14b8f62a1",
-      "title": "The poor management of the virus is what's most scary",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tewlwr/the_poor_management_of_the_virus_is_whats_most/",
+      "id": "rss-fa0856f6fd745969",
+      "title": "NY Times: Hantavirus doesn't spread easily, but officials may be downplaying risks",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf251w/ny_times_hantavirus_doesnt_spread_easily_but/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -512,9 +512,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-fa0856f6fd745969",
-      "title": "NY Times: Hantavirus doesn't spread easily, but officials may be downplaying risks",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf251w/ny_times_hantavirus_doesnt_spread_easily_but/",
+      "id": "rss-a5162aa14b8f62a1",
+      "title": "The poor management of the virus is what's most scary",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tewlwr/the_poor_management_of_the_virus_is_whats_most/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -534,9 +534,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-98a09dbe65cb990b",
-      "title": "How a Nature Cruise Turned Into a Nightmare",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
+      "id": "rss-dea7c9fb3b0eff75",
+      "title": "does a kn95 work well enough to protect against the hantavirus?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf91kh/does_a_kn95_work_well_enough_to_protect_against/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -556,9 +556,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-dea7c9fb3b0eff75",
-      "title": "does a kn95 work well enough to protect against the hantavirus?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf91kh/does_a_kn95_work_well_enough_to_protect_against/",
+      "id": "rss-98a09dbe65cb990b",
+      "title": "How a Nature Cruise Turned Into a Nightmare",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -600,9 +600,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-2859e6d1dc7a60f4",
-      "title": "Thoughts on the New Yorker who tested positive for Hantavirus?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf12r5/thoughts_on_the_new_yorker_who_tested_positive/",
+      "id": "rss-a1e0369d70fe999f",
+      "title": "Has the virus really mutated as the french said?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf5qqr/has_the_virus_really_mutated_as_the_french_said/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,

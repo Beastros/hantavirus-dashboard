@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-05-17T11:18:55+00:00",
+  "fetched_at": "2026-05-17T12:11:08+00:00",
   "items": [
+    {
+      "id": "410d4c24143ad524",
+      "title": "‘We’re not ready’: US lags on pandemic preparedness after Covid, experts say",
+      "url": "https://www.theguardian.com/us-news/2026/may/17/pandemic-preparedness-after-covid",
+      "published_at": "2026-05-17T11:00:37+00:00",
+      "source_name": "The Guardian World",
+      "source_tier": 2,
+      "summary": "Experts say slashed funding and growing misinformation are some of the greatest challenges facing public health The hantavirus outbreak, while unlikely to spark the next big pandemic, is shining a spotlight on the ways public health has deteriorated in the US: its ability to test for rare diseases, its expertise on outbreak prevention and response, its ability to battle misinformation and restore trust. “Assuming…"
+    },
     {
       "id": "c38998d470c074cc",
       "title": "Canadian from hantavirus-hit cruise ship tests positive",
