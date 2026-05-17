@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-17T20:30:30+00:00",
+  "fetched_at": "2026-05-17T21:38:33+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -51,6 +51,17 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-e6370c072166f5ed",
+          "title": "NEW ARTICLE: FAQs about viruses and the Hanta virus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg1nir/new_article_faqs_about_viruses_and_the_hanta_virus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-9f4be743cfb876ab",
           "title": "Andes Hantavirus Outbreak Linked to Cruise Ship Rises to 12 Cases, Highlighting Rare Human-to-Human Transmission",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfogai/andes_hantavirus_outbreak_linked_to_cruise_ship/",
@@ -73,17 +84,6 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-0bf3f653b5061d21",
-          "title": "Contact tracing",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfikdf/contact_tracing/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-ea6211c9f730f97b",
           "title": "Forced Quarantine?",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tful1c/forced_quarantine/",
@@ -95,9 +95,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-e4271732801e1c14",
-          "title": "What are the total cases and can this sub make a tally?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfjcx4/what_are_the_total_cases_and_can_this_sub_make_a/",
+          "id": "rss-0bf3f653b5061d21",
+          "title": "Contact tracing",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfikdf/contact_tracing/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -106,9 +106,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-fd6fa47eb0dc25c8",
-          "title": "Claude won’t talk about it.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg0of2/claude_wont_talk_about_it/",
+          "id": "rss-e4271732801e1c14",
+          "title": "What are the total cases and can this sub make a tally?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfjcx4/what_are_the_total_cases_and_can_this_sub_make_a/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -210,9 +210,9 @@
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
         {
-          "id": "rss-fd6fa47eb0dc25c8",
-          "title": "Claude won’t talk about it.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg0of2/claude_wont_talk_about_it/",
+          "id": "rss-e6370c072166f5ed",
+          "title": "NEW ARTICLE: FAQs about viruses and the Hanta virus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg1nir/new_article_faqs_about_viruses_and_the_hanta_virus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -457,6 +457,17 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-e6370c072166f5ed",
+      "title": "NEW ARTICLE: FAQs about viruses and the Hanta virus",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg1nir/new_article_faqs_about_viruses_and_the_hanta_virus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-9f4be743cfb876ab",
       "title": "Andes Hantavirus Outbreak Linked to Cruise Ship Rises to 12 Cases, Highlighting Rare Human-to-Human Transmission",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfogai/andes_hantavirus_outbreak_linked_to_cruise_ship/",
@@ -479,17 +490,6 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-0bf3f653b5061d21",
-      "title": "Contact tracing",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfikdf/contact_tracing/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-ea6211c9f730f97b",
       "title": "Forced Quarantine?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tful1c/forced_quarantine/",
@@ -501,9 +501,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-e4271732801e1c14",
-      "title": "What are the total cases and can this sub make a tally?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfjcx4/what_are_the_total_cases_and_can_this_sub_make_a/",
+      "id": "rss-0bf3f653b5061d21",
+      "title": "Contact tracing",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfikdf/contact_tracing/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -512,9 +512,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-fd6fa47eb0dc25c8",
-      "title": "Claude won’t talk about it.",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg0of2/claude_wont_talk_about_it/",
+      "id": "rss-e4271732801e1c14",
+      "title": "What are the total cases and can this sub make a tally?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfjcx4/what_are_the_total_cases_and_can_this_sub_make_a/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
