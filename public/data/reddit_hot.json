@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-17T18:12:35+00:00",
+  "fetched_at": "2026-05-17T19:37:34+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -84,6 +84,17 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-ea6211c9f730f97b",
+          "title": "Forced Quarantine?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tful1c/forced_quarantine/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-e4271732801e1c14",
           "title": "What are the total cases and can this sub make a tally?",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfjcx4/what_are_the_total_cases_and_can_this_sub_make_a/",
@@ -117,9 +128,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-ea6211c9f730f97b",
-          "title": "Forced Quarantine?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tful1c/forced_quarantine/",
+          "id": "rss-3c94f50148df2c94",
+          "title": "Why are there no cell phone pics/vids from the passengers on that cruise ship?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfbm1k/why_are_there_no_cell_phone_picsvids_from_the/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -131,17 +142,6 @@
           "id": "rss-98a09dbe65cb990b",
           "title": "How a Nature Cruise Turned Into a Nightmare",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-3c94f50148df2c94",
-          "title": "Why are there no cell phone pics/vids from the passengers on that cruise ship?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfbm1k/why_are_there_no_cell_phone_picsvids_from_the/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -490,6 +490,17 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-ea6211c9f730f97b",
+      "title": "Forced Quarantine?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tful1c/forced_quarantine/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-e4271732801e1c14",
       "title": "What are the total cases and can this sub make a tally?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfjcx4/what_are_the_total_cases_and_can_this_sub_make_a/",
@@ -523,9 +534,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-ea6211c9f730f97b",
-      "title": "Forced Quarantine?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tful1c/forced_quarantine/",
+      "id": "rss-3c94f50148df2c94",
+      "title": "Why are there no cell phone pics/vids from the passengers on that cruise ship?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfbm1k/why_are_there_no_cell_phone_picsvids_from_the/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -537,17 +548,6 @@
       "id": "rss-98a09dbe65cb990b",
       "title": "How a Nature Cruise Turned Into a Nightmare",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-3c94f50148df2c94",
-      "title": "Why are there no cell phone pics/vids from the passengers on that cruise ship?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfbm1k/why_are_there_no_cell_phone_picsvids_from_the/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
