@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-17T08:00:35+00:00",
+  "fetched_at": "2026-05-17T09:59:44+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -40,9 +40,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-300fbfe753904a08",
-          "title": "Hantavirus-stricken cruise passenger in B.C. has tested positive, top doctor says",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf2r8q/hantavirusstricken_cruise_passenger_in_bc_has/",
+          "id": "rss-0bf3f653b5061d21",
+          "title": "Contact tracing",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfikdf/contact_tracing/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -51,9 +51,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-0bf3f653b5061d21",
-          "title": "Contact tracing",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfikdf/contact_tracing/",
+          "id": "rss-300fbfe753904a08",
+          "title": "Hantavirus-stricken cruise passenger in B.C. has tested positive, top doctor says",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf2r8q/hantavirusstricken_cruise_passenger_in_bc_has/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -73,17 +73,6 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-fa0856f6fd745969",
-          "title": "NY Times: Hantavirus doesn't spread easily, but officials may be downplaying risks",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf251w/ny_times_hantavirus_doesnt_spread_easily_but/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-a5162aa14b8f62a1",
           "title": "The poor management of the virus is what's most scary",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tewlwr/the_poor_management_of_the_virus_is_whats_most/",
@@ -95,9 +84,31 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-fa0856f6fd745969",
+          "title": "NY Times: Hantavirus doesn't spread easily, but officials may be downplaying risks",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf251w/ny_times_hantavirus_doesnt_spread_easily_but/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-3c94f50148df2c94",
           "title": "Why are there no cell phone pics/vids from the passengers on that cruise ship?",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfbm1k/why_are_there_no_cell_phone_picsvids_from_the/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-e4271732801e1c14",
+          "title": "What are the total cases and can this sub make a tally?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfjcx4/what_are_the_total_cases_and_can_this_sub_make_a/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -139,9 +150,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-e5bced5c85f4c411",
-          "title": "So if it takes a while for someone to test positive with Hantavirus, could there be people out there spreading it without us knowing?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1terucb/so_if_it_takes_a_while_for_someone_to_test/",
+          "id": "rss-7bf54f30b1981f1d",
+          "title": "This sub is going to become a doomer conspiracy sub soon if mods dont do something",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuebp/this_sub_is_going_to_become_a_doomer_conspiracy/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -150,9 +161,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-7bf54f30b1981f1d",
-          "title": "This sub is going to become a doomer conspiracy sub soon if mods dont do something",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuebp/this_sub_is_going_to_become_a_doomer_conspiracy/",
+          "id": "rss-e5bced5c85f4c411",
+          "title": "So if it takes a while for someone to test positive with Hantavirus, could there be people out there spreading it without us knowing?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1terucb/so_if_it_takes_a_while_for_someone_to_test/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,23 +203,23 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-a1e0369d70fe999f",
-          "title": "Has the virus really mutated as the french said?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf5qqr/has_the_virus_really_mutated_as_the_french_said/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-e4271732801e1c14",
+          "title": "What are the total cases and can this sub make a tally?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfjcx4/what_are_the_total_cases_and_can_this_sub_make_a/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-0bf3f653b5061d21",
           "title": "Contact tracing",
@@ -395,17 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-e5bced5c85f4c411",
-          "title": "So if it takes a while for someone to test positive with Hantavirus, could there be people out there spreading it without us knowing?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1terucb/so_if_it_takes_a_while_for_someone_to_test/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -446,9 +446,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-300fbfe753904a08",
-      "title": "Hantavirus-stricken cruise passenger in B.C. has tested positive, top doctor says",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf2r8q/hantavirusstricken_cruise_passenger_in_bc_has/",
+      "id": "rss-0bf3f653b5061d21",
+      "title": "Contact tracing",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfikdf/contact_tracing/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -457,9 +457,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-0bf3f653b5061d21",
-      "title": "Contact tracing",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfikdf/contact_tracing/",
+      "id": "rss-300fbfe753904a08",
+      "title": "Hantavirus-stricken cruise passenger in B.C. has tested positive, top doctor says",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf2r8q/hantavirusstricken_cruise_passenger_in_bc_has/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -479,17 +479,6 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-fa0856f6fd745969",
-      "title": "NY Times: Hantavirus doesn't spread easily, but officials may be downplaying risks",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf251w/ny_times_hantavirus_doesnt_spread_easily_but/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-a5162aa14b8f62a1",
       "title": "The poor management of the virus is what's most scary",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tewlwr/the_poor_management_of_the_virus_is_whats_most/",
@@ -501,9 +490,31 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-fa0856f6fd745969",
+      "title": "NY Times: Hantavirus doesn't spread easily, but officials may be downplaying risks",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf251w/ny_times_hantavirus_doesnt_spread_easily_but/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-3c94f50148df2c94",
       "title": "Why are there no cell phone pics/vids from the passengers on that cruise ship?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfbm1k/why_are_there_no_cell_phone_picsvids_from_the/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-e4271732801e1c14",
+      "title": "What are the total cases and can this sub make a tally?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfjcx4/what_are_the_total_cases_and_can_this_sub_make_a/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -545,9 +556,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-e5bced5c85f4c411",
-      "title": "So if it takes a while for someone to test positive with Hantavirus, could there be people out there spreading it without us knowing?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1terucb/so_if_it_takes_a_while_for_someone_to_test/",
+      "id": "rss-7bf54f30b1981f1d",
+      "title": "This sub is going to become a doomer conspiracy sub soon if mods dont do something",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuebp/this_sub_is_going_to_become_a_doomer_conspiracy/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -556,9 +567,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-7bf54f30b1981f1d",
-      "title": "This sub is going to become a doomer conspiracy sub soon if mods dont do something",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuebp/this_sub_is_going_to_become_a_doomer_conspiracy/",
+      "id": "rss-e5bced5c85f4c411",
+      "title": "So if it takes a while for someone to test positive with Hantavirus, could there be people out there spreading it without us knowing?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1terucb/so_if_it_takes_a_while_for_someone_to_test/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -592,17 +603,6 @@
       "id": "rss-fafafd5c1dacf8c5",
       "title": "What science knows about Andes hantavirus and why governments ignore it",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tevxne/what_science_knows_about_andes_hantavirus_and_why/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-a1e0369d70fe999f",
-      "title": "Has the virus really mutated as the french said?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf5qqr/has_the_virus_really_mutated_as_the_french_said/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
