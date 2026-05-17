@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-05-17T17:14:47+00:00",
+  "fetched_at": "2026-05-17T18:12:41+00:00",
   "items": [
+    {
+      "id": "4c3468d8abc44293",
+      "title": "STAT+: The hantavirus outbreak is prompting Covid flashbacks — including the conspiracies",
+      "url": "https://www.statnews.com/2026/05/17/hantavirus-outbreak-cruise-ship-covid-flashbacks-conspiracy-theories/",
+      "published_at": "2026-05-17T18:07:58+00:00",
+      "source_name": "STAT News",
+      "source_tier": 1,
+      "summary": "The deadly outbreak of a rare strain of hantavirus on a cruise has generated echoes of the pandemic era, including conspiracy theories."
+    },
     {
       "id": "410d4c24143ad524",
       "title": "‘We’re not ready’: US lags on pandemic preparedness after Covid, experts say",
