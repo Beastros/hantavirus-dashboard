@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-17T19:37:34+00:00",
+  "fetched_at": "2026-05-17T20:30:30+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -106,6 +106,17 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-fd6fa47eb0dc25c8",
+          "title": "Claude won’t talk about it.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg0of2/claude_wont_talk_about_it/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-300fbfe753904a08",
           "title": "Hantavirus-stricken cruise passenger in B.C. has tested positive, top doctor says",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf2r8q/hantavirusstricken_cruise_passenger_in_bc_has/",
@@ -139,9 +150,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-98a09dbe65cb990b",
-          "title": "How a Nature Cruise Turned Into a Nightmare",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
+          "id": "rss-fa0856f6fd745969",
+          "title": "NY Times: Hantavirus doesn't spread easily, but officials may be downplaying risks",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf251w/ny_times_hantavirus_doesnt_spread_easily_but/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -150,9 +161,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-fa0856f6fd745969",
-          "title": "NY Times: Hantavirus doesn't spread easily, but officials may be downplaying risks",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf251w/ny_times_hantavirus_doesnt_spread_easily_but/",
+          "id": "rss-98a09dbe65cb990b",
+          "title": "How a Nature Cruise Turned Into a Nightmare",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,23 +203,23 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-7bf54f30b1981f1d",
-          "title": "This sub is going to become a doomer conspiracy sub soon if mods dont do something",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuebp/this_sub_is_going_to_become_a_doomer_conspiracy/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-fd6fa47eb0dc25c8",
+          "title": "Claude won’t talk about it.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg0of2/claude_wont_talk_about_it/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-ea6211c9f730f97b",
           "title": "Forced Quarantine?",
@@ -395,17 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-541437d5633df9db",
-          "title": "Canadian in isolation tests positive for hantavirus after leaving cruise ship, B.C.'s top doctor says | CBC News",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf1jew/canadian_in_isolation_tests_positive_for/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -512,6 +512,17 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-fd6fa47eb0dc25c8",
+      "title": "Claude won’t talk about it.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg0of2/claude_wont_talk_about_it/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-300fbfe753904a08",
       "title": "Hantavirus-stricken cruise passenger in B.C. has tested positive, top doctor says",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf2r8q/hantavirusstricken_cruise_passenger_in_bc_has/",
@@ -545,9 +556,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-98a09dbe65cb990b",
-      "title": "How a Nature Cruise Turned Into a Nightmare",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
+      "id": "rss-fa0856f6fd745969",
+      "title": "NY Times: Hantavirus doesn't spread easily, but officials may be downplaying risks",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf251w/ny_times_hantavirus_doesnt_spread_easily_but/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -556,9 +567,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-fa0856f6fd745969",
-      "title": "NY Times: Hantavirus doesn't spread easily, but officials may be downplaying risks",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf251w/ny_times_hantavirus_doesnt_spread_easily_but/",
+      "id": "rss-98a09dbe65cb990b",
+      "title": "How a Nature Cruise Turned Into a Nightmare",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -592,17 +603,6 @@
       "id": "rss-541437d5633df9db",
       "title": "Canadian in isolation tests positive for hantavirus after leaving cruise ship, B.C.'s top doctor says | CBC News",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf1jew/canadian_in_isolation_tests_positive_for/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-7bf54f30b1981f1d",
-      "title": "This sub is going to become a doomer conspiracy sub soon if mods dont do something",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuebp/this_sub_is_going_to_become_a_doomer_conspiracy/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
