@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-17T22:36:56+00:00",
+  "fetched_at": "2026-05-17T23:41:28+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -21,6 +21,17 @@
           "id": "rss-7682548eb1fc81a9",
           "title": "What is Hantavirus?!",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-355c7792bf822d06",
+          "title": "A health professional from Ascension Island, who was in \"close contact\" with a case and \"developed symptoms\" compatible with the hantavirus, according to authorities of St. Helena, arrived at a specialized unit of the Guy's and St Thomas' NHS Foundation Trust in London",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg4prt/a_health_professional_from_ascension_island_who/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -128,9 +139,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-3a766317c5161319",
-          "title": "Finally, common sense has prevailed. “As an added precaution, testing has been offered to all identified contacts, even in the absence of symptoms, to further reduce any potential risk and to support early detection” in Ontario, Canada",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3m6h/finally_common_sense_has_prevailed_as_an_added/",
+          "id": "rss-3c94f50148df2c94",
+          "title": "Why are there no cell phone pics/vids from the passengers on that cruise ship?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfbm1k/why_are_there_no_cell_phone_picsvids_from_the/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -139,9 +150,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-3c94f50148df2c94",
-          "title": "Why are there no cell phone pics/vids from the passengers on that cruise ship?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfbm1k/why_are_there_no_cell_phone_picsvids_from_the/",
+          "id": "rss-3a766317c5161319",
+          "title": "Finally, common sense has prevailed. “As an added precaution, testing has been offered to all identified contacts, even in the absence of symptoms, to further reduce any potential risk and to support early detection” in Ontario, Canada",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3m6h/finally_common_sense_has_prevailed_as_an_added/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,23 +203,23 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-541437d5633df9db",
-          "title": "Canadian in isolation tests positive for hantavirus after leaving cruise ship, B.C.'s top doctor says | CBC News",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf1jew/canadian_in_isolation_tests_positive_for/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-355c7792bf822d06",
+          "title": "A health professional from Ascension Island, who was in \"close contact\" with a case and \"developed symptoms\" compatible with the hantavirus, according to authorities of St. Helena, arrived at a specialized unit of the Guy's and St Thomas' NHS Foundation Trust in London",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg4prt/a_health_professional_from_ascension_island_who/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-e6370c072166f5ed",
           "title": "NEW ARTICLE: FAQs about viruses and the Hanta virus",
@@ -395,17 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-fa0856f6fd745969",
-          "title": "NY Times: Hantavirus doesn't spread easily, but officials may be downplaying risks",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf251w/ny_times_hantavirus_doesnt_spread_easily_but/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -427,6 +427,17 @@
       "id": "rss-7682548eb1fc81a9",
       "title": "What is Hantavirus?!",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-355c7792bf822d06",
+      "title": "A health professional from Ascension Island, who was in \"close contact\" with a case and \"developed symptoms\" compatible with the hantavirus, according to authorities of St. Helena, arrived at a specialized unit of the Guy's and St Thomas' NHS Foundation Trust in London",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg4prt/a_health_professional_from_ascension_island_who/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -534,9 +545,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-3a766317c5161319",
-      "title": "Finally, common sense has prevailed. “As an added precaution, testing has been offered to all identified contacts, even in the absence of symptoms, to further reduce any potential risk and to support early detection” in Ontario, Canada",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3m6h/finally_common_sense_has_prevailed_as_an_added/",
+      "id": "rss-3c94f50148df2c94",
+      "title": "Why are there no cell phone pics/vids from the passengers on that cruise ship?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfbm1k/why_are_there_no_cell_phone_picsvids_from_the/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -545,9 +556,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-3c94f50148df2c94",
-      "title": "Why are there no cell phone pics/vids from the passengers on that cruise ship?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfbm1k/why_are_there_no_cell_phone_picsvids_from_the/",
+      "id": "rss-3a766317c5161319",
+      "title": "Finally, common sense has prevailed. “As an added precaution, testing has been offered to all identified contacts, even in the absence of symptoms, to further reduce any potential risk and to support early detection” in Ontario, Canada",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3m6h/finally_common_sense_has_prevailed_as_an_added/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -592,17 +603,6 @@
       "id": "rss-dea7c9fb3b0eff75",
       "title": "does a kn95 work well enough to protect against the hantavirus?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf91kh/does_a_kn95_work_well_enough_to_protect_against/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-541437d5633df9db",
-      "title": "Canadian in isolation tests positive for hantavirus after leaving cruise ship, B.C.'s top doctor says | CBC News",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf1jew/canadian_in_isolation_tests_positive_for/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
