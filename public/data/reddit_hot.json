@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-16T23:31:15+00:00",
+  "fetched_at": "2026-05-17T01:30:48+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -51,17 +51,6 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-fa0856f6fd745969",
-          "title": "NY Times: Hantavirus doesn't spread easily, but officials may be downplaying risks",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf251w/ny_times_hantavirus_doesnt_spread_easily_but/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-3a766317c5161319",
           "title": "Finally, common sense has prevailed. “As an added precaution, testing has been offered to all identified contacts, even in the absence of symptoms, to further reduce any potential risk and to support early detection” in Ontario, Canada",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3m6h/finally_common_sense_has_prevailed_as_an_added/",
@@ -73,9 +62,31 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-fa0856f6fd745969",
+          "title": "NY Times: Hantavirus doesn't spread easily, but officials may be downplaying risks",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf251w/ny_times_hantavirus_doesnt_spread_easily_but/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-541437d5633df9db",
           "title": "Canadian in isolation tests positive for hantavirus after leaving cruise ship, B.C.'s top doctor says | CBC News",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf1jew/canadian_in_isolation_tests_positive_for/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-dea7c9fb3b0eff75",
+          "title": "does a kn95 work well enough to protect against the hantavirus?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf91kh/does_a_kn95_work_well_enough_to_protect_against/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -106,6 +117,17 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-e9dc55fffd066179",
+          "title": "Why were no healthcare workers infected at Epuyén?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3qwq/why_were_no_healthcare_workers_infected_at_epuyén/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-a1e0369d70fe999f",
           "title": "Has the virus really mutated as the french said?",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf5qqr/has_the_virus_really_mutated_as_the_french_said/",
@@ -128,9 +150,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-e9dc55fffd066179",
-          "title": "Why were no healthcare workers infected at Epuyén?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3qwq/why_were_no_healthcare_workers_infected_at_epuyén/",
+          "id": "rss-fafafd5c1dacf8c5",
+          "title": "What science knows about Andes hantavirus and why governments ignore it",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tevxne/what_science_knows_about_andes_hantavirus_and_why/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -142,17 +164,6 @@
           "id": "rss-bca2c73bb8db5921",
           "title": "Frontiers | Chloroquine, an Anti-Malaria Drug as Effective Prevention for Hantavirus Infections",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf6dt6/frontiers_chloroquine_an_antimalaria_drug_as/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-fafafd5c1dacf8c5",
-          "title": "What science knows about Andes hantavirus and why governments ignore it",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tevxne/what_science_knows_about_andes_hantavirus_and_why/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,23 +203,23 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-00e30e06d3023ba8",
-          "title": "Doubts grow over theory that bird-watchers trip to Argentina landfill sparked hantavirus outbreak",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdy4sc/doubts_grow_over_theory_that_birdwatchers_trip_to/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-dea7c9fb3b0eff75",
+          "title": "does a kn95 work well enough to protect against the hantavirus?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf91kh/does_a_kn95_work_well_enough_to_protect_against/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-bca2c73bb8db5921",
           "title": "Frontiers | Chloroquine, an Anti-Malaria Drug as Effective Prevention for Hantavirus Infections",
@@ -395,17 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-31059b0b090ea59f",
-          "title": "High school student may be infected with hantavirus in New York",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1te7sjm/high_school_student_may_be_infected_with/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -457,17 +457,6 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-fa0856f6fd745969",
-      "title": "NY Times: Hantavirus doesn't spread easily, but officials may be downplaying risks",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf251w/ny_times_hantavirus_doesnt_spread_easily_but/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-3a766317c5161319",
       "title": "Finally, common sense has prevailed. “As an added precaution, testing has been offered to all identified contacts, even in the absence of symptoms, to further reduce any potential risk and to support early detection” in Ontario, Canada",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3m6h/finally_common_sense_has_prevailed_as_an_added/",
@@ -479,9 +468,31 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-fa0856f6fd745969",
+      "title": "NY Times: Hantavirus doesn't spread easily, but officials may be downplaying risks",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf251w/ny_times_hantavirus_doesnt_spread_easily_but/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-541437d5633df9db",
       "title": "Canadian in isolation tests positive for hantavirus after leaving cruise ship, B.C.'s top doctor says | CBC News",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf1jew/canadian_in_isolation_tests_positive_for/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-dea7c9fb3b0eff75",
+      "title": "does a kn95 work well enough to protect against the hantavirus?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf91kh/does_a_kn95_work_well_enough_to_protect_against/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -512,6 +523,17 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-e9dc55fffd066179",
+      "title": "Why were no healthcare workers infected at Epuyén?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3qwq/why_were_no_healthcare_workers_infected_at_epuyén/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-a1e0369d70fe999f",
       "title": "Has the virus really mutated as the french said?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf5qqr/has_the_virus_really_mutated_as_the_french_said/",
@@ -534,9 +556,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-e9dc55fffd066179",
-      "title": "Why were no healthcare workers infected at Epuyén?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3qwq/why_were_no_healthcare_workers_infected_at_epuyén/",
+      "id": "rss-fafafd5c1dacf8c5",
+      "title": "What science knows about Andes hantavirus and why governments ignore it",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tevxne/what_science_knows_about_andes_hantavirus_and_why/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -548,17 +570,6 @@
       "id": "rss-bca2c73bb8db5921",
       "title": "Frontiers | Chloroquine, an Anti-Malaria Drug as Effective Prevention for Hantavirus Infections",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf6dt6/frontiers_chloroquine_an_antimalaria_drug_as/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-fafafd5c1dacf8c5",
-      "title": "What science knows about Andes hantavirus and why governments ignore it",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tevxne/what_science_knows_about_andes_hantavirus_and_why/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -592,17 +603,6 @@
       "id": "rss-79b9e672fffec713",
       "title": "One sick person will infect two other people",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdwefc/one_sick_person_will_infect_two_other_people/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-00e30e06d3023ba8",
-      "title": "Doubts grow over theory that bird-watchers trip to Argentina landfill sparked hantavirus outbreak",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdy4sc/doubts_grow_over_theory_that_birdwatchers_trip_to/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
