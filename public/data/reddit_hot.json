@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-17T16:11:27+00:00",
+  "fetched_at": "2026-05-17T17:14:44+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -40,6 +40,17 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-9f4be743cfb876ab",
+          "title": "Andes Hantavirus Outbreak Linked to Cruise Ship Rises to 12 Cases, Highlighting Rare Human-to-Human Transmission",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfogai/andes_hantavirus_outbreak_linked_to_cruise_ship/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-270c2c5493f11934",
           "title": "The latest positive Canadian had no direct contact. Officials said “the four Canadians isolating in the Island Health region had no known direct contact with the people who fell ill on the ship.”",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfcth9/the_latest_positive_canadian_had_no_direct/",
@@ -51,9 +62,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-9f4be743cfb876ab",
-          "title": "Andes Hantavirus Outbreak Linked to Cruise Ship Rises to 12 Cases, Highlighting Rare Human-to-Human Transmission",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfogai/andes_hantavirus_outbreak_linked_to_cruise_ship/",
+          "id": "rss-b9472855582a7f29",
+          "title": "Confirmed by the National Microbiology Laboratory in Winnipeg",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfu39m/confirmed_by_the_national_microbiology_laboratory/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -106,9 +117,31 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-ea6211c9f730f97b",
+          "title": "Forced Quarantine?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tful1c/forced_quarantine/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-fa0856f6fd745969",
           "title": "NY Times: Hantavirus doesn't spread easily, but officials may be downplaying risks",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf251w/ny_times_hantavirus_doesnt_spread_easily_but/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-3c94f50148df2c94",
+          "title": "Why are there no cell phone pics/vids from the passengers on that cruise ship?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfbm1k/why_are_there_no_cell_phone_picsvids_from_the/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -131,17 +164,6 @@
           "id": "rss-98a09dbe65cb990b",
           "title": "How a Nature Cruise Turned Into a Nightmare",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-3c94f50148df2c94",
-          "title": "Why are there no cell phone pics/vids from the passengers on that cruise ship?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfbm1k/why_are_there_no_cell_phone_picsvids_from_the/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -181,34 +203,34 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-e9dc55fffd066179",
-          "title": "Why were no healthcare workers infected at Epuyén?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3qwq/why_were_no_healthcare_workers_infected_at_epuyén/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-fafafd5c1dacf8c5",
-          "title": "What science knows about Andes hantavirus and why governments ignore it",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tevxne/what_science_knows_about_andes_hantavirus_and_why/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-ea6211c9f730f97b",
+          "title": "Forced Quarantine?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tful1c/forced_quarantine/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-b9472855582a7f29",
+          "title": "Confirmed by the National Microbiology Laboratory in Winnipeg",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfu39m/confirmed_by_the_national_microbiology_laboratory/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-9f4be743cfb876ab",
           "title": "Andes Hantavirus Outbreak Linked to Cruise Ship Rises to 12 Cases, Highlighting Rare Human-to-Human Transmission",
@@ -384,28 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-2859e6d1dc7a60f4",
-          "title": "Thoughts on the New Yorker who tested positive for Hantavirus?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf12r5/thoughts_on_the_new_yorker_who_tested_positive/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-a5162aa14b8f62a1",
-          "title": "The poor management of the virus is what's most scary",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tewlwr/the_poor_management_of_the_virus_is_whats_most/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -446,6 +446,17 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-9f4be743cfb876ab",
+      "title": "Andes Hantavirus Outbreak Linked to Cruise Ship Rises to 12 Cases, Highlighting Rare Human-to-Human Transmission",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfogai/andes_hantavirus_outbreak_linked_to_cruise_ship/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-270c2c5493f11934",
       "title": "The latest positive Canadian had no direct contact. Officials said “the four Canadians isolating in the Island Health region had no known direct contact with the people who fell ill on the ship.”",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfcth9/the_latest_positive_canadian_had_no_direct/",
@@ -457,9 +468,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-9f4be743cfb876ab",
-      "title": "Andes Hantavirus Outbreak Linked to Cruise Ship Rises to 12 Cases, Highlighting Rare Human-to-Human Transmission",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfogai/andes_hantavirus_outbreak_linked_to_cruise_ship/",
+      "id": "rss-b9472855582a7f29",
+      "title": "Confirmed by the National Microbiology Laboratory in Winnipeg",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfu39m/confirmed_by_the_national_microbiology_laboratory/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -512,9 +523,31 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-ea6211c9f730f97b",
+      "title": "Forced Quarantine?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tful1c/forced_quarantine/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-fa0856f6fd745969",
       "title": "NY Times: Hantavirus doesn't spread easily, but officials may be downplaying risks",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf251w/ny_times_hantavirus_doesnt_spread_easily_but/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-3c94f50148df2c94",
+      "title": "Why are there no cell phone pics/vids from the passengers on that cruise ship?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfbm1k/why_are_there_no_cell_phone_picsvids_from_the/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -537,17 +570,6 @@
       "id": "rss-98a09dbe65cb990b",
       "title": "How a Nature Cruise Turned Into a Nightmare",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-3c94f50148df2c94",
-      "title": "Why are there no cell phone pics/vids from the passengers on that cruise ship?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfbm1k/why_are_there_no_cell_phone_picsvids_from_the/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -581,28 +603,6 @@
       "id": "rss-7bf54f30b1981f1d",
       "title": "This sub is going to become a doomer conspiracy sub soon if mods dont do something",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuebp/this_sub_is_going_to_become_a_doomer_conspiracy/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-e9dc55fffd066179",
-      "title": "Why were no healthcare workers infected at Epuyén?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3qwq/why_were_no_healthcare_workers_infected_at_epuyén/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-fafafd5c1dacf8c5",
-      "title": "What science knows about Andes hantavirus and why governments ignore it",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tevxne/what_science_knows_about_andes_hantavirus_and_why/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
