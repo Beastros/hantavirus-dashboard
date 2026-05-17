@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-17T01:30:48+00:00",
+  "fetched_at": "2026-05-17T05:34:36+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -29,9 +29,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-300fbfe753904a08",
-          "title": "Hantavirus-stricken cruise passenger in B.C. has tested positive, top doctor says",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf2r8q/hantavirusstricken_cruise_passenger_in_bc_has/",
+          "id": "rss-270c2c5493f11934",
+          "title": "The latest positive Canadian had no direct contact. Officials said “the four Canadians isolating in the Island Health region had no known direct contact with the people who fell ill on the ship.”",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfcth9/the_latest_positive_canadian_had_no_direct/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -40,9 +40,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-a5162aa14b8f62a1",
-          "title": "The poor management of the virus is what's most scary",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tewlwr/the_poor_management_of_the_virus_is_whats_most/",
+          "id": "rss-300fbfe753904a08",
+          "title": "Hantavirus-stricken cruise passenger in B.C. has tested positive, top doctor says",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf2r8q/hantavirusstricken_cruise_passenger_in_bc_has/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -73,6 +73,28 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-a5162aa14b8f62a1",
+          "title": "The poor management of the virus is what's most scary",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tewlwr/the_poor_management_of_the_virus_is_whats_most/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-3c94f50148df2c94",
+          "title": "Why are there no cell phone pics/vids from the passengers on that cruise ship?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfbm1k/why_are_there_no_cell_phone_picsvids_from_the/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-541437d5633df9db",
           "title": "Canadian in isolation tests positive for hantavirus after leaving cruise ship, B.C.'s top doctor says | CBC News",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf1jew/canadian_in_isolation_tests_positive_for/",
@@ -95,9 +117,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-7bf54f30b1981f1d",
-          "title": "This sub is going to become a doomer conspiracy sub soon if mods dont do something",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuebp/this_sub_is_going_to_become_a_doomer_conspiracy/",
+          "id": "rss-98a09dbe65cb990b",
+          "title": "How a Nature Cruise Turned Into a Nightmare",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -117,9 +139,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-e9dc55fffd066179",
-          "title": "Why were no healthcare workers infected at Epuyén?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3qwq/why_were_no_healthcare_workers_infected_at_epuyén/",
+          "id": "rss-7bf54f30b1981f1d",
+          "title": "This sub is going to become a doomer conspiracy sub soon if mods dont do something",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuebp/this_sub_is_going_to_become_a_doomer_conspiracy/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -128,9 +150,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-a1e0369d70fe999f",
-          "title": "Has the virus really mutated as the french said?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf5qqr/has_the_virus_really_mutated_as_the_french_said/",
+          "id": "rss-e9dc55fffd066179",
+          "title": "Why were no healthcare workers infected at Epuyén?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3qwq/why_were_no_healthcare_workers_infected_at_epuyén/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -161,9 +183,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-bca2c73bb8db5921",
-          "title": "Frontiers | Chloroquine, an Anti-Malaria Drug as Effective Prevention for Hantavirus Infections",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf6dt6/frontiers_chloroquine_an_antimalaria_drug_as/",
+          "id": "rss-a1e0369d70fe999f",
+          "title": "Has the virus really mutated as the french said?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf5qqr/has_the_virus_really_mutated_as_the_french_said/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -181,34 +203,45 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-31059b0b090ea59f",
-          "title": "High school student may be infected with hantavirus in New York",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1te7sjm/high_school_student_may_be_infected_with/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-79b9e672fffec713",
-          "title": "One sick person will infect two other people",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdwefc/one_sick_person_will_infect_two_other_people/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-98a09dbe65cb990b",
+          "title": "How a Nature Cruise Turned Into a Nightmare",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-270c2c5493f11934",
+          "title": "The latest positive Canadian had no direct contact. Officials said “the four Canadians isolating in the Island Health region had no known direct contact with the people who fell ill on the ship.”",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfcth9/the_latest_positive_canadian_had_no_direct/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-3c94f50148df2c94",
+          "title": "Why are there no cell phone pics/vids from the passengers on that cruise ship?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfbm1k/why_are_there_no_cell_phone_picsvids_from_the/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-dea7c9fb3b0eff75",
           "title": "does a kn95 work well enough to protect against the hantavirus?",
@@ -373,39 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-b14b34571192a6e6",
-          "title": "Guys!!!What do you think?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tekb6s/guyswhat_do_you_think/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-077f117d18ce4be8",
-          "title": "Risk after feeding wild chipmunk?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1team8k/risk_after_feeding_wild_chipmunk/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-45be8e2e07f6b566",
-          "title": "Masking up for airline travel",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1te8lt5/masking_up_for_airline_travel/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -435,9 +435,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-300fbfe753904a08",
-      "title": "Hantavirus-stricken cruise passenger in B.C. has tested positive, top doctor says",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf2r8q/hantavirusstricken_cruise_passenger_in_bc_has/",
+      "id": "rss-270c2c5493f11934",
+      "title": "The latest positive Canadian had no direct contact. Officials said “the four Canadians isolating in the Island Health region had no known direct contact with the people who fell ill on the ship.”",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfcth9/the_latest_positive_canadian_had_no_direct/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -446,9 +446,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-a5162aa14b8f62a1",
-      "title": "The poor management of the virus is what's most scary",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tewlwr/the_poor_management_of_the_virus_is_whats_most/",
+      "id": "rss-300fbfe753904a08",
+      "title": "Hantavirus-stricken cruise passenger in B.C. has tested positive, top doctor says",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf2r8q/hantavirusstricken_cruise_passenger_in_bc_has/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -479,6 +479,28 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-a5162aa14b8f62a1",
+      "title": "The poor management of the virus is what's most scary",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tewlwr/the_poor_management_of_the_virus_is_whats_most/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-3c94f50148df2c94",
+      "title": "Why are there no cell phone pics/vids from the passengers on that cruise ship?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfbm1k/why_are_there_no_cell_phone_picsvids_from_the/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-541437d5633df9db",
       "title": "Canadian in isolation tests positive for hantavirus after leaving cruise ship, B.C.'s top doctor says | CBC News",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf1jew/canadian_in_isolation_tests_positive_for/",
@@ -501,9 +523,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-7bf54f30b1981f1d",
-      "title": "This sub is going to become a doomer conspiracy sub soon if mods dont do something",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuebp/this_sub_is_going_to_become_a_doomer_conspiracy/",
+      "id": "rss-98a09dbe65cb990b",
+      "title": "How a Nature Cruise Turned Into a Nightmare",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -523,9 +545,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-e9dc55fffd066179",
-      "title": "Why were no healthcare workers infected at Epuyén?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3qwq/why_were_no_healthcare_workers_infected_at_epuyén/",
+      "id": "rss-7bf54f30b1981f1d",
+      "title": "This sub is going to become a doomer conspiracy sub soon if mods dont do something",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teuebp/this_sub_is_going_to_become_a_doomer_conspiracy/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -534,9 +556,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-a1e0369d70fe999f",
-      "title": "Has the virus really mutated as the french said?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf5qqr/has_the_virus_really_mutated_as_the_french_said/",
+      "id": "rss-e9dc55fffd066179",
+      "title": "Why were no healthcare workers infected at Epuyén?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3qwq/why_were_no_healthcare_workers_infected_at_epuyén/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -567,9 +589,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-bca2c73bb8db5921",
-      "title": "Frontiers | Chloroquine, an Anti-Malaria Drug as Effective Prevention for Hantavirus Infections",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf6dt6/frontiers_chloroquine_an_antimalaria_drug_as/",
+      "id": "rss-a1e0369d70fe999f",
+      "title": "Has the virus really mutated as the french said?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf5qqr/has_the_virus_really_mutated_as_the_french_said/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -581,28 +603,6 @@
       "id": "rss-b14b34571192a6e6",
       "title": "Guys!!!What do you think?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tekb6s/guyswhat_do_you_think/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-31059b0b090ea59f",
-      "title": "High school student may be infected with hantavirus in New York",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1te7sjm/high_school_student_may_be_infected_with/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-79b9e672fffec713",
-      "title": "One sick person will infect two other people",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tdwefc/one_sick_person_will_infect_two_other_people/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
