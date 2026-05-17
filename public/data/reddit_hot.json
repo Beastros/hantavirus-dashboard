@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-17T15:00:54+00:00",
+  "fetched_at": "2026-05-17T16:11:27+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -51,9 +51,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-0bf3f653b5061d21",
-          "title": "Contact tracing",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfikdf/contact_tracing/",
+          "id": "rss-9f4be743cfb876ab",
+          "title": "Andes Hantavirus Outbreak Linked to Cruise Ship Rises to 12 Cases, Highlighting Rare Human-to-Human Transmission",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfogai/andes_hantavirus_outbreak_linked_to_cruise_ship/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -62,9 +62,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-9f4be743cfb876ab",
-          "title": "Andes Hantavirus Outbreak Linked to Cruise Ship Rises to 12 Cases, Highlighting Rare Human-to-Human Transmission",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfogai/andes_hantavirus_outbreak_linked_to_cruise_ship/",
+          "id": "rss-0bf3f653b5061d21",
+          "title": "Contact tracing",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfikdf/contact_tracing/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -457,9 +457,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-0bf3f653b5061d21",
-      "title": "Contact tracing",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfikdf/contact_tracing/",
+      "id": "rss-9f4be743cfb876ab",
+      "title": "Andes Hantavirus Outbreak Linked to Cruise Ship Rises to 12 Cases, Highlighting Rare Human-to-Human Transmission",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfogai/andes_hantavirus_outbreak_linked_to_cruise_ship/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -468,9 +468,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-9f4be743cfb876ab",
-      "title": "Andes Hantavirus Outbreak Linked to Cruise Ship Rises to 12 Cases, Highlighting Rare Human-to-Human Transmission",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfogai/andes_hantavirus_outbreak_linked_to_cruise_ship/",
+      "id": "rss-0bf3f653b5061d21",
+      "title": "Contact tracing",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfikdf/contact_tracing/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
