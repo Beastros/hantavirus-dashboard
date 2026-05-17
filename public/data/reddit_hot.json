@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-17T05:34:36+00:00",
+  "fetched_at": "2026-05-17T08:00:35+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -43,6 +43,17 @@
           "id": "rss-300fbfe753904a08",
           "title": "Hantavirus-stricken cruise passenger in B.C. has tested positive, top doctor says",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf2r8q/hantavirusstricken_cruise_passenger_in_bc_has/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-0bf3f653b5061d21",
+          "title": "Contact tracing",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfikdf/contact_tracing/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -95,6 +106,17 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-98a09dbe65cb990b",
+          "title": "How a Nature Cruise Turned Into a Nightmare",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-541437d5633df9db",
           "title": "Canadian in isolation tests positive for hantavirus after leaving cruise ship, B.C.'s top doctor says | CBC News",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf1jew/canadian_in_isolation_tests_positive_for/",
@@ -109,17 +131,6 @@
           "id": "rss-dea7c9fb3b0eff75",
           "title": "does a kn95 work well enough to protect against the hantavirus?",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf91kh/does_a_kn95_work_well_enough_to_protect_against/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-98a09dbe65cb990b",
-          "title": "How a Nature Cruise Turned Into a Nightmare",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,23 +203,23 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-b14b34571192a6e6",
-          "title": "Guys!!!What do you think?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tekb6s/guyswhat_do_you_think/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-0bf3f653b5061d21",
+          "title": "Contact tracing",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfikdf/contact_tracing/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-98a09dbe65cb990b",
           "title": "How a Nature Cruise Turned Into a Nightmare",
@@ -395,17 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-7ad004a11a236ff5",
-          "title": "Does anyone think hantavirus or any type of other virus is not real and is just something to make us feel afraid??",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1teprtu/does_anyone_think_hantavirus_or_any_type_of_other/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -449,6 +449,17 @@
       "id": "rss-300fbfe753904a08",
       "title": "Hantavirus-stricken cruise passenger in B.C. has tested positive, top doctor says",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf2r8q/hantavirusstricken_cruise_passenger_in_bc_has/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-0bf3f653b5061d21",
+      "title": "Contact tracing",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfikdf/contact_tracing/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -501,6 +512,17 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-98a09dbe65cb990b",
+      "title": "How a Nature Cruise Turned Into a Nightmare",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-541437d5633df9db",
       "title": "Canadian in isolation tests positive for hantavirus after leaving cruise ship, B.C.'s top doctor says | CBC News",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf1jew/canadian_in_isolation_tests_positive_for/",
@@ -515,17 +537,6 @@
       "id": "rss-dea7c9fb3b0eff75",
       "title": "does a kn95 work well enough to protect against the hantavirus?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf91kh/does_a_kn95_work_well_enough_to_protect_against/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-98a09dbe65cb990b",
-      "title": "How a Nature Cruise Turned Into a Nightmare",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -592,17 +603,6 @@
       "id": "rss-a1e0369d70fe999f",
       "title": "Has the virus really mutated as the french said?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf5qqr/has_the_virus_really_mutated_as_the_french_said/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-b14b34571192a6e6",
-      "title": "Guys!!!What do you think?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tekb6s/guyswhat_do_you_think/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
