@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-17T12:11:04+00:00",
+  "fetched_at": "2026-05-17T13:57:36+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -29,9 +29,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-270c2c5493f11934",
-          "title": "The latest positive Canadian had no direct contact. Officials said “the four Canadians isolating in the Island Health region had no known direct contact with the people who fell ill on the ship.”",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfcth9/the_latest_positive_canadian_had_no_direct/",
+          "id": "rss-41ece5ee8e3dc549",
+          "title": "2020: U.S. Army Outbreak Investigation Reveals “Super-Spreader” Potential of Andes Virus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfmehm/2020_us_army_outbreak_investigation_reveals/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -40,9 +40,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-41ece5ee8e3dc549",
-          "title": "2020: U.S. Army Outbreak Investigation Reveals “Super-Spreader” Potential of Andes Virus",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfmehm/2020_us_army_outbreak_investigation_reveals/",
+          "id": "rss-270c2c5493f11934",
+          "title": "The latest positive Canadian had no direct contact. Officials said “the four Canadians isolating in the Island Health region had no known direct contact with the people who fell ill on the ship.”",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfcth9/the_latest_positive_canadian_had_no_direct/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -128,6 +128,17 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-98a09dbe65cb990b",
+          "title": "How a Nature Cruise Turned Into a Nightmare",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-dea7c9fb3b0eff75",
           "title": "does a kn95 work well enough to protect against the hantavirus?",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf91kh/does_a_kn95_work_well_enough_to_protect_against/",
@@ -142,17 +153,6 @@
           "id": "rss-541437d5633df9db",
           "title": "Canadian in isolation tests positive for hantavirus after leaving cruise ship, B.C.'s top doctor says | CBC News",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf1jew/canadian_in_isolation_tests_positive_for/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-98a09dbe65cb990b",
-          "title": "How a Nature Cruise Turned Into a Nightmare",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -194,9 +194,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-a1e0369d70fe999f",
-          "title": "Has the virus really mutated as the french said?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf5qqr/has_the_virus_really_mutated_as_the_french_said/",
+          "id": "rss-2859e6d1dc7a60f4",
+          "title": "Thoughts on the New Yorker who tested positive for Hantavirus?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf12r5/thoughts_on_the_new_yorker_who_tested_positive/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -435,9 +435,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-270c2c5493f11934",
-      "title": "The latest positive Canadian had no direct contact. Officials said “the four Canadians isolating in the Island Health region had no known direct contact with the people who fell ill on the ship.”",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfcth9/the_latest_positive_canadian_had_no_direct/",
+      "id": "rss-41ece5ee8e3dc549",
+      "title": "2020: U.S. Army Outbreak Investigation Reveals “Super-Spreader” Potential of Andes Virus",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfmehm/2020_us_army_outbreak_investigation_reveals/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -446,9 +446,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-41ece5ee8e3dc549",
-      "title": "2020: U.S. Army Outbreak Investigation Reveals “Super-Spreader” Potential of Andes Virus",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfmehm/2020_us_army_outbreak_investigation_reveals/",
+      "id": "rss-270c2c5493f11934",
+      "title": "The latest positive Canadian had no direct contact. Officials said “the four Canadians isolating in the Island Health region had no known direct contact with the people who fell ill on the ship.”",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfcth9/the_latest_positive_canadian_had_no_direct/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -534,6 +534,17 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-98a09dbe65cb990b",
+      "title": "How a Nature Cruise Turned Into a Nightmare",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-dea7c9fb3b0eff75",
       "title": "does a kn95 work well enough to protect against the hantavirus?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf91kh/does_a_kn95_work_well_enough_to_protect_against/",
@@ -548,17 +559,6 @@
       "id": "rss-541437d5633df9db",
       "title": "Canadian in isolation tests positive for hantavirus after leaving cruise ship, B.C.'s top doctor says | CBC News",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf1jew/canadian_in_isolation_tests_positive_for/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-98a09dbe65cb990b",
-      "title": "How a Nature Cruise Turned Into a Nightmare",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -600,9 +600,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-a1e0369d70fe999f",
-      "title": "Has the virus really mutated as the french said?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf5qqr/has_the_virus_really_mutated_as_the_french_said/",
+      "id": "rss-2859e6d1dc7a60f4",
+      "title": "Thoughts on the New Yorker who tested positive for Hantavirus?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf12r5/thoughts_on_the_new_yorker_who_tested_positive/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
