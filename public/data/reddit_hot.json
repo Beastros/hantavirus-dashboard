@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-17T21:38:33+00:00",
+  "fetched_at": "2026-05-17T22:36:56+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -29,17 +29,6 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-41ece5ee8e3dc549",
-          "title": "2020: U.S. Army Outbreak Investigation Reveals “Super-Spreader” Potential of Andes Virus",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfmehm/2020_us_army_outbreak_investigation_reveals/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-b9472855582a7f29",
           "title": "Confirmed by the National Microbiology Laboratory in Winnipeg",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfu39m/confirmed_by_the_national_microbiology_laboratory/",
@@ -51,9 +40,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-e6370c072166f5ed",
-          "title": "NEW ARTICLE: FAQs about viruses and the Hanta virus",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg1nir/new_article_faqs_about_viruses_and_the_hanta_virus/",
+          "id": "rss-41ece5ee8e3dc549",
+          "title": "2020: U.S. Army Outbreak Investigation Reveals “Super-Spreader” Potential of Andes Virus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfmehm/2020_us_army_outbreak_investigation_reveals/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -65,6 +54,17 @@
           "id": "rss-9f4be743cfb876ab",
           "title": "Andes Hantavirus Outbreak Linked to Cruise Ship Rises to 12 Cases, Highlighting Rare Human-to-Human Transmission",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfogai/andes_hantavirus_outbreak_linked_to_cruise_ship/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-e6370c072166f5ed",
+          "title": "NEW ARTICLE: FAQs about viruses and the Hanta virus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg1nir/new_article_faqs_about_viruses_and_the_hanta_virus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -435,17 +435,6 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-41ece5ee8e3dc549",
-      "title": "2020: U.S. Army Outbreak Investigation Reveals “Super-Spreader” Potential of Andes Virus",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfmehm/2020_us_army_outbreak_investigation_reveals/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-b9472855582a7f29",
       "title": "Confirmed by the National Microbiology Laboratory in Winnipeg",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfu39m/confirmed_by_the_national_microbiology_laboratory/",
@@ -457,9 +446,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-e6370c072166f5ed",
-      "title": "NEW ARTICLE: FAQs about viruses and the Hanta virus",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg1nir/new_article_faqs_about_viruses_and_the_hanta_virus/",
+      "id": "rss-41ece5ee8e3dc549",
+      "title": "2020: U.S. Army Outbreak Investigation Reveals “Super-Spreader” Potential of Andes Virus",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfmehm/2020_us_army_outbreak_investigation_reveals/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -471,6 +460,17 @@
       "id": "rss-9f4be743cfb876ab",
       "title": "Andes Hantavirus Outbreak Linked to Cruise Ship Rises to 12 Cases, Highlighting Rare Human-to-Human Transmission",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfogai/andes_hantavirus_outbreak_linked_to_cruise_ship/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-e6370c072166f5ed",
+      "title": "NEW ARTICLE: FAQs about viruses and the Hanta virus",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg1nir/new_article_faqs_about_viruses_and_the_hanta_virus/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
