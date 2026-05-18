@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-18T20:46:35+00:00",
+  "fetched_at": "2026-05-18T22:01:07+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -51,28 +51,6 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-febda4e28c3843d2",
-          "title": "Colorado resident dies of deadly rat virus but wasn't on the notorious cruise ship where outbreak began",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgrd1f/colorado_resident_dies_of_deadly_rat_virus_but/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-e64f4d461ed3470c",
-          "title": "Andes virus: What nurses need to know",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgs1y8/andes_virus_what_nurses_need_to_know/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-ed9a1a9bb2e3ef9f",
           "title": "ANDES Paradox solved: Why this virus mutated & still is the same like 2018",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgpo3k/andes_paradox_solved_why_this_virus_mutated_still/",
@@ -84,9 +62,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-41bd6159774fa11a",
-          "title": "trying to have a measured take on the potential of this outbreak getting out of control",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tga8td/trying_to_have_a_measured_take_on_the_potential/",
+          "id": "rss-febda4e28c3843d2",
+          "title": "Colorado resident dies of deadly rat virus but wasn't on the notorious cruise ship where outbreak began",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgrd1f/colorado_resident_dies_of_deadly_rat_virus_but/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -106,6 +84,28 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-e64f4d461ed3470c",
+          "title": "Andes virus: What nurses need to know",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgs1y8/andes_virus_what_nurses_need_to_know/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-41bd6159774fa11a",
+          "title": "trying to have a measured take on the potential of this outbreak getting out of control",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tga8td/trying_to_have_a_measured_take_on_the_potential/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-355c7792bf822d06",
           "title": "A health professional from Ascension Island, who was in \"close contact\" with a case and \"developed symptoms\" compatible with the hantavirus, according to authorities of St. Helena, arrived at a specialized unit of the Guy's and St Thomas' NHS Foundation Trust in London",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg4prt/a_health_professional_from_ascension_island_who/",
@@ -117,9 +117,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-3bd660023034b4b0",
-          "title": "The case for a lower fatality rate",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgn5gr/the_case_for_a_lower_fatality_rate/",
+          "id": "rss-e4a1dff9a60fe60d",
+          "title": "Adult dies of hantavirus in Colorado, state health officials say",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th1rxz/adult_dies_of_hantavirus_in_colorado_state_health/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -131,6 +131,17 @@
           "id": "rss-4128b59fc72298ac",
           "title": "Rare hantavirus strain raises concern after cruise ship cases linked to Patagonia travel",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg745o/rare_hantavirus_strain_raises_concern_after/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-3bd660023034b4b0",
+          "title": "The case for a lower fatality rate",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgn5gr/the_case_for_a_lower_fatality_rate/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,23 +203,23 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-9f4be743cfb876ab",
-          "title": "Andes Hantavirus Outbreak Linked to Cruise Ship Rises to 12 Cases, Highlighting Rare Human-to-Human Transmission",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfogai/andes_hantavirus_outbreak_linked_to_cruise_ship/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-e4a1dff9a60fe60d",
+          "title": "Adult dies of hantavirus in Colorado, state health officials say",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th1rxz/adult_dies_of_hantavirus_in_colorado_state_health/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-8621227fc732fd9e",
           "title": "The Portuguese crew that flew the Canadians home to Vancouver, B.C. from Tenerife are not happy and files official complaint.",
@@ -395,17 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-0bf3f653b5061d21",
-          "title": "Contact tracing",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfikdf/contact_tracing/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -457,28 +457,6 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-febda4e28c3843d2",
-      "title": "Colorado resident dies of deadly rat virus but wasn't on the notorious cruise ship where outbreak began",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgrd1f/colorado_resident_dies_of_deadly_rat_virus_but/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-e64f4d461ed3470c",
-      "title": "Andes virus: What nurses need to know",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgs1y8/andes_virus_what_nurses_need_to_know/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-ed9a1a9bb2e3ef9f",
       "title": "ANDES Paradox solved: Why this virus mutated & still is the same like 2018",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgpo3k/andes_paradox_solved_why_this_virus_mutated_still/",
@@ -490,9 +468,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-41bd6159774fa11a",
-      "title": "trying to have a measured take on the potential of this outbreak getting out of control",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tga8td/trying_to_have_a_measured_take_on_the_potential/",
+      "id": "rss-febda4e28c3843d2",
+      "title": "Colorado resident dies of deadly rat virus but wasn't on the notorious cruise ship where outbreak began",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgrd1f/colorado_resident_dies_of_deadly_rat_virus_but/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -512,6 +490,28 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-e64f4d461ed3470c",
+      "title": "Andes virus: What nurses need to know",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgs1y8/andes_virus_what_nurses_need_to_know/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-41bd6159774fa11a",
+      "title": "trying to have a measured take on the potential of this outbreak getting out of control",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tga8td/trying_to_have_a_measured_take_on_the_potential/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-355c7792bf822d06",
       "title": "A health professional from Ascension Island, who was in \"close contact\" with a case and \"developed symptoms\" compatible with the hantavirus, according to authorities of St. Helena, arrived at a specialized unit of the Guy's and St Thomas' NHS Foundation Trust in London",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg4prt/a_health_professional_from_ascension_island_who/",
@@ -523,9 +523,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-3bd660023034b4b0",
-      "title": "The case for a lower fatality rate",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgn5gr/the_case_for_a_lower_fatality_rate/",
+      "id": "rss-e4a1dff9a60fe60d",
+      "title": "Adult dies of hantavirus in Colorado, state health officials say",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th1rxz/adult_dies_of_hantavirus_in_colorado_state_health/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -537,6 +537,17 @@
       "id": "rss-4128b59fc72298ac",
       "title": "Rare hantavirus strain raises concern after cruise ship cases linked to Patagonia travel",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg745o/rare_hantavirus_strain_raises_concern_after/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-3bd660023034b4b0",
+      "title": "The case for a lower fatality rate",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgn5gr/the_case_for_a_lower_fatality_rate/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -592,17 +603,6 @@
       "id": "rss-3dca7e25e9a4d142",
       "title": "Hantavirus-hit cruise ship due to arrive at Rotterdam port as final destination",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg785j/hantavirushit_cruise_ship_due_to_arrive_at/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-9f4be743cfb876ab",
-      "title": "Andes Hantavirus Outbreak Linked to Cruise Ship Rises to 12 Cases, Highlighting Rare Human-to-Human Transmission",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfogai/andes_hantavirus_outbreak_linked_to_cruise_ship/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
