@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-18T10:41:52+00:00",
+  "fetched_at": "2026-05-18T14:19:12+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -21,6 +21,17 @@
           "id": "rss-7682548eb1fc81a9",
           "title": "What is Hantavirus?!",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-0fdd7fd3047c5835",
+          "title": "The WHO advises that the benefits of ASYMPTOMATIC testing of high-risk contacts include the following: 1. To ensure cases are recognized and provided supportive treatment as early as possible; 2. To reduce likelihood of transmission, provided results are interpreted cautiously.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgmscb/the_who_advises_that_the_benefits_of_asymptomatic/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -62,9 +73,31 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-e8e90092d7942bfd",
-          "title": "What About the Ship Doctor?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg7h62/what_about_the_ship_doctor/",
+          "id": "rss-3bd660023034b4b0",
+          "title": "The case for a lower fatality rate",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgn5gr/the_case_for_a_lower_fatality_rate/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-3510fbf2f9e8c0ae",
+          "title": "[ Removed by Reddit ]",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgn3el/removed_by_reddit/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-5ba27cc44842d4ff",
+          "title": "World Cup = Super spreader event?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgm07k/world_cup_super_spreader_event/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -76,6 +109,17 @@
           "id": "rss-b9472855582a7f29",
           "title": "Confirmed by the National Microbiology Laboratory in Winnipeg",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfu39m/confirmed_by_the_national_microbiology_laboratory/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-e8e90092d7942bfd",
+          "title": "What About the Ship Doctor?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg7h62/what_about_the_ship_doctor/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -159,56 +203,45 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-300fbfe753904a08",
-          "title": "Hantavirus-stricken cruise passenger in B.C. has tested positive, top doctor says",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf2r8q/hantavirusstricken_cruise_passenger_in_bc_has/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-3c94f50148df2c94",
-          "title": "Why are there no cell phone pics/vids from the passengers on that cruise ship?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfbm1k/why_are_there_no_cell_phone_picsvids_from_the/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-98a09dbe65cb990b",
-          "title": "How a Nature Cruise Turned Into a Nightmare",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-3a766317c5161319",
-          "title": "Finally, common sense has prevailed. “As an added precaution, testing has been offered to all identified contacts, even in the absence of symptoms, to further reduce any potential risk and to support early detection” in Ontario, Canada",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3m6h/finally_common_sense_has_prevailed_as_an_added/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-3bd660023034b4b0",
+          "title": "The case for a lower fatality rate",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgn5gr/the_case_for_a_lower_fatality_rate/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-0fdd7fd3047c5835",
+          "title": "The WHO advises that the benefits of ASYMPTOMATIC testing of high-risk contacts include the following: 1. To ensure cases are recognized and provided supportive treatment as early as possible; 2. To reduce likelihood of transmission, provided results are interpreted cautiously.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgmscb/the_who_advises_that_the_benefits_of_asymptomatic/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-5ba27cc44842d4ff",
+          "title": "World Cup = Super spreader event?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgm07k/world_cup_super_spreader_event/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-41bd6159774fa11a",
           "title": "trying to have a measured take on the potential of this outbreak getting out of control",
@@ -373,39 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-bca2c73bb8db5921",
-          "title": "Frontiers | Chloroquine, an Anti-Malaria Drug as Effective Prevention for Hantavirus Infections",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf6dt6/frontiers_chloroquine_an_antimalaria_drug_as/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-a1e0369d70fe999f",
-          "title": "Has the virus really mutated as the french said?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf5qqr/has_the_virus_really_mutated_as_the_french_said/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-e9dc55fffd066179",
-          "title": "Why were no healthcare workers infected at Epuyén?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3qwq/why_were_no_healthcare_workers_infected_at_epuyén/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -427,6 +427,17 @@
       "id": "rss-7682548eb1fc81a9",
       "title": "What is Hantavirus?!",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-0fdd7fd3047c5835",
+      "title": "The WHO advises that the benefits of ASYMPTOMATIC testing of high-risk contacts include the following: 1. To ensure cases are recognized and provided supportive treatment as early as possible; 2. To reduce likelihood of transmission, provided results are interpreted cautiously.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgmscb/the_who_advises_that_the_benefits_of_asymptomatic/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -468,9 +479,31 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-e8e90092d7942bfd",
-      "title": "What About the Ship Doctor?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg7h62/what_about_the_ship_doctor/",
+      "id": "rss-3bd660023034b4b0",
+      "title": "The case for a lower fatality rate",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgn5gr/the_case_for_a_lower_fatality_rate/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-3510fbf2f9e8c0ae",
+      "title": "[ Removed by Reddit ]",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgn3el/removed_by_reddit/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-5ba27cc44842d4ff",
+      "title": "World Cup = Super spreader event?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgm07k/world_cup_super_spreader_event/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -482,6 +515,17 @@
       "id": "rss-b9472855582a7f29",
       "title": "Confirmed by the National Microbiology Laboratory in Winnipeg",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfu39m/confirmed_by_the_national_microbiology_laboratory/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-e8e90092d7942bfd",
+      "title": "What About the Ship Doctor?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg7h62/what_about_the_ship_doctor/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -559,50 +603,6 @@
       "id": "rss-e4271732801e1c14",
       "title": "What are the total cases and can this sub make a tally?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfjcx4/what_are_the_total_cases_and_can_this_sub_make_a/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-300fbfe753904a08",
-      "title": "Hantavirus-stricken cruise passenger in B.C. has tested positive, top doctor says",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf2r8q/hantavirusstricken_cruise_passenger_in_bc_has/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-3c94f50148df2c94",
-      "title": "Why are there no cell phone pics/vids from the passengers on that cruise ship?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfbm1k/why_are_there_no_cell_phone_picsvids_from_the/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-98a09dbe65cb990b",
-      "title": "How a Nature Cruise Turned Into a Nightmare",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-3a766317c5161319",
-      "title": "Finally, common sense has prevailed. “As an added precaution, testing has been offered to all identified contacts, even in the absence of symptoms, to further reduce any potential risk and to support early detection” in Ontario, Canada",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3m6h/finally_common_sense_has_prevailed_as_an_added/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
