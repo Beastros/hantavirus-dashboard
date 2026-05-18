@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-18T01:49:51+00:00",
+  "fetched_at": "2026-05-18T03:00:21+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -51,6 +51,17 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-e8e90092d7942bfd",
+          "title": "What About the Ship Doctor?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg7h62/what_about_the_ship_doctor/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-b9472855582a7f29",
           "title": "Confirmed by the National Microbiology Laboratory in Winnipeg",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfu39m/confirmed_by_the_national_microbiology_laboratory/",
@@ -65,17 +76,6 @@
           "id": "rss-41ece5ee8e3dc549",
           "title": "2020: U.S. Army Outbreak Investigation Reveals “Super-Spreader” Potential of Andes Virus",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfmehm/2020_us_army_outbreak_investigation_reveals/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-e8e90092d7942bfd",
-          "title": "What About the Ship Doctor?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg7h62/what_about_the_ship_doctor/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -457,6 +457,17 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-e8e90092d7942bfd",
+      "title": "What About the Ship Doctor?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg7h62/what_about_the_ship_doctor/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-b9472855582a7f29",
       "title": "Confirmed by the National Microbiology Laboratory in Winnipeg",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfu39m/confirmed_by_the_national_microbiology_laboratory/",
@@ -471,17 +482,6 @@
       "id": "rss-41ece5ee8e3dc549",
       "title": "2020: U.S. Army Outbreak Investigation Reveals “Super-Spreader” Potential of Andes Virus",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfmehm/2020_us_army_outbreak_investigation_reveals/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-e8e90092d7942bfd",
-      "title": "What About the Ship Doctor?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg7h62/what_about_the_ship_doctor/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
