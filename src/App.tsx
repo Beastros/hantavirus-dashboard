@@ -23,6 +23,7 @@ import {
 import type { ShipTrackPoint } from './loadData'
 import type { CasesFile, NewsFile, RedditIntelFile } from './types'
 import { EMPTY_REDDIT_INTEL } from './types'
+import { countByOutcome, registryRows } from './registryUtils'
 
 type ShipPosState = { lat: number; lng: number; name?: string; course?: number | null }
 
@@ -65,6 +66,7 @@ export default function App() {
   const [news, setNews] = useState<NewsFile | null>(null)
   const [redditIntel, setRedditIntel] = useState<RedditIntelFile>(EMPTY_REDDIT_INTEL)
   const [individualCases, setIndividualCases] = useState<any[]>([])
+  const [registryUpdated, setRegistryUpdated] = useState<string | null>(null)
   const [shipPos, setShipPos] = useState<ShipPosState | null>(null)
   const [shipTrackPoints, setShipTrackPoints] = useState<ShipTrackPoint[]>([])
   const [ingestStatus, setIngestStatus] = useState<Record<string, unknown> | null>(null)
@@ -83,7 +85,11 @@ export default function App() {
       }
     })()
     loadIndividualCases()
-      .then((d: any) => { if (!cancelled) setIndividualCases(d.cases || []) })
+      .then((d: any) => {
+        if (cancelled) return
+        setIndividualCases(d.cases || [])
+        setRegistryUpdated(typeof d.updated === 'string' ? d.updated : null)
+      })
       .catch(() => {})
     loadShipPosition()
       .then((s: any) => {
@@ -124,7 +130,12 @@ export default function App() {
         const [c, n] = await Promise.all([loadCases(), loadNews()])
         setCases(c); setNews(n)
       } catch {}
-      loadIndividualCases().then((d: any) => setIndividualCases(d.cases || [])).catch(() => {})
+      loadIndividualCases()
+        .then((d: any) => {
+          setIndividualCases(d.cases || [])
+          setRegistryUpdated(typeof d.updated === 'string' ? d.updated : null)
+        })
+        .catch(() => {})
       loadShipPosition()
         .then((s: any) => {
           if (!s) return
@@ -160,9 +171,10 @@ export default function App() {
     </div>
   )
 
-  const totalConfirmed = individualCases.filter((c: any) => c.outcome === 'confirmed' || c.outcome === 'died').length
-  const totalSuspected = individualCases.filter((c: any) => c.outcome === 'suspected' || c.outcome === 'hospitalized').length
-  const totalDeaths    = individualCases.filter((c: any) => c.outcome === 'died').length
+  const registry = registryRows(individualCases)
+  const totalConfirmed = countByOutcome(individualCases, ['confirmed', 'died'])
+  const totalSuspected = countByOutcome(individualCases, ['suspected', 'hospitalized'])
+  const totalDeaths = countByOutcome(individualCases, ['died'])
 
   return (
     <div className="shell">
@@ -193,8 +205,10 @@ export default function App() {
         </div>
         <div style={{marginLeft:'auto',display:'flex',flexDirection:'column',alignItems:'flex-end',gap:4}}>
           <span className="top-badge">ACTIVE OUTBREAK</span>
-          <span style={{fontSize:'.65rem',color:'var(--muted)',fontFamily:"'Share Tech Mono',monospace"}}>
-            UPDATED {cases.updated.slice(0,10)}
+          <span style={{fontSize:'.65rem',color:'var(--muted)',fontFamily:"'Share Tech Mono',monospace",textAlign:'right'}}>
+            SYNCED {((registryUpdated ?? cases.updated) || '').slice(0, 10)}
+            {' · '}
+            {registry.length} registry rows
           </span>
         </div>
       </div>
@@ -204,7 +218,7 @@ export default function App() {
       {/* Main 3-column grid â€” fixed height, does not stretch */}
       <div className="main-grid">
         <div className="left-col">
-          <StatsPanel cases={individualCases} regions={cases.regions} />
+          <StatsPanel cases={registry as any[]} regions={cases.regions} />
           <ShipPanel />
           <StrainReadout />
           <div className="sb-section sb-section--ledger">
@@ -232,8 +246,8 @@ export default function App() {
       {/* Analytics — page scrolls here */}
       <div style={{ padding: '1rem 1rem 0' }}>
         <div className="analytics-row">
-          <CaseTable cases={individualCases} />
-          <PivotChart cases={individualCases} />
+          <CaseTable cases={registry as any[]} />
+          <PivotChart cases={registry as any[]} />
         </div>
       </div>
 
@@ -248,8 +262,8 @@ export default function App() {
       </div>
 
       <footer className="footer">
-        // Intel column mirrors r/hantavirus (reddit_hot.json). Ingest runs ~15 min. Canary reads
-        cases.json, news.json, reddit_hot.json, cases-individual.json, ingest-status.json, trends.json.
+        // Reddit + news refresh every ingest. Case counts come from cases-individual.json (AI/manual).
+        // Region sidebar + map tint use cases.json (edit by hand). Canary reads all JSON under public/data/.
       </footer>
     </div>
   )

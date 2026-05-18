@@ -21,8 +21,8 @@ export function RegionList({ regions, selectedId, onSelect }: Props) {
   return (
     <section className="panel region-panel">
       <header className="panel-head">
-        <h2>Case Ledger</h2>
-        <p className="panel-sub">Click a row to fly the map to that location.</p>
+        <h2>Region ledger</h2>
+        <p className="panel-sub">Counts synced from registry each ingest. Notes preserved from ledger template.</p>
       </header>
       <ul className="region-list">
         {regions.map((r) => (

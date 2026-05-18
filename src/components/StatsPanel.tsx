@@ -1,16 +1,19 @@
-﻿interface Case { outcome?: string | null }
+﻿import { countByOutcome, registryRows } from '../registryUtils'
+
+interface Case { outcome?: string | null }
 interface Region { id: string; outbreak_level?: string }
 
 export function StatsPanel({ cases, regions }: { cases: Case[]; regions: Region[] }) {
-  const deaths    = cases.filter(c => c.outcome === 'died').length
-  const confirmed = cases.filter(c => c.outcome === 'confirmed' || c.outcome === 'died').length
-  const suspected = cases.filter(c => c.outcome === 'suspected' || c.outcome === 'hospitalized').length
+  const rows = registryRows(cases)
+  const deaths = countByOutcome(cases, ['died'])
+  const confirmed = countByOutcome(cases, ['confirmed', 'died'])
+  const suspected = countByOutcome(cases, ['suspected', 'hospitalized'])
   const countries = new Set(regions.filter(r => r.outbreak_level !== 'informational' || true).map(r => r.id.split('-')[0])).size
   const cfr = confirmed > 0 ? ((deaths / confirmed) * 100).toFixed(1) : '0'
 
   return (
     <div className="sb-section">
-      <div className="sb-label">GLOBAL CLUSTER</div>
+      <div className="sb-label">GLOBAL CLUSTER · {rows.length} registry rows</div>
       <div className="stat-block">
         <div className="stat-label">CONFIRMED DEATHS</div>
         <div className="stat-val stat-red">{deaths}</div>

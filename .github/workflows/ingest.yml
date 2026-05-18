@@ -10,6 +10,8 @@ concurrency:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   ingest:
@@ -25,7 +27,6 @@ jobs:
           python-version: '3.12'
       - name: Install dependencies
         run: pip install -r ingest/requirements.txt
-      # Reddit must run even when Claude/AIS ingest fails (secrets/API errors).
       - name: Mirror r/hantavirus intel (hot + new)
         continue-on-error: true
         working-directory: ingest
@@ -50,3 +51,33 @@ jobs:
           git fetch origin main
           git pull --rebase origin main
           git push origin main
+
+  publish-pages:
+    needs: ingest
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: package-lock.json
+      - name: Install and build
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          VITE_MAPBOX_TOKEN: ${{ secrets.VITE_MAPBOX_TOKEN }}
+        run: |
+          npm ci
+          npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - uses: actions/deploy-pages@v4
+        id: deployment

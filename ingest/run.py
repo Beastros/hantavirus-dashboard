@@ -454,7 +454,7 @@ def extract_from_rss(articles, existing_cases, already_processed):
     calls = 0
 
     for art in articles:
-        if calls >= 5:
+        if calls >= 12:
             break
         aid = art.get("id", "")
         if not aid or aid in already_processed:
@@ -663,6 +663,12 @@ def main():
         encoding="utf-8",
     )
     print(f"[ok] cases-individual.json: {len(existing_cases)} cases")
+
+    # Sync regional ledger counts from the individual-case registry (same ingest run).
+    from sync_regions import sync_cases_json
+
+    sync_cases_json(DATA, existing_cases, updated_iso=now_iso())
+    print(f"[ok] cases.json: region counts synced from {len(existing_cases)} registry rows")
 
     # 7. Ship position + breadcrumb track
     if ship:
