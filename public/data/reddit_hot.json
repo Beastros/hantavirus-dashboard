@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-18T06:12:53+00:00",
+  "fetched_at": "2026-05-18T10:41:52+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -40,9 +40,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-4128b59fc72298ac",
-          "title": "Rare hantavirus strain raises concern after cruise ship cases linked to Patagonia travel",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg745o/rare_hantavirus_strain_raises_concern_after/",
+          "id": "rss-41bd6159774fa11a",
+          "title": "trying to have a measured take on the potential of this outbreak getting out of control",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tga8td/trying_to_have_a_measured_take_on_the_potential/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -51,9 +51,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-b9472855582a7f29",
-          "title": "Confirmed by the National Microbiology Laboratory in Winnipeg",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfu39m/confirmed_by_the_national_microbiology_laboratory/",
+          "id": "rss-4128b59fc72298ac",
+          "title": "Rare hantavirus strain raises concern after cruise ship cases linked to Patagonia travel",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg745o/rare_hantavirus_strain_raises_concern_after/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -73,31 +73,20 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-b9472855582a7f29",
+          "title": "Confirmed by the National Microbiology Laboratory in Winnipeg",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfu39m/confirmed_by_the_national_microbiology_laboratory/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-41ece5ee8e3dc549",
           "title": "2020: U.S. Army Outbreak Investigation Reveals “Super-Spreader” Potential of Andes Virus",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfmehm/2020_us_army_outbreak_investigation_reveals/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-41bd6159774fa11a",
-          "title": "trying to have a measured take on the potential of this outbreak getting out of control",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tga8td/trying_to_have_a_measured_take_on_the_potential/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-9f4be743cfb876ab",
-          "title": "Andes Hantavirus Outbreak Linked to Cruise Ship Rises to 12 Cases, Highlighting Rare Human-to-Human Transmission",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfogai/andes_hantavirus_outbreak_linked_to_cruise_ship/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -117,9 +106,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-ea6211c9f730f97b",
-          "title": "Forced Quarantine?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tful1c/forced_quarantine/",
+          "id": "rss-9f4be743cfb876ab",
+          "title": "Andes Hantavirus Outbreak Linked to Cruise Ship Rises to 12 Cases, Highlighting Rare Human-to-Human Transmission",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfogai/andes_hantavirus_outbreak_linked_to_cruise_ship/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -128,9 +117,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-e6370c072166f5ed",
-          "title": "NEW ARTICLE: FAQs about viruses and the Hanta virus",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg1nir/new_article_faqs_about_viruses_and_the_hanta_virus/",
+          "id": "rss-ea6211c9f730f97b",
+          "title": "Forced Quarantine?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tful1c/forced_quarantine/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -186,6 +175,17 @@
           "id": "rss-3c94f50148df2c94",
           "title": "Why are there no cell phone pics/vids from the passengers on that cruise ship?",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfbm1k/why_are_there_no_cell_phone_picsvids_from_the/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-98a09dbe65cb990b",
+          "title": "How a Nature Cruise Turned Into a Nightmare",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -257,17 +257,6 @@
           "id": "rss-355c7792bf822d06",
           "title": "A health professional from Ascension Island, who was in \"close contact\" with a case and \"developed symptoms\" compatible with the hantavirus, according to authorities of St. Helena, arrived at a specialized unit of the Guy's and St Thomas' NHS Foundation Trust in London",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg4prt/a_health_professional_from_ascension_island_who/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-e6370c072166f5ed",
-          "title": "NEW ARTICLE: FAQs about viruses and the Hanta virus",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg1nir/new_article_faqs_about_viruses_and_the_hanta_virus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -406,6 +395,17 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
+        },
+        {
+          "id": "rss-e9dc55fffd066179",
+          "title": "Why were no healthcare workers infected at Epuyén?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf3qwq/why_were_no_healthcare_workers_infected_at_epuyén/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
         }
       ]
     }
@@ -446,9 +446,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-4128b59fc72298ac",
-      "title": "Rare hantavirus strain raises concern after cruise ship cases linked to Patagonia travel",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg745o/rare_hantavirus_strain_raises_concern_after/",
+      "id": "rss-41bd6159774fa11a",
+      "title": "trying to have a measured take on the potential of this outbreak getting out of control",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tga8td/trying_to_have_a_measured_take_on_the_potential/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -457,9 +457,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-b9472855582a7f29",
-      "title": "Confirmed by the National Microbiology Laboratory in Winnipeg",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfu39m/confirmed_by_the_national_microbiology_laboratory/",
+      "id": "rss-4128b59fc72298ac",
+      "title": "Rare hantavirus strain raises concern after cruise ship cases linked to Patagonia travel",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg745o/rare_hantavirus_strain_raises_concern_after/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -479,31 +479,20 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-b9472855582a7f29",
+      "title": "Confirmed by the National Microbiology Laboratory in Winnipeg",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfu39m/confirmed_by_the_national_microbiology_laboratory/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-41ece5ee8e3dc549",
       "title": "2020: U.S. Army Outbreak Investigation Reveals “Super-Spreader” Potential of Andes Virus",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfmehm/2020_us_army_outbreak_investigation_reveals/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-41bd6159774fa11a",
-      "title": "trying to have a measured take on the potential of this outbreak getting out of control",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tga8td/trying_to_have_a_measured_take_on_the_potential/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-9f4be743cfb876ab",
-      "title": "Andes Hantavirus Outbreak Linked to Cruise Ship Rises to 12 Cases, Highlighting Rare Human-to-Human Transmission",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfogai/andes_hantavirus_outbreak_linked_to_cruise_ship/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -523,9 +512,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-ea6211c9f730f97b",
-      "title": "Forced Quarantine?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tful1c/forced_quarantine/",
+      "id": "rss-9f4be743cfb876ab",
+      "title": "Andes Hantavirus Outbreak Linked to Cruise Ship Rises to 12 Cases, Highlighting Rare Human-to-Human Transmission",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfogai/andes_hantavirus_outbreak_linked_to_cruise_ship/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -534,9 +523,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-e6370c072166f5ed",
-      "title": "NEW ARTICLE: FAQs about viruses and the Hanta virus",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg1nir/new_article_faqs_about_viruses_and_the_hanta_virus/",
+      "id": "rss-ea6211c9f730f97b",
+      "title": "Forced Quarantine?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tful1c/forced_quarantine/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -592,6 +581,17 @@
       "id": "rss-3c94f50148df2c94",
       "title": "Why are there no cell phone pics/vids from the passengers on that cruise ship?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfbm1k/why_are_there_no_cell_phone_picsvids_from_the/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-98a09dbe65cb990b",
+      "title": "How a Nature Cruise Turned Into a Nightmare",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tffuro/how_a_nature_cruise_turned_into_a_nightmare/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,

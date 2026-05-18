@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-18T06:12:57+00:00",
+  "fetched_at": "2026-05-18T10:41:56+00:00",
   "items": [
     {
       "id": "4c3468d8abc44293",
@@ -20,6 +20,15 @@
       "summary": "Experts say slashed funding and growing misinformation are some of the greatest challenges facing public health The hantavirus outbreak, while unlikely to spark the next big pandemic, is shining a spotlight on the ways public health has deteriorated in the US: its ability to test for rare diseases, its expertise on outbreak prevention and response, its ability to battle misinformation and restore trust. “Assuming…"
     },
     {
+      "id": "dffeaff77e7f3353",
+      "title": "How a Hantavirus Outbreak Turned a Nature Cruise Into a Nightmare",
+      "url": "https://www.nytimes.com/2026/05/16/world/europe/hantavirus-hondius-cruise.html",
+      "published_at": "2026-05-17T02:32:50+00:00",
+      "source_name": "NYT World",
+      "source_tier": 2,
+      "summary": "The hantavirus outbreak on the MV Hondius set off alarms for a world still traumatized by Covid. For those on board, the danger was much closer."
+    },
+    {
       "id": "c38998d470c074cc",
       "title": "Canadian from hantavirus-hit cruise ship tests positive",
       "url": "https://www.bbc.com/news/articles/c2k2p057ezno",
@@ -36,15 +45,6 @@
       "source_name": "The Guardian World",
       "source_tier": 2,
       "summary": "The person was on board the MV Hondius, the center of the outbreak that has claimed three lives Canadian officials said on Saturday that one of the four Canadians currently quarantining in British Columbia after being exposed to the hantavirus while on board the cruise ship where the outbreak occurred has presumptively tested positive. Speaking at news conference , Dr Bonnie Henry, British Columbia’s provincial…"
-    },
-    {
-      "id": "dffeaff77e7f3353",
-      "title": "How a Nature Cruise Turned Into a Nightmare",
-      "url": "https://www.nytimes.com/2026/05/16/world/europe/hantavirus-hondius-cruise.html",
-      "published_at": "2026-05-16T09:01:11+00:00",
-      "source_name": "NYT World",
-      "source_tier": 2,
-      "summary": "The hantavirus outbreak on the MV Hondius set off alarms for a world still traumatized by Covid. For those on board, the danger was much closer."
     },
     {
       "id": "8968889231841c80",
