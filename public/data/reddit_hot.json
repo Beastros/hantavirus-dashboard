@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-18T14:19:12+00:00",
+  "fetched_at": "2026-05-18T17:16:39+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -40,6 +40,28 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-febda4e28c3843d2",
+          "title": "Colorado resident dies of deadly rat virus but wasn't on the notorious cruise ship where outbreak began",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgrd1f/colorado_resident_dies_of_deadly_rat_virus_but/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-ed9a1a9bb2e3ef9f",
+          "title": "ANDES Paradox solved: Why this virus mutated & still is the same like 2018",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgpo3k/andes_paradox_solved_why_this_virus_mutated_still/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-355c7792bf822d06",
           "title": "A health professional from Ascension Island, who was in \"close contact\" with a case and \"developed symptoms\" compatible with the hantavirus, according to authorities of St. Helena, arrived at a specialized unit of the Guy's and St Thomas' NHS Foundation Trust in London",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg4prt/a_health_professional_from_ascension_island_who/",
@@ -54,6 +76,28 @@
           "id": "rss-41bd6159774fa11a",
           "title": "trying to have a measured take on the potential of this outbreak getting out of control",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tga8td/trying_to_have_a_measured_take_on_the_potential/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-e64f4d461ed3470c",
+          "title": "Andes virus: What nurses need to know",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgs1y8/andes_virus_what_nurses_need_to_know/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-5ba27cc44842d4ff",
+          "title": "World Cup = Super spreader event?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgm07k/world_cup_super_spreader_event/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -87,17 +131,6 @@
           "id": "rss-3510fbf2f9e8c0ae",
           "title": "[ Removed by Reddit ]",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgn3el/removed_by_reddit/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-5ba27cc44842d4ff",
-          "title": "World Cup = Super spreader event?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgm07k/world_cup_super_spreader_event/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -170,45 +203,45 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-270c2c5493f11934",
-          "title": "The latest positive Canadian had no direct contact. Officials said “the four Canadians isolating in the Island Health region had no known direct contact with the people who fell ill on the ship.”",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfcth9/the_latest_positive_canadian_had_no_direct/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-0bf3f653b5061d21",
-          "title": "Contact tracing",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfikdf/contact_tracing/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-e4271732801e1c14",
-          "title": "What are the total cases and can this sub make a tally?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfjcx4/what_are_the_total_cases_and_can_this_sub_make_a/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-e64f4d461ed3470c",
+          "title": "Andes virus: What nurses need to know",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgs1y8/andes_virus_what_nurses_need_to_know/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-febda4e28c3843d2",
+          "title": "Colorado resident dies of deadly rat virus but wasn't on the notorious cruise ship where outbreak began",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgrd1f/colorado_resident_dies_of_deadly_rat_virus_but/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-ed9a1a9bb2e3ef9f",
+          "title": "ANDES Paradox solved: Why this virus mutated & still is the same like 2018",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgpo3k/andes_paradox_solved_why_this_virus_mutated_still/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-3bd660023034b4b0",
           "title": "The case for a lower fatality rate",
@@ -373,39 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-270c2c5493f11934",
-          "title": "The latest positive Canadian had no direct contact. Officials said “the four Canadians isolating in the Island Health region had no known direct contact with the people who fell ill on the ship.”",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfcth9/the_latest_positive_canadian_had_no_direct/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-3c94f50148df2c94",
-          "title": "Why are there no cell phone pics/vids from the passengers on that cruise ship?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfbm1k/why_are_there_no_cell_phone_picsvids_from_the/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-dea7c9fb3b0eff75",
-          "title": "does a kn95 work well enough to protect against the hantavirus?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tf91kh/does_a_kn95_work_well_enough_to_protect_against/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -446,6 +446,28 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-febda4e28c3843d2",
+      "title": "Colorado resident dies of deadly rat virus but wasn't on the notorious cruise ship where outbreak began",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgrd1f/colorado_resident_dies_of_deadly_rat_virus_but/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-ed9a1a9bb2e3ef9f",
+      "title": "ANDES Paradox solved: Why this virus mutated & still is the same like 2018",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgpo3k/andes_paradox_solved_why_this_virus_mutated_still/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-355c7792bf822d06",
       "title": "A health professional from Ascension Island, who was in \"close contact\" with a case and \"developed symptoms\" compatible with the hantavirus, according to authorities of St. Helena, arrived at a specialized unit of the Guy's and St Thomas' NHS Foundation Trust in London",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg4prt/a_health_professional_from_ascension_island_who/",
@@ -460,6 +482,28 @@
       "id": "rss-41bd6159774fa11a",
       "title": "trying to have a measured take on the potential of this outbreak getting out of control",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tga8td/trying_to_have_a_measured_take_on_the_potential/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-e64f4d461ed3470c",
+      "title": "Andes virus: What nurses need to know",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgs1y8/andes_virus_what_nurses_need_to_know/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-5ba27cc44842d4ff",
+      "title": "World Cup = Super spreader event?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgm07k/world_cup_super_spreader_event/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -493,17 +537,6 @@
       "id": "rss-3510fbf2f9e8c0ae",
       "title": "[ Removed by Reddit ]",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgn3el/removed_by_reddit/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-5ba27cc44842d4ff",
-      "title": "World Cup = Super spreader event?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgm07k/world_cup_super_spreader_event/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -570,39 +603,6 @@
       "id": "rss-ea6211c9f730f97b",
       "title": "Forced Quarantine?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tful1c/forced_quarantine/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-270c2c5493f11934",
-      "title": "The latest positive Canadian had no direct contact. Officials said “the four Canadians isolating in the Island Health region had no known direct contact with the people who fell ill on the ship.”",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfcth9/the_latest_positive_canadian_had_no_direct/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-0bf3f653b5061d21",
-      "title": "Contact tracing",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfikdf/contact_tracing/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-e4271732801e1c14",
-      "title": "What are the total cases and can this sub make a tally?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfjcx4/what_are_the_total_cases_and_can_this_sub_make_a/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
