@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-19T01:28:33+00:00",
+  "fetched_at": "2026-05-19T05:43:10+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -29,9 +29,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-8621227fc732fd9e",
-          "title": "The Portuguese crew that flew the Canadians home to Vancouver, B.C. from Tenerife are not happy and files official complaint.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgvnfn/the_portuguese_crew_that_flew_the_canadians_home/",
+          "id": "rss-c7818d02622dae05",
+          "title": "American Hantavirus Patient Ordered to Stay in Quarantine Despite Plans to Leave",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th60w3/american_hantavirus_patient_ordered_to_stay_in/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -40,9 +40,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-c7818d02622dae05",
-          "title": "American Hantavirus Patient Ordered to Stay in Quarantine Despite Plans to Leave",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th60w3/american_hantavirus_patient_ordered_to_stay_in/",
+          "id": "rss-8621227fc732fd9e",
+          "title": "The Portuguese crew that flew the Canadians home to Vancouver, B.C. from Tenerife are not happy and files official complaint.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgvnfn/the_portuguese_crew_that_flew_the_canadians_home/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -106,9 +106,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-ed9a1a9bb2e3ef9f",
-          "title": "ANDES Paradox solved: Why this virus mutated & still is the same like 2018",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgpo3k/andes_paradox_solved_why_this_virus_mutated_still/",
+          "id": "rss-41bd6159774fa11a",
+          "title": "trying to have a measured take on the potential of this outbreak getting out of control",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tga8td/trying_to_have_a_measured_take_on_the_potential/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -117,9 +117,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-41bd6159774fa11a",
-          "title": "trying to have a measured take on the potential of this outbreak getting out of control",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tga8td/trying_to_have_a_measured_take_on_the_potential/",
+          "id": "rss-ed9a1a9bb2e3ef9f",
+          "title": "ANDES Paradox solved: Why this virus mutated & still is the same like 2018",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgpo3k/andes_paradox_solved_why_this_virus_mutated_still/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -139,9 +139,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-b181097887b3a430",
-          "title": "Did this song predict the Hantavirus outbreak?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th7h0g/did_this_song_predict_the_hantavirus_outbreak/",
+          "id": "rss-8246ab03bf593678",
+          "title": "Is this rat poop?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1thajqq/is_this_rat_poop/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -194,9 +194,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-b9472855582a7f29",
-          "title": "Confirmed by the National Microbiology Laboratory in Winnipeg",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfu39m/confirmed_by_the_national_microbiology_laboratory/",
+          "id": "rss-b181097887b3a430",
+          "title": "Did this song predict the Hantavirus outbreak?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th7h0g/did_this_song_predict_the_hantavirus_outbreak/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -209,6 +209,17 @@
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-8246ab03bf593678",
+          "title": "Is this rat poop?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1thajqq/is_this_rat_poop/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-b181097887b3a430",
           "title": "Did this song predict the Hantavirus outbreak?",
@@ -395,17 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-9f4be743cfb876ab",
-          "title": "Andes Hantavirus Outbreak Linked to Cruise Ship Rises to 12 Cases, Highlighting Rare Human-to-Human Transmission",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfogai/andes_hantavirus_outbreak_linked_to_cruise_ship/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -435,9 +435,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-8621227fc732fd9e",
-      "title": "The Portuguese crew that flew the Canadians home to Vancouver, B.C. from Tenerife are not happy and files official complaint.",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgvnfn/the_portuguese_crew_that_flew_the_canadians_home/",
+      "id": "rss-c7818d02622dae05",
+      "title": "American Hantavirus Patient Ordered to Stay in Quarantine Despite Plans to Leave",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th60w3/american_hantavirus_patient_ordered_to_stay_in/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -446,9 +446,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-c7818d02622dae05",
-      "title": "American Hantavirus Patient Ordered to Stay in Quarantine Despite Plans to Leave",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th60w3/american_hantavirus_patient_ordered_to_stay_in/",
+      "id": "rss-8621227fc732fd9e",
+      "title": "The Portuguese crew that flew the Canadians home to Vancouver, B.C. from Tenerife are not happy and files official complaint.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgvnfn/the_portuguese_crew_that_flew_the_canadians_home/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -512,9 +512,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-ed9a1a9bb2e3ef9f",
-      "title": "ANDES Paradox solved: Why this virus mutated & still is the same like 2018",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgpo3k/andes_paradox_solved_why_this_virus_mutated_still/",
+      "id": "rss-41bd6159774fa11a",
+      "title": "trying to have a measured take on the potential of this outbreak getting out of control",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tga8td/trying_to_have_a_measured_take_on_the_potential/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -523,9 +523,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-41bd6159774fa11a",
-      "title": "trying to have a measured take on the potential of this outbreak getting out of control",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tga8td/trying_to_have_a_measured_take_on_the_potential/",
+      "id": "rss-ed9a1a9bb2e3ef9f",
+      "title": "ANDES Paradox solved: Why this virus mutated & still is the same like 2018",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgpo3k/andes_paradox_solved_why_this_virus_mutated_still/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -545,9 +545,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-b181097887b3a430",
-      "title": "Did this song predict the Hantavirus outbreak?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th7h0g/did_this_song_predict_the_hantavirus_outbreak/",
+      "id": "rss-8246ab03bf593678",
+      "title": "Is this rat poop?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1thajqq/is_this_rat_poop/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -600,9 +600,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-b9472855582a7f29",
-      "title": "Confirmed by the National Microbiology Laboratory in Winnipeg",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfu39m/confirmed_by_the_national_microbiology_laboratory/",
+      "id": "rss-b181097887b3a430",
+      "title": "Did this song predict the Hantavirus outbreak?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th7h0g/did_this_song_predict_the_hantavirus_outbreak/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
