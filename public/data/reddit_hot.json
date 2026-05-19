@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-18T23:18:47+00:00",
+  "fetched_at": "2026-05-19T01:28:33+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -32,6 +32,17 @@
           "id": "rss-8621227fc732fd9e",
           "title": "The Portuguese crew that flew the Canadians home to Vancouver, B.C. from Tenerife are not happy and files official complaint.",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgvnfn/the_portuguese_crew_that_flew_the_canadians_home/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-c7818d02622dae05",
+          "title": "American Hantavirus Patient Ordered to Stay in Quarantine Despite Plans to Leave",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th60w3/american_hantavirus_patient_ordered_to_stay_in/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -73,17 +84,6 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-ed9a1a9bb2e3ef9f",
-          "title": "ANDES Paradox solved: Why this virus mutated & still is the same like 2018",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgpo3k/andes_paradox_solved_why_this_virus_mutated_still/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-febda4e28c3843d2",
           "title": "Colorado resident dies of deadly rat virus but wasn't on the notorious cruise ship where outbreak began",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgrd1f/colorado_resident_dies_of_deadly_rat_virus_but/",
@@ -106,6 +106,17 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-ed9a1a9bb2e3ef9f",
+          "title": "ANDES Paradox solved: Why this virus mutated & still is the same like 2018",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgpo3k/andes_paradox_solved_why_this_virus_mutated_still/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-41bd6159774fa11a",
           "title": "trying to have a measured take on the potential of this outbreak getting out of control",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tga8td/trying_to_have_a_measured_take_on_the_potential/",
@@ -120,6 +131,17 @@
           "id": "rss-355c7792bf822d06",
           "title": "A health professional from Ascension Island, who was in \"close contact\" with a case and \"developed symptoms\" compatible with the hantavirus, according to authorities of St. Helena, arrived at a specialized unit of the Guy's and St Thomas' NHS Foundation Trust in London",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg4prt/a_health_professional_from_ascension_island_who/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-b181097887b3a430",
+          "title": "Did this song predict the Hantavirus outbreak?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th7h0g/did_this_song_predict_the_hantavirus_outbreak/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -181,34 +203,34 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-41ece5ee8e3dc549",
-          "title": "2020: U.S. Army Outbreak Investigation Reveals “Super-Spreader” Potential of Andes Virus",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfmehm/2020_us_army_outbreak_investigation_reveals/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-3dca7e25e9a4d142",
-          "title": "Hantavirus-hit cruise ship due to arrive at Rotterdam port as final destination",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg785j/hantavirushit_cruise_ship_due_to_arrive_at/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-b181097887b3a430",
+          "title": "Did this song predict the Hantavirus outbreak?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th7h0g/did_this_song_predict_the_hantavirus_outbreak/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-c7818d02622dae05",
+          "title": "American Hantavirus Patient Ordered to Stay in Quarantine Despite Plans to Leave",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th60w3/american_hantavirus_patient_ordered_to_stay_in/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-e4a1dff9a60fe60d",
           "title": "Adult dies of hantavirus in Colorado, state health officials say",
@@ -384,28 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-41ece5ee8e3dc549",
-          "title": "2020: U.S. Army Outbreak Investigation Reveals “Super-Spreader” Potential of Andes Virus",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfmehm/2020_us_army_outbreak_investigation_reveals/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-e4271732801e1c14",
-          "title": "What are the total cases and can this sub make a tally?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfjcx4/what_are_the_total_cases_and_can_this_sub_make_a/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -438,6 +438,17 @@
       "id": "rss-8621227fc732fd9e",
       "title": "The Portuguese crew that flew the Canadians home to Vancouver, B.C. from Tenerife are not happy and files official complaint.",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgvnfn/the_portuguese_crew_that_flew_the_canadians_home/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-c7818d02622dae05",
+      "title": "American Hantavirus Patient Ordered to Stay in Quarantine Despite Plans to Leave",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th60w3/american_hantavirus_patient_ordered_to_stay_in/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -479,17 +490,6 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-ed9a1a9bb2e3ef9f",
-      "title": "ANDES Paradox solved: Why this virus mutated & still is the same like 2018",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgpo3k/andes_paradox_solved_why_this_virus_mutated_still/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-febda4e28c3843d2",
       "title": "Colorado resident dies of deadly rat virus but wasn't on the notorious cruise ship where outbreak began",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgrd1f/colorado_resident_dies_of_deadly_rat_virus_but/",
@@ -512,6 +512,17 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-ed9a1a9bb2e3ef9f",
+      "title": "ANDES Paradox solved: Why this virus mutated & still is the same like 2018",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgpo3k/andes_paradox_solved_why_this_virus_mutated_still/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-41bd6159774fa11a",
       "title": "trying to have a measured take on the potential of this outbreak getting out of control",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tga8td/trying_to_have_a_measured_take_on_the_potential/",
@@ -526,6 +537,17 @@
       "id": "rss-355c7792bf822d06",
       "title": "A health professional from Ascension Island, who was in \"close contact\" with a case and \"developed symptoms\" compatible with the hantavirus, according to authorities of St. Helena, arrived at a specialized unit of the Guy's and St Thomas' NHS Foundation Trust in London",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg4prt/a_health_professional_from_ascension_island_who/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-b181097887b3a430",
+      "title": "Did this song predict the Hantavirus outbreak?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th7h0g/did_this_song_predict_the_hantavirus_outbreak/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -581,28 +603,6 @@
       "id": "rss-b9472855582a7f29",
       "title": "Confirmed by the National Microbiology Laboratory in Winnipeg",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfu39m/confirmed_by_the_national_microbiology_laboratory/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-41ece5ee8e3dc549",
-      "title": "2020: U.S. Army Outbreak Investigation Reveals “Super-Spreader” Potential of Andes Virus",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfmehm/2020_us_army_outbreak_investigation_reveals/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-3dca7e25e9a4d142",
-      "title": "Hantavirus-hit cruise ship due to arrive at Rotterdam port as final destination",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg785j/hantavirushit_cruise_ship_due_to_arrive_at/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
