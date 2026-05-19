@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-19T05:43:10+00:00",
+  "fetched_at": "2026-05-19T08:48:20+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -62,9 +62,31 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-fd5d0aa07ea2f506",
+          "title": "Jakarta on Alert After Six Suspected Hantavirus Cases Detected",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1thgjjn/jakarta_on_alert_after_six_suspected_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-0fdd7fd3047c5835",
           "title": "The WHO advises that the benefits of ASYMPTOMATIC testing of high-risk contacts include the following: 1. To ensure cases are recognized and provided supportive treatment as early as possible; 2. To reduce likelihood of transmission, provided results are interpreted cautiously.",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgmscb/the_who_advises_that_the_benefits_of_asymptomatic/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-5ba27cc44842d4ff",
+          "title": "World Cup = Super spreader event?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgm07k/world_cup_super_spreader_event/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -95,31 +117,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-5ba27cc44842d4ff",
-          "title": "World Cup = Super spreader event?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgm07k/world_cup_super_spreader_event/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-41bd6159774fa11a",
           "title": "trying to have a measured take on the potential of this outbreak getting out of control",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tga8td/trying_to_have_a_measured_take_on_the_potential/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-ed9a1a9bb2e3ef9f",
-          "title": "ANDES Paradox solved: Why this virus mutated & still is the same like 2018",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgpo3k/andes_paradox_solved_why_this_virus_mutated_still/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -142,6 +142,17 @@
           "id": "rss-8246ab03bf593678",
           "title": "Is this rat poop?",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1thajqq/is_this_rat_poop/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-ed9a1a9bb2e3ef9f",
+          "title": "ANDES Paradox solved: Why this virus mutated & still is the same like 2018",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgpo3k/andes_paradox_solved_why_this_virus_mutated_still/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,17 +203,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-b181097887b3a430",
-          "title": "Did this song predict the Hantavirus outbreak?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th7h0g/did_this_song_predict_the_hantavirus_outbreak/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
@@ -210,9 +210,9 @@
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
         {
-          "id": "rss-8246ab03bf593678",
-          "title": "Is this rat poop?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1thajqq/is_this_rat_poop/",
+          "id": "rss-fd5d0aa07ea2f506",
+          "title": "Jakarta on Alert After Six Suspected Hantavirus Cases Detected",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1thgjjn/jakarta_on_alert_after_six_suspected_hantavirus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -221,9 +221,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-b181097887b3a430",
-          "title": "Did this song predict the Hantavirus outbreak?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th7h0g/did_this_song_predict_the_hantavirus_outbreak/",
+          "id": "rss-8246ab03bf593678",
+          "title": "Is this rat poop?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1thajqq/is_this_rat_poop/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -468,9 +468,31 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-fd5d0aa07ea2f506",
+      "title": "Jakarta on Alert After Six Suspected Hantavirus Cases Detected",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1thgjjn/jakarta_on_alert_after_six_suspected_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-0fdd7fd3047c5835",
       "title": "The WHO advises that the benefits of ASYMPTOMATIC testing of high-risk contacts include the following: 1. To ensure cases are recognized and provided supportive treatment as early as possible; 2. To reduce likelihood of transmission, provided results are interpreted cautiously.",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgmscb/the_who_advises_that_the_benefits_of_asymptomatic/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-5ba27cc44842d4ff",
+      "title": "World Cup = Super spreader event?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgm07k/world_cup_super_spreader_event/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -501,31 +523,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-5ba27cc44842d4ff",
-      "title": "World Cup = Super spreader event?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgm07k/world_cup_super_spreader_event/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-41bd6159774fa11a",
       "title": "trying to have a measured take on the potential of this outbreak getting out of control",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tga8td/trying_to_have_a_measured_take_on_the_potential/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-ed9a1a9bb2e3ef9f",
-      "title": "ANDES Paradox solved: Why this virus mutated & still is the same like 2018",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgpo3k/andes_paradox_solved_why_this_virus_mutated_still/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -548,6 +548,17 @@
       "id": "rss-8246ab03bf593678",
       "title": "Is this rat poop?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1thajqq/is_this_rat_poop/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-ed9a1a9bb2e3ef9f",
+      "title": "ANDES Paradox solved: Why this virus mutated & still is the same like 2018",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgpo3k/andes_paradox_solved_why_this_virus_mutated_still/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -592,17 +603,6 @@
       "id": "rss-e8e90092d7942bfd",
       "title": "What About the Ship Doctor?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg7h62/what_about_the_ship_doctor/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-b181097887b3a430",
-      "title": "Did this song predict the Hantavirus outbreak?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th7h0g/did_this_song_predict_the_hantavirus_outbreak/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
