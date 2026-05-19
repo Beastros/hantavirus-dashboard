@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-19T21:45:13+00:00",
+  "fetched_at": "2026-05-19T22:51:22+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -43,6 +43,17 @@
           "id": "rss-c7818d02622dae05",
           "title": "American Hantavirus Patient Ordered to Stay in Quarantine Despite Plans to Leave",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th60w3/american_hantavirus_patient_ordered_to_stay_in/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-9c4225296b60eab3",
+          "title": "Would you let an AI choose who gets the only hantavirus cure?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ti2ayh/would_you_let_an_ai_choose_who_gets_the_only/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,23 +203,23 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-41ece5ee8e3dc549",
-          "title": "2020: U.S. Army Outbreak Investigation Reveals “Super-Spreader” Potential of Andes Virus",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfmehm/2020_us_army_outbreak_investigation_reveals/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-9c4225296b60eab3",
+          "title": "Would you let an AI choose who gets the only hantavirus cure?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ti2ayh/would_you_let_an_ai_choose_who_gets_the_only/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-77b39cdf4fab42a0",
           "title": "No News is good News",
@@ -395,17 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-9f4be743cfb876ab",
-          "title": "Andes Hantavirus Outbreak Linked to Cruise Ship Rises to 12 Cases, Highlighting Rare Human-to-Human Transmission",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfogai/andes_hantavirus_outbreak_linked_to_cruise_ship/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -449,6 +449,17 @@
       "id": "rss-c7818d02622dae05",
       "title": "American Hantavirus Patient Ordered to Stay in Quarantine Despite Plans to Leave",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th60w3/american_hantavirus_patient_ordered_to_stay_in/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-9c4225296b60eab3",
+      "title": "Would you let an AI choose who gets the only hantavirus cure?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ti2ayh/would_you_let_an_ai_choose_who_gets_the_only/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -592,17 +603,6 @@
       "id": "rss-b9472855582a7f29",
       "title": "Confirmed by the National Microbiology Laboratory in Winnipeg",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfu39m/confirmed_by_the_national_microbiology_laboratory/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-41ece5ee8e3dc549",
-      "title": "2020: U.S. Army Outbreak Investigation Reveals “Super-Spreader” Potential of Andes Virus",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfmehm/2020_us_army_outbreak_investigation_reveals/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
