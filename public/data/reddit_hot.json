@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-19T22:51:22+00:00",
+  "fetched_at": "2026-05-20T00:03:57+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -40,9 +40,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-c7818d02622dae05",
-          "title": "American Hantavirus Patient Ordered to Stay in Quarantine Despite Plans to Leave",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th60w3/american_hantavirus_patient_ordered_to_stay_in/",
+          "id": "rss-7dc4786cebd72ae4",
+          "title": "Hantavirus, Human to Human?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ti4xqs/hantavirus_human_to_human/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -51,9 +51,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-9c4225296b60eab3",
-          "title": "Would you let an AI choose who gets the only hantavirus cure?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ti2ayh/would_you_let_an_ai_choose_who_gets_the_only/",
+          "id": "rss-c7818d02622dae05",
+          "title": "American Hantavirus Patient Ordered to Stay in Quarantine Despite Plans to Leave",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th60w3/american_hantavirus_patient_ordered_to_stay_in/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -76,6 +76,17 @@
           "id": "rss-e4a1dff9a60fe60d",
           "title": "Adult dies of hantavirus in Colorado, state health officials say",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th1rxz/adult_dies_of_hantavirus_in_colorado_state_health/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-9c4225296b60eab3",
+          "title": "Would you let an AI choose who gets the only hantavirus cure?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ti2ayh/would_you_let_an_ai_choose_who_gets_the_only/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,23 +203,23 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-b9472855582a7f29",
-          "title": "Confirmed by the National Microbiology Laboratory in Winnipeg",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfu39m/confirmed_by_the_national_microbiology_laboratory/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-7dc4786cebd72ae4",
+          "title": "Hantavirus, Human to Human?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ti4xqs/hantavirus_human_to_human/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-9c4225296b60eab3",
           "title": "Would you let an AI choose who gets the only hantavirus cure?",
@@ -395,17 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-b9472855582a7f29",
-          "title": "Confirmed by the National Microbiology Laboratory in Winnipeg",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfu39m/confirmed_by_the_national_microbiology_laboratory/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -446,9 +446,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-c7818d02622dae05",
-      "title": "American Hantavirus Patient Ordered to Stay in Quarantine Despite Plans to Leave",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th60w3/american_hantavirus_patient_ordered_to_stay_in/",
+      "id": "rss-7dc4786cebd72ae4",
+      "title": "Hantavirus, Human to Human?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ti4xqs/hantavirus_human_to_human/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -457,9 +457,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-9c4225296b60eab3",
-      "title": "Would you let an AI choose who gets the only hantavirus cure?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ti2ayh/would_you_let_an_ai_choose_who_gets_the_only/",
+      "id": "rss-c7818d02622dae05",
+      "title": "American Hantavirus Patient Ordered to Stay in Quarantine Despite Plans to Leave",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th60w3/american_hantavirus_patient_ordered_to_stay_in/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -482,6 +482,17 @@
       "id": "rss-e4a1dff9a60fe60d",
       "title": "Adult dies of hantavirus in Colorado, state health officials say",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th1rxz/adult_dies_of_hantavirus_in_colorado_state_health/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-9c4225296b60eab3",
+      "title": "Would you let an AI choose who gets the only hantavirus cure?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ti2ayh/would_you_let_an_ai_choose_who_gets_the_only/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -592,17 +603,6 @@
       "id": "rss-e8e90092d7942bfd",
       "title": "What About the Ship Doctor?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg7h62/what_about_the_ship_doctor/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-b9472855582a7f29",
-      "title": "Confirmed by the National Microbiology Laboratory in Winnipeg",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tfu39m/confirmed_by_the_national_microbiology_laboratory/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
