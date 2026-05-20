@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-20T14:04:19+00:00",
+  "fetched_at": "2026-05-20T17:29:44+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -95,9 +95,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-9c4225296b60eab3",
-          "title": "Would you let an AI choose who gets the only hantavirus cure?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ti2ayh/would_you_let_an_ai_choose_who_gets_the_only/",
+          "id": "rss-febda4e28c3843d2",
+          "title": "Colorado resident dies of deadly rat virus but wasn't on the notorious cruise ship where outbreak began",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgrd1f/colorado_resident_dies_of_deadly_rat_virus_but/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -117,9 +117,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-febda4e28c3843d2",
-          "title": "Colorado resident dies of deadly rat virus but wasn't on the notorious cruise ship where outbreak began",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgrd1f/colorado_resident_dies_of_deadly_rat_virus_but/",
+          "id": "rss-9c4225296b60eab3",
+          "title": "Would you let an AI choose who gets the only hantavirus cure?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ti2ayh/would_you_let_an_ai_choose_who_gets_the_only/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -501,9 +501,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-9c4225296b60eab3",
-      "title": "Would you let an AI choose who gets the only hantavirus cure?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ti2ayh/would_you_let_an_ai_choose_who_gets_the_only/",
+      "id": "rss-febda4e28c3843d2",
+      "title": "Colorado resident dies of deadly rat virus but wasn't on the notorious cruise ship where outbreak began",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgrd1f/colorado_resident_dies_of_deadly_rat_virus_but/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -523,9 +523,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-febda4e28c3843d2",
-      "title": "Colorado resident dies of deadly rat virus but wasn't on the notorious cruise ship where outbreak began",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgrd1f/colorado_resident_dies_of_deadly_rat_virus_but/",
+      "id": "rss-9c4225296b60eab3",
+      "title": "Would you let an AI choose who gets the only hantavirus cure?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ti2ayh/would_you_let_an_ai_choose_who_gets_the_only/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
