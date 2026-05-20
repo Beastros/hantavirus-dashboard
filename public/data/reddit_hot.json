@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-20T08:07:09+00:00",
+  "fetched_at": "2026-05-20T11:20:37+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -76,17 +76,6 @@
           "id": "rss-e4a1dff9a60fe60d",
           "title": "Adult dies of hantavirus in Colorado, state health officials say",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th1rxz/adult_dies_of_hantavirus_in_colorado_state_health/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-7dc4786cebd72ae4",
-          "title": "Hantavirus, Human to Human?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ti4xqs/hantavirus_human_to_human/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -203,6 +192,17 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
+        },
+        {
+          "id": "rss-e8e90092d7942bfd",
+          "title": "What About the Ship Doctor?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg7h62/what_about_the_ship_doctor/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
         }
       ]
     },
@@ -213,17 +213,6 @@
           "id": "rss-1ee50ac710e25f26",
           "title": "Hantavirus update: CDC confirms 2 brought to Omaha facility ordered to quarantine",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tia7eh/hantavirus_update_cdc_confirms_2_brought_to_omaha/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-7dc4786cebd72ae4",
-          "title": "Hantavirus, Human to Human?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ti4xqs/hantavirus_human_to_human/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -406,6 +395,17 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
+        },
+        {
+          "id": "rss-ea6211c9f730f97b",
+          "title": "Forced Quarantine?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tful1c/forced_quarantine/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
         }
       ]
     }
@@ -482,17 +482,6 @@
       "id": "rss-e4a1dff9a60fe60d",
       "title": "Adult dies of hantavirus in Colorado, state health officials say",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th1rxz/adult_dies_of_hantavirus_in_colorado_state_health/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-7dc4786cebd72ae4",
-      "title": "Hantavirus, Human to Human?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ti4xqs/hantavirus_human_to_human/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -603,6 +592,17 @@
       "id": "rss-ed9a1a9bb2e3ef9f",
       "title": "ANDES Paradox solved: Why this virus mutated & still is the same like 2018",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgpo3k/andes_paradox_solved_why_this_virus_mutated_still/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-e8e90092d7942bfd",
+      "title": "What About the Ship Doctor?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg7h62/what_about_the_ship_doctor/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
