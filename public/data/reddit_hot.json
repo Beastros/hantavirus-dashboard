@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-21T17:16:12+00:00",
+  "fetched_at": "2026-05-21T19:25:35+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -29,9 +29,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-398ad39d17cfd816",
-          "title": "Poll Update: 92 Votes in 6 Hours!",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tjlanl/poll_update_92_votes_in_6_hours/",
+          "id": "rss-5a2acc89603b9cd1",
+          "title": "New England Journal of Medicine - Andes Hantavirus Outbreak on a Cruise Ship, 2026",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tj3u09/new_england_journal_of_medicine_andes_hantavirus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -40,9 +40,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-5a2acc89603b9cd1",
-          "title": "New England Journal of Medicine - Andes Hantavirus Outbreak on a Cruise Ship, 2026",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tj3u09/new_england_journal_of_medicine_andes_hantavirus/",
+          "id": "rss-398ad39d17cfd816",
+          "title": "Poll Update: 92 Votes in 6 Hours!",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tjlanl/poll_update_92_votes_in_6_hours/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -435,9 +435,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-398ad39d17cfd816",
-      "title": "Poll Update: 92 Votes in 6 Hours!",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tjlanl/poll_update_92_votes_in_6_hours/",
+      "id": "rss-5a2acc89603b9cd1",
+      "title": "New England Journal of Medicine - Andes Hantavirus Outbreak on a Cruise Ship, 2026",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tj3u09/new_england_journal_of_medicine_andes_hantavirus/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -446,9 +446,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-5a2acc89603b9cd1",
-      "title": "New England Journal of Medicine - Andes Hantavirus Outbreak on a Cruise Ship, 2026",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tj3u09/new_england_journal_of_medicine_andes_hantavirus/",
+      "id": "rss-398ad39d17cfd816",
+      "title": "Poll Update: 92 Votes in 6 Hours!",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tjlanl/poll_update_92_votes_in_6_hours/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
