@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-05-21T04:43:48+00:00",
+  "fetched_at": "2026-05-21T08:22:37+00:00",
   "items": [
+    {
+      "id": "49d2876aa88288ab",
+      "title": "Andes Hantavirus Outbreak on a Cruise Ship, 2026",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2606496?af=R&rss=currentIssue",
+      "published_at": "2026-05-20T09:00:00+00:00",
+      "source_name": "NEJM",
+      "source_tier": 1,
+      "summary": "New England Journal of Medicine, Ahead of Print."
+    },
     {
       "id": "4e11732fd189ed3d",
       "title": "Infectious diseases such as hantavirus and Ebola becoming more frequent and damaging, say experts",
