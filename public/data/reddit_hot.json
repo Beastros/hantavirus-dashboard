@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-21T00:06:03+00:00",
+  "fetched_at": "2026-05-21T04:43:46+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -29,9 +29,31 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-5a2acc89603b9cd1",
+          "title": "New England Journal of Medicine - Andes Hantavirus Outbreak on a Cruise Ship, 2026",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tj3u09/new_england_journal_of_medicine_andes_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-b47e9b4c07ab63d8",
           "title": "Hantavirus outbreak - cruise ship not the origin … duh",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tilvvi/hantavirus_outbreak_cruise_ship_not_the_origin_duh/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-8f540c5843d35115",
+          "title": "Worried about the Hanata Virus from rodents after seeing what looked to be a mice or a rat.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tj8rsg/worried_about_the_hanata_virus_from_rodents_after/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -181,34 +203,34 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-4128b59fc72298ac",
-          "title": "Rare hantavirus strain raises concern after cruise ship cases linked to Patagonia travel",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg745o/rare_hantavirus_strain_raises_concern_after/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-ed9a1a9bb2e3ef9f",
-          "title": "ANDES Paradox solved: Why this virus mutated & still is the same like 2018",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgpo3k/andes_paradox_solved_why_this_virus_mutated_still/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-8f540c5843d35115",
+          "title": "Worried about the Hanata Virus from rodents after seeing what looked to be a mice or a rat.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tj8rsg/worried_about_the_hanata_virus_from_rodents_after/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-5a2acc89603b9cd1",
+          "title": "New England Journal of Medicine - Andes Hantavirus Outbreak on a Cruise Ship, 2026",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tj3u09/new_england_journal_of_medicine_andes_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-b47e9b4c07ab63d8",
           "title": "Hantavirus outbreak - cruise ship not the origin … duh",
@@ -384,28 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-4128b59fc72298ac",
-          "title": "Rare hantavirus strain raises concern after cruise ship cases linked to Patagonia travel",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg745o/rare_hantavirus_strain_raises_concern_after/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-355c7792bf822d06",
-          "title": "A health professional from Ascension Island, who was in \"close contact\" with a case and \"developed symptoms\" compatible with the hantavirus, according to authorities of St. Helena, arrived at a specialized unit of the Guy's and St Thomas' NHS Foundation Trust in London",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg4prt/a_health_professional_from_ascension_island_who/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -435,9 +435,31 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-5a2acc89603b9cd1",
+      "title": "New England Journal of Medicine - Andes Hantavirus Outbreak on a Cruise Ship, 2026",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tj3u09/new_england_journal_of_medicine_andes_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-b47e9b4c07ab63d8",
       "title": "Hantavirus outbreak - cruise ship not the origin … duh",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tilvvi/hantavirus_outbreak_cruise_ship_not_the_origin_duh/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-8f540c5843d35115",
+      "title": "Worried about the Hanata Virus from rodents after seeing what looked to be a mice or a rat.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tj8rsg/worried_about_the_hanata_virus_from_rodents_after/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -581,28 +603,6 @@
       "id": "rss-3510fbf2f9e8c0ae",
       "title": "[ Removed by Reddit ]",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgn3el/removed_by_reddit/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-4128b59fc72298ac",
-      "title": "Rare hantavirus strain raises concern after cruise ship cases linked to Patagonia travel",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tg745o/rare_hantavirus_strain_raises_concern_after/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-ed9a1a9bb2e3ef9f",
-      "title": "ANDES Paradox solved: Why this virus mutated & still is the same like 2018",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgpo3k/andes_paradox_solved_why_this_virus_mutated_still/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
