@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-05-21T23:42:27+00:00",
+  "fetched_at": "2026-05-22T01:49:17+00:00",
   "items": [
+    {
+      "id": "6fd9ebe48dd843e0",
+      "title": "Trump Officials’ Strict Stand on Ebola Leaves Health Experts ‘Stunned’",
+      "url": "https://www.nytimes.com/2026/05/21/us/hantavirus-ebola-quarantine-trump.html",
+      "published_at": "2026-05-22T00:22:27+00:00",
+      "source_name": "NYT Health",
+      "source_tier": 2,
+      "summary": "Public health experts say the administration’s quarantine orders go beyond what is needed to prevent the U.S. spread of Ebola and hantavirus."
+    },
     {
       "id": "f40ba16060f95000",
       "title": "US curbs on travelers exposed to deadly viruses may infringe rights and deter volunteers",
