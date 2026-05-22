@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-22T06:05:25+00:00",
+  "fetched_at": "2026-05-22T09:49:34+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -51,9 +51,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-398ad39d17cfd816",
-          "title": "Poll Update: 92 Votes in 6 Hours!",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tjlanl/poll_update_92_votes_in_6_hours/",
+          "id": "rss-b47e9b4c07ab63d8",
+          "title": "Hantavirus outbreak - cruise ship not the origin … duh",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tilvvi/hantavirus_outbreak_cruise_ship_not_the_origin_duh/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -62,9 +62,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-b47e9b4c07ab63d8",
-          "title": "Hantavirus outbreak - cruise ship not the origin … duh",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tilvvi/hantavirus_outbreak_cruise_ship_not_the_origin_duh/",
+          "id": "rss-398ad39d17cfd816",
+          "title": "Poll Update: 92 Votes in 6 Hours!",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tjlanl/poll_update_92_votes_in_6_hours/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -457,9 +457,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-398ad39d17cfd816",
-      "title": "Poll Update: 92 Votes in 6 Hours!",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tjlanl/poll_update_92_votes_in_6_hours/",
+      "id": "rss-b47e9b4c07ab63d8",
+      "title": "Hantavirus outbreak - cruise ship not the origin … duh",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tilvvi/hantavirus_outbreak_cruise_ship_not_the_origin_duh/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -468,9 +468,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-b47e9b4c07ab63d8",
-      "title": "Hantavirus outbreak - cruise ship not the origin … duh",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tilvvi/hantavirus_outbreak_cruise_ship_not_the_origin_duh/",
+      "id": "rss-398ad39d17cfd816",
+      "title": "Poll Update: 92 Votes in 6 Hours!",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tjlanl/poll_update_92_votes_in_6_hours/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
