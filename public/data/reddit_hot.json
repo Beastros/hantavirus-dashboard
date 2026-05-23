@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-23T05:01:38+00:00",
+  "fetched_at": "2026-05-23T07:42:51+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -43,6 +43,17 @@
           "id": "rss-a7f743b857d41c58",
           "title": "New case confirmed",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tkifnx/new_case_confirmed/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-f17a329666b430a7",
+          "title": "Next global pandemic: Yes or No?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tl9hs8/next_global_pandemic_yes_or_no/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,23 +203,23 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-41bd6159774fa11a",
-          "title": "trying to have a measured take on the potential of this outbreak getting out of control",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tga8td/trying_to_have_a_measured_take_on_the_potential/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-f17a329666b430a7",
+          "title": "Next global pandemic: Yes or No?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tl9hs8/next_global_pandemic_yes_or_no/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-2af9fd56de780c2e",
           "title": "International risk of secondary hantavirus clusters following MV Hondius outbreak | EV / The modelers",
@@ -395,17 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-41bd6159774fa11a",
-          "title": "trying to have a measured take on the potential of this outbreak getting out of control",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tga8td/trying_to_have_a_measured_take_on_the_potential/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -449,6 +449,17 @@
       "id": "rss-a7f743b857d41c58",
       "title": "New case confirmed",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tkifnx/new_case_confirmed/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-f17a329666b430a7",
+      "title": "Next global pandemic: Yes or No?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tl9hs8/next_global_pandemic_yes_or_no/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -592,17 +603,6 @@
       "id": "rss-5ba27cc44842d4ff",
       "title": "World Cup = Super spreader event?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgm07k/world_cup_super_spreader_event/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-41bd6159774fa11a",
-      "title": "trying to have a measured take on the potential of this outbreak getting out of control",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tga8td/trying_to_have_a_measured_take_on_the_potential/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
