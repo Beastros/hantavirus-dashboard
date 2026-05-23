@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-23T17:18:20+00:00",
+  "fetched_at": "2026-05-23T18:33:16+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -51,9 +51,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-f17a329666b430a7",
-          "title": "Next global pandemic: Yes or No?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tl9hs8/next_global_pandemic_yes_or_no/",
+          "id": "rss-60ddaa711743b9c1",
+          "title": "The REAL horror of the outbreak…",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tkhb1z/the_real_horror_of_the_outbreak/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -62,9 +62,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-60ddaa711743b9c1",
-          "title": "The REAL horror of the outbreak…",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tkhb1z/the_real_horror_of_the_outbreak/",
+          "id": "rss-f17a329666b430a7",
+          "title": "Next global pandemic: Yes or No?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tl9hs8/next_global_pandemic_yes_or_no/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -457,9 +457,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-f17a329666b430a7",
-      "title": "Next global pandemic: Yes or No?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tl9hs8/next_global_pandemic_yes_or_no/",
+      "id": "rss-60ddaa711743b9c1",
+      "title": "The REAL horror of the outbreak…",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tkhb1z/the_real_horror_of_the_outbreak/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -468,9 +468,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-60ddaa711743b9c1",
-      "title": "The REAL horror of the outbreak…",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tkhb1z/the_real_horror_of_the_outbreak/",
+      "id": "rss-f17a329666b430a7",
+      "title": "Next global pandemic: Yes or No?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tl9hs8/next_global_pandemic_yes_or_no/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
