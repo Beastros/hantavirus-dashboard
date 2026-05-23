@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-22T23:19:01+00:00",
+  "fetched_at": "2026-05-23T01:22:22+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -21,6 +21,17 @@
           "id": "rss-7682548eb1fc81a9",
           "title": "What is Hantavirus?!",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-2af9fd56de780c2e",
+          "title": "International risk of secondary hantavirus clusters following MV Hondius outbreak | EV / The modelers",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tl0u4h/international_risk_of_secondary_hantavirus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,23 +203,23 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-5ba27cc44842d4ff",
-          "title": "World Cup = Super spreader event?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgm07k/world_cup_super_spreader_event/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-2af9fd56de780c2e",
+          "title": "International risk of secondary hantavirus clusters following MV Hondius outbreak | EV / The modelers",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tl0u4h/international_risk_of_secondary_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-a7f743b857d41c58",
           "title": "New case confirmed",
@@ -395,17 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-5ba27cc44842d4ff",
-          "title": "World Cup = Super spreader event?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgm07k/world_cup_super_spreader_event/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -427,6 +427,17 @@
       "id": "rss-7682548eb1fc81a9",
       "title": "What is Hantavirus?!",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-2af9fd56de780c2e",
+      "title": "International risk of secondary hantavirus clusters following MV Hondius outbreak | EV / The modelers",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tl0u4h/international_risk_of_secondary_hantavirus/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -592,17 +603,6 @@
       "id": "rss-e64f4d461ed3470c",
       "title": "Andes virus: What nurses need to know",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgs1y8/andes_virus_what_nurses_need_to_know/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-5ba27cc44842d4ff",
-      "title": "World Cup = Super spreader event?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgm07k/world_cup_super_spreader_event/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
