@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-23T01:22:22+00:00",
+  "fetched_at": "2026-05-23T05:01:38+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -84,31 +84,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-398ad39d17cfd816",
-          "title": "Poll Update: 92 Votes in 6 Hours!",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tjlanl/poll_update_92_votes_in_6_hours/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-1ee50ac710e25f26",
           "title": "Hantavirus update: CDC confirms 2 brought to Omaha facility ordered to quarantine",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tia7eh/hantavirus_update_cdc_confirms_2_brought_to_omaha/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-2198357500fa3b6f",
-          "title": "Will the absolute horror of Ebola or Hantavirus trigger the next world-ending global pandemic?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tjcpi3/will_the_absolute_horror_of_ebola_or_hantavirus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -203,6 +181,28 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
+        },
+        {
+          "id": "rss-5ba27cc44842d4ff",
+          "title": "World Cup = Super spreader event?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgm07k/world_cup_super_spreader_event/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-41bd6159774fa11a",
+          "title": "trying to have a measured take on the potential of this outbreak getting out of control",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tga8td/trying_to_have_a_measured_take_on_the_potential/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
         }
       ]
     },
@@ -235,28 +235,6 @@
           "id": "rss-60ddaa711743b9c1",
           "title": "The REAL horror of the outbreak…",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tkhb1z/the_real_horror_of_the_outbreak/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-398ad39d17cfd816",
-          "title": "Poll Update: 92 Votes in 6 Hours!",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tjlanl/poll_update_92_votes_in_6_hours/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-2198357500fa3b6f",
-          "title": "Will the absolute horror of Ebola or Hantavirus trigger the next world-ending global pandemic?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tjcpi3/will_the_absolute_horror_of_ebola_or_hantavirus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -406,6 +384,28 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
+        },
+        {
+          "id": "rss-5ba27cc44842d4ff",
+          "title": "World Cup = Super spreader event?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgm07k/world_cup_super_spreader_event/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-41bd6159774fa11a",
+          "title": "trying to have a measured take on the potential of this outbreak getting out of control",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tga8td/trying_to_have_a_measured_take_on_the_potential/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
         }
       ]
     }
@@ -490,31 +490,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-398ad39d17cfd816",
-      "title": "Poll Update: 92 Votes in 6 Hours!",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tjlanl/poll_update_92_votes_in_6_hours/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-1ee50ac710e25f26",
       "title": "Hantavirus update: CDC confirms 2 brought to Omaha facility ordered to quarantine",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tia7eh/hantavirus_update_cdc_confirms_2_brought_to_omaha/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-2198357500fa3b6f",
-      "title": "Will the absolute horror of Ebola or Hantavirus trigger the next world-ending global pandemic?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tjcpi3/will_the_absolute_horror_of_ebola_or_hantavirus/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -603,6 +581,28 @@
       "id": "rss-e64f4d461ed3470c",
       "title": "Andes virus: What nurses need to know",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgs1y8/andes_virus_what_nurses_need_to_know/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-5ba27cc44842d4ff",
+      "title": "World Cup = Super spreader event?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgm07k/world_cup_super_spreader_event/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-41bd6159774fa11a",
+      "title": "trying to have a measured take on the potential of this outbreak getting out of control",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tga8td/trying_to_have_a_measured_take_on_the_potential/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
