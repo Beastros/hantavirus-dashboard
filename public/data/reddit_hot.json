@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-24T20:54:05+00:00",
+  "fetched_at": "2026-05-24T21:54:53+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -32,28 +32,6 @@
           "id": "rss-3b77b439a25785b1",
           "title": "What about the rodents?",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tmeks4/what_about_the_rodents/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-9d05caa64f7db62a",
-          "title": "Well what time is it",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tmjonx/well_what_time_is_it/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-6c5c349755972bd2",
-          "title": "Will I get hantavirus?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tm0v3y/will_i_get_hantavirus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -203,16 +181,11 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        }
-      ]
-    },
-    "new": {
-      "feed_url": "https://www.reddit.com/r/hantavirus/new/",
-      "items": [
+        },
         {
-          "id": "rss-9d05caa64f7db62a",
-          "title": "Well what time is it",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tmjonx/well_what_time_is_it/",
+          "id": "rss-0fdd7fd3047c5835",
+          "title": "The WHO advises that the benefits of ASYMPTOMATIC testing of high-risk contacts include the following: 1. To ensure cases are recognized and provided supportive treatment as early as possible; 2. To reduce likelihood of transmission, provided results are interpreted cautiously.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgmscb/the_who_advises_that_the_benefits_of_asymptomatic/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -220,6 +193,22 @@
           "link_flair_text": null,
           "source": "rss_fallback"
         },
+        {
+          "id": "rss-e64f4d461ed3470c",
+          "title": "Andes virus: What nurses need to know",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgs1y8/andes_virus_what_nurses_need_to_know/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        }
+      ]
+    },
+    "new": {
+      "feed_url": "https://www.reddit.com/r/hantavirus/new/",
+      "items": [
         {
           "id": "rss-3b77b439a25785b1",
           "title": "What about the rodents?",
@@ -235,17 +224,6 @@
           "id": "rss-0477e3266e625a79",
           "title": "Possible exposure",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tm7mz8/possible_exposure/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-6c5c349755972bd2",
-          "title": "Will I get hantavirus?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tm0v3y/will_i_get_hantavirus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -406,6 +384,28 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
+        },
+        {
+          "id": "rss-3bd660023034b4b0",
+          "title": "The case for a lower fatality rate",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgn5gr/the_case_for_a_lower_fatality_rate/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-0fdd7fd3047c5835",
+          "title": "The WHO advises that the benefits of ASYMPTOMATIC testing of high-risk contacts include the following: 1. To ensure cases are recognized and provided supportive treatment as early as possible; 2. To reduce likelihood of transmission, provided results are interpreted cautiously.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgmscb/the_who_advises_that_the_benefits_of_asymptomatic/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
         }
       ]
     }
@@ -438,28 +438,6 @@
       "id": "rss-3b77b439a25785b1",
       "title": "What about the rodents?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tmeks4/what_about_the_rodents/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-9d05caa64f7db62a",
-      "title": "Well what time is it",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tmjonx/well_what_time_is_it/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-6c5c349755972bd2",
-      "title": "Will I get hantavirus?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tm0v3y/will_i_get_hantavirus/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -603,6 +581,28 @@
       "id": "rss-febda4e28c3843d2",
       "title": "Colorado resident dies of deadly rat virus but wasn't on the notorious cruise ship where outbreak began",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgrd1f/colorado_resident_dies_of_deadly_rat_virus_but/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-0fdd7fd3047c5835",
+      "title": "The WHO advises that the benefits of ASYMPTOMATIC testing of high-risk contacts include the following: 1. To ensure cases are recognized and provided supportive treatment as early as possible; 2. To reduce likelihood of transmission, provided results are interpreted cautiously.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgmscb/the_who_advises_that_the_benefits_of_asymptomatic/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-e64f4d461ed3470c",
+      "title": "Andes virus: What nurses need to know",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgs1y8/andes_virus_what_nurses_need_to_know/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
