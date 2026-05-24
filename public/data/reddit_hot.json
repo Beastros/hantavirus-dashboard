@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-24T03:34:38+00:00",
+  "fetched_at": "2026-05-24T06:51:33+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -21,6 +21,17 @@
           "id": "rss-7682548eb1fc81a9",
           "title": "What is Hantavirus?!",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-6c5c349755972bd2",
+          "title": "Will I get hantavirus?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tm0v3y/will_i_get_hantavirus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -98,17 +109,6 @@
           "id": "rss-1ee50ac710e25f26",
           "title": "Hantavirus update: CDC confirms 2 brought to Omaha facility ordered to quarantine",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tia7eh/hantavirus_update_cdc_confirms_2_brought_to_omaha/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-8f540c5843d35115",
-          "title": "Worried about the Hanata Virus from rodents after seeing what looked to be a mice or a rat.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tj8rsg/worried_about_the_hanata_virus_from_rodents_after/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -210,6 +210,17 @@
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
         {
+          "id": "rss-6c5c349755972bd2",
+          "title": "Will I get hantavirus?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tm0v3y/will_i_get_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-f17a329666b430a7",
           "title": "Next global pandemic: Yes or No?",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tl9hs8/next_global_pandemic_yes_or_no/",
@@ -246,17 +257,6 @@
           "id": "rss-60ddaa711743b9c1",
           "title": "The REAL horror of the outbreak…",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tkhb1z/the_real_horror_of_the_outbreak/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-8f540c5843d35115",
-          "title": "Worried about the Hanata Virus from rodents after seeing what looked to be a mice or a rat.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tj8rsg/worried_about_the_hanata_virus_from_rodents_after/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -435,6 +435,17 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-6c5c349755972bd2",
+      "title": "Will I get hantavirus?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tm0v3y/will_i_get_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-2af9fd56de780c2e",
       "title": "International risk of secondary hantavirus clusters following MV Hondius outbreak | EV / The modelers",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tl0u4h/international_risk_of_secondary_hantavirus/",
@@ -504,17 +515,6 @@
       "id": "rss-1ee50ac710e25f26",
       "title": "Hantavirus update: CDC confirms 2 brought to Omaha facility ordered to quarantine",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tia7eh/hantavirus_update_cdc_confirms_2_brought_to_omaha/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-8f540c5843d35115",
-      "title": "Worried about the Hanata Virus from rodents after seeing what looked to be a mice or a rat.",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tj8rsg/worried_about_the_hanata_virus_from_rodents_after/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
