@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-24T15:02:39+00:00",
+  "fetched_at": "2026-05-24T16:14:38+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -40,9 +40,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-0477e3266e625a79",
-          "title": "Possible exposure",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tm7mz8/possible_exposure/",
+          "id": "rss-6c5c349755972bd2",
+          "title": "Will I get hantavirus?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tm0v3y/will_i_get_hantavirus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -51,9 +51,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-6c5c349755972bd2",
-          "title": "Will I get hantavirus?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tm0v3y/will_i_get_hantavirus/",
+          "id": "rss-0477e3266e625a79",
+          "title": "Possible exposure",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tm7mz8/possible_exposure/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -446,9 +446,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-0477e3266e625a79",
-      "title": "Possible exposure",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tm7mz8/possible_exposure/",
+      "id": "rss-6c5c349755972bd2",
+      "title": "Will I get hantavirus?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tm0v3y/will_i_get_hantavirus/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -457,9 +457,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-6c5c349755972bd2",
-      "title": "Will I get hantavirus?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tm0v3y/will_i_get_hantavirus/",
+      "id": "rss-0477e3266e625a79",
+      "title": "Possible exposure",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tm7mz8/possible_exposure/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
