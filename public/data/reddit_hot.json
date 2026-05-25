@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-25T17:23:15+00:00",
+  "fetched_at": "2026-05-25T18:59:36+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -21,6 +21,17 @@
           "id": "rss-7682548eb1fc81a9",
           "title": "What is Hantavirus?!",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-7b9cd39cf1e6bd63",
+          "title": "Health ministry confirms another hantavirus case in Spain",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tnh0zk/health_ministry_confirms_another_hantavirus_case/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,23 +203,23 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-0fdd7fd3047c5835",
-          "title": "The WHO advises that the benefits of ASYMPTOMATIC testing of high-risk contacts include the following: 1. To ensure cases are recognized and provided supportive treatment as early as possible; 2. To reduce likelihood of transmission, provided results are interpreted cautiously.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgmscb/the_who_advises_that_the_benefits_of_asymptomatic/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-7b9cd39cf1e6bd63",
+          "title": "Health ministry confirms another hantavirus case in Spain",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tnh0zk/health_ministry_confirms_another_hantavirus_case/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-d20b79be51a24e5d",
           "title": "Safe. No hantavirus",
@@ -395,17 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-3bd660023034b4b0",
-          "title": "The case for a lower fatality rate",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgn5gr/the_case_for_a_lower_fatality_rate/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -427,6 +427,17 @@
       "id": "rss-7682548eb1fc81a9",
       "title": "What is Hantavirus?!",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-7b9cd39cf1e6bd63",
+      "title": "Health ministry confirms another hantavirus case in Spain",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tnh0zk/health_ministry_confirms_another_hantavirus_case/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -592,17 +603,6 @@
       "id": "rss-febda4e28c3843d2",
       "title": "Colorado resident dies of deadly rat virus but wasn't on the notorious cruise ship where outbreak began",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgrd1f/colorado_resident_dies_of_deadly_rat_virus_but/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-0fdd7fd3047c5835",
-      "title": "The WHO advises that the benefits of ASYMPTOMATIC testing of high-risk contacts include the following: 1. To ensure cases are recognized and provided supportive treatment as early as possible; 2. To reduce likelihood of transmission, provided results are interpreted cautiously.",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgmscb/the_who_advises_that_the_benefits_of_asymptomatic/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
