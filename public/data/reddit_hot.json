@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-25T12:30:02+00:00",
+  "fetched_at": "2026-05-25T15:38:25+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -21,6 +21,28 @@
           "id": "rss-7682548eb1fc81a9",
           "title": "What is Hantavirus?!",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-d20b79be51a24e5d",
+          "title": "Safe. No hantavirus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tnc0fa/safe_no_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-2f5714a1ec789859",
+          "title": "World Mask Week",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tn9do9/world_mask_week/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -181,34 +203,34 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-e64f4d461ed3470c",
-          "title": "Andes virus: What nurses need to know",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgs1y8/andes_virus_what_nurses_need_to_know/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-5ba27cc44842d4ff",
-          "title": "World Cup = Super spreader event?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgm07k/world_cup_super_spreader_event/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-d20b79be51a24e5d",
+          "title": "Safe. No hantavirus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tnc0fa/safe_no_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-2f5714a1ec789859",
+          "title": "World Mask Week",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tn9do9/world_mask_week/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-3b77b439a25785b1",
           "title": "What about the rodents?",
@@ -384,28 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-0fdd7fd3047c5835",
-          "title": "The WHO advises that the benefits of ASYMPTOMATIC testing of high-risk contacts include the following: 1. To ensure cases are recognized and provided supportive treatment as early as possible; 2. To reduce likelihood of transmission, provided results are interpreted cautiously.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgmscb/the_who_advises_that_the_benefits_of_asymptomatic/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-5ba27cc44842d4ff",
-          "title": "World Cup = Super spreader event?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgm07k/world_cup_super_spreader_event/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -427,6 +427,28 @@
       "id": "rss-7682548eb1fc81a9",
       "title": "What is Hantavirus?!",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-d20b79be51a24e5d",
+      "title": "Safe. No hantavirus",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tnc0fa/safe_no_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-2f5714a1ec789859",
+      "title": "World Mask Week",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tn9do9/world_mask_week/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -581,28 +603,6 @@
       "id": "rss-0fdd7fd3047c5835",
       "title": "The WHO advises that the benefits of ASYMPTOMATIC testing of high-risk contacts include the following: 1. To ensure cases are recognized and provided supportive treatment as early as possible; 2. To reduce likelihood of transmission, provided results are interpreted cautiously.",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgmscb/the_who_advises_that_the_benefits_of_asymptomatic/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-e64f4d461ed3470c",
-      "title": "Andes virus: What nurses need to know",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgs1y8/andes_virus_what_nurses_need_to_know/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-5ba27cc44842d4ff",
-      "title": "World Cup = Super spreader event?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgm07k/world_cup_super_spreader_event/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
