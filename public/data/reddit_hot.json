@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-25T04:51:00+00:00",
+  "fetched_at": "2026-05-25T08:55:35+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -76,17 +76,6 @@
           "id": "rss-60ddaa711743b9c1",
           "title": "The REAL horror of the outbreak…",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tkhb1z/the_real_horror_of_the_outbreak/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-f17a329666b430a7",
-          "title": "Next global pandemic: Yes or No?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tl9hs8/next_global_pandemic_yes_or_no/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -203,6 +192,17 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
+        },
+        {
+          "id": "rss-5ba27cc44842d4ff",
+          "title": "World Cup = Super spreader event?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgm07k/world_cup_super_spreader_event/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
         }
       ]
     },
@@ -224,17 +224,6 @@
           "id": "rss-0477e3266e625a79",
           "title": "Possible exposure",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tm7mz8/possible_exposure/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-f17a329666b430a7",
-          "title": "Next global pandemic: Yes or No?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tl9hs8/next_global_pandemic_yes_or_no/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -406,6 +395,17 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
+        },
+        {
+          "id": "rss-5ba27cc44842d4ff",
+          "title": "World Cup = Super spreader event?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgm07k/world_cup_super_spreader_event/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
         }
       ]
     }
@@ -482,17 +482,6 @@
       "id": "rss-60ddaa711743b9c1",
       "title": "The REAL horror of the outbreak…",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tkhb1z/the_real_horror_of_the_outbreak/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-f17a329666b430a7",
-      "title": "Next global pandemic: Yes or No?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tl9hs8/next_global_pandemic_yes_or_no/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -603,6 +592,17 @@
       "id": "rss-e64f4d461ed3470c",
       "title": "Andes virus: What nurses need to know",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgs1y8/andes_virus_what_nurses_need_to_know/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-5ba27cc44842d4ff",
+      "title": "World Cup = Super spreader event?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgm07k/world_cup_super_spreader_event/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,

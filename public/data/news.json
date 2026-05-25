@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-05-25T04:51:03+00:00",
+  "fetched_at": "2026-05-25T08:55:40+00:00",
   "items": [
+    {
+      "id": "387eb4d189e88746",
+      "title": "[Correspondence] Cruise ship hantavirus outbreak in remote island communities",
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01014-7/fulltext?rss=yes",
+      "published_at": "2026-05-25T08:40:48+00:00",
+      "source_name": "The Lancet",
+      "source_tier": 1,
+      "summary": "On April 27, 2026, the Dutch-flagged expedition cruise ship MV Hondius arrived at Ascension Island, a remote mid-Atlantic UK Overseas Territory (UKOT). The vessel had left Ushuaia (Argentina) on April 1, 2026, then visited the Antarctic Peninsula and other UKOT islands in the south Atlantic: the British Antarctic Territory, South Georgia, Tristan da Cunha, and St Helena (figure).1 At Ascension Island, a 69-year-old…"
+    },
     {
       "id": "2740a8b92b36db38",
       "title": "Digested week: memories of Covid resurface with hantavirus and Ebola news",
