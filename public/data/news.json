@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-05-25T08:55:40+00:00",
+  "fetched_at": "2026-05-25T12:30:06+00:00",
   "items": [
+    {
+      "id": "e9160320a7258d58",
+      "title": "Ebola and hantavirus outbreaks prompt raft of conspiracy theories in divided US",
+      "url": "https://www.theguardian.com/us-news/2026/may/25/ebola-hantavirus-conspiracy-theories",
+      "published_at": "2026-05-25T12:00:25+00:00",
+      "source_name": "The Guardian World",
+      "source_tier": 2,
+      "summary": "Ever-growing influence of social media and AI means such ideas spreading at faster rates than before, experts say Hantavirus and Ebola outbreaks carry with them familiar attendants in the US: extreme conspiracy theories about a planned pandemic, or “plandemic”, designed to upend midterms elections or push new vaccines or any one of a myriad of wild ideas. Ebola, which the World Health Organization warned Friday is…"
+    },
     {
       "id": "387eb4d189e88746",
       "title": "[Correspondence] Cruise ship hantavirus outbreak in remote island communities",
