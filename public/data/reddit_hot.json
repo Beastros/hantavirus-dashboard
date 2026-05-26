@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T06:50:02+00:00",
+  "fetched_at": "2026-05-26T13:53:12+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -40,9 +40,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-bc3f37cddc9342fb",
-          "title": "Guys I think they're hiding something..",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tnqeh5/guys_i_think_theyre_hiding_something/",
+          "id": "rss-9c94ae709709a3fe",
+          "title": "Scared I was exposed to hantavirus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1to4d2w/scared_i_was_exposed_to_hantavirus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -54,17 +54,6 @@
           "id": "rss-2f5714a1ec789859",
           "title": "World Mask Week",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tn9do9/world_mask_week/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-d20b79be51a24e5d",
-          "title": "Safe. No hantavirus",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tnc0fa/safe_no_hantavirus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -203,6 +192,17 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
+        },
+        {
+          "id": "rss-febda4e28c3843d2",
+          "title": "Colorado resident dies of deadly rat virus but wasn't on the notorious cruise ship where outbreak began",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgrd1f/colorado_resident_dies_of_deadly_rat_virus_but/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
         }
       ]
     },
@@ -210,9 +210,9 @@
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
         {
-          "id": "rss-bc3f37cddc9342fb",
-          "title": "Guys I think they're hiding something..",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tnqeh5/guys_i_think_theyre_hiding_something/",
+          "id": "rss-9c94ae709709a3fe",
+          "title": "Scared I was exposed to hantavirus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1to4d2w/scared_i_was_exposed_to_hantavirus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -224,17 +224,6 @@
           "id": "rss-7b9cd39cf1e6bd63",
           "title": "Health ministry confirms another hantavirus case in Spain",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tnh0zk/health_ministry_confirms_another_hantavirus_case/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-d20b79be51a24e5d",
-          "title": "Safe. No hantavirus",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tnc0fa/safe_no_hantavirus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -406,6 +395,17 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
+        },
+        {
+          "id": "rss-ed9a1a9bb2e3ef9f",
+          "title": "ANDES Paradox solved: Why this virus mutated & still is the same like 2018",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgpo3k/andes_paradox_solved_why_this_virus_mutated_still/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
         }
       ]
     }
@@ -446,9 +446,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-bc3f37cddc9342fb",
-      "title": "Guys I think they're hiding something..",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tnqeh5/guys_i_think_theyre_hiding_something/",
+      "id": "rss-9c94ae709709a3fe",
+      "title": "Scared I was exposed to hantavirus",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1to4d2w/scared_i_was_exposed_to_hantavirus/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -460,17 +460,6 @@
       "id": "rss-2f5714a1ec789859",
       "title": "World Mask Week",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tn9do9/world_mask_week/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-d20b79be51a24e5d",
-      "title": "Safe. No hantavirus",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tnc0fa/safe_no_hantavirus/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -603,6 +592,17 @@
       "id": "rss-e4a1dff9a60fe60d",
       "title": "Adult dies of hantavirus in Colorado, state health officials say",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th1rxz/adult_dies_of_hantavirus_in_colorado_state_health/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-febda4e28c3843d2",
+      "title": "Colorado resident dies of deadly rat virus but wasn't on the notorious cruise ship where outbreak began",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgrd1f/colorado_resident_dies_of_deadly_rat_virus_but/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
