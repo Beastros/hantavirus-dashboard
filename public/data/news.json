@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-05-27T11:59:46+00:00",
+  "fetched_at": "2026-05-27T16:03:19+00:00",
   "items": [
+    {
+      "id": "c179bf84c3e41c28",
+      "title": "The Viruses Causing New Outbreaks Are Much Less Familiar to Science",
+      "url": "https://www.nytimes.com/2026/05/27/science/ebola-hantavirus-species-strains.html",
+      "published_at": "2026-05-27T14:00:08+00:00",
+      "source_name": "NYT World",
+      "source_tier": 2,
+      "summary": "The types of Ebola and hantavirus panicking officials are very different from the species identified decades ago, raising new questions about how to respond."
+    },
     {
       "id": "cda8a6ded2c96432",
       "title": "Are We Pandemic Ready?",
