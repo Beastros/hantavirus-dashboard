@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-28T06:56:10+00:00",
+  "fetched_at": "2026-05-28T10:57:05+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -21,6 +21,17 @@
           "id": "rss-7682548eb1fc81a9",
           "title": "What is Hantavirus?!",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-8e3e0e6096d172f6",
+          "title": "Hantavirus cruise ship passengers have WA quarantine period extended",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tpy0w4/hantavirus_cruise_ship_passengers_have_wa/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,23 +203,23 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-e4a1dff9a60fe60d",
-          "title": "Adult dies of hantavirus in Colorado, state health officials say",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th1rxz/adult_dies_of_hantavirus_in_colorado_state_health/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-8e3e0e6096d172f6",
+          "title": "Hantavirus cruise ship passengers have WA quarantine period extended",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tpy0w4/hantavirus_cruise_ship_passengers_have_wa/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-7de3c9f67792ea83",
           "title": "New case of hantavirus confirmed in 'close contact' of sick passenger on cruise ship where outbreak killed three",
@@ -395,17 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-febda4e28c3843d2",
-          "title": "Colorado resident dies of deadly rat virus but wasn't on the notorious cruise ship where outbreak began",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgrd1f/colorado_resident_dies_of_deadly_rat_virus_but/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -427,6 +427,17 @@
       "id": "rss-7682548eb1fc81a9",
       "title": "What is Hantavirus?!",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-8e3e0e6096d172f6",
+      "title": "Hantavirus cruise ship passengers have WA quarantine period extended",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tpy0w4/hantavirus_cruise_ship_passengers_have_wa/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -592,17 +603,6 @@
       "id": "rss-8621227fc732fd9e",
       "title": "The Portuguese crew that flew the Canadians home to Vancouver, B.C. from Tenerife are not happy and files official complaint.",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgvnfn/the_portuguese_crew_that_flew_the_canadians_home/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-e4a1dff9a60fe60d",
-      "title": "Adult dies of hantavirus in Colorado, state health officials say",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th1rxz/adult_dies_of_hantavirus_in_colorado_state_health/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
