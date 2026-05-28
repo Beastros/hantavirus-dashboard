@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-28T10:57:05+00:00",
+  "fetched_at": "2026-05-28T14:38:58+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -40,6 +40,39 @@
           "source": "rss_fallback"
         },
         {
+          "id": "rss-06b09c2cbbbdc509",
+          "title": "Is there still a worry of hantavirus being a pandemic",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tq5f8v/is_there_still_a_worry_of_hantavirus_being_a/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-7290dd5c4d14da8c",
+          "title": "Mask Bloc Chat Today at 12:00 Eastern",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tq5g17/mask_bloc_chat_today_at_1200_eastern/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-4c75b439e57d8d3b",
+          "title": "EU secures emergency deliveries of potential treatment against hantavirus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tq5cd3/eu_secures_emergency_deliveries_of_potential/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
           "id": "rss-7de3c9f67792ea83",
           "title": "New case of hantavirus confirmed in 'close contact' of sick passenger on cruise ship where outbreak killed three",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tod63m/new_case_of_hantavirus_confirmed_in_close_contact/",
@@ -170,45 +203,45 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-77b39cdf4fab42a0",
-          "title": "No News is good News",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1thiikf/no_news_is_good_news/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-c7818d02622dae05",
-          "title": "American Hantavirus Patient Ordered to Stay in Quarantine Despite Plans to Leave",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th60w3/american_hantavirus_patient_ordered_to_stay_in/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-8621227fc732fd9e",
-          "title": "The Portuguese crew that flew the Canadians home to Vancouver, B.C. from Tenerife are not happy and files official complaint.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgvnfn/the_portuguese_crew_that_flew_the_canadians_home/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-7290dd5c4d14da8c",
+          "title": "Mask Bloc Chat Today at 12:00 Eastern",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tq5g17/mask_bloc_chat_today_at_1200_eastern/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-06b09c2cbbbdc509",
+          "title": "Is there still a worry of hantavirus being a pandemic",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tq5f8v/is_there_still_a_worry_of_hantavirus_being_a/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-4c75b439e57d8d3b",
+          "title": "EU secures emergency deliveries of potential treatment against hantavirus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tq5cd3/eu_secures_emergency_deliveries_of_potential/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-8e3e0e6096d172f6",
           "title": "Hantavirus cruise ship passengers have WA quarantine period extended",
@@ -373,39 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-e4a1dff9a60fe60d",
-          "title": "Adult dies of hantavirus in Colorado, state health officials say",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th1rxz/adult_dies_of_hantavirus_in_colorado_state_health/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-8621227fc732fd9e",
-          "title": "The Portuguese crew that flew the Canadians home to Vancouver, B.C. from Tenerife are not happy and files official complaint.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgvnfn/the_portuguese_crew_that_flew_the_canadians_home/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-e64f4d461ed3470c",
-          "title": "Andes virus: What nurses need to know",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgs1y8/andes_virus_what_nurses_need_to_know/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -438,6 +438,39 @@
       "id": "rss-8e3e0e6096d172f6",
       "title": "Hantavirus cruise ship passengers have WA quarantine period extended",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tpy0w4/hantavirus_cruise_ship_passengers_have_wa/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-06b09c2cbbbdc509",
+      "title": "Is there still a worry of hantavirus being a pandemic",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tq5f8v/is_there_still_a_worry_of_hantavirus_being_a/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-7290dd5c4d14da8c",
+      "title": "Mask Bloc Chat Today at 12:00 Eastern",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tq5g17/mask_bloc_chat_today_at_1200_eastern/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-4c75b439e57d8d3b",
+      "title": "EU secures emergency deliveries of potential treatment against hantavirus",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tq5cd3/eu_secures_emergency_deliveries_of_potential/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -570,39 +603,6 @@
       "id": "rss-1ee50ac710e25f26",
       "title": "Hantavirus update: CDC confirms 2 brought to Omaha facility ordered to quarantine",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tia7eh/hantavirus_update_cdc_confirms_2_brought_to_omaha/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-77b39cdf4fab42a0",
-      "title": "No News is good News",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1thiikf/no_news_is_good_news/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-c7818d02622dae05",
-      "title": "American Hantavirus Patient Ordered to Stay in Quarantine Despite Plans to Leave",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1th60w3/american_hantavirus_patient_ordered_to_stay_in/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-8621227fc732fd9e",
-      "title": "The Portuguese crew that flew the Canadians home to Vancouver, B.C. from Tenerife are not happy and files official complaint.",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tgvnfn/the_portuguese_crew_that_flew_the_canadians_home/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
