@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-31T19:55:22+00:00",
+  "fetched_at": "2026-05-31T20:58:11+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -32,6 +32,17 @@
           "id": "rss-3c4decd867541396",
           "title": "Me watching the news",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tt1abn/me_watching_the_news/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-2e4e0614489f95e3",
+          "title": "EU secures emergency deliveries of potential treatment against hantavirus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tt72gq/eu_secures_emergency_deliveries_of_potential/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,23 +203,23 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-a7f743b857d41c58",
-          "title": "New case confirmed",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tkifnx/new_case_confirmed/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-2e4e0614489f95e3",
+          "title": "EU secures emergency deliveries of potential treatment against hantavirus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tt72gq/eu_secures_emergency_deliveries_of_potential/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-3c4decd867541396",
           "title": "Me watching the news",
@@ -395,17 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-5a2acc89603b9cd1",
-          "title": "New England Journal of Medicine - Andes Hantavirus Outbreak on a Cruise Ship, 2026",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tj3u09/new_england_journal_of_medicine_andes_hantavirus/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -438,6 +438,17 @@
       "id": "rss-3c4decd867541396",
       "title": "Me watching the news",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tt1abn/me_watching_the_news/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-2e4e0614489f95e3",
+      "title": "EU secures emergency deliveries of potential treatment against hantavirus",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tt72gq/eu_secures_emergency_deliveries_of_potential/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -592,17 +603,6 @@
       "id": "rss-0477e3266e625a79",
       "title": "Possible exposure",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tm7mz8/possible_exposure/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-a7f743b857d41c58",
-      "title": "New case confirmed",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tkifnx/new_case_confirmed/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
