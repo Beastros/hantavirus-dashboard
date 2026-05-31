@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-31T16:06:03+00:00",
+  "fetched_at": "2026-05-31T17:21:00+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -21,6 +21,17 @@
           "id": "rss-7682548eb1fc81a9",
           "title": "What is Hantavirus?!",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-3c4decd867541396",
+          "title": "Me watching the news",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tt1abn/me_watching_the_news/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,23 +203,23 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-60ddaa711743b9c1",
-          "title": "The REAL horror of the outbreak…",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tkhb1z/the_real_horror_of_the_outbreak/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-3c4decd867541396",
+          "title": "Me watching the news",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tt1abn/me_watching_the_news/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-65d2f7e6f8d0bdff",
           "title": "So, I live in nys. Western New York. My co worker vaccumed up a small amount of mouse poop with a shop vac. I was in the general area of where this happened, caught the mice today and think they are deer mice. Chances of getting hanta virus?",
@@ -395,17 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-b47e9b4c07ab63d8",
-          "title": "Hantavirus outbreak - cruise ship not the origin … duh",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tilvvi/hantavirus_outbreak_cruise_ship_not_the_origin_duh/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -427,6 +427,17 @@
       "id": "rss-7682548eb1fc81a9",
       "title": "What is Hantavirus?!",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-3c4decd867541396",
+      "title": "Me watching the news",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tt1abn/me_watching_the_news/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -592,17 +603,6 @@
       "id": "rss-a7f743b857d41c58",
       "title": "New case confirmed",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tkifnx/new_case_confirmed/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-60ddaa711743b9c1",
-      "title": "The REAL horror of the outbreak…",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tkhb1z/the_real_horror_of_the_outbreak/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
