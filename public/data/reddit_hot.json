@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-03T10:19:05+00:00",
+  "fetched_at": "2026-06-03T15:14:29+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -21,6 +21,17 @@
           "id": "rss-7682548eb1fc81a9",
           "title": "What is Hantavirus?!",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-ff7472700f83ab76",
+          "title": "Mouse droppings from deer mice found in basement studio apt on Long Island, I have a baby at home. I’m nervous about us getting sick.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tvl9gz/mouse_droppings_from_deer_mice_found_in_basement/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,23 +203,23 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-3b77b439a25785b1",
-          "title": "What about the rodents?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tmeks4/what_about_the_rodents/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-ff7472700f83ab76",
+          "title": "Mouse droppings from deer mice found in basement studio apt on Long Island, I have a baby at home. I’m nervous about us getting sick.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tvl9gz/mouse_droppings_from_deer_mice_found_in_basement/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-7718e2633056a6e2",
           "title": "A Brown Norway rat was staying underneath a tarp covering bicycles on my outdoor patio. Definitely was tan and too big to be a mouse.",
@@ -395,17 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-2af9fd56de780c2e",
-          "title": "International risk of secondary hantavirus clusters following MV Hondius outbreak | EV / The modelers",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tl0u4h/international_risk_of_secondary_hantavirus/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -427,6 +427,17 @@
       "id": "rss-7682548eb1fc81a9",
       "title": "What is Hantavirus?!",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-ff7472700f83ab76",
+      "title": "Mouse droppings from deer mice found in basement studio apt on Long Island, I have a baby at home. I’m nervous about us getting sick.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tvl9gz/mouse_droppings_from_deer_mice_found_in_basement/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -592,17 +603,6 @@
       "id": "rss-2f5714a1ec789859",
       "title": "World Mask Week",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tn9do9/world_mask_week/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-3b77b439a25785b1",
-      "title": "What about the rodents?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tmeks4/what_about_the_rodents/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
