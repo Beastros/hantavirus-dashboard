@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-07T21:10:36+00:00",
+  "fetched_at": "2026-06-07T22:17:43+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -21,6 +21,17 @@
           "id": "rss-7682548eb1fc81a9",
           "title": "What is Hantavirus?!",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-0b7e9239f24a7ffd",
+          "title": "Swept dusty storage unit with possible mouse droppings in Kansas, should I be worried about hantavirus?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tzon7v/swept_dusty_storage_unit_with_possible_mouse/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,23 +203,23 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-7b9cd39cf1e6bd63",
-          "title": "Health ministry confirms another hantavirus case in Spain",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tnh0zk/health_ministry_confirms_another_hantavirus_case/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
+        {
+          "id": "rss-0b7e9239f24a7ffd",
+          "title": "Swept dusty storage unit with possible mouse droppings in Kansas, should I be worried about hantavirus?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tzon7v/swept_dusty_storage_unit_with_possible_mouse/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
         {
           "id": "rss-0b9091948da903fb",
           "title": "Pulled bike out of shed with mouse poop- WI",
@@ -395,17 +406,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-2f5714a1ec789859",
-          "title": "World Mask Week",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tn9do9/world_mask_week/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     }
@@ -427,6 +427,17 @@
       "id": "rss-7682548eb1fc81a9",
       "title": "What is Hantavirus?!",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-0b7e9239f24a7ffd",
+      "title": "Swept dusty storage unit with possible mouse droppings in Kansas, should I be worried about hantavirus?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tzon7v/swept_dusty_storage_unit_with_possible_mouse/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -592,17 +603,6 @@
       "id": "rss-7de3c9f67792ea83",
       "title": "New case of hantavirus confirmed in 'close contact' of sick passenger on cruise ship where outbreak killed three",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tod63m/new_case_of_hantavirus_confirmed_in_close_contact/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-7b9cd39cf1e6bd63",
-      "title": "Health ministry confirms another hantavirus case in Spain",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tnh0zk/health_ministry_confirms_another_hantavirus_case/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
