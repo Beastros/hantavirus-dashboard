@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-08T12:08:01+00:00",
+  "fetched_at": "2026-06-08T16:18:43+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
@@ -29,9 +29,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-0b7e9239f24a7ffd",
-          "title": "Swept dusty storage unit with possible mouse droppings in Kansas, should I be worried about hantavirus?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tzon7v/swept_dusty_storage_unit_with_possible_mouse/",
+          "id": "rss-9307fb5f43be8fba",
+          "title": "I have health anxiety and can’t stop worrying about this possible hantavirus exposure",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u067jd/i_have_health_anxiety_and_cant_stop_worrying/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -210,9 +210,9 @@
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
       "items": [
         {
-          "id": "rss-c0871c7f3cb78c74",
-          "title": "Gonna die",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u0082k/gonna_die/",
+          "id": "rss-9307fb5f43be8fba",
+          "title": "I have health anxiety and can’t stop worrying about this possible hantavirus exposure",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u067jd/i_have_health_anxiety_and_cant_stop_worrying/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -221,9 +221,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-0b7e9239f24a7ffd",
-          "title": "Swept dusty storage unit with possible mouse droppings in Kansas, should I be worried about hantavirus?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tzon7v/swept_dusty_storage_unit_with_possible_mouse/",
+          "id": "rss-c0871c7f3cb78c74",
+          "title": "Gonna die",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u0082k/gonna_die/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -435,9 +435,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-0b7e9239f24a7ffd",
-      "title": "Swept dusty storage unit with possible mouse droppings in Kansas, should I be worried about hantavirus?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tzon7v/swept_dusty_storage_unit_with_possible_mouse/",
+      "id": "rss-9307fb5f43be8fba",
+      "title": "I have health anxiety and can’t stop worrying about this possible hantavirus exposure",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u067jd/i_have_health_anxiety_and_cant_stop_worrying/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
