@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-15T22:17:41+00:00",
+  "fetched_at": "2026-06-16T00:10:11+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS.",
   "sources": {
@@ -21,6 +21,17 @@
           "id": "rss-7682548eb1fc81a9",
           "title": "What is Hantavirus?!",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-b54594eda2fa3a05",
+          "title": "Hantavirus concern",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u6vdj2/hantavirus_concern/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,17 +203,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-7de3c9f67792ea83",
-          "title": "New case of hantavirus confirmed in 'close contact' of sick passenger on cruise ship where outbreak killed three",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tod63m/new_case_of_hantavirus_confirmed_in_close_contact/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
@@ -228,6 +228,17 @@
       "id": "rss-7682548eb1fc81a9",
       "title": "What is Hantavirus?!",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-b54594eda2fa3a05",
+      "title": "Hantavirus concern",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u6vdj2/hantavirus_concern/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -393,17 +404,6 @@
       "id": "rss-7290dd5c4d14da8c",
       "title": "Mask Bloc Chat Today at 12:00 Eastern",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tq5g17/mask_bloc_chat_today_at_1200_eastern/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-7de3c9f67792ea83",
-      "title": "New case of hantavirus confirmed in 'close contact' of sick passenger on cruise ship where outbreak killed three",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tod63m/new_case_of_hantavirus_confirmed_in_close_contact/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
