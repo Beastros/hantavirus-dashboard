@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-16T00:10:11+00:00",
+  "fetched_at": "2026-06-16T05:32:38+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS.",
   "sources": {
@@ -32,6 +32,17 @@
           "id": "rss-b54594eda2fa3a05",
           "title": "Hantavirus concern",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u6vdj2/hantavirus_concern/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-c529599b8798dfc2",
+          "title": "Can we shut the fucking sub down?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u6ypjv/can_we_shut_the_fucking_sub_down/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,17 +203,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-7290dd5c4d14da8c",
-          "title": "Mask Bloc Chat Today at 12:00 Eastern",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tq5g17/mask_bloc_chat_today_at_1200_eastern/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
@@ -239,6 +239,17 @@
       "id": "rss-b54594eda2fa3a05",
       "title": "Hantavirus concern",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u6vdj2/hantavirus_concern/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-c529599b8798dfc2",
+      "title": "Can we shut the fucking sub down?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u6ypjv/can_we_shut_the_fucking_sub_down/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -393,17 +404,6 @@
       "id": "rss-4c75b439e57d8d3b",
       "title": "EU secures emergency deliveries of potential treatment against hantavirus",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tq5cd3/eu_secures_emergency_deliveries_of_potential/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-7290dd5c4d14da8c",
-      "title": "Mask Bloc Chat Today at 12:00 Eastern",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tq5g17/mask_bloc_chat_today_at_1200_eastern/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
