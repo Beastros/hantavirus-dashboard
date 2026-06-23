@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-23T10:43:34+00:00",
+  "fetched_at": "2026-06-23T13:31:28+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS.",
   "sources": {
@@ -21,6 +21,17 @@
           "id": "rss-7682548eb1fc81a9",
           "title": "What is Hantavirus?!",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-4878366b98a2d73b",
+          "title": "rat stool in my house red rash i captured him but now i’m sick",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1udeuhv/rat_stool_in_my_house_red_rash_i_captured_him_but/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -51,9 +62,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-c529599b8798dfc2",
-          "title": "Can we shut the fucking sub down?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u6ypjv/can_we_shut_the_fucking_sub_down/",
+          "id": "rss-b1c0cc501f8ef403",
+          "title": "Precautionary Principle Chat",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u7hss9/precautionary_principle_chat/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -62,9 +73,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-b1c0cc501f8ef403",
-          "title": "Precautionary Principle Chat",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u7hss9/precautionary_principle_chat/",
+          "id": "rss-c529599b8798dfc2",
+          "title": "Can we shut the fucking sub down?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u6ypjv/can_we_shut_the_fucking_sub_down/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,17 +203,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-8e3e0e6096d172f6",
-          "title": "Hantavirus cruise ship passengers have WA quarantine period extended",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tpy0w4/hantavirus_cruise_ship_passengers_have_wa/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
@@ -236,6 +236,17 @@
       "source": "rss_fallback"
     },
     {
+      "id": "rss-4878366b98a2d73b",
+      "title": "rat stool in my house red rash i captured him but now i’m sick",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1udeuhv/rat_stool_in_my_house_red_rash_i_captured_him_but/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
       "id": "rss-006728ca62880241",
       "title": "Anyone here actually have HV from mouse infestation",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uaf0x3/anyone_here_actually_have_hv_from_mouse/",
@@ -258,9 +269,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-c529599b8798dfc2",
-      "title": "Can we shut the fucking sub down?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u6ypjv/can_we_shut_the_fucking_sub_down/",
+      "id": "rss-b1c0cc501f8ef403",
+      "title": "Precautionary Principle Chat",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u7hss9/precautionary_principle_chat/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -269,9 +280,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-b1c0cc501f8ef403",
-      "title": "Precautionary Principle Chat",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u7hss9/precautionary_principle_chat/",
+      "id": "rss-c529599b8798dfc2",
+      "title": "Can we shut the fucking sub down?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u6ypjv/can_we_shut_the_fucking_sub_down/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -393,17 +404,6 @@
       "id": "rss-06b09c2cbbbdc509",
       "title": "Is there still a worry of hantavirus being a pandemic",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tq5f8v/is_there_still_a_worry_of_hantavirus_being_a/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-8e3e0e6096d172f6",
-      "title": "Hantavirus cruise ship passengers have WA quarantine period extended",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tpy0w4/hantavirus_cruise_ship_passengers_have_wa/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
