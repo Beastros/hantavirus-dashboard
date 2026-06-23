@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-06-23T13:31:31+00:00",
+  "fetched_at": "2026-06-23T16:14:19+00:00",
   "items": [
+    {
+      "id": "0bbddb5026fb00a5",
+      "title": "Hantavirus quarantine ends for Americans held for six weeks in Nebraska",
+      "url": "https://www.theguardian.com/us-news/2026/jun/23/hantavirus-quarantine-ends-nebraska",
+      "published_at": "2026-06-23T13:34:29+00:00",
+      "source_name": "The Guardian World",
+      "source_tier": 2,
+      "summary": "The US health department said the enforced 42-day quarantine was necessary to protect the public Eight Americans quarantined for six weeks in Nebraska after they were exposed to a deadly hantavirus outbreak were released on Monday, including one who accused the government of holding her against her will . The US health and human services department (HHS) confirmed that it had ended the required isolation for the…"
+    },
     {
       "id": "d434f4c17379cbdb",
       "title": "‘It’s not science, it’s coercion’: health experts decry RFK Jr order on hantavirus quarantine",
