@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-27T01:34:35+00:00",
+  "fetched_at": "2026-06-27T05:38:34+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS.",
   "sources": {
@@ -21,6 +21,17 @@
           "id": "rss-7682548eb1fc81a9",
           "title": "What is Hantavirus?!",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-f4665bcd57ce745b",
+          "title": "Scared I might’ve been exposed to hantavirus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ugqxlt/scared_i_mightve_been_exposed_to_hantavirus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,17 +203,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-06b09c2cbbbdc509",
-          "title": "Is there still a worry of hantavirus being a pandemic",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tq5f8v/is_there_still_a_worry_of_hantavirus_being_a/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
@@ -228,6 +228,17 @@
       "id": "rss-7682548eb1fc81a9",
       "title": "What is Hantavirus?!",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-f4665bcd57ce745b",
+      "title": "Scared I might’ve been exposed to hantavirus",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ugqxlt/scared_i_mightve_been_exposed_to_hantavirus/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -393,17 +404,6 @@
       "id": "rss-65d2f7e6f8d0bdff",
       "title": "So, I live in nys. Western New York. My co worker vaccumed up a small amount of mouse poop with a shop vac. I was in the general area of where this happened, caught the mice today and think they are deer mice. Chances of getting hanta virus?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1trz3ew/so_i_live_in_nys_western_new_york_my_co_worker/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-06b09c2cbbbdc509",
-      "title": "Is there still a worry of hantavirus being a pandemic",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tq5f8v/is_there_still_a_worry_of_hantavirus_being_a/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
