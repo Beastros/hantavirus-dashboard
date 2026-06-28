@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-28T00:11:22+00:00",
+  "fetched_at": "2026-06-28T04:52:11+00:00",
   "items": [
     {
       "id": "0bbddb5026fb00a5",
@@ -20,6 +20,15 @@
       "summary": "Kennedy overrides CDC order saying an American who came into contact with hantavirus can self-quarantine The Trump administration is employing “authoritarian” and “unconstitutional” quarantine measures for at least one person who came into contact with a hantavirus patient, health law experts say. The mandatory quarantine, reimposed without an offering scientific evidence, reveals how the US might approach future…"
     },
     {
+      "id": "6a80e9ca475256a5",
+      "title": "[Comment] Hantavirus: the need for a rapid regional response platform in Latin America",
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01188-8/fulltext?rss=yes",
+      "published_at": "2026-06-18T22:30:02+00:00",
+      "source_name": "The Lancet",
+      "source_tier": 1,
+      "summary": "The hantavirus cluster in 2026 linked to the MV Hondius highlights persistent gaps in global pandemic preparedness as well as weak surveillance and coordinated response capacities in Latin America. Although epidemiologically distinct from COVID-19, this event underscores the poor translation of lessons from the pandemic into sustained structural improvements and illustrates the need for a Latin American preparedness…"
+    },
+    {
       "id": "9e4f48682249eb03",
       "title": "Kennedy Orders Woman to Stay in Hantavirus Quarantine, Despite C.D.C. Recommendation",
       "url": "https://www.nytimes.com/2026/06/15/health/hantavirus-quarantine-kennedy.html",
@@ -27,6 +36,15 @@
       "source_name": "NYT Health",
       "source_tier": 2,
       "summary": "Others who were in the facility have been allowed to return to their homes in recent weeks for monitoring by local health officials."
+    },
+    {
+      "id": "0a1b8d809e54add3",
+      "title": "[Comment] How CEPI can enhance global vaccine equity and transparency",
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01137-2/fulltext?rss=yes",
+      "published_at": "2026-06-08T22:30:02+00:00",
+      "source_name": "The Lancet",
+      "source_tier": 1,
+      "summary": "The absence of proven vaccines to address the 2026 outbreaks of hantavirus and Ebola virus disease caused by Bundibugyo virus (species Orthoebolavirus bundibugyoense) underscores the essential role of the Coalition for Epidemic Preparedness Innovations (CEPI) in protecting everyone's health. On June 1, 2026, CEPI announced it would invest up to US$61·8 million to rapidly advance testing and production of three…"
     },
     {
       "id": "ffd1ce9c55e113a1",
