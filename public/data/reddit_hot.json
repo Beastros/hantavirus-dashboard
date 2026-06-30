@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-30T12:19:01+00:00",
+  "fetched_at": "2026-06-30T15:09:19+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS.",
   "sources": {
@@ -32,17 +32,6 @@
           "id": "rss-ebbfa7aa10f46056",
           "title": "Hantavirus, loss of work, and vacation",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uj60wn/hantavirus_loss_of_work_and_vacation/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-c84d837ab60457e8",
-          "title": "“clean” hotel pillowcase (in the netherlands)",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uj32u6/clean_hotel_pillowcase_in_the_netherlands/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -203,6 +192,17 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
+        },
+        {
+          "id": "rss-7718e2633056a6e2",
+          "title": "A Brown Norway rat was staying underneath a tarp covering bicycles on my outdoor patio. Definitely was tan and too big to be a mouse.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tuau48/a_brown_norway_rat_was_staying_underneath_a_tarp/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
         }
       ]
     },
@@ -239,17 +239,6 @@
       "id": "rss-ebbfa7aa10f46056",
       "title": "Hantavirus, loss of work, and vacation",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uj60wn/hantavirus_loss_of_work_and_vacation/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-c84d837ab60457e8",
-      "title": "“clean” hotel pillowcase (in the netherlands)",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uj32u6/clean_hotel_pillowcase_in_the_netherlands/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -404,6 +393,17 @@
       "id": "rss-646d49c0c74ed9fd",
       "title": "Americans from rat virus cruise ship will finally escape isolation in hours but freedom will look very different for the next 3 weeks",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tt7wn4/americans_from_rat_virus_cruise_ship_will_finally/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-7718e2633056a6e2",
+      "title": "A Brown Norway rat was staying underneath a tarp covering bicycles on my outdoor patio. Definitely was tan and too big to be a mouse.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tuau48/a_brown_norway_rat_was_staying_underneath_a_tarp/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
