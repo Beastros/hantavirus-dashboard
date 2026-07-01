@@ -1,11 +1,11 @@
 {
-  "last_run": "2026-07-01T20:23:22+00:00",
-  "sources_ok": 7,
-  "sources_failed": 3,
+  "last_run": "2026-07-01T21:59:32+00:00",
+  "sources_ok": 6,
+  "sources_failed": 4,
   "source_detail": {
     "bbc-health": "ok",
     "stat-news": "ok",
-    "who-rss": "ok",
+    "who-rss": "failed",
     "cdc-media": "ok",
     "nejm": "failed",
     "lancet": "failed",
