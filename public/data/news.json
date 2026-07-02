@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-07-02T15:39:56+00:00",
+  "fetched_at": "2026-07-02T17:19:19+00:00",
   "items": [
+    {
+      "id": "6efba16714217746",
+      "title": "WHO says Hantavirus outbreak linked to ship is over",
+      "url": "https://www.bbc.co.uk/news/articles/cd7wjy2e1d8o",
+      "published_at": "2026-07-02T16:30:42+00:00",
+      "source_name": "BBC Health",
+      "source_tier": 1,
+      "summary": "The World Health Organization's director general says no further cases have been reported since 25 May."
+    },
     {
       "id": "e1d5eba0cd7fcaaf",
       "title": "Understanding Ebola’s wildlife origins is crucial to preventing next big outbreak",
