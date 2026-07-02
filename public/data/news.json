@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-07-02T08:34:49+00:00",
+  "fetched_at": "2026-07-02T11:19:25+00:00",
   "items": [
+    {
+      "id": "e1d5eba0cd7fcaaf",
+      "title": "Understanding Ebola’s wildlife origins is crucial to preventing next big outbreak",
+      "url": "https://www.theguardian.com/environment/2026/jul/02/understanding-ebola-wildlife-origins-crucial-preventing-next-big-outbreak",
+      "published_at": "2026-07-02T09:00:00+00:00",
+      "source_name": "The Guardian World",
+      "source_tier": 2,
+      "summary": "If we don’t know the source, not only do humans remain at risk but wildlife can suffer needlessly via retaliation While virologists and public health departments were palpitating over the news of an Andes virus infectious disease outbreak on a cruise ship (13 cases, three deaths), in the Democratic Republic of the Congo the Bundibugyo virus, the root of the current Ebola outbreak (currently more than 1,250 cases and…"
+    },
     {
       "id": "0bbddb5026fb00a5",
       "title": "Hantavirus quarantine ends for Americans held for six weeks in Nebraska",
