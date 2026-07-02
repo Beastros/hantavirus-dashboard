@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-02T18:56:45+00:00",
+  "fetched_at": "2026-07-02T20:19:50+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS.",
   "sources": {
@@ -21,6 +21,17 @@
           "id": "rss-7682548eb1fc81a9",
           "title": "What is Hantavirus?!",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-a8720e6b9102d5f9",
+          "title": "WHO declares Hantavirus outbreak linked to cruise ship is over",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ulrnnt/who_declares_hantavirus_outbreak_linked_to_cruise/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,17 +203,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-646d49c0c74ed9fd",
-          "title": "Americans from rat virus cruise ship will finally escape isolation in hours but freedom will look very different for the next 3 weeks",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tt7wn4/americans_from_rat_virus_cruise_ship_will_finally/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
@@ -228,6 +228,17 @@
       "id": "rss-7682548eb1fc81a9",
       "title": "What is Hantavirus?!",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-a8720e6b9102d5f9",
+      "title": "WHO declares Hantavirus outbreak linked to cruise ship is over",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ulrnnt/who_declares_hantavirus_outbreak_linked_to_cruise/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -393,17 +404,6 @@
       "id": "rss-2584e57420bbb0ef",
       "title": "Cleaned rodents droppings and a dead rat, now sick",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tu5c7t/cleaned_rodents_droppings_and_a_dead_rat_now_sick/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-646d49c0c74ed9fd",
-      "title": "Americans from rat virus cruise ship will finally escape isolation in hours but freedom will look very different for the next 3 weeks",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tt7wn4/americans_from_rat_virus_cruise_ship_will_finally/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
