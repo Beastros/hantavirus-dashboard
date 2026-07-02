@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-07-02T21:43:10+00:00",
+  "fetched_at": "2026-07-02T22:48:03+00:00",
   "items": [
+    {
+      "id": "bab31ff66a2f35f7",
+      "title": "Deadly MV Hondius Hantavirus Outbreak Is Over, W.H.O. Says",
+      "url": "https://www.nytimes.com/2026/07/02/world/hantavirus-cruise-outbreak-timeline-events.html",
+      "published_at": "2026-07-02T22:25:48+00:00",
+      "source_name": "NYT World",
+      "source_tier": 2,
+      "summary": "The rodent-borne virus, which sickened passengers on the MV Hondius, killed three people, led to a race to find its origin and a global health alert."
+    },
     {
       "id": "6efba16714217746",
       "title": "WHO says Hantavirus outbreak linked to ship is over",
