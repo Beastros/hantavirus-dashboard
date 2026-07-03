@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-02T22:47:56+00:00",
+  "fetched_at": "2026-07-03T00:03:48+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS.",
   "sources": {
@@ -32,6 +32,17 @@
           "id": "rss-a8720e6b9102d5f9",
           "title": "WHO declares Hantavirus outbreak linked to cruise ship is over",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ulrnnt/who_declares_hantavirus_outbreak_linked_to_cruise/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-a7d7b376fb1a44dc",
+          "title": "looked at a jpeg of a mouse online through a screen, think i have hantavirus now?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ulypj4/looked_at_a_jpeg_of_a_mouse_online_through_a/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,17 +203,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-2584e57420bbb0ef",
-          "title": "Cleaned rodents droppings and a dead rat, now sick",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tu5c7t/cleaned_rodents_droppings_and_a_dead_rat_now_sick/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
@@ -239,6 +239,17 @@
       "id": "rss-a8720e6b9102d5f9",
       "title": "WHO declares Hantavirus outbreak linked to cruise ship is over",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ulrnnt/who_declares_hantavirus_outbreak_linked_to_cruise/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-a7d7b376fb1a44dc",
+      "title": "looked at a jpeg of a mouse online through a screen, think i have hantavirus now?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ulypj4/looked_at_a_jpeg_of_a_mouse_online_through_a/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -393,17 +404,6 @@
       "id": "rss-262b0cb3778dd020",
       "title": "Tools to help us navigate this journey. Save it for later.",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ty2z6p/tools_to_help_us_navigate_this_journey_save_it/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-2584e57420bbb0ef",
-      "title": "Cleaned rodents droppings and a dead rat, now sick",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tu5c7t/cleaned_rodents_droppings_and_a_dead_rat_now_sick/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
