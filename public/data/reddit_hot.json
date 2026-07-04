@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-04T16:15:18+00:00",
+  "fetched_at": "2026-07-04T17:30:00+00:00",
   "subreddit": "hantavirus",
-  "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS.",
+  "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
   "sources": {
     "hot": {
       "feed_url": "https://www.reddit.com/r/hantavirus/hot/",
@@ -208,7 +208,206 @@
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
-      "items": []
+      "items": [
+        {
+          "id": "rss-a8720e6b9102d5f9",
+          "title": "WHO declares Hantavirus outbreak linked to cruise ship is over",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ulrnnt/who_declares_hantavirus_outbreak_linked_to_cruise/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-4ae095c577949995",
+          "title": "\"guys I think i have this virus do i virus do i ha-\" no you don't!!!",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ukze6g/guys_i_think_i_have_this_virus_do_i_virus_do_i_ha/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-ebbfa7aa10f46056",
+          "title": "Hantavirus, loss of work, and vacation",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uj60wn/hantavirus_loss_of_work_and_vacation/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-089810ce83ced4fb",
+          "title": "Concerned About Exposure",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ui5tp7/concerned_about_exposure/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-f4665bcd57ce745b",
+          "title": "Scared I might’ve been exposed to hantavirus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ugqxlt/scared_i_mightve_been_exposed_to_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-4878366b98a2d73b",
+          "title": "rat stool in my house red rash i captured him but now i’m sick",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1udeuhv/rat_stool_in_my_house_red_rash_i_captured_him_but/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-006728ca62880241",
+          "title": "Anyone here actually have HV from mouse infestation",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uaf0x3/anyone_here_actually_have_hv_from_mouse/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-d1b8003d4e1ae731",
+          "title": "First Australian hantavirus cruise ship passenger speaks from quarantine",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u937fk/first_australian_hantavirus_cruise_ship_passenger/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-b1c0cc501f8ef403",
+          "title": "Precautionary Principle Chat",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u7hss9/precautionary_principle_chat/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-c529599b8798dfc2",
+          "title": "Can we shut the fucking sub down?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u6ypjv/can_we_shut_the_fucking_sub_down/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-09c51d9f51e520bf",
+          "title": "accidentally ate mouse poop..",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u67q7y/accidentally_ate_mouse_poop/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-77c60643e2909025",
+          "title": "Single-dose mRNA vaccines against Andes hantavirus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u5t46e/singledose_mrna_vaccines_against_andes_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-b43c5820eade8b71",
+          "title": "scared i have hantavirus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u1v79y/scared_i_have_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-0b9091948da903fb",
+          "title": "Pulled bike out of shed with mouse poop- WI",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tyicau/pulled_bike_out_of_shed_with_mouse_poop_wi/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-262b0cb3778dd020",
+          "title": "Tools to help us navigate this journey. Save it for later.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ty2z6p/tools_to_help_us_navigate_this_journey_save_it/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-7718e2633056a6e2",
+          "title": "A Brown Norway rat was staying underneath a tarp covering bicycles on my outdoor patio. Definitely was tan and too big to be a mouse.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tuau48/a_brown_norway_rat_was_staying_underneath_a_tarp/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-2584e57420bbb0ef",
+          "title": "Cleaned rodents droppings and a dead rat, now sick",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tu5c7t/cleaned_rodents_droppings_and_a_dead_rat_now_sick/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-164e077ef886cd50",
+          "title": "Hanta virus survivors",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ttk0zj/hanta_virus_survivors/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        }
+      ]
     }
   },
   "feed_url": "https://www.reddit.com/r/hantavirus/hot/",
@@ -415,6 +614,6 @@
   "fetch_meta": {
     "json_attempted": false,
     "hot_via": "rss_fallback",
-    "new_via": "json"
+    "new_via": "rss_fallback"
   }
 }
