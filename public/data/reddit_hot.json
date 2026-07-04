@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-04T10:52:53+00:00",
+  "fetched_at": "2026-07-04T12:05:43+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS.",
   "sources": {
@@ -21,17 +21,6 @@
           "id": "rss-7682548eb1fc81a9",
           "title": "What is Hantavirus?!",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-78fcd61da31e9b3b",
-          "title": "Am I going to die?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1un3u2e/am_i_going_to_die/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -203,6 +192,17 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
+        },
+        {
+          "id": "rss-2584e57420bbb0ef",
+          "title": "Cleaned rodents droppings and a dead rat, now sick",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tu5c7t/cleaned_rodents_droppings_and_a_dead_rat_now_sick/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
         }
       ]
     },
@@ -228,17 +228,6 @@
       "id": "rss-7682548eb1fc81a9",
       "title": "What is Hantavirus?!",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-78fcd61da31e9b3b",
-      "title": "Am I going to die?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1un3u2e/am_i_going_to_die/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -404,6 +393,17 @@
       "id": "rss-262b0cb3778dd020",
       "title": "Tools to help us navigate this journey. Save it for later.",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ty2z6p/tools_to_help_us_navigate_this_journey_save_it/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-2584e57420bbb0ef",
+      "title": "Cleaned rodents droppings and a dead rat, now sick",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tu5c7t/cleaned_rodents_droppings_and_a_dead_rat_now_sick/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
