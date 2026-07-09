@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-09T02:47:22+00:00",
+  "fetched_at": "2026-07-09T06:42:11+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS.",
   "sources": {
@@ -21,6 +21,17 @@
           "id": "rss-7682548eb1fc81a9",
           "title": "What is Hantavirus?!",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-f7694da7f42b194d",
+          "title": "Potential Hantavirus Exposure",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ure0mm/potential_hantavirus_exposure/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,17 +203,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-0b9091948da903fb",
-          "title": "Pulled bike out of shed with mouse poop- WI",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tyicau/pulled_bike_out_of_shed_with_mouse_poop_wi/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
@@ -228,6 +228,17 @@
       "id": "rss-7682548eb1fc81a9",
       "title": "What is Hantavirus?!",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-f7694da7f42b194d",
+      "title": "Potential Hantavirus Exposure",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ure0mm/potential_hantavirus_exposure/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -393,17 +404,6 @@
       "id": "rss-b43c5820eade8b71",
       "title": "scared i have hantavirus",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u1v79y/scared_i_have_hantavirus/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-0b9091948da903fb",
-      "title": "Pulled bike out of shed with mouse poop- WI",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1tyicau/pulled_bike_out_of_shed_with_mouse_poop_wi/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
