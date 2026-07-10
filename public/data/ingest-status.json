@@ -1,20 +1,20 @@
 {
-  "last_run": "2026-07-10T17:17:06+00:00",
-  "sources_ok": 7,
-  "sources_failed": 3,
+  "last_run": "2026-07-10T18:58:39+00:00",
+  "sources_ok": 8,
+  "sources_failed": 2,
   "source_detail": {
     "bbc-health": "ok",
     "stat-news": "ok",
     "who-rss": "ok",
     "cdc-media": "ok",
     "nejm": "failed",
-    "lancet": "failed",
+    "lancet": "ok",
     "guardian-world": "ok",
     "nyt-world": "ok",
     "nyt-health": "ok",
     "science-news": "failed"
   },
-  "news_count": 106,
+  "news_count": 107,
   "case_count": 20,
   "processed_for_cases": [
     "043d95624a11037b",
@@ -75,6 +75,7 @@
     "9384a385cd4abb66",
     "96a242b48869c880",
     "976ea5e8e339ef5e",
+    "9d76e5e462e20181",
     "9e4f48682249eb03",
     "9e8426e7a0aaa6b0",
     "9ef6b7766a3af39d",

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-10T17:17:05+00:00",
+  "fetched_at": "2026-07-10T18:58:38+00:00",
   "items": [
     {
       "id": "bab31ff66a2f35f7",
@@ -9,6 +9,15 @@
       "source_name": "NYT World",
       "source_tier": 2,
       "summary": "The rodent-borne virus, which sickened passengers on the MV Hondius, killed three people, led to a race to find its origin and a global health alert."
+    },
+    {
+      "id": "9d76e5e462e20181",
+      "title": "[Correspondence] Andes hantavirus: operationalising science in real time",
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01227-4/fulltext?rss=yes",
+      "published_at": "2026-07-02T22:20:01+00:00",
+      "source_name": "The Lancet",
+      "source_tier": 1,
+      "summary": "Historically, outbreak research has been fragmented, delayed, and poorly integrated into emergency response. By the time protocols are developed, collaborations organised, funding secured, and approvals obtained, critical opportunities to generate evidence on medical countermeasures are often lost. This challenge is particularly acute for rare pathogens, such as the Andes hantavirus, which typically cause sporadic…"
     },
     {
       "id": "6efba16714217746",
