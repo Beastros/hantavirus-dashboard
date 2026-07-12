@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-12T03:56:34+00:00",
+  "fetched_at": "2026-07-12T06:33:24+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS.",
   "sources": {
@@ -21,6 +21,17 @@
           "id": "rss-7682548eb1fc81a9",
           "title": "What is Hantavirus?!",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-d2e6f40309745bd8",
+          "title": "Deer Mouse Exposure & Toddler Fever",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uu5b9s/deer_mouse_exposure_toddler_fever/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,17 +203,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-09c51d9f51e520bf",
-          "title": "accidentally ate mouse poop..",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u67q7y/accidentally_ate_mouse_poop/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
@@ -228,6 +228,17 @@
       "id": "rss-7682548eb1fc81a9",
       "title": "What is Hantavirus?!",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-d2e6f40309745bd8",
+      "title": "Deer Mouse Exposure & Toddler Fever",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uu5b9s/deer_mouse_exposure_toddler_fever/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -393,17 +404,6 @@
       "id": "rss-77c60643e2909025",
       "title": "Single-dose mRNA vaccines against Andes hantavirus",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u5t46e/singledose_mrna_vaccines_against_andes_hantavirus/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-09c51d9f51e520bf",
-      "title": "accidentally ate mouse poop..",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u67q7y/accidentally_ate_mouse_poop/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
