@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-17T19:31:54+00:00",
+  "fetched_at": "2026-07-17T20:32:14+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS.",
   "sources": {
@@ -29,9 +29,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-991b1cc89b9fc5e9",
+          "id": "rss-f3b298c7ade6b37b",
           "title": "35/F Just unknowingly cleaned up mouse droppings in a cabin in rural NY state- hantavirus risk?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uyq5qf/35f_just_unknowingly_cleaned_up_mouse_droppings/",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uz9tlr/35f_just_unknowingly_cleaned_up_mouse_droppings/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -236,9 +236,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-991b1cc89b9fc5e9",
+      "id": "rss-f3b298c7ade6b37b",
       "title": "35/F Just unknowingly cleaned up mouse droppings in a cabin in rural NY state- hantavirus risk?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uyq5qf/35f_just_unknowingly_cleaned_up_mouse_droppings/",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uz9tlr/35f_just_unknowingly_cleaned_up_mouse_droppings/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
