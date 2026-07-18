@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-18T04:13:47+00:00",
+  "fetched_at": "2026-07-18T06:20:45+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS.",
   "sources": {
@@ -21,6 +21,17 @@
           "id": "rss-7682548eb1fc81a9",
           "title": "What is Hantavirus?!",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-9cb726c951312b80",
+          "title": "hantavirus scare",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uzn80q/hantavirus_scare/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,17 +203,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-c529599b8798dfc2",
-          "title": "Can we shut the fucking sub down?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u6ypjv/can_we_shut_the_fucking_sub_down/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
@@ -228,6 +228,17 @@
       "id": "rss-7682548eb1fc81a9",
       "title": "What is Hantavirus?!",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-9cb726c951312b80",
+      "title": "hantavirus scare",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uzn80q/hantavirus_scare/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -393,17 +404,6 @@
       "id": "rss-d1b8003d4e1ae731",
       "title": "First Australian hantavirus cruise ship passenger speaks from quarantine",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u937fk/first_australian_hantavirus_cruise_ship_passenger/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-c529599b8798dfc2",
-      "title": "Can we shut the fucking sub down?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1u6ypjv/can_we_shut_the_fucking_sub_down/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
