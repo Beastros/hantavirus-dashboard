@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-18T06:20:45+00:00",
+  "fetched_at": "2026-07-18T08:18:29+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS.",
   "sources": {
@@ -29,9 +29,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-9cb726c951312b80",
+          "id": "rss-59b55b8febccf920",
           "title": "hantavirus scare",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uzn80q/hantavirus_scare/",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uzok1w/hantavirus_scare/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -236,9 +236,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-9cb726c951312b80",
+      "id": "rss-59b55b8febccf920",
       "title": "hantavirus scare",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uzn80q/hantavirus_scare/",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uzok1w/hantavirus_scare/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
