@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-23T09:35:21+00:00",
+  "fetched_at": "2026-07-23T11:32:05+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS.",
   "sources": {
@@ -29,9 +29,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-e8fb60b7982472b7",
-          "title": "How likely is it really?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1v44ugi/how_likely_is_it_really/",
+          "id": "rss-5bef41a12c61906d",
+          "title": "Hantavirus exposure?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1v44ila/hantavirus_exposure/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -40,9 +40,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-5bef41a12c61906d",
-          "title": "Hantavirus exposure?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1v44ila/hantavirus_exposure/",
+          "id": "rss-e8fb60b7982472b7",
+          "title": "How likely is it really?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1v44ugi/how_likely_is_it_really/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -236,9 +236,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-e8fb60b7982472b7",
-      "title": "How likely is it really?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1v44ugi/how_likely_is_it_really/",
+      "id": "rss-5bef41a12c61906d",
+      "title": "Hantavirus exposure?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1v44ila/hantavirus_exposure/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -247,9 +247,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-5bef41a12c61906d",
-      "title": "Hantavirus exposure?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1v44ila/hantavirus_exposure/",
+      "id": "rss-e8fb60b7982472b7",
+      "title": "How likely is it really?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1v44ugi/how_likely_is_it_really/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
