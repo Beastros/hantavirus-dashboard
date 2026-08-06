@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-06T09:31:03+00:00",
+  "fetched_at": "2026-08-06T11:50:38+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS.",
   "sources": {
@@ -21,6 +21,17 @@
           "id": "rss-7682548eb1fc81a9",
           "title": "What is Hantavirus?!",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-7f985a1c80705196",
+          "title": "Hantavirus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vgr7uw/hantavirus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,17 +203,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-4878366b98a2d73b",
-          "title": "rat stool in my house red rash i captured him but now i’m sick",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1udeuhv/rat_stool_in_my_house_red_rash_i_captured_him_but/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
@@ -228,6 +228,17 @@
       "id": "rss-7682548eb1fc81a9",
       "title": "What is Hantavirus?!",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-7f985a1c80705196",
+      "title": "Hantavirus",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vgr7uw/hantavirus/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -393,17 +404,6 @@
       "id": "rss-f4665bcd57ce745b",
       "title": "Scared I might’ve been exposed to hantavirus",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ugqxlt/scared_i_mightve_been_exposed_to_hantavirus/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-4878366b98a2d73b",
-      "title": "rat stool in my house red rash i captured him but now i’m sick",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1udeuhv/rat_stool_in_my_house_red_rash_i_captured_him_but/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
