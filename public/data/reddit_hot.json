@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-09T14:51:47+00:00",
+  "fetched_at": "2026-08-09T15:28:54+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS.",
   "sources": {
@@ -21,6 +21,17 @@
           "id": "rss-7682548eb1fc81a9",
           "title": "What is Hantavirus?!",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-e9eda15d144ba7bb",
+          "title": "Not to be one of those people but does this sound like a potential exposure? I have health anxiety",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vjs3yy/not_to_be_one_of_those_people_but_does_this_sound/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,17 +203,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-089810ce83ced4fb",
-          "title": "Concerned About Exposure",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ui5tp7/concerned_about_exposure/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
@@ -228,6 +228,17 @@
       "id": "rss-7682548eb1fc81a9",
       "title": "What is Hantavirus?!",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-e9eda15d144ba7bb",
+      "title": "Not to be one of those people but does this sound like a potential exposure? I have health anxiety",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vjs3yy/not_to_be_one_of_those_people_but_does_this_sound/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -393,17 +404,6 @@
       "id": "rss-4ae095c577949995",
       "title": "\"guys I think i have this virus do i virus do i ha-\" no you don't!!!",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ukze6g/guys_i_think_i_have_this_virus_do_i_virus_do_i_ha/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-089810ce83ced4fb",
-      "title": "Concerned About Exposure",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ui5tp7/concerned_about_exposure/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
