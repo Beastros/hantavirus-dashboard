@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-12T18:37:00+00:00",
+  "fetched_at": "2026-08-12T19:47:37+00:00",
   "subreddit": "hantavirus",
-  "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS. NEW from RSS.",
+  "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS.",
   "sources": {
     "hot": {
       "feed_url": "https://www.reddit.com/r/hantavirus/hot/",
@@ -208,206 +208,7 @@
     },
     "new": {
       "feed_url": "https://www.reddit.com/r/hantavirus/new/",
-      "items": [
-        {
-          "id": "rss-6636c67d12d1b986",
-          "title": "If you could only own 1 car your whole life, you’d take care of it right? One Covid infection per year, adds up.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vmlv9h/if_you_could_only_own_1_car_your_whole_life_youd/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-866d3febe670f592",
-          "title": "Deer Mouse in AIRBNB kitchen in Rural Park City Utah - Vacate?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vm5czg/deer_mouse_in_airbnb_kitchen_in_rural_park_city/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-e9eda15d144ba7bb",
-          "title": "Not to be one of those people but does this sound like a potential exposure? I have health anxiety",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vjs3yy/not_to_be_one_of_those_people_but_does_this_sound/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-7f6a9dfc581c4a68",
-          "title": "you don't have hantavirus, stop being a paranoid hypochrondriac",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vj2c0o/you_dont_have_hantavirus_stop_being_a_paranoid/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-a857ef701795a99b",
-          "title": "All you guys predicting a major world outbreak a while back",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vhs0e0/all_you_guys_predicting_a_major_world_outbreak_a/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-7f985a1c80705196",
-          "title": "Hantavirus",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vgr7uw/hantavirus/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-5bef41a12c61906d",
-          "title": "Hantavirus exposure?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1v44ila/hantavirus_exposure/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-59b55b8febccf920",
-          "title": "hantavirus scare",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uzok1w/hantavirus_scare/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-f3b298c7ade6b37b",
-          "title": "35/F Just unknowingly cleaned up mouse droppings in a cabin in rural NY state- hantavirus risk?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uz9tlr/35f_just_unknowingly_cleaned_up_mouse_droppings/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-2e3215225573d18f",
-          "title": "Mice droppings on clothes",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uwsrkd/mice_droppings_on_clothes/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-d2e6f40309745bd8",
-          "title": "Deer Mouse Exposure & Toddler Fever",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uu5b9s/deer_mouse_exposure_toddler_fever/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-7a0102bc0e53a404",
-          "title": "Hantavirus scare",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uu3lkb/hantavirus_scare/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-f7694da7f42b194d",
-          "title": "Potential Hantavirus Exposure",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ure0mm/potential_hantavirus_exposure/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-7a9db2ba7fa23b89",
-          "title": "Mice infestation",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uqhpfn/mice_infestation/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-476d18a2fc0b0289",
-          "title": "AMA with Scott Pegan (PeganLaboratory_UCR) , UC Riverside Biomedical Sciences Professor, with expertise on diseases like Ebola and hantavirus.",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1up5dmu/ama_with_scott_pegan_peganlaboratory_ucr_uc/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-a8720e6b9102d5f9",
-          "title": "WHO declares Hantavirus outbreak linked to cruise ship is over",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ulrnnt/who_declares_hantavirus_outbreak_linked_to_cruise/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-4ae095c577949995",
-          "title": "\"guys I think i have this virus do i virus do i ha-\" no you don't!!!",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ukze6g/guys_i_think_i_have_this_virus_do_i_virus_do_i_ha/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-089810ce83ced4fb",
-          "title": "Concerned About Exposure",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ui5tp7/concerned_about_exposure/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        }
-      ]
+      "items": []
     }
   },
   "feed_url": "https://www.reddit.com/r/hantavirus/hot/",
@@ -614,6 +415,6 @@
   "fetch_meta": {
     "json_attempted": false,
     "hot_via": "rss_fallback",
-    "new_via": "rss_fallback"
+    "new_via": "json"
   }
 }
