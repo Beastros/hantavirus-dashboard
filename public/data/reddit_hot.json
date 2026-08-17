@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-17T02:40:23+00:00",
+  "fetched_at": "2026-08-17T03:32:52+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS.",
   "sources": {
@@ -29,31 +29,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-c1bf57ca1aa00bd0",
-          "title": "Wood Rat Living in Kitchen",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vqg1aq/wood_rat_living_in_kitchen/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-90c84b46bd368a08",
-          "title": "Wood Rat Living in Kitchen",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vqg172/wood_rat_living_in_kitchen/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-2530df266eee3d9a",
-          "title": "Wood Rat Living in Kitchen",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vqfzmo/wood_rat_living_in_kitchen/",
+          "id": "rss-a38e73308847c2ea",
+          "title": "Wood Rat Living in Kitchen - UTAH",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vqg2zs/wood_rat_living_in_kitchen_utah/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -203,6 +181,28 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
+        },
+        {
+          "id": "rss-7a9db2ba7fa23b89",
+          "title": "Mice infestation",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uqhpfn/mice_infestation/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-476d18a2fc0b0289",
+          "title": "AMA with Scott Pegan (PeganLaboratory_UCR) , UC Riverside Biomedical Sciences Professor, with expertise on diseases like Ebola and hantavirus.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1up5dmu/ama_with_scott_pegan_peganlaboratory_ucr_uc/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
         }
       ]
     },
@@ -236,31 +236,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-c1bf57ca1aa00bd0",
-      "title": "Wood Rat Living in Kitchen",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vqg1aq/wood_rat_living_in_kitchen/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-90c84b46bd368a08",
-      "title": "Wood Rat Living in Kitchen",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vqg172/wood_rat_living_in_kitchen/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-2530df266eee3d9a",
-      "title": "Wood Rat Living in Kitchen",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vqfzmo/wood_rat_living_in_kitchen/",
+      "id": "rss-a38e73308847c2ea",
+      "title": "Wood Rat Living in Kitchen - UTAH",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vqg2zs/wood_rat_living_in_kitchen_utah/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -404,6 +382,28 @@
       "id": "rss-f7694da7f42b194d",
       "title": "Potential Hantavirus Exposure",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ure0mm/potential_hantavirus_exposure/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-7a9db2ba7fa23b89",
+      "title": "Mice infestation",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uqhpfn/mice_infestation/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-476d18a2fc0b0289",
+      "title": "AMA with Scott Pegan (PeganLaboratory_UCR) , UC Riverside Biomedical Sciences Professor, with expertise on diseases like Ebola and hantavirus.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1up5dmu/ama_with_scott_pegan_peganlaboratory_ucr_uc/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
