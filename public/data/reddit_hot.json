@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-17T14:01:52+00:00",
+  "fetched_at": "2026-08-17T14:43:48+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS.",
   "sources": {
@@ -29,9 +29,9 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-a38e73308847c2ea",
-          "title": "Wood Rat Living in Kitchen - UTAH",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vqg2zs/wood_rat_living_in_kitchen_utah/",
+          "id": "rss-7a42a265d79552e5",
+          "title": "Woodrat living in Kitchen and Airvents - Utah",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vqt7mp/woodrat_living_in_kitchen_and_airvents_utah/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -236,9 +236,9 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-a38e73308847c2ea",
-      "title": "Wood Rat Living in Kitchen - UTAH",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vqg2zs/wood_rat_living_in_kitchen_utah/",
+      "id": "rss-7a42a265d79552e5",
+      "title": "Woodrat living in Kitchen and Airvents - Utah",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vqt7mp/woodrat_living_in_kitchen_and_airvents_utah/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
