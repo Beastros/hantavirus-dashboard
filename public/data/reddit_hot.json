@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-07T05:01:20+00:00",
+  "fetched_at": "2026-09-07T10:16:50+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS.",
   "sources": {
