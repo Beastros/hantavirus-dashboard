@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-08T00:35:49+00:00",
+  "fetched_at": "2026-09-08T05:15:24+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS.",
   "sources": {
@@ -21,6 +21,17 @@
           "id": "rss-7682548eb1fc81a9",
           "title": "What is Hantavirus?!",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-ab89818dbe47b1e7",
+          "title": "Potential Exposure - Might have cleaned up a mouse nest?",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1wabbsu/potential_exposure_might_have_cleaned_up_a_mouse/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,17 +203,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-7a9db2ba7fa23b89",
-          "title": "Mice infestation",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uqhpfn/mice_infestation/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
@@ -228,6 +228,17 @@
       "id": "rss-7682548eb1fc81a9",
       "title": "What is Hantavirus?!",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-ab89818dbe47b1e7",
+      "title": "Potential Exposure - Might have cleaned up a mouse nest?",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1wabbsu/potential_exposure_might_have_cleaned_up_a_mouse/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -393,17 +404,6 @@
       "id": "rss-f7694da7f42b194d",
       "title": "Potential Hantavirus Exposure",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1ure0mm/potential_hantavirus_exposure/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-7a9db2ba7fa23b89",
-      "title": "Mice infestation",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1uqhpfn/mice_infestation/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
