@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-02T11:52:55+00:00",
+  "fetched_at": "2026-10-02T17:27:23+00:00",
   "items": [
     {
       "id": "de5372b60c2f6b63",
@@ -27,6 +27,15 @@
       "source_name": "NYT Health",
       "source_tier": 2,
       "summary": "Eighteen Americans were isolated for weeks in a Nebraska quarantine facility after being exposed to the deadly virus on a cruise ship. Many found the experience traumatic."
+    },
+    {
+      "id": "140846b0c804e6e5",
+      "title": "Andes Virus — A Clinical Review",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMra2606651?af=R&rss=currentIssue",
+      "published_at": "2026-07-15T09:00:00+00:00",
+      "source_name": "NEJM",
+      "source_tier": 1,
+      "summary": "New England Journal of Medicine, Volume 395, Issue 13, Page 1310-1317, October 1, 2026."
     },
     {
       "id": "bab31ff66a2f35f7",
