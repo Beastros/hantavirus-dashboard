@@ -1,6 +1,15 @@
 {
-  "fetched_at": "2026-10-04T06:10:28+00:00",
+  "fetched_at": "2026-10-04T12:20:40+00:00",
   "items": [
+    {
+      "id": "f63bc890e06d9fb5",
+      "title": "Hantavirus — Lessons Learned about Security and Solidarity",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2611801?af=R&rss=currentIssue",
+      "published_at": "2026-10-03T11:30:00+00:00",
+      "source_name": "NEJM",
+      "source_tier": 1,
+      "summary": "New England Journal of Medicine, Ahead of Print."
+    },
     {
       "id": "de5372b60c2f6b63",
       "title": "Likelihood of eating fresh produce increases with income for US adults, new CDC report shows",
