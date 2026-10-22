@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-22T11:50:40+00:00",
+  "fetched_at": "2026-10-22T16:37:42+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS.",
   "sources": {
@@ -21,6 +21,17 @@
           "id": "rss-7682548eb1fc81a9",
           "title": "What is Hantavirus?!",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-129a48ce452352b0",
+          "title": "I know I’m at risk and didn’t address this properly. Exposed to hantavirus possibly.",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1xckacs/i_know_im_at_risk_and_didnt_address_this_properly/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -192,17 +203,6 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
-        },
-        {
-          "id": "rss-a857ef701795a99b",
-          "title": "All you guys predicting a major world outbreak a while back",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vhs0e0/all_you_guys_predicting_a_major_world_outbreak_a/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
         }
       ]
     },
@@ -228,6 +228,17 @@
       "id": "rss-7682548eb1fc81a9",
       "title": "What is Hantavirus?!",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1t5rp7e/what_is_hantavirus/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-129a48ce452352b0",
+      "title": "I know I’m at risk and didn’t address this properly. Exposed to hantavirus possibly.",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1xckacs/i_know_im_at_risk_and_didnt_address_this_properly/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -393,17 +404,6 @@
       "id": "rss-7f6a9dfc581c4a68",
       "title": "you don't have hantavirus, stop being a paranoid hypochrondriac",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vj2c0o/you_dont_have_hantavirus_stop_being_a_paranoid/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-a857ef701795a99b",
-      "title": "All you guys predicting a major world outbreak a while back",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vhs0e0/all_you_guys_predicting_a_major_world_outbreak_a/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
