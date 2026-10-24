@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-24T07:09:30+00:00",
+  "fetched_at": "2026-10-24T11:59:48+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS.",
   "sources": {
@@ -106,17 +106,6 @@
           "source": "rss_fallback"
         },
         {
-          "id": "rss-f10437664c7bf433",
-          "title": "Are we in danger?",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1waub1v/are_we_in_danger/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
           "id": "rss-8b6ebb896289033d",
           "title": "Hantavirus Michigan",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1wathrb/hantavirus_michigan/",
@@ -131,17 +120,6 @@
           "id": "rss-ab89818dbe47b1e7",
           "title": "Potential Exposure - Might have cleaned up a mouse nest?",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1wabbsu/potential_exposure_might_have_cleaned_up_a_mouse/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-e2c64f3b1a0d3410",
-          "title": "Cleaning up cardboard outside with droppings",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vzdav4/cleaning_up_cardboard_outside_with_droppings/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -197,6 +175,28 @@
           "id": "rss-7f6a9dfc581c4a68",
           "title": "you don't have hantavirus, stop being a paranoid hypochrondriac",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vj2c0o/you_dont_have_hantavirus_stop_being_a_paranoid/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-a857ef701795a99b",
+          "title": "All you guys predicting a major world outbreak a while back",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vhs0e0/all_you_guys_predicting_a_major_world_outbreak_a/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
+        },
+        {
+          "id": "rss-7f985a1c80705196",
+          "title": "Hantavirus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vgr7uw/hantavirus/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -313,17 +313,6 @@
       "source": "rss_fallback"
     },
     {
-      "id": "rss-f10437664c7bf433",
-      "title": "Are we in danger?",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1waub1v/are_we_in_danger/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
       "id": "rss-8b6ebb896289033d",
       "title": "Hantavirus Michigan",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1wathrb/hantavirus_michigan/",
@@ -338,17 +327,6 @@
       "id": "rss-ab89818dbe47b1e7",
       "title": "Potential Exposure - Might have cleaned up a mouse nest?",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1wabbsu/potential_exposure_might_have_cleaned_up_a_mouse/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-e2c64f3b1a0d3410",
-      "title": "Cleaning up cardboard outside with droppings",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vzdav4/cleaning_up_cardboard_outside_with_droppings/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -404,6 +382,28 @@
       "id": "rss-7f6a9dfc581c4a68",
       "title": "you don't have hantavirus, stop being a paranoid hypochrondriac",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vj2c0o/you_dont_have_hantavirus_stop_being_a_paranoid/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-a857ef701795a99b",
+      "title": "All you guys predicting a major world outbreak a while back",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vhs0e0/all_you_guys_predicting_a_major_world_outbreak_a/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-7f985a1c80705196",
+      "title": "Hantavirus",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vgr7uw/hantavirus/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
