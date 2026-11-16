@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-15T20:28:15+00:00",
+  "fetched_at": "2026-11-16T00:14:00+00:00",
   "subreddit": "hantavirus",
   "note": "Mirrors r/hantavirus hot + new (JSON preferred; RSS fallback if Reddit strips listings). Scores/comments may be 0 on RSS rows. JSON empty — filled HOT from RSS.",
   "sources": {
@@ -65,17 +65,6 @@
           "id": "rss-c07466bb21889352",
           "title": "Cleaned up an infestation a few days ago, persistent dry cough now? 5 weeks pregnant and worried.",
           "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1xhhjtm/cleaned_up_an_infestation_a_few_days_ago/",
-          "score": 0,
-          "num_comments": 0,
-          "created_utc": null,
-          "author": null,
-          "link_flair_text": null,
-          "source": "rss_fallback"
-        },
-        {
-          "id": "rss-9929ba49440652c3",
-          "title": "Mouse infestation upstate ny",
-          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1x7te8x/mouse_infestation_upstate_ny/",
           "score": 0,
           "num_comments": 0,
           "created_utc": null,
@@ -203,6 +192,17 @@
           "author": null,
           "link_flair_text": null,
           "source": "rss_fallback"
+        },
+        {
+          "id": "rss-7f985a1c80705196",
+          "title": "Hantavirus",
+          "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vgr7uw/hantavirus/",
+          "score": 0,
+          "num_comments": 0,
+          "created_utc": null,
+          "author": null,
+          "link_flair_text": null,
+          "source": "rss_fallback"
         }
       ]
     },
@@ -272,17 +272,6 @@
       "id": "rss-c07466bb21889352",
       "title": "Cleaned up an infestation a few days ago, persistent dry cough now? 5 weeks pregnant and worried.",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1xhhjtm/cleaned_up_an_infestation_a_few_days_ago/",
-      "score": 0,
-      "num_comments": 0,
-      "created_utc": null,
-      "author": null,
-      "link_flair_text": null,
-      "source": "rss_fallback"
-    },
-    {
-      "id": "rss-9929ba49440652c3",
-      "title": "Mouse infestation upstate ny",
-      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1x7te8x/mouse_infestation_upstate_ny/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
@@ -404,6 +393,17 @@
       "id": "rss-a857ef701795a99b",
       "title": "All you guys predicting a major world outbreak a while back",
       "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vhs0e0/all_you_guys_predicting_a_major_world_outbreak_a/",
+      "score": 0,
+      "num_comments": 0,
+      "created_utc": null,
+      "author": null,
+      "link_flair_text": null,
+      "source": "rss_fallback"
+    },
+    {
+      "id": "rss-7f985a1c80705196",
+      "title": "Hantavirus",
+      "reddit_url": "https://www.reddit.com/r/hantavirus/comments/1vgr7uw/hantavirus/",
       "score": 0,
       "num_comments": 0,
       "created_utc": null,
